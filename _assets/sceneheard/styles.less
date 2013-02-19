@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+@import url('../../_css/utils.less');
+
+// Scene & Heard
+body {
+    background-color: @black; }
+
+header {
+    border-bottom: 1px solid @black-gray; }
+
+// Hero
+section.hero h2 {
+    margin: 30px auto;
+    height: 142px;
+    width: 529px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('logo-bg.png'); }
+
+section.hero h2.small {
+    height: 83px;
+    width: 310px;
+    background-image: url('logo-small-bg.png'); }
+
+section.content {
+    color: @white; }
+
+section.content .items .item { }
+section.content .items .item span {
+    color: @white;
+    font-size:12px;
+    font-family: @font-sans;
+    .text-shadow(0, 0, 1px, rgba(0,0,0,0.6));
+    width: 100%;
+    background-image: url('caption-bg.png');
+    background-repeat: repeat-x;
+    background-position: top;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    bottom: 0; }
+
+section.content img {
+    float: left;
+    padding: 0;
+    margin: 0; }
+
+
+// EOF

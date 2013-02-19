@@ -1,0 +1,66 @@
+// Deafult Mixins
+.border-radius (@radius: 5px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius; }
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: @black) {
+    box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    -webkit-box-shadow: @arguments; }
+
+.text-shadow (@x: 0, @y: 0, @blur: 1px, @color: @black) {
+    text-shadow: @arguments; }
+
+.transition (@args) {
+    -webkit-transition: @args;
+    -moz-transition: @args;
+    -o-transition: @args;
+    -ms-transition: @args;
+    transition: @args; }
+
+.box-sizing () { // Fix for Forms
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.text-indent () {
+    overflow: hidden;
+    text-indent: 100%;
+    display: block;
+    white-space: nowrap; }
+
+.rotate (@args) {
+    -webkit-transform: rotate(@args);
+    -moz-transform: rotate(@args);
+    -ms-transform: rotate(@args);
+    transform: rotate(@args); }
+
+// Variables: Colors
+@red: #c03;
+@black: #000;
+@blue: #1477bc;
+@dark-gray: #2a2628;
+@light-gray: #999;
+@black-gray: #333;
+@silver: #ccc;
+@white: #fff;
+@yellow: #ffdf1c;
+@but-gray: #424242;
+@but-gray-hover: #4c4c4c;
+
+@facebook: #37589a;
+@facebook-hover: #183F8B;
+
+// Files
+@img-path: '../../_img/';
+
+// Variables: Fonts
+@base-font: "ltc-bodoni-175", serif;
+@font-sans: arial, helvetica, sans-serif;
+@alt-gothic: "alternate-gothic-no-1-d", sans-serif;
+@source-pro: "source-sans-pro", sans-serif;
+@courier: "courier-std", monospace;
