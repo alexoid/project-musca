@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z-]*).php _inc/layout.php?include=$1 [L]
