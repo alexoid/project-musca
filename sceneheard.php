@@ -29,8 +29,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.4/modernizr.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="_js/jquery.isotope.min.js"></script>
     <script src="_js/scripts.js"></script>
-    <script src="_js/jquery.freetile.min.js"></script>
+    <!-- <script src="_js/jquery.freetile.min.js"></script> -->
 
     <style type="text/css" media="screen">
         @import url("//grid.ohmylovely.com/1/24/0/672/960/1200/");
@@ -42,28 +43,7 @@
 
 <body>
 
-<header>
-    <div class="lovely-grid">
-        <div class="grid-7">
-            <ul class="tools">
-                <li><a href="#" title="View Contents"><i class="icon-reorder"></i></a></li>
-            </ul>
-            <h1 class="logo small remove-672 remove-960 remove-1200">
-                <a href="#" title="SAY Quarterly">SAY Quarterly</a>
-            </h1>
-        </div>
-        <div class="grid-10">
-            <h1 class="logo hide-mobile">
-                <a href="#" title="SAY Quarterly">SAY Quarterly</a>
-            </h1>
-        </div>
-        <div class="grid-7 hide-mobile hide-408">
-            <p class="issue text-right">
-                Issue V &middot; Spring 2013
-            </p>
-        </div>
-    </div>
-</header>
+<?php include "_inc/header.php"; ?>
 
 <section class="hero">
     <div class="lovely-grid">
