@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-    <title>SAY Quarterly</title>
+    <title>Say Quarterly</title>
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -34,8 +34,10 @@
 
     <style type="text/css" media="screen">
         @import url("//grid.ohmylovely.com/1/24/0/672/960/1200/");
-        @import url("_css/styles.css");
     </style>
+
+    <!-- Replaced @import with this for LiveReloading -->
+    <link rel="stylesheet" type="text/css" href="/_css/styles.css" />
 
 </head>
 

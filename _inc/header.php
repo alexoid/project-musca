@@ -10,7 +10,7 @@
         </div>
         <div class="grid-10">
             <h1 class="logo hide-mobile">
-                <a href="#" title="SAY Quarterly">SAY Quarterly</a>
+                <a href="#" title="Say Quarterly">Say Quarterly</a>
             </h1>
         </div>
         <div class="grid-7 hide-mobile hide-408">

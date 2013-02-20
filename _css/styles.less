@@ -29,14 +29,14 @@ a:hover {
 
 // Header Slab
 header {
-    height: 62px;
+    height: 40px;
     position: fixed;
     z-index: 2000;
     width: 100%;
     top: 0;
     color: @white;
     background-color: @black;
-    background-image: url('@{img-path}header-bg.png'); }
+    overflow: hidden;}
 
     header ul.tools  {
         float: left;
@@ -54,35 +54,26 @@ header {
             color: @red; }
 
     header h1 {
-        overflow: hidden;
-        width: 250px;
-        height: 62px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        text-align: center;}
+
 
     header h1 a {
-        .text-indent();
-        background-image: url('@{img-path}say-logo.png');
-        width: 250px;
-        height: 30px;
-        margin: 16px 0 15px 0; }
-
-    header h1.small {
-        float: left;
-        width: 150px;
-        height: 18px;
-        margin: 22px 0 20px 20px; }
-
-    header h1.small a {
-        .text-indent();
-        background-image: url('@{img-path}say-logo-small.png');
-        width: 150px;
-        height: 18px;
-        margin: 0; }
+      font-size: 25px;
+      line-height: 36px;
+      letter-spacing: -1px;
+      font-family: @base-font;
+      font-style: italic;
+      color: @white;
+      font-weight: bold;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      }
 
     header .issue {
         font-size: 14px;
         padding: 24px 17px 0 0;
-        text-transform: uppercase; }
+        text-transform: uppercase;}
 
 // Content Styles
 section.content p {
