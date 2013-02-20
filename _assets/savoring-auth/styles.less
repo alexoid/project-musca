@@ -6,23 +6,24 @@
 
 // Hero
 section.hero {
-    height: 483px;
+    height: 400px;
+    margin: 0 0 40px 0;
     background-repeat: no-repeat;
-    background-position: center 246px;
-    background-image: url('logo-bg.png'); }
+    background-position: center;
+    background-image: url('hero-bg.png'); }
 
-section.hero .diags {
-    position: relative;
-    height: 484px;
-    background-repeat: repeat-x;
-    background-image: url('hero-bg.png');
-    background-position: 0 274px; }
+section.hero .wrapper {
+    padding: 60px 0 0 0;
+    position: relative; }
 
 section.hero h3 {
+    padding: 4px 0 0 0;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 0.25em;
-    color: #72abb3;
+    color: #ce950c;
+    margin: 20px auto 0 auto;
+    width: 250px;
     font-family: @alt-gothic;
     text-align: center; }
 
@@ -36,25 +37,42 @@ section.hero h2 {
 section.hero h2.small {
     font-size: 48px; }
 
+section.content .quote {
+    .text-shadow(0, 0, 8px, rgba(255,255,255,1));
+    background-image: url('quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 115px;
+    padding: 15px 0 0 0;
+    margin: 0 0 25px 0;
+    text-align: right; }
 
-section.hero .wrapper {
-    padding: 42px 0 0 0;
-    position: relative; }
-
-section.hero .bug {
-    position: absolute;
-    top: 45%;
-    left: 53%;
-    height: 174px;
-    width: 309px;
-    background-image: url('bug.png'); }
-
-section.content .photo {
-    position: relative; }
+section.content .quote p {
+    font-family: @courier; }
 
 section.content p a {
-    border-color: @red;
-    color: @red; }
+    border-color: #6ca1bb;
+    color: #6ca1bb; }
+
+section.content p.caption {
+    font-size: 12px; }
+
+section.content p.caption i {
+    display: block; }
+
+section.content .bmw {
+    background-repeat: no-repeat;
+    background-image: url('bmw-bg.png'); }
+
+section.content .bmw p.caption {
+    padding: 160px 0 0 0; }
+
+section.content .toshiba {
+    background-repeat: no-repeat;
+    background-image: url('toshiba-bg.png'); }
+
+section.content .toshiba p.caption {
+    padding: 150px 0 0 0; }
 
 section.content .photo p.caption {
     line-height: 1em;

@@ -8,8 +8,9 @@
             <div class="wrapper">
                 <div class="bug hide-mobile"></div>
                 <h3>Brand Case Study</h3>
-                <h2 class="hide-mobile">Kate Upton Takes<br/> Zoo York</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">Kate Upton Takes<br/> Zoo York</h2>
+                <h2 class="hide-mobile">Savoring<br/> Authenticity</h2>
+                <h2 class="small remove-672 remove-960 remove-1200">Savoring<br/> Authenticity</h2>
+                <h3>Gear Patrol X Amstel Light</h3>
             </div>
         </div>
     </div>
