@@ -22,9 +22,9 @@
             rail
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
-            <p class="first">A supermodel, plucky roaches and an award-winning campaign take an apparel line to the digital advertising hall of fame.</p>
-            <p>Zoo York apparel embodies the attitude and lifestyle of the Big Apple’s skateboarding, graffiti and hip-hop community. To showcase its brand, the company put together an irreverent and engaging interactive experience, highlighting the clothing company’s latest styles.</p>
-            <p>Starring supermodel and actress Kate Upton and a couple of cockroaches with attitude, the campaign included videos, rich media and social sharing. Created on <a href="#">Say Media’s AdFrames 3 platform</a>, the ad unit featured a series of “choose your own ending” videos starring Upton as well as an embedded “smash-a-roach” challenge and a “lookbook” of the company’s current line.</p>
+            <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video campagin.</p>
+            <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the lowest common denominator, it takes courage for a brand to trust that the people they truly want reach are intelligent, discerning, and sophisticated, and to provide a marketing experience that’s in line with those beliefs. However, that is exactly what Amstel Light did when they launched their new campaign entitled "Savor Complexity."</p>
+            <p>In an effort to encourage consumers to explore the complexities and appreciate the intricacies of their own lives, Amstel Light partnered with Say Media and Gear Patrol to create a video series profiling local entrepreneurs who are foraging new paths in their cities in order to show the value of complexity.</p>
         </div>
         <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
             <img src="_img/social.png" alt="">
@@ -36,7 +36,7 @@
     <div class="lovely-grid">
         <div class="grid-5 pull-2 pad-mobile-20">
             <div class="photo">
-                <img src="_assets/zoo-york/video.png" alt="">
+                <img src="_assets/savoring-auth/video.png" alt="">
                 <p class="caption hide-mobile">
                     See it in action
                     <span>0:15 sec</span>
@@ -45,11 +45,9 @@
         </div>
         <div class="grid-14 pull-1 push-2 pad-mobile-20">
             <div class="photo">
-                <div class="fence"></div>
-                <img src="_assets/zoo-york/photo-01.png" alt="">
+                <img src="_assets/savoring-auth/photo-01.png" alt="">
                 <p class="caption right block">The ad drove three and half times the average click-through rate</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -57,8 +55,9 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-10 pull-8 push-6 pad-mobile-20">
-            <p>Customers could select from several customized endings to the video story, ensuring that they would spend time with the experience. Meanwhile, roaches crawling in and out of the screen were a hit with the target demographic. With its interactive interface, celebrity star power and rich media, the ad drove high engagement — three and half times the benchmark average click-thru rate.</p>
-            <p>The popular and well-designed campaign garnered a prestigious OMMA Award for Online Advertising Creativity, which honors advertisers that push the potential of online advertising creative. Unfortunately, we didn’t capture high scores on roach-smashing, but it definitely added to the fun.</p>
+        <p>Gear Patrol was the perfect fit for this campaign as both their readers and the creators themselves have a shared passion for innovation, craftsmanship, and attention to detail, and who understand that taste defines the way in which one lives. They also excel at smart storytelling and were able to tie in Amstel Light’s brand message through authentic interview questions about creating a small business like, "What complexities surprised you?"</p>
+        <p>The videos lived on Gear Patrol’s site as well as in online and mobile ad units targeted to SAY Media’s extensive network, effectively reaching Amstel Light’s target audience in a way they appreciated, but didn’t expect.</p>
+        <p>Unusual advertising that’s authentic, subtle, and complex? We’ll definitely drink to that.</p>
         </div>
     </div>
 </section>
