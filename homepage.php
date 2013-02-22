@@ -27,8 +27,8 @@
                     <ul>
                         <li><a href="#" title="Unusual Suspects">Unusual Suspects</a></li>
                         <li><a href="#" title="Art of Storytelling">Art of Storytelling</a></li>
-                        <li><a href="#" title="Minions take over">Minions take over</a></li>
-                        <li><a href="#" title="Catwheeling">Catwheeling</a></li>
+                        <li><a href="#" title="Haniball Buress">Haniball Buress</a></li>
+                        <li><a href="#" title="Kate Upton">Kate Upton</a></li>
                         <li><a href="#" title="And more" class="more">And more</a></li>
                     </ul>
                 </div>

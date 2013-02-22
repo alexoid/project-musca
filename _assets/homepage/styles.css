@@ -5,7 +5,7 @@ section.hero h2{z-index:500;position:relative;margin:80px 0 0 0;font-size:180px;
 section.hero h2.medium{margin:40px 0 0 0;font-size:100px;}
 section.hero h2.small{margin:40px 0 0 0;font-size:60px;}
 section.hero .dan{position:absolute;bottom:0;z-index:1000;margin-top:-279px;}
-section.hero .dan img{width:100%;}
+section.hero .dan img{float:left;width:100%;}
 section.hero .left-story{position:relative;z-index:1500;margin:30px 0 0 0;}
 section.hero .left-story h3{margin:0 0 16px 0;font-size:12px;letter-spacing:-0.05em;text-transform:uppercase;font-style:italic;font-family:"ltc-bodoni-175",serif;}
 section.hero .left-story h1{color:#bd0706;text-shadow:0 4px 8px rgba(0, 0, 0, 0.4);letter-spacing:-0.02em;line-height:0.8em;font-size:100px;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif;}
