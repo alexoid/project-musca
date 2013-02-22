@@ -40,8 +40,6 @@
                 <img src="_img/social.png" alt="">
             </div>
 
-
-
             <div class="grid-7 nested-first">
                 <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and documenting the minute details of life became the status quo. But for many, the camera phone or the point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for convenience.</p>
                 <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to create a campaign to show aspiring photographers that, in fact, there’s no need to sacrifice quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever — while also teaching consumers how to shoot smarter and better.</p>

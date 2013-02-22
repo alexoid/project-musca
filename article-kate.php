@@ -45,7 +45,7 @@
         <div class="grid-14 pull-1 push-2 pad-mobile-20">
             <div class="photo">
                 <div class="fence"></div>
-                <img src="_assets/zoo-york/photo-01.png" alt="">
+                <img src="_assets/zoo-york/photo-01.png" alt="" />
                 <p class="caption right block">The ad drove three and half times the average click-through rate</p>
             </div>
 
