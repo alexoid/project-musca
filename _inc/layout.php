@@ -37,7 +37,7 @@
     </style>
 
     <!-- Replaced @import with this for LiveReloading -->
-    <link rel="stylesheet" type="text/css" href="/_css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_css/styles.css" />
 
 </head>
 
