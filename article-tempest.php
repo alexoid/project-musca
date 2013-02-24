@@ -31,8 +31,18 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-10 pull-8 push-6 pad-mobile-20">
+            <div class="grid-5 pull-1 quote">
+                <p>A Tempest publication seamlessly integrates content, community, commerce and advertising — across all devices.</p>
+            </div>
             <p>Today’s digital media experiences are limited by the cobbled-together publishing systems they’re built with. The publication of the future won’t have a mobile template and a Web template; it will be built from the ground up for all devices. It will not have social plug-ins; it will be inherently social, richly interactive and deeply community-oriented. It won’t have Google Analytics or Chartbeat sitting on the side; it will integrate actionable data across every dimension of the experience to help build and grow audience. It won’t have ads tacked on in little boxes around the edges; it will deeply integrate brands into the site experience in a way that creates real value for the marketer while respecting (and even enhancing) the site’s voice. And most of all, the publication of the future will be authentic, it will be engaging and it will be beautiful.</p>
             <p>Tempest is Say Media’s next-generation media platform that is making all this possible. Tempest publications seamlessly integrate content, community, commerce and marketing into a beautiful experience that is led by point of view and powered by great technology.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="lovely-grid">
+        <div class="grid-10 pull-8 push-6 pad-mobile-20">
             <p>Tempest is not fundamentally a new initiative or a new product. We have been building the components of Tempest for years: better authoring tools, better site experiences and a better approach to advertising. Tempest is more a new way of thinking about how everything we build fits together into a cohesive whole and a vision of how that platform will evolve for the future. </p>
             <p>Tempest is made of 8 components which we believe are the key elements of a great digital publishing experience.</p>
             <p>Despite the breakneck pace of change on the Web, digital publishing hasn’t changed much in the last 10 years. We’re still stuck with the standard two-column layout — the article on the left, ads crowded on the right, social buttons on top, a commenting widget below. </p>
