@@ -7,7 +7,7 @@
         <div class="grid-24">
             <h3>Innovation</h3>
             <h2 class="hide-mobile">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
-            <h2 class="small remove-672 remove-960 remove-1200">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
+            <h2 class="small remove-768 remove-960 remove-1200">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
             <h3>By David Lerman</h3>
         </div>
         <div class="grid-24">

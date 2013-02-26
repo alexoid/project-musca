@@ -8,7 +8,7 @@
             <div class="wrapper">
                 <h3>Perspectives</h3>
                 <h2 class="hide-mobile">Great Advertising<br/> is Art</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">Great Advertising<br/> is Art</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">Great Advertising<br/> is Art</h2>
                 <h3>By Joe SaBia</h3>
             </div>
         </div>

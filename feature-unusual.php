@@ -8,7 +8,7 @@
             <div class="wrapper">
                 <h3>Feature</h3>
                 <h2 class="hide-mobile">Unusual<br/> Suspects</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">Unusual<br/> Suspects</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">Unusual<br/> Suspects</h2>
                 <h3>By Lauren Streib</h3>
             </div>
         </div>

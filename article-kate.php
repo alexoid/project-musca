@@ -9,7 +9,7 @@
                 <div class="bug hide-mobile"></div>
                 <h3>Brand Case Study</h3>
                 <h2 class="hide-mobile">Kate Upton Takes<br/> Zoo York</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">Kate Upton Takes<br/> Zoo York</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">Kate Upton Takes<br/> Zoo York</h2>
             </div>
         </div>
     </div>

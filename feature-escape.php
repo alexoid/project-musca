@@ -8,7 +8,7 @@
             <div class="grid-24">
                 <h3>Feature</h3>
                 <h2 class="hide-mobile">The great escape</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">The great escape</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">The great escape</h2>
                 <h3>By Dan Lyons</h3>
             </div>
             <div class="grid-24 dan">

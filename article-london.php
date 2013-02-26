@@ -9,7 +9,7 @@
                 <div class="bug hide-mobile"></div>
                 <h3>Perspectives</h3>
                 <h2 class="remove-mobile">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
-                <h2 class="small remove-672 remove-960 remove-1200">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
                 <h3>Gear Jasin Lydiate</h3>
             </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="grid-8 dylan remove-mobile">
                 <img src="_assets/london/dylan.png" />
             </div>
-            <div class="grid-10 push-6 remove-672 remove-960 remove-1200">
+            <div class="grid-10 push-6 remove-768 remove-960 remove-1200">
                 <img src="_assets/london/dylan.png" />
             </div>
             <div class="grid-10 push-6 nested-sole">

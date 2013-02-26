@@ -6,7 +6,7 @@
     <div class="lovely-grid">
         <div class="grid-24">
             <h2 class="remove-mobile">Scene &amp; Heard</h2>
-            <h2 class="small remove-672 remove-960 remove-1200">Scene &amp; Heard</h2>
+            <h2 class="small remove-768 remove-960 remove-1200">Scene &amp; Heard</h2>
         </div>
     </div>
 </section>
