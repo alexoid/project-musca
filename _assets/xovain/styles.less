@@ -1,0 +1,79 @@
+@charset 'utf-8';
+
+@import "../../_css/utils";
+
+
+
+// Hero
+section.hero {
+    margin: 0 0 40px 0;
+    background-color: @black;
+    background-position: center;
+    background-image: url('hero-bg.png'); }
+
+section.hero .wrapper {
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('hero-grad-bg.png');
+    padding: 140px 0 0 0;
+    position: relative; }
+
+section.hero h3 {
+    padding: 4px 0 0 0;
+    font-size: 30px;
+    color: @white;
+    margin: 20px auto 0 auto;
+    font-family: @font-sans;
+    font-weight: bold;
+    text-align: center; }
+
+section.hero img {
+    width: 100%; }
+
+
+section.content .photo {
+    padding-top: 5px; }
+
+section.content .photo img {
+    margin: 0 0 10px 0; }
+
+section.content .photo p.caption {
+    line-height: 1em;
+    font-size: 12px; }
+
+
+section.content p a {
+    border-color: #ff0066;
+    color: #ff0066; }
+
+
+section.content.dark {
+    margin: 50px 0 40px 0;
+    .box-shadow(0,-8px,15px,rgba(0,0,0,0.3));
+    color: @white;
+    background-color: @dark-gray; }
+
+section.content blockquote {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    padding: 25px 40px;
+    font-size: 30px;
+    font-family: @base-font;
+    background-color: #ff0066; }
+
+section.content blockquote i {
+    bottom: -30px;
+    position: absolute;
+    font-size: 50px;
+    color: #ff0066; }
+
+section.content blockquote strong {
+    font-family: @font-sans;
+    font-weight: bold; }
+
+section.content.dark p {
+    color: @white; }
+
+// EOF
