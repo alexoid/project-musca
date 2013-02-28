@@ -105,7 +105,7 @@
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="grid-11 pull-7 push-6">
+        <div class="grid-11 pull-7 push-6 pad-mobile-20">
             <p>These steps are just part of the process of unearthing your story. If you’ve never taken the time to perform exercises like these, you now have the opportunity to take long strides toward building that story platform. </p>
             <h3>Telling your brand Story</h3>
             <p>Once you have a firm grasp of your brand’s story, you have to tell it in the places where your customers choose to engage with you (not where you find it most convenient to advertise). Instead of simply trying to be the loudest, you want to be the smartest. Map all of your brand’s touch points and create a strategy that will encourage targeted groups to associate with the brand voluntarily, building a much deeper knowledge of and connection to it. </p>
@@ -117,12 +117,12 @@
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="grid-11 pull-7">
+        <div class="grid-11 pull-7 pad-mobile-20">
             <p>Now more than ever, brands have the ability to unearth and tell their stories in ways that captivate and engage audiences. Smaller brands aren’t relegated to serving customers within a 50-mile radius. Brands of all sizes can commit to stories that befit their products, their employees and the essence of their brands, and they can tell them on channels with worldwide reach. </p>
             <p>If brands do this well, their content (and inherently their products) will be sought out by their audiences. The result will be a decline in advertising spending as they increasingly use owned and earned media to outsource marketing to their most loyal fans. </p>
             <p>The only question left is, what’s your story?</p>
         </div>
-        <div class="grid-4 push-2">
+        <div class="grid-4 push-2 pad-mobile-20">
             <img src="_assets/storytelling/dominos.png">
         </div>
     </div>
