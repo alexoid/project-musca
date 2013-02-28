@@ -1,9 +1,9 @@
 @charset 'utf-8';
-section.hero{overflow:hidden;height:886px;margin:0 0 40px 0;background-color:#ffffff;background-repeat:repeat-x;background-position:center;background-image:url('hero-grad-bg.jpg');}
-section.hero .wrapper{height:886px;background-image:url('hero-bg.png');background-position:bottom;background-repeat:no-repeat;padding:0 0 0 0;position:relative;}
+section.hero{overflow:hidden;margin:0 0 40px 0;background-color:#ffffff;background-repeat:repeat-x;background-position:center;background-image:url('hero-grad-bg.jpg');}
+section.hero .wrapper{height:876px;padding:10px 0 0 0;background-image:url('hero-bg.png');background-position:bottom;background-repeat:no-repeat;position:relative;}
 section.hero h3{z-index:1500;position:relative;text-shadow:1px 1px 0 rgba(0, 0, 0, 0.8);padding:4px 0 0 0;text-transform:uppercase;font-size:18px;letter-spacing:0.25em;color:#ffffff;margin:20px auto 0 auto;width:180px;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center;}
 section.hero h2{z-index:1500;line-height:0.9em;text-shadow:1px 1px 0 rgba(0, 0, 0, 0.8);position:relative;margin:20px 0 0 0;font-size:160px;color:#ffffff;text-transform:uppercase;font-family:"league-gothic",sans-serif;text-align:center;}
-section.hero .dan{z-index:1000;position:absolute;bottom:0;margin-top:-279px;}
+section.hero .dan{display:block;float:none;z-index:1000;position:absolute;bottom:0;}
 section.hero .dan img{float:left;width:100%;}
 section.content.black{color:#ffffff;background-color:#000000;}
 section.content.red{color:#ffffff;background-color:#d80c1b;}
