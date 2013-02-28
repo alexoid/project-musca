@@ -4,7 +4,7 @@ section.hero .wrapper{background-repeat:no-repeat;background-position:center;bac
 section.hero h2{z-index:500;position:relative;margin:80px 0 0 0;font-size:180px;font-style:italic;font-family:"ltc-bodoni-175",serif;text-align:center;}
 section.hero h2.medium{margin:40px 0 0 0;font-size:100px;}
 section.hero h2.small{margin:40px 0 0 0;font-size:60px;}
-section.hero .dan{position:absolute;bottom:0;z-index:1000;margin-top:-279px;}
+section.hero .dan{display:block;position:absolute;bottom:0;z-index:1000;}
 section.hero .dan img{float:left;width:100%;}
 section.hero .left-story{position:relative;z-index:1500;margin:30px 0 0 0;}
 section.hero .left-story h3{margin:0 0 16px 0;font-size:12px;letter-spacing:-0.05em;text-transform:uppercase;font-style:italic;font-family:"ltc-bodoni-175",serif;}

@@ -6,7 +6,7 @@
     <div class="wrapper">
         <div class="lovely-grid">
             <div class="grid-24">
-                <h2 class="remove-mobile remove-672">THE POV<br/> ISSUE</h2>
+                <h2 class="remove-mobile remove-768">THE POV<br/> ISSUE</h2>
                 <h2 class="medium remove-mobile remove-960 remove-1200">THE POV<br/> ISSUE</h2>
                 <h2 class="small remove-768 remove-960 remove-1200">THE POV<br/> ISSUE</h2>
             </div>
