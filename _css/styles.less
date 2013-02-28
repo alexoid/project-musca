@@ -5,113 +5,91 @@
 
 // Main CSS
 body, html {
-    font-family: @base-font;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    margin: 0;
-    padding: 0; }
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    padding: 62px 0 0 0; }
+  padding: 0;
+}
 
 a {
-    color: @red;
-    outline: none;
-    text-decoration: none;
-    .transition(color 0.1s); }
+  color: @red;
+  outline: none;
+  text-decoration: none;
+  .transition(color 0.1s);
 
-a:hover {
-    text-decoration: none; }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3 {
+  -webkit-font-smoothing: antialiased; // This makes font rendering prettier on _some_ larger fonts.
+}
 
 ::selection {
-    background-color: @silver; }
+  background-color: @silver;
+}
 
 // Header Slab
+
 header {
-    height: 62px;
-    position: fixed;
-    z-index: 2000;
-    width: 100%;
-    top: 0;
-    color: @white;
-    background-color: @black;
-    background-image: url('@{img-path}header-bg.png'); }
+  color: @white;
+  background-color: @black;
 
-    header ul.tools  {
-        float: left;
-        margin: 17px 0 0 17px; }
+  .tools {
+    float: left;
 
-    header ul.tools li {
-        margin: 0; }
+    li {
+      margin: 0;
+      font-family: @font-sans;
 
-        header ul.tools li a {
-            color: @white;
-            text-decoration: none;
-            font-size: 24px; }
+      li {
+        margin: 0 0 20px 0;
 
-        header ul.tools li a:hover {
-            color: @red; }
+      a {
+        color: @white;
+        text-decoration: none;
+        font-size: 24px;
+        display: block;
 
-    header h1 {
-        overflow: hidden;
-        width: 250px;
-        height: 62px;
-        margin: 0 auto; }
-
-    header h1 a {
-        .text-indent();
-         background-image: url('@{img-path}say-logo.png');
-         width: 250px;
-         height: 30px;
-         margin: 16px 0 15px 0; }
-
-     header h1.small {
-         float: left;
-         width: 150px;
-         height: 18px;
-         margin: 22px 0 20px 20px; }
-
-     header h1.small a {
-         .text-indent();
-         background-image: url('@{img-path}say-logo-small.png');
-         width: 150px;
-         height: 18px;
-         margin: 0; }
-
-    header .issue {
-        font-size: 14px;
-        padding: 24px 17px 0 0;
-        text-transform: uppercase; }
+        &:hover {
+        }
+      }}
+    }
+  }
+}
 
 // Content Styles
 section.content p {
-    color: @dark-gray;
-    margin: 0 0 25px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-    font-family: @font-sans; }
+  color: @dark-gray;
+  margin: 0 0 25px 0;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: @font-sans;
+}
 
 section.content p.first {
-    line-height: 1.2em;
-    font-size: 28px;
-    font-family: @source-pro; }
+  line-height: 1.2em;
+  font-size: 28px;
+  font-family: @source-pro;
+}
 
 section.content p a {
-    border-width: 0 0 1px 0;
-    border-style: dotted;
-    color: @red; }
+  border-width: 0 0 1px 0;
+  border-style: dotted;
+  color: @red;
+}
 
 section.content p a:hover {
-    border-style: solid; }
+  border-style: solid;
+}
 
 section.content img {
-    margin: 0 0 25px 0;
-    width: 100%; }
-
-
-
-
-
+  margin: 0 0 25px 0;
+  width: 100%;
+}
 
 // EOF
