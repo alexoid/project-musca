@@ -1,6 +1,7 @@
 <style type="text/css" media="screen">
     @import url("_assets/storytelling/styles.css");
 </style>
+<script src="_assets/storytelling/animations.js"></script>
 
 <section class="hero">
     <div class="wrapper">
@@ -11,8 +12,8 @@
                 <h2 class="small remove-768 remove-960 remove-1200">The Art and Science of<br/> Great Brand Storytelling</h2>
                 <h3>By Jon Thomas</h3>
             </div>
-            <div class="grid-10 pull-7 push-7 pad-mobile-20 baumgartner">
-                <img src="_assets/storytelling/baumgartner.png">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20 baumgartner" id="baumgartner-capsule">
+                <img src="_assets/storytelling/baumgartner.png" id="baumgartner">
             </div>
         </div>
     </div>

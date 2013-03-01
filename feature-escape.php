@@ -12,8 +12,6 @@
                 <h2 class="small remove-768 remove-960 remove-1200">The great escape</h2>
                 <h3>By Dan Lyons</h3>
             </div>
-            <div class="grid-24 dan">
-            </div>
         </div>
     </div>
 </section>
