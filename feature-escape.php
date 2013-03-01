@@ -1,6 +1,7 @@
 <style type="text/css" media="screen">
     @import url("_assets/escape/styles.css");
 </style>
+<script src="_assets/escape/animations.js"></script>
 
 <section class="hero">
     <div class="wrapper">
@@ -43,7 +44,8 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-5 pull-1 push-1 pad-mobile-20">
-            <img src="_assets/escape/left-rail.png" alt="">
+            <img src="_assets/escape/Sarah-Rotman-Epps-PR.png" id="sarah-rotman" class="profile-picture" />
+            <img src="_assets/escape/JP-rangaswami.png" id="jp-rangaswami" class="profile-picture" />
         </div>
         <div class="grid-10 pad-mobile-20">
             <h3>So whose point of view are we publishing?</h3>
@@ -55,7 +57,9 @@
             <p>It's an exciting time to be working in the media business. Everything is being disrupted and reinvented. We're dreaming up new ways to tell stories, new ways for brands to connect with consumers. It's all moving at a breakneck pace, and I'm thrilled and excited to be part of this change.</p>
         </div>
         <div class="grid-5 pull-1 push-1 pad-mobile-20">
-            <img src="_assets/escape/right-rail.png" alt="">
+            <img src="_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture" />
+            <img src="_assets/escape/David-Sobotta.png" id="david-sobotta" class="profile-picture" />
+            <img src="_assets/escape/Alan-Cohen.png" id="alan-cohen" class="profile-picture" />
         </div>
     </div>
 </section>

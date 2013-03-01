@@ -98,4 +98,41 @@ section.content p a {
     border-color: #f26612;
     color: #f26612; }
 
+
+
+/* Profile pictures */
+
+@profile-scale: 0.75;
+
+.format-profile (@rotation: 0deg) {
+    -webkit-transform: scale(@profile-scale) rotate(@rotation);
+    -moz-transform: scale(@profile-scale) rotate(@rotation);
+    -ms-transform: scale(@profile-scale) rotate(@rotation);
+    transform: scale(@profile-scale) rotate(@rotation);
+}
+
+.profile-picture {
+    .box-shadow(1px, 1px, 5px, #555);
+    position: relative;
+}
+
+
+#sarah-rotman { .format-profile(2deg); }
+#jp-rangaswami { 
+    .format-profile(-4deg);
+    margin-top: 25px;
+}
+#vivek-wadhwa { .format-profile(); }
+#david-sobotta {
+    margin: -25px 0 0 50px; 
+    z-index: 10;
+    .format-profile(4deg);
+}
+#alan-cohen {
+    .format-profile(-1deg);
+    margin-top: -100px;
+    z-index: 1;
+}
+
+
 // EOF

@@ -27,9 +27,11 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.4/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.8.4/TweenMax.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="_js/jquery.isotope.min.js"></script>
+    <script src="_js/jquery.superscrollorama.js"></script>
     <script src="_js/jquery.videoBG.js"></script>
     <script src="_js/scripts.js"></script>
 
