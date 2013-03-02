@@ -4,6 +4,9 @@
 
 <section class="hero">
     <div class="lovely-grid">
+        <div class="grid-15 push-9 pad-mobile-20 title">
+            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
+        </div>
         <div class="grid-24">
             <div class="wrapper">
                 <h3>Feature</h3>
@@ -15,7 +18,7 @@
     </div>
 </section>
 
-<section class="content">
+<!-- <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 push-4 pull-2 pad-mobile-20">
             <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
@@ -24,12 +27,15 @@
             <img src="_img/social.png" alt="">
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
-            <p>When Kelly Framel launched her personal style blog, The Glamourai, in 2008, she was embarrassed. At the time, she was a designer for Naheem Khan. “I was terrified to share it with the serious, old-school stylists and industry insiders I was constantly working with. I thought no one in the business could possibly take me seriously if they knew I had this silly little blog,” Framel says. </p>
+            <p>
+                <img src="_assets/unusual/kelly-framel.png" class="kelly-framel remove-mobile" />
+                <img src="_assets/unusual/kelly-framel.png" class="kelly-framel inline remove-768 remove-960 remove-1200" />
+                When Kelly Framel launched her personal style blog, The Glamourai, in 2008, she was embarrassed. At the time, she was a designer for Naheem Khan. “I was terrified to share it with the serious, old-school stylists and industry insiders I was constantly working with. I thought no one in the business could possibly take me seriously if they knew I had this silly little blog,” Framel says. </p>
             <p>But the site established Framel as a tastemaker and pushed her personal artistic boundaries. Eventually, it became her full-time gig. Many of the Web’s best storyteller’s have a similar tale — they experimented with something for themselves only to find an audience and an unimagined future. </p>
             <p>Creating content online has never been easier, and talented storytellers are grabbing the opportunity. These folks are finding new ways to build a cohesive narrative voice, engage a devoted audience and, ideally, create a financially sustainable business model. Emboldened by comfort with uncertainty and a willingness to experiment, they revere the Web for its unlimited space and its accessibility (every current and former project is as close as a Google search away), while understanding that readers’ attention spans are fickle. Plus, they understand that as the capabilities of technology multiply, so do its demands. </p>
             <p>Digital storytellers come in nearly every variation — narrators of the everyday and the remarkable who use images, words or social media missives to engross an audience that is more plugged-in than ever before. In fact, the prevalence of the screen has been a boon to creatives with an eye for innovation. Bloggers continue to drive the e-commerce revolution, motivating the sale of cookbooks, clothes and furniture; prescient publishers are honing a new way to cover news, promote long-form writing and attract an influential audience; and inventive use of new platforms is allowing artists of all types to distribute their work. </p>
@@ -41,22 +47,45 @@
     <div class="lovely-grid">
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>The aesthetics economy</h3>
-            <p>Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who’s often in front of the camera on From Me To You, or Hanneli Mustaparta, the former model who offers candid access to her life on Hanneli.com. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors. Framel and Hanneli are consistent stars of their posts; Beck appears among a portfolio of landscapes and editorial work. Hanneli is usually modeling the hottest pieces from an upcoming season, while Framel and Beck often include pieces from past seasons and vintage finds. </p>
+            <p>
+                <img src="_assets/unusual/hanneli-beck.png" class="hanneli-beck remove-mobile" />
+                <img src="_assets/unusual/hanneli-beck.png" class="hanneli-beck inline remove-768 remove-960 remove-1200" />
+                Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who’s often in front of the camera on From Me To You, or Hanneli Mustaparta, the former model who offers candid access to her life on Hanneli.com. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors. Framel and Hanneli are consistent stars of their posts; Beck appears among a portfolio of landscapes and editorial work. Hanneli is usually modeling the hottest pieces from an upcoming season, while Framel and Beck often include pieces from past seasons and vintage finds. </p>
             <p>“Fashion collections have to be created at such a fast pace these days, so I was drawing a lot of my inspiration from the Internet, especially using personal style blogs as a barometer of trends,” Framel says. “The girls who worked in the studio with me were always goading me to start one of my own, and finally I decided that it might actually be fun to get in on the conversation.” The burgeoning popularity of street style bloggers helped, creating a digital reverence for individual style — but the journalistic nature of their work left an opening for stylish people who wanted to tell their own style stories. “Building my site has allowed me the freedom to write my own rules, to juggle a hundred different projects at once,” Framel says. “It's the reason I’ve found so much passion in my work as a stylist: Every week I get to weave a brand new dream.” </p>
+            <p class="pad-right">
+                <span class="sarinara-lau-medine large remove-mobile remove-768">
+                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
+                </span>
+                <span class="sarinara-lau-medine med remove-mobile remove-960 remove-1200">
+                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
+                </span>
+                <span class="sarinara-lau-medine small remove-768 remove-960 remove-1200">
+                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
+                </span>
+                Others who’ve mastered the artful balance between self and style include Julie Sarinana of Sincerely, Jules who catalogs her West Coast cool daily style; Susanna Lau (aka Susie Bubble) and her online diary of fashionable observations and original outfits on Style Bubble; and Leandra Medine of Man Repeller, a site that chronicles her habit of dressing “in a sartorially offensive mode that may result in repelling members of the opposite sex.”</p>
+            <p class="pad-right">As the independent fashion media began attracting influence, designers and retail brands gave them access once reserved for only old-media outlets. Digital fashionistas sit front row at fashion week, model in ad campaigns, forge design collaborations and make guest appearances in the pages of Vogue and its ilk. </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="content red">
+    <div class="lovely-grid">
+        <div class="grid-18 push-6 pad-mobile-20">
+            <h3>“The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them.”</h3>
         </div>
     </div>
 </section>
 
 <section class="content black">
     <div class="lovely-grid">
-        <div class="grid-14 pull-5 pad-mobile-20">
-            <p>Others who’ve mastered the artful balance between self and style include Julie Sarinana of Sincerely, Jules who catalogs her West Coast cool daily style; Susanna Lau (aka Susie Bubble) and her online diary of fashionable observations and original outfits on Style Bubble; and Leandra Medine of Man Repeller, a site that chronicles her habit of dressing “in a sartorially offensive mode that may result in repelling members of the opposite sex.”</p>
-            <p>As the independent fashion media began attracting influence, designers and retail brands gave them access once reserved for only old-media outlets. Digital fashionistas sit front row at fashion week, model in ad campaigns, forge design collaborations and make guest appearances in the pages of Vogue and its ilk. </p>
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
+            <h3></h3>
             <p>How did this happen? Simple: They used their personal brands to push product. Their outfits, friends, travels and love lives are covered in a narrative and polished manner that offers daily inspiration — opposed to the catalogs of world-class models and trends that magazines offer. Plus, these bloggers offer an approachable level of personality, access and narration, giving fans a familiarity with their lives in a way that was never possible in a print product. “I’ve never wanted to be a salesperson. I want to be a storyteller,” Framel says. “My job is not to report or to sell; my job is to inspire.” </p>
             <p>“I call being online ‘being on the world’s stage,’" Beck says. “When you click publish, your content is out there, and it goes everywhere. That incentivizes me to push myself harder for my own outlet. That ambition and hunger led to Cinemagraphs, my work with DBA [a talent agency] and larger collaborations.”</p>
-        </div>
-        <div class="grid-4 pull-1 pad-mobile-20">
-            <img src="_assets/unusual/manRepeller.png">
         </div>
     </div>
 </section>
@@ -65,16 +94,20 @@
     <div class="lovely-grid">
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>Storybook lives</h3>
-            <p>Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who’s often in front of the camera on From Me To You, or Hanneli Mustaparta, the former model who offers candid access to her life on Hanneli.com. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors. Framel and Hanneli are consistent stars of their posts; Beck appears among a portfolio of landscapes and editorial work. Hanneli is usually modeling the hottest pieces from an upcoming season, while Framel and Beck often include pieces from past seasons and vintage finds. </p>
+            <p>
+                <img src="_assets/unusual/tod-selby.png" class="tod-selby remove-mobile" />
+                <img src="_assets/unusual/tod-selby.png" class="tod-selby inline remove-768 remove-960 remove-1200" />
+                Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who’s often in front of the camera on From Me To You, or Hanneli Mustaparta, the former model who offers candid access to her life on Hanneli.com. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors. Framel and Hanneli are consistent stars of their posts; Beck appears among a portfolio of landscapes and editorial work. Hanneli is usually modeling the hottest pieces from an upcoming season, while Framel and Beck often include pieces from past seasons and vintage finds. </p>
             <p>“Fashion collections have to be created at such a fast pace these days, so I was drawing a lot of my inspiration from the Internet, especially using personal style blogs as a barometer of trends,” Framel says. “The girls who worked in the studio with me were always goading me to start one of my own, and finally I decided that it might actually be fun to get in on the conversation.” The burgeoning popularity of street style bloggers helped, creating a digital reverence for individual style — but the journalistic nature of their work left an opening for stylish people who wanted to tell their own style stories. “Building my site has allowed me the freedom to write my own rules, to juggle a hundred different projects at once,” Framel says. “It's the reason I’ve found so much passion in my work as a stylist: Every week I get to weave a brand new dream.” </p>
+            <p>Several other people are creating interesting spaces online from which to show off their work. Freunde von Freunden, founded by a German creative trio, interviews interesting people and showcases their living spaces around the globe. As well, The Cool Hunter, founded by Bill Tikos, spotlights posh homes, hotels, restaurants and objects in a narrative format. In the style realm, the rise of street style is undeniable. Unlike the style bloggers documenting personal outfits, bloggers such as Scott Schuman of The Sartorialist, Tommy Ton of Jak & Jil, Phil Oh of Street Peeper and Garance Doré of her eponymous site have turned their lenses on the sophisticated public to celebrated effect. They snag images of the world’s most fashionable people as well as everyday trendsetters. Picture by picture, they are telling the visual story of the world’s most coveted streets and buildings.</p>
         </div>
     </div>
 </section>
 
-<section class="content red">
+<section class="content">
     <div class="lovely-grid">
-        <div class="grid-20 push-4 pad-mobile-20">
-            <h3>“The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them.”</h3>
+        <div class="grid-20 pull-2 push-2 pad-mobile-20">
+            <img src="_assets/unusual/schuman-ton-oh-dore.png" />
         </div>
     </div>
 </section>
@@ -82,8 +115,6 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
-            <h3></h3>
-            <p>Several other people are creating interesting spaces online from which to show off their work. Freunde von Freunden, founded by a German creative trio, interviews interesting people and showcases their living spaces around the globe. As well, The Cool Hunter, founded by Bill Tikos, spotlights posh homes, hotels, restaurants and objects in a narrative format. In the style realm, the rise of street style is undeniable. Unlike the style bloggers documenting personal outfits, bloggers such as Scott Schuman of The Sartorialist, Tommy Ton of Jak & Jil, Phil Oh of Street Peeper and Garance Doré of her eponymous site have turned their lenses on the sophisticated public to celebrated effect. They snag images of the world’s most fashionable people as well as everyday trendsetters. Picture by picture, they are telling the visual story of the world’s most coveted streets and buildings.</p>
             <p>Of course, covering the decorated lives of creative people is nothing new, but the novelty of The Selby and its ilk is in the accessibility and democratization of its subjects. The people featured on The Selby are identified only by their profession, abandoning whatever fame they might possess in favor of spotlighting their closets. Most street style blogs don’t even identify the subjects or the brands they’re wearing. </p>
             <p>The site has been an unparalleled calling card for Selby, who supports himself by working on advertising collaborations. He has produced a series of travel journals for Louis Vuitton, a portfolio of photographs for Fendi and a branding video for Zara. His inimitable style also has filled two books, The Selby Is in Your Place and most recently Edible Selby, a photo collection of the culinary workspaces and restaurants of leading chefs that sprouted from a column Selby began doing in 2011 for The New York Times’ quarterly T Magazine. </p>
         </div>
@@ -95,20 +126,44 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>Step-by-step</h3>
         </div>
-        <div class="grid-4 push-1 pad-mobile-20">
-            <img src="_assets/unusual/sousStyle.png">
-        </div>
-        <div class="grid-14 push-5 pad-mobile-20">
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p>Another thriving facet of digital storytelling is more explicitly instructive. How to remodel your house. How to make a gourmet meal in a shoebox kitchen. How to build a holiday centerpiece and make homemade wood cleaner. In other words, there’s a Martha Stewart for everyone and every ambition. </p>
-            <p>Last year, Pippa Lord launched Sous Style, a site half-devoted to showing how beautiful people live through gorgeous photographs and breezy questionnaires and half-devoted to passing on recipes, dining hotspots and housewarming tricks. Lord, a photo editor at ELLE, lists the site as designed for a “new generation of homemakers” that comes replete with a manifesto. For example: “Our ‘houses’ might be apartments or rooms we rent, but they are spaces we call our own.” She’s not alone in trying to perfect the quirky art of urban homemaking. Smitten Kitchen, a recipe blog run by Deb Perelman is an account of “fearless cooking from a tiny kitchen in New York City.” From the West Coast, Joy Wilson of Joy the Baker, is a self-taught foodie with a sweet tooth, who stuffs her recipes amidst humorous life bits and pictures of her cat. As well, Emily Schuman of Los Angeles is the creator of the hugely popular site Cupcakes and Cashmere, which details her exploits at creating a glamorous life, from closet to kitchen. </p>
+            <p>
+                <span class="pippa-lord large remove-mobile remove-768">
+                    <img src="_assets/unusual/pippa-lord.png" />
+                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                </span>
+                <span class="pippa-lord med remove-mobile remove-960 remove-1200">
+                    <img src="_assets/unusual/pippa-lord.png" />
+                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                </span>
+                <span class="pippa-lord small remove-768 remove-960 remove-1200">
+                    <img src="_assets/unusual/pippa-lord.png" />
+                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                </span>
+                Last year, Pippa Lord launched Sous Style, a site half-devoted to showing how beautiful people live through gorgeous photographs and breezy questionnaires and half-devoted to passing on recipes, dining hotspots and housewarming tricks. Lord, a photo editor at ELLE, lists the site as designed for a “new generation of homemakers” that comes replete with a manifesto. For example: “Our ‘houses’ might be apartments or rooms we rent, but they are spaces we call our own.” She’s not alone in trying to perfect the quirky art of urban homemaking. Smitten Kitchen, a recipe blog run by Deb Perelman is an account of “fearless cooking from a tiny kitchen in New York City.” From the West Coast, Joy Wilson of Joy the Baker, is a self-taught foodie with a sweet tooth, who stuffs her recipes amidst humorous life bits and pictures of her cat. As well, Emily Schuman of Los Angeles is the creator of the hugely popular site Cupcakes and Cashmere, which details her exploits at creating a glamorous life, from closet to kitchen. </p>
         </div>
-        <div class="grid-14 pull-5 pad-mobile-20">
-            <p>“I think there’s now this pressure associated with starting and maintaining a blog, since people have been able to build successful careers on their own,” Schuman told Say Daily earlier this year. “But if you’re not writing about what you’re passionate about, it’ll come across as inauthentic and you’ll get bored.”</p>
-            <p>On the design side, the gold standard is Design*Sponge. It’s the brainchild of Grace Bonney, a former editor and writer for a stack of print publications including Domino and Better Homes and Gardens. Design solutions, product features, profiles of interesting living spaces and, of course, do-it-yourself tutorials fill the site. On the other side of earnest is Morgan Satterfield of The Brick House, a blog that was conceived to tell the story of Satterfield’s on-a-budget renovation in her modern California abode.</p>
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
+            <p class="pad-right extra">
+                <span class="bonney-wilson-schuman-perelman large remove-mobile remove-768 remove-960">
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                </span>
+                <span class="bonney-wilson-schuman-perelman med2 remove-mobile remove-768 remove-1200">
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                </span>
+                <span class="bonney-wilson-schuman-perelman med remove-mobile remove-960 remove-1200">
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                </span>
+                <span class="bonney-wilson-schuman-perelman small remove-768 remove-960 remove-1200">
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                </span>
+                “I think there’s now this pressure associated with starting and maintaining a blog, since people have been able to build successful careers on their own,” Schuman told Say Daily earlier this year. “But if you’re not writing about what you’re passionate about, it’ll come across as inauthentic and you’ll get bored.”</p>
+            <p class="pad-right extra">On the design side, the gold standard is Design*Sponge. It’s the brainchild of Grace Bonney, a former editor and writer for a stack of print publications including Domino and Better Homes and Gardens. Design solutions, product features, profiles of interesting living spaces and, of course, do-it-yourself tutorials fill the site. On the other side of earnest is Morgan Satterfield of The Brick House, a blog that was conceived to tell the story of Satterfield’s on-a-budget renovation in her modern California abode.</p>
             <p>Their blogs are just part of the allure of these creators. They also truly excel at creating content that is shareable, an ever more valuable commodity in the digital space. There are 80 million Instagram users, 340 million Tweets are sent each day and Pinterest generates nearly 2 billion monthly page views. These bloggers have learned to harness that opportunity while staying true to telling the stories of their process and product. Joy the Baker has a weekly podcast, a published cookbook and a strong Pinterest following. The Smitten Kitchen Cookbook was released in October, and Perelman has thousands of Instagram followers (though the pictures rarely involve food). Design*Sponge has nearly half a million Twitter followers, a new book and offers scholarship money to design students. </p>
-        </div>
-        <div class="grid-4 pull-1 pad-mobile-20">
-            <img src="_assets/unusual/smittenKitchen.png">
         </div>
     </div>
 </section>
