@@ -6,9 +6,10 @@ $(document).ready(function () {
         mp4: "_assets/escape/Dan_GreatEscape_2000.mp4",
         ogv: "_assets/escape/Dan_GreatEscape_2000.mp4",
         webm: "_assets/escape/Dan_GreatEscape_2000.mp4",
-        poster: "_assets/escape/dan.png",
+        poster: "",
         autoplay: true,
-        loop: true
+        loop: true,
+        fullscreen: false
     });
 
 

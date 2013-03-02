@@ -18,7 +18,6 @@
                     <h3>Cover Story</h3>
                     <h1>The Great Escape</h1>
                     <p class="remove-mobile">Adam Lambert loves his<br/> iPad &amp; other tales<br/> from briar cliff</p>
-                    <p class="remove-768 remove-960 remove-1200">Adam Lambert loves his iPad &amp; other tales from briar cliff</p>
                     </div>
             </div>
             <div class="grid-8 pull-3 push-1 text-right pad-mobile-20">
