@@ -10,7 +10,7 @@
                 <h3>Perspectives</h3>
                 <h2 class="remove-mobile">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
                 <h2 class="small remove-768 remove-960 remove-1200">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
-                <h3>Gear Jasin Lydiate</h3>
+                <h3>By Jasin Lydiate</h3>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
     <div class="lovely-grid">
         <div class="grid-12 pull-7 push-5 pad-mobile-20">
             <img src="_assets/london/paper.png" />
-            <div class="grid-10 pull-1 push-1">
+            <div class="grid-10 pull-1 push-2">
                 <h3>Slow Train Coming</h3>
                 <p>In February 2011, London24 launched. Eighteen months later, it is No. 2 in the market and on track to be profitable by 2013.</p>
                 <p>Local community-based titles such as London24 represent just how powerful the combination can be when you have engaging advertising built around relevant, compelling content. Engagement rates on regional U.K. press are close to 2 percent, which stacks up favorably against an average of 0.8 percent. </p>

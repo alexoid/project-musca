@@ -86,6 +86,7 @@
                 <h3>the Storytelling age</h3>
             </div>
             <div class="grid-11 nested-first">
+                <h3>The Storytelling Age</h3>
                 <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60 years. The big winners in the ad race were the brands with the deepest pockets. They could buy the billboard in Times Square, create the Super Bowl ad spot and advertise in their customers’ favorite magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up, uninvited, interrupt and badger the audience, and that was okay, because that’s what advertising was. </p>
                 <p>But this brute-force method of advertising is rapidly losing effectiveness. The persistent interruption has caused audiences to put their blinders up and become defensive. Audiences simply have no patience for branded messages that feel like advertising. </p>
                 <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and simply enjoyable — even if it’s branded — they miraculously have as much as 30 minutes to watch and share the content with their own audiences. Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often helping spread the message to their own audiences without prompting. </p>

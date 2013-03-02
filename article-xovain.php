@@ -28,18 +28,12 @@
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="pull-1 grid-3 push-2 pad-mobile-20 photo inline remove-768 remove-960 remove-1200">
-            <img src="_assets/xovain/chipotle.png" />
-            <p class="caption">Chipotle’s little world come to life.</p>
-        </div>
+       
         <div class="grid-10 pull-8 pad-mobile-20">
             <p>In fact, many of those beauty articles were among the site's most popular. Readers' loved that they were getting beauty advice from women who'd actually tried the products and refused to say good things about something if it didn't do what it promised. Soon, the comment sections on beauty articles turned into a forum for the readers to give and get great makeup and skin care advice from each other. Beauty articles garnered hundreds of comments in just a few hours.</p>
             <p>"The beauty vertical on xoJane blew up from the very beginning," Pratt says. "It was one of our biggest categories by far. So when we were looking at the best way to grow the brand next, we took a close look at just why it was so popular and what else was out there in terms of strict beauty sites. Turns out there was a real hole in the marketplace in terms of the type of beauty articles on xoJane and the type of beauty site we could do." Pratt also wanted to capitalize on xoJane's success as the fastest-growing women's lifestyle brand on the Web. With more than 1.5 million monthly readers and 6.2 million monthly page views, Pratt knew there was an opportunity there.</p>
         </div>
-        <div class="pull-1 grid-3 push-2 pad-mobile-20 photo remove-mobile">
-            <img src="_assets/xovain/chipotle.png" />
-            <p class="caption">Chipotle’s little world come to life.</p>
-        </div>
+   
     </div>
 </section>
 
