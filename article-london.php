@@ -19,7 +19,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-5 pull-2 pad-mobile-20">
-            rail
+            &nbsp;
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
             <p class="first">To paraphrase the great singer-songwriter, “Chaos is your friend.” And ad units that don’t fit the traditional models do really well.</p>
@@ -39,7 +39,7 @@
             <div class="grid-8 dylan remove-mobile">
                 <img src="_assets/london/dylan.png" />
             </div>
-            <div class="grid-10 push-6 remove-768 remove-960 remove-1200">
+            <div class="grid-10 push-6 dylan inline remove-768 remove-960 remove-1200">
                 <img src="_assets/london/dylan.png" />
             </div>
             <div class="grid-10 push-6 nested-sole">
@@ -67,7 +67,7 @@
     <div class="lovely-grid">
         <div class="grid-12 pull-7 push-5 pad-mobile-20">
             <img src="_assets/london/paper.png" />
-            <div class="grid-10 pull-1 push-1 nested-sole">
+            <div class="grid-10 pull-1 push-1">
                 <h3>Slow Train Coming</h3>
                 <p>In February 2011, London24 launched. Eighteen months later, it is No. 2 in the market and on track to be profitable by 2013.</p>
                 <p>Local community-based titles such as London24 represent just how powerful the combination can be when you have engaging advertising built around relevant, compelling content. Engagement rates on regional U.K. press are close to 2 percent, which stacks up favorably against an average of 0.8 percent. </p>

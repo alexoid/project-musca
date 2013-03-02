@@ -31,23 +31,23 @@
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="grid-4 pull-2 push-1 siderail pad-mobile-20">
-            <h4>4 great momemnts in brand stroytelling</h4>
+        <div class="grid-4 pull-2 push-1 siderail remove-mobile">
+            <h4>4 great momemnts in brand storytelling</h4>
             <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a number of brands were embracing brand storytelling well before TVs were in every home and computers were ubiquitous.</p>
 
-            <img src="_assets/storytelling/1895.png">
+            <img src="_assets/storytelling/1895.png" />
             <h4>1895</h4>
             <p><strong>John Deere Customer Magazine:</strong> The Furrow / John Deere wanted to help farmers change the face of agriculture.</p>
 
-            <img src="_assets/storytelling/1900.png">
+            <img src="_assets/storytelling/1900.png" />
             <h4>1900</h4>
             <p><strong>The Michelin Guides</strong> / In 1900, brothers Edouard and André Michelin decided to encourage tourists to travel to Paris by creating the Michelin Red Guide.</p>
 
-            <img src="_assets/storytelling/1904.png">
+            <img src="_assets/storytelling/1904.png" />
             <h4>1904</h4>
             <p><strong>Jell-O’s Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
 
-            <img src="_assets/storytelling/1954.png">
+            <img src="_assets/storytelling/1954.png" />
             <h4>1954</h4>
             <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
         </div>
@@ -56,6 +56,32 @@
                 <p>Johannes Gutenberg invented mechanical movable-type printing around 1440. The first radio transmissions were in the early 1900s. The television became commercially available less than a century ago. The Internet is not even old enough to have a drink (legally, at least not in the United States). Facebook and Twitter are just out of diapers, and the next big marketing tool is still in the womb or possibly a mere twinkle in its creator’s eye. </p>
                 <p>When most people think about marketing, they think of these tools: print, radio, TV and the Web. These are just tools, though — tools that can be used to tell great stories. And storytelling is something that is ingrained in us. We’ve been telling stories for thousands of years. The earliest cave paintings date back 40,000 years, around the same time Homo sapiens began to exhibit behavioral modernity.</p>
                 <p>We don’t have to go back that far to understand the powerful effect that storytelling has on our hearts and minds. Go back only as far as your childhood, when you begged your parents to read your favorite story (the one you already knew by heart) just one more time. For me it was Where the Wild Things Are. Why was it so important to hear that story? Why did those characters mean so much? Maybe you don’t know the answers to those questions, but you do know how influential those stories were in your life. </p>
+            </div>
+            <div class="grid-15 push-2 nested-sole remove-768 remove-960 remove-1200">
+                <h3>4 great momemnts in brand storytelling</h3>
+                <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a number of brands were embracing brand storytelling well before TVs were in every home and computers were ubiquitous.</p>
+
+                <div class="row img-1895">
+                    <!-- <img src="_assets/storytelling/1895.png" /> -->
+                    <h4>1895</h4>
+                    <p><strong>John Deere Customer Magazine:</strong> The Furrow / John Deere wanted to help farmers change the face of agriculture.</p>
+                </div>
+
+                <div class="row img-1900">
+                    <h4>1900</h4>
+                    <p><strong>The Michelin Guides</strong> / In 1900, brothers Edouard and André Michelin decided to encourage tourists to travel to Paris by creating the Michelin Red Guide.</p>
+                </div>
+
+                <div class="row img-1904">
+                    <h4>1904</h4>
+                    <p><strong>Jell-O’s Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
+                </div>
+
+                <div class="row img-1954">
+                    <h4>1954</h4>
+                    <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
+                </div>
+
                 <h3>the Storytelling age</h3>
             </div>
             <div class="grid-11 nested-first">
