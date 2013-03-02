@@ -1056,7 +1056,8 @@ h3 {
   background-color: #cccccc;
 }
 header#navigation {
-  background-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
   overflow: hidden;
   width: 100%;
 }
@@ -1064,18 +1065,47 @@ header#navigation .menu {
   font-family: georgia, serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-size: 15px;
-  padding: 20px;
+  font-size: 16px;
 }
 header#navigation .menu .main {
-  line-height: 40px;
+  line-height: 20px;
   overflow: hidden;
+  padding: 14px 20px;
+}
+header#navigation .menu .main .logo {
+  margin: 0 0 0 -60px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+}
+header#navigation .menu .main .logo a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+header#navigation .menu .main .logo a b {
+  position: relative;
+  margin: 0 4px 0 0;
+}
+header#navigation .menu .main .logo a b:after {
+  content: ",,";
+  color: #cc0033;
+  margin: -10px 0 0 -5px;
+  letter-spacing: -1px;
+  border-radius: 2px;
+  padding: 0 2px;
+  line-height: 20px;
+  position: absolute;
+  background-color: #000000;
+}
+header#navigation .menu .main .issue {
+  float: right;
 }
 header#navigation .menu .expand {
   overflow: hidden;
-  padding: 15px 0 0 0;
+  border-top: 1px solid #333;
   height: 0;
   opacity: 0;
+  padding: 0 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1086,12 +1116,19 @@ header#navigation .menu .expand ul {
   float: left;
   width: 25%;
 }
-header#navigation .menu .expand li {
+header#navigation .menu .expand ul li {
   margin: 0 0 15px 0;
 }
+header#navigation .menu .expand ul li.header {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
 header#navigation .menu:hover .expand {
+  margin: 0;
+  padding: 30px 20px 0 20px;
   display: block;
-  height: 160px;
+  height: 170px;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

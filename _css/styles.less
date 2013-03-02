@@ -33,11 +33,11 @@ h1, h2, h3 {
   background-color: @silver;
 }
 
-
 // Header Slab
 
 header#navigation {
-  background-color: @white;
+  background-color: @black;
+  color: @white;
   overflow: hidden;
   width: 100%;
 
@@ -45,33 +45,72 @@ header#navigation {
     font-family: @base-font;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-size: 15px;
-    padding: 20px;
+    font-size: 16px;
 
     .main {
-      line-height: 40px;
+      line-height: 20px;
       overflow: hidden;
+      padding: 14px 20px;
+
+      .logo {
+        margin: 0 0 0 -60px;;
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        a {
+          color: @white;
+          text-transform: uppercase;
+          b {
+            position: relative;
+            margin: 0 4px 0 0;
+            &:after {
+              content:",,";
+              color: @red;
+              margin: -10px 0 0 -5px;
+              letter-spacing: -1px;
+              border-radius: 2px;
+              padding: 0 2px;
+              line-height: 20px;
+              position: absolute;
+              background-color: @black;
+
+            }
+          }
+        }
+      }
+
+      .issue {
+        float: right;
+      }
+
     }
 
     .expand {
       overflow: hidden;
-      padding: 15px 0 0 0;
+      border-top: 1px solid #333;
       height: 0;
       opacity: 0;
+      padding: 0 20px;
       .transition (all 0.3s ease-in-out);
       ul {
         float: left;
         width: 25%;
-      }
-      li {
-        margin: 0 0 15px 0;
+        li {
+          margin: 0 0 15px 0;
+          &.header{
+          font-family: @font-sans;
+          font-size: 10px;
+          text-transform: uppercase;}
+        }
       }
     }
 
     &:hover {
       .expand {
+        margin: 0;
+        padding: 30px 20px 0 20px;
         display: block;
-        height: 160px;
+        height: 170px;
         opacity: 1;
         .transition (all 0.3s ease-in-out);
 
@@ -79,7 +118,6 @@ header#navigation {
     }
   }
 }
-
 
 // Content Styles
 section.content p {
