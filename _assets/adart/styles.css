@@ -1,19 +1,2 @@
-@charset 'utf-8';
-section.hero{height:400px;margin:0 0 40px 0;background-color:#000000;background-repeat:no-repeat;background-position:center;background-image:url('hero-bg.png');}
-section.hero .wrapper{padding:60px 0 0 0;position:relative;}
-section.hero h3{padding:4px 0 0 0;text-transform:uppercase;font-size:18px;letter-spacing:0.25em;color:#000000;margin:20px auto 0 auto;width:140px;background-color:#ffffff;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center;}
-section.hero h2{position:relative;margin:20px 0 0 0;font-size:68px;font-family:"ltc-bodoni-175",serif;text-align:center;}
-section.hero h2.small{font-size:48px;}
-section.content .quote{text-shadow:0 0 8px #ffffff;background-image:url('quote-bg.png');background-repeat:no-repeat;background-position:left;height:115px;padding:15px 0 0 0;margin:0 0 25px 0;text-align:right;}
-section.content .quote p{font-family:"courier-std",monospace;}
-section.content p a{border-color:#6ca1bb;color:#6ca1bb;}
-section.content p.caption{font-size:12px;}
-section.content p.caption i{display:block;}
-section.content .bmw{background-repeat:no-repeat;background-image:url('bmw-bg.png');}
-section.content .bmw p.caption{padding:160px 0 0 0;}
-section.content .toshiba{background-repeat:no-repeat;background-image:url('toshiba-bg.png');}
-section.content .toshiba p.caption{padding:150px 0 0 0;}
-section.content .photo p.caption{line-height:1em;background-color:#ffffff;font-size:15px;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif;}
-section.content .photo p.caption span{display:block;color:#999999;}
-section.content .photo p.caption.block{width:120px;position:absolute;padding:15px 0 0 15px;bottom:-20px;right:0;font-size:22px;}
-section.content .photo p.caption.block.right{text-align:right;}
+@charset 'utf-8';section.hero{height:400px;margin:0 0 40px 0;background-color:#000;background-repeat:no-repeat;background-position:center;background-image:url('hero-bg.png')}section.hero .wrapper{padding:60px 0 0 0;position:relative}section.hero h3{padding:4px 0 0 0;text-transform:uppercase;font-size:18px;letter-spacing:.25em;color:#000;margin:20px auto 0 auto;width:140px;background-color:#fff;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center}section.hero h2{position:relative;margin:20px 0 0 0;font-size:68px;font-family:georgia,serif;text-align:center}section.hero h2.small{font-size:48px}section.content .quote{text-shadow:0 0 8px #fff;background-image:url('quote-bg.png');background-repeat:no-repeat;background-position:left;height:115px;padding:15px 0 0 0;margin:0 0 25px 0;text-align:right}section.content .quote p{font-family:"courier-std",monospace}section.content p a{border-color:#6ca1bb;color:#6ca1bb}section.content p.caption{font-size:12px}section.content p.caption i{display:block}section.content .bmw{background-repeat:no-repeat;background-image:url('bmw-bg.png')}section.content .bmw p.caption{padding:160px 0 0 0}section.content .toshiba{background-repeat:no-repeat;background-image:url('toshiba-bg.png')}section.content .toshiba p.caption{padding:150px 0 0 0}section.content .photo p.caption{line-height:1em;background-color:#fff;font-size:15px;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif}section.content .photo p.caption span{display:block;color:#999}section.content .photo p.caption.block{width:120px;position:absolute;padding:15px 0 0 15px;bottom:-20px;right:0;font-size:22px}section.content .photo p.caption.block.right{text-align:right}
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

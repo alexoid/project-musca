@@ -4,15 +4,17 @@
 
 // Hero
 section.hero {
-    height: 440px;
-    position: relative;
-    margin: 0 0 40px 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: @black; }
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    background-color: @black;
+}
 
 section.hero .wrapper {
-    padding: 50px 0 0 0; }
+    height: 550px;
+    padding: 150px 0 0 0;
+    position: relative; }
 
 section.hero h3 {
     z-index: 1000;
@@ -46,7 +48,33 @@ section.hero video {
     top: 0;
     height: 440px; }
 
+
+.video-edges {
+    overflow: auto;
+    width: 978px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.video-left-edge {
+    background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+    width: 150px;
+    float: left;
+    height: 550px;
+}
+
 // Content
+.article {
+    margin-top: 550px;
+    background-color: @white;
+    padding-top: 20px;
+}
 
 section.content .lovely-grid {
     position: relative; }
@@ -84,7 +112,71 @@ section.fullwidth {
     background-position: center;
     margin: 0 0 25px 0; }
 
+.modules {
+    position: relative;
+}
 
+.modules IMG {
+    position: absolute;
+}
 
+.modules .layer {
+    width: 317px;
+}
 
+.modules .block {
+    width: 161px;
+}
+
+#experience {
+    z-index: 18;
+    left: 51px;
+}
+
+#content {
+    z-index: 13;
+    top: 60px;
+}
+
+#community {
+    z-index: 15;
+    top: 86px;
+    left: 128px;
+}
+
+#community-cover {
+    z-index: 17;
+    top: 86px;
+    left: 128px;
+}
+
+#commerce {
+    z-index: 16;
+    top: 86px;
+    left: 128px;
+}
+
+#marketing {
+    z-index: 14;
+    top: 60px;
+    left: 206px;
+}
+
+#distribution {
+    z-index: 12;
+    top: 116px;
+    left: 51px;
+}
+
+#data {
+    z-index: 11;
+    top: 150px;
+    left: 51px;
+}
+
+#infrastructure {
+    z-index: 10;
+    top: 183px;
+    left: 51px;
+}
 // EOF

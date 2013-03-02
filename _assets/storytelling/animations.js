@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log('hey')
     var controller = $.superscrollorama();
 
     // Falling Baumgartner Hero
@@ -15,7 +14,7 @@ $(document).ready(function () {
     );
 
 
-    
+
 
     window.scrollBy(0,1);
 });
