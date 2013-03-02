@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the lowest common denominator, it takes courage for a brand to trust that the people they truly want reach are intelligent, discerning, and sophisticated, and to provide a marketing experience that’s in line with those beliefs. However, that is exactly what Amstel Light did when they launched their new campaign entitled "Savor Complexity."</p>
+            <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the lowest common denominator, it takes courage for a brand to trust that the people they truly want reach are intelligent, discerning, and sophisticated, and to provide a marketing experience that’s in line with those beliefs. However, that is exactly what Amstel Light did when they launched their new campaign entitled <a href="http://gearpatrol.com/tag/amstel-light/" title="Savor Complexity" target="blank">Savor Complexity</a>."</p>
             <p>In an effort to encourage consumers to explore the complexities and appreciate the intricacies of their own lives, Amstel Light partnered with Say Media and Gear Patrol to create a video series profiling local entrepreneurs who are foraging new paths in their cities in order to show the value of complexity.</p>
         </div>
         <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
