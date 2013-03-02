@@ -4,7 +4,7 @@
 
         <div class="main">
 
-            <i class="icon-reorder"></i>
+            <i class="icon-home"></i>
 
             <div class="logo">
                 <a href="#" title="Say Quarterly"><b>Say</b> Quarterly </a>
