@@ -1055,25 +1055,49 @@ h3 {
 ::selection {
   background-color: #cccccc;
 }
-header {
-  color: #ffffff;
-  background-color: #000000;
+header#navigation {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
 }
-header .tools {
+header#navigation .menu {
+  font-family: georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 15px;
+  padding: 20px;
+}
+header#navigation .menu .main {
+  line-height: 40px;
+  overflow: hidden;
+}
+header#navigation .menu .expand {
+  overflow: hidden;
+  padding: 15px 0 0 0;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+header#navigation .menu .expand ul {
   float: left;
+  width: 25%;
 }
-header .tools li {
-  margin: 0;
-  font-family: arial, helvetica, sans-serif;
+header#navigation .menu .expand li {
+  margin: 0 0 15px 0;
 }
-header .tools li li {
-  margin: 0 0 20px 0;
-}
-header .tools li li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 24px;
+header#navigation .menu:hover .expand {
   display: block;
+  height: 160px;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 section.content p {
   color: #2a2628;
