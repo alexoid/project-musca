@@ -7,7 +7,7 @@
 body, html {
   font-style: normal;
   margin: 0;
-  padding: 0;
+  padding: 60px 0 0 0;
 }
 
 body {
@@ -36,6 +36,10 @@ h1, h2, h3 {
 // Header Slab
 
 header#navigation {
+  // border-bottom: 1px solid #333;
+  top: 0;
+  z-index: 10000;
+  position: fixed;
   background-color: @black;
   color: @white;
   overflow: hidden;
@@ -50,13 +54,16 @@ header#navigation {
     .main {
       line-height: 20px;
       overflow: hidden;
-      padding: 14px 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
 
       .logo {
-        margin: 0 0 0 -60px;;
-        position: absolute;
-        top: 15px;
-        left: 50%;
+        width: 140px;
+        margin: 0 auto;
+        // margin: 0 0 0 -60px;
+        // position: absolute;
+        // top: 15px;
+        // left: 50%;
         a {
           color: @white;
           text-transform: uppercase;
@@ -79,24 +86,35 @@ header#navigation {
         }
       }
 
+      .logo.left {
+        display: inline-block;
+        width: 140px;
+        margin: 0 0 0 15px; }
+
       .issue {
-        float: right;
+        font-size: 14px;
+        text-align: right;
       }
+      .issue.left {
+        float: right;
+        display: inline-block;
+        width: 140px;
+        margin: 0 0 0 20px; }
 
     }
 
     .expand {
       overflow: hidden;
-      border-top: 1px solid #333;
       height: 0;
       opacity: 0;
-      padding: 0 20px;
+      // padding: 0 20px;
       .transition (all 0.3s ease-in-out);
       ul {
-        float: left;
-        width: 25%;
+        // float: left;
+        // width: 25%;
         li {
           margin: 0 0 15px 0;
+          padding: 0 20px 0 0;
           &.header{
           font-family: @font-sans;
           font-size: 10px;
@@ -108,14 +126,23 @@ header#navigation {
     &:hover {
       .expand {
         margin: 0;
-        padding: 30px 20px 0 20px;
+        padding-top: 15px;
         display: block;
         height: 170px;
         opacity: 1;
         .transition (all 0.3s ease-in-out);
-
+      }
+      .expand.mobile {
+        height: 340px;
+      }
+      .expand.mobile ul {
+        margin: 0 0 10px 0;
       }
     }
+
+    ul.mobile {
+        float: left;
+        width: 50%; }
   }
 }
 
