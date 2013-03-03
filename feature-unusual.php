@@ -173,42 +173,69 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>A literary horizon</h3>
         </div>
-        <div class="grid-14 pull-5 pad-mobile-20">
-            <p>“My job as an editorial person has changed a lot in the past two years,” says Choire Sicha, editor of The Awl. “Two years ago, people didn’t know they wanted more satisfying stories online.” In an experiment to offer an alternative to “drive-by-blogging,” Sicha and Alex Balk, both Gawker and Radar alums, launched The Awl  (tagline: Be Less Stupid) in 2009. The site offers readers about 15 posts a day —  ranging from hand-drawn infographics to personal essays to poems — authored primarily by outside contributors. Few topics are typical, but the content is instead united by a sense of offbeat identity that appeals to vaguely hip 20- and 30-somethings with a taste for irony and pop culture. </p>
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
+            <p>
+                <span class="sicha-balk large remove-mobile remove-768">
+                    <img src="_assets/unusual/sicha-balk.png" />
+                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                </span>
+                <span class="sicha-balk med remove-mobile remove-960 remove-1200">
+                    <img src="_assets/unusual/sicha-balk.png" />
+                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                </span>
+                <span class="sicha-balk small remove-768 remove-960 remove-1200">
+                    <img src="_assets/unusual/sicha-balk.png" />
+                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                </span>
+                “My job as an editorial person has changed a lot in the past two years,” says Choire Sicha, editor of The Awl. “Two years ago, people didn’t know they wanted more satisfying stories online.” In an experiment to offer an alternative to “drive-by-blogging,” Sicha and Alex Balk, both Gawker and Radar alums, launched The Awl  (tagline: Be Less Stupid) in 2009. The site offers readers about 15 posts a day —  ranging from hand-drawn infographics to personal essays to poems — authored primarily by outside contributors. Few topics are typical, but the content is instead united by a sense of offbeat identity that appeals to vaguely hip 20- and 30-somethings with a taste for irony and pop culture. </p>
             <p>“We’ve always wanted to be the really attractive, shiny thing in the corner. None of us have ever been good at self-promotion, even in reasonable ways, but people love to discover on the Web,” Sicha says. “I want people to find us organically. It makes for a coherent and unified readership.”</p>
-            <p>It’s a similar attitude that comes from many other digital platforms for creative prose and long-form journalism. The Rumpus, The New Inquiry and McSweeney’s Internet Tendency have given creative writers and their fans new outlets. They mix smart commentary on pop culture, humor and essays to create a well-honed sense of editorial style. As well, ESPN’s Bill Simmons spin-off Grantland has created a new platform for top-notch sportswriting. </p>
         </div>
-        <div class="grid-4 pull-1 pad-mobile-20">
-            <img src="_assets/unusual/theAwl.png">
+    </div>
+</section>
+
+<section class="content red">
+    <div class="lovely-grid">
+        <div class="grid-18 push-6 pad-mobile-20">
+            <h3>“The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them.”</h3>
         </div>
     </div>
 </section>
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="grid-4 push-1 pad-mobile-20">
-            <img src="_assets/unusual/grantLand.png">
-        </div>
-        <div class="grid-14 push-5 pad-mobile-20">
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
+            <h3></h3>
+            <p>
+                <span class="simmons large remove-mobile remove-768">
+                    <img src="_assets/unusual/simmons.png" />
+                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                </span>
+                <span class="simmons med remove-mobile remove-960 remove-1200">
+                    <img src="_assets/unusual/simmons.png" />
+                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                </span>
+                <span class="simmons small remove-768 remove-960 remove-1200">
+                    <img src="_assets/unusual/simmons.png" />
+                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                </span>
+                It’s a similar attitude that comes from many other digital platforms for creative prose and long-form journalism. The Rumpus, The New Inquiry and McSweeney’s Internet Tendency have given creative writers and their fans new outlets. They mix smart commentary on pop culture, humor and essays to create a well-honed sense of editorial style. As well, ESPN’s Bill Simmons spin-off Grantland has created a new platform for top-notch sportswriting. </p>
             <p>Readership of The Awl swelled to about half a million visitors by the fall of 2010. Eventually, the site was making enough money to support its staff and spin-off sites devoted to women’s interests (The Hairpin), money (The Billfold), comedy (Splitsider) and gadgets (The Wirecutter) have launched since. “We think whatever happens from here on out is gravy,” Sicha says. “Largely, we’re surprised it’s been around this long already. We didn’t have a business strategy.”</p>
             <p>Being a nimble and relatively niche site allowed The Awl some wiggle room when it came to making money. With clearly distinguishable readers and a knack for catering content for them, The Awl has created advertising products that mesh relatively seamlessly with the rest of the site’s content — an approach that serves both readers and advertisers. They created a commercial for Newcastle Brown Ale that was cross-promoted on posts and a video series sponsored by Ford that featured a Saturday Night Live cast member driving his comedic friends around. </p>
             <p>Out of the rise of mobile and creative moneymaking has come a trend of micropublishing. Byliner, a consortium of well-known editors and writers, publishes articles and essays that cost a few dollars each. If you want to read, you have to pay. Atavist, a digital platform as well as publisher, also asks readers to fork over a couple of dollars for a good, long read available only through e-readers or The Atavist app. </p>
-            <p>Long-form writing is having a bit of resurgence online via smaller publishers. Many have used Kickstarter campaigns to raise initial funds and are staffed by seasoned journalists. MATTER collected nearly three times its fundraising goal of $50,000 and published its first story (available for $.99) in November. Narratively, funded by a $54,000 Kickstarter haul, publishes a new story about New York City every day. But the most heralded publication is probably Tomorrow, a one-off magazine founded by the eight Good Magazine staff members who were laid off in June. </p>
-            <p>The former Good-ers were determined to turn the turn of fate into inspiration for something of creative substance. In less than three weeks, they hatched an idea for a new publication, raised enough money to finance it and were digging through hundreds of pitches from willing writers and offers to help them design the issue and fact-check the features. </p>
         </div>
     </div>
 </section>
 
-<section class="content">
+<section class="content black">
     <div class="lovely-grid">
-        <div class="grid-14 pull-5 pad-mobile-20">
+        <div class="grid-14 pull-5 push-5 pad-mobile-20">
+            <h3></h3>
+            <p>Long-form writing is having a bit of resurgence online via smaller publishers. Many have used Kickstarter campaigns to raise initial funds and are staffed by seasoned journalists. MATTER collected nearly three times its fundraising goal of $50,000 and published its first story (available for $.99) in November. Narratively, funded by a $54,000 Kickstarter haul, publishes a new story about New York City every day. But the most heralded publication is probably Tomorrow, a one-off magazine founded by the eight Good Magazine staff members who were laid off in June. </p>
+            <p>The former Good-ers were determined to turn the turn of fate into inspiration for something of creative substance. In less than three weeks, they hatched an idea for a new publication, raised enough money to finance it and were digging through hundreds of pitches from willing writers and offers to help them design the issue and fact-check the features. </p>
             <p>The process was apparently simple. After being unceremoniously canned, the staffers asked for $15,000 via a Kickstarter campaign. The funds would bankroll a one-off magazine about creative destruction with “no filler, no product placement, no luxury gift guides.” Less than five hours later, they met their fundraising goal. Of course, it helped that several of the staffers were relatively well-known, with large Twitter, Tumblr and industry followings thanks to their previous work. “The eight of us are constantly online, publishing and contributing to that culture, so it was pretty natural for us to get a response,” says editor Ann Friedman. “I think people supported the project because they supported us. The content was an ancillary benefit.” A total of 1,779 people contributed $45,452 during the month-long campaign. </p>
             <p>The final result, released in early November, was a zine filled with 20-some stories on subjects including the value of procrastination, a digital community of recovering addicts, getting an abortion, the merits of musician Ke$ha and the complications of blogging as an Orthodox Jew. Online, the magazine’s offerings are arranged in a sleek, simple design that presents the articles in a scrollable table of contents arranged by mood that lists some of the most in-demand writers online today. The masthead lists sponsors including the official co-working space, party planner, booze and vibrator of the magazine. </p>
             <p>The relative success of the project has been celebrated as a beacon and an example of the sort of future that’s possible for storytellers in the digital age. But the reality is a little more complicated — Friedman says they ended up breaking even; to make a profit that would allow the project to be sustainable, they would have had to raise at least eight times their initial fundraising goal. </p>
             <p>There’s no guarantee that what works now will work in the future or that brilliant ideas can be sustainable. Internet video is rumored to be the next big thing, native advertising promises to revive a sagging digital economy, and storytellers will continue to be challenged with entrepreneurialism. “I don’t think there’s one solution. That’s precisely why it’s exciting,” Friedman says. “What you’re seeing is a lot of possibilities.”</p>
-        </div>
-        <div class="grid-4 push-1 pad-mobile-20">
-            <img src="_assets/unusual/honestlyWTF.png">
         </div>
     </div>
 </section>
