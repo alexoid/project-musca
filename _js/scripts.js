@@ -1,6 +1,6 @@
 $(document).ready(function($) {
 
-    $('items').isotope({ layoutMode : 'masonry' });
+    // $('items').isotope({ layoutMode : 'masonry' });
 
 });
 

@@ -1,2 +1,19 @@
-@charset 'utf-8';body{background-color:#000}header{border-bottom:1px solid #333}section.hero h2{margin:30px auto;height:142px;width:529px;background-repeat:no-repeat;background-position:center;background-image:url('logo-bg.png')}section.hero h2.small{height:83px;width:310px;background-image:url('logo-small-bg.png')}section.content{color:#fff}section.content .items .item span{color:#fff;font-size:12px;font-family:arial,helvetica,sans-serif;text-shadow:0 0 1px rgba(0,0,0,.6);width:100%;background-image:url('caption-bg.png');background-repeat:repeat-x;background-position:top;display:block;padding:20px;position:absolute;bottom:0}section.content img{float:left;padding:0;margin:0}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+@charset 'utf-8';
+body{background-image:url("body-bg.png");background-color:#000000;}
+header{border-bottom:1px solid #333333;}
+section.hero h2{overflow:hidden;text-indent:100%;display:block;white-space:nowrap;margin:30px auto;height:142px;width:529px;background-repeat:no-repeat;background-position:center;background-image:url('logo-bg.png');}
+section.hero h2.small{height:83px;width:310px;background-image:url('logo-small-bg.png');}
+section.hero h3{margin:0 0 30px 0;color:#ffffff;text-align:center;}
+section.content .photo{padding:0;margin:0;position:relative;}
+section.content .photo img{padding:0;margin:0 0 -3px 0;}
+section.content .photo .caption{background-image:url("caption-bg.png");background-repeat:repeat-x;background-position:bottom;padding:30px 0 15px 0;width:100%;margin:0;position:absolute;bottom:0;}
+section.content .photo .caption p{margin:0;font-family:arial,helvetica,sans-serif;font-size:10px;padding:0 15px;text-transform:uppercase;color:#ffffff;}
+section.content .event{position:relative;overflow:hidden;}
+section.content .event.yellow{background-color:#d48c00;}
+section.content .event.blue{background-color:#0e507f;}
+section.content .event.red{background-color:#92111d;}
+section.content .event .desc{position:absolute;top:0;padding:15px;}
+section.content .event h2{margin:0 0 8px 0;font-family:arial,helvetica,sans-serif;font-size:22px;color:#ffffff;}
+section.content .event h3{margin:0 0 5px 0;font-family:"alternate-gothic-no-1-d",sans-serif;text-transform:uppercase;font-size:16px;color:#ffffff;}
+section.content .event p{margin:0;font-family:arial,helvetica,sans-serif;font-size:12px;color:#ffffff;}
+section.content .event img{padding:0;margin:0 0 -3px 0;}

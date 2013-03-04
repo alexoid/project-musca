@@ -4,6 +4,7 @@
 
 // Scene & Heard
 body {
+    background-image: url("body-bg.png");
     background-color: @black; }
 
 header {
@@ -11,6 +12,7 @@ header {
 
 // Hero
 section.hero h2 {
+    .text-indent();
     margin: 30px auto;
     height: 142px;
     width: 529px;
@@ -23,28 +25,79 @@ section.hero h2.small {
     width: 310px;
     background-image: url('logo-small-bg.png'); }
 
-section.content {
-    color: @white; }
-
-section.content .items .item { }
-section.content .items .item span {
+section.hero h3 {
+    margin: 0 0 30px 0;
     color: @white;
-    font-size:12px;
-    font-family: @font-sans;
-    .text-shadow(0, 0, 1px, rgba(0,0,0,0.6));
-    width: 100%;
-    background-image: url('caption-bg.png');
+    text-align: center; }
+
+
+// Photos
+section.content .photo {
+    padding: 0;
+    margin: 0;
+    position: relative; }
+
+section.content .photo img {
+    padding: 0;
+    margin: 0 0 -3px 0; }
+
+section.content .photo .caption {
+    background-image: url("caption-bg.png");
     background-repeat: repeat-x;
-    background-position: top;
-    display: block;
-    padding: 20px;
+    background-position: bottom;
+    padding: 30px 0 15px 0;
+    width: 100%;
+    margin: 0;
     position: absolute;
     bottom: 0; }
 
-section.content img {
-    float: left;
-    padding: 0;
-    margin: 0; }
+section.content .photo .caption p {
+    margin: 0;
+    font-family: @font-sans;
+    font-size: 10px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    color: @white; }
+
+// Events
+section.content .event {
+    position: relative;
+    overflow: hidden;}
+
+section.content .event.yellow {
+        background-color: #d48c00; }
+section.content .event.blue {
+        background-color: #0e507f; }
+section.content .event.red {
+        background-color: #92111d; }
+
+section.content .event .desc {
+    position: absolute;
+    top: 0;
+    padding: 15px; }
+
+    section.content .event h2 {
+        margin: 0 0 8px 0;
+        font-family: @font-sans;
+        font-size: 22px;
+        color: @white; }
+
+    section.content .event h3 {
+        margin: 0 0 5px 0;
+        font-family: @alt-gothic;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: @white; }
+
+    section.content .event p {
+        margin: 0;
+        font-family: @font-sans;
+        font-size: 12px;
+        color: @white; }
+
+    section.content .event img {
+        padding: 0;
+        margin: 0 0 -3px 0; }
 
 
 // EOF
