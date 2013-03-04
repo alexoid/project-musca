@@ -191,7 +191,7 @@
         </div>
         <div class="grid-8">
             <div class="photo">
-                <div class="caption"><p>Vera Fernandes (Say Media), Uma Sekar (Zenith Optimedia), Vicki Connerty (Zenith Optimedia)</p></div>
+                <div class="caption"><p></p></div>
                 <img src="_assets/sceneheard/016.jpg" />
             </div>
         </div>
