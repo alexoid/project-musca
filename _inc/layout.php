@@ -37,8 +37,8 @@
     <script src="_js/scripts.js"></script>
 
     <style type="text/css" media="screen">
-        @import url("//grid.ohmylovely.com/1/24/0/768/960/1200/");
-        /*@import url("./_css/lovely-grid.css");*/
+            /*@import url("//grid.ohmylovely.com/1/24/0/768/960/1200/");*/
+            @import url("./_css/lovely-grid.css");
     </style>
 
     <!-- Replaced @import with this for LiveReloading -->

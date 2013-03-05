@@ -26,7 +26,7 @@
                         <li><a href="feature-unusual.php" title="Unusual Suspects">Unusual Suspects</a></li>
                         <li><a href="feature-storytelling.php" title="Art of Storytelling">Art of Storytelling</a></li>
                         <li><a href="article-kate.php" title="Kate Upton">Kate Upton</a></li>
-                        <li><a href="#" title="And more" class="more">And more</a></li>
+                        <li><a href="/toc.php" title="And more" class="more">And more</a></li>
                     </ul>
                 </div>
             </div>

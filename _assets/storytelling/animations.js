@@ -1,4 +1,18 @@
 $(document).ready(function () {
+
+    video = {
+        mp4: "_assets/storytelling/video.mp4",
+        ogv: "_assets/storytelling/video.mp4",
+        webm: "_assets/storytelling/video.mp4",
+        poster: "",
+        autoplay: true,
+        loop: true,
+        fullscreen: false
+    };
+
+    // Hero background video
+    var videoBG = $('#hero-wrapper').videoBG(video);
+
     var controller = $.superscrollorama();
 
     // Falling Baumgartner Hero

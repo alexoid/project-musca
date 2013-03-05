@@ -1029,7 +1029,6 @@ body,
 html {
   font-style: normal;
   margin: 0;
-  padding: 60px 0 0 0;
   font-family: georgia, serif;
   color: #2a2628;
 }
@@ -1055,14 +1054,18 @@ h3 {
 ::selection {
   background-color: #cccccc;
 }
+section.hero {
+  top: 0;
+}
 header#navigation {
   top: 0;
   z-index: 10000;
-  position: fixed;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
   overflow: hidden;
   width: 100%;
+  position: absolute;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 header#navigation .menu {
   font-family: georgia, serif;
@@ -1106,10 +1109,10 @@ section.content p.first {
   font-size: 36px;
   font-family: "source-sans-pro", sans-serif;
 }
-section.content p a {
+section.content a {
   color: #cc0033;
 }
-section.content p img {
+section.content img {
   margin: 0 0 25px 0;
   width: 100%;
 }
@@ -1126,7 +1129,7 @@ section.content p img {
   margin: 0 0 8px 0;
 }
 section.toc {
-  margin: 50px auto;
+  margin: 100px auto;
   max-width: 400px;
 }
 section.toc ul {

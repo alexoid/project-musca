@@ -1,4 +1,8 @@
 @charset 'utf-8';
+video {
+  bottom: 0 !important;
+  top: auto !important;
+}
 section.hero {
   overflow: hidden;
   position: fixed;
@@ -6,10 +10,17 @@ section.hero {
   z-index: -1;
   background-color: #000000;
 }
-section.hero .wrapper {
-  height: 550px;
-  padding: 150px 0 0 0;
+section.hero h2 {
+  z-index: 1000;
+  color: #ffffff;
   position: relative;
+  margin: 20px 0 0 0;
+  font-size: 68px;
+  font-family: georgia, serif;
+  text-align: center;
+}
+section.hero h2.small {
+  font-size: 48px;
 }
 section.hero h3 {
   z-index: 1000;
@@ -25,41 +36,10 @@ section.hero h3 {
   font-family: "alternate-gothic-no-1-d", sans-serif;
   text-align: center;
 }
-section.hero h2 {
-  z-index: 1000;
-  color: #ffffff;
+section.hero .wrapper {
+  height: 700px;
+  padding: 120px 0 0 0;
   position: relative;
-  margin: 20px 0 0 0;
-  font-size: 68px;
-  font-family: georgia, serif;
-  text-align: center;
-}
-section.hero h2.small {
-  font-size: 48px;
-}
-section.hero video {
-  z-index: 500;
-  position: absolute;
-  top: 0;
-  height: 440px;
-}
-.video-edges {
-  overflow: auto;
-  width: 978px;
-  height: 550px;
-  margin: 0 auto;
-}
-.video-left-edge {
-  background: -moz-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(100%, rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  background: -o-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  background: -ms-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000', GradientType=1);
-  width: 150px;
-  float: left;
-  height: 550px;
 }
 .article {
   margin-top: 550px;
@@ -70,7 +50,6 @@ section.content .lovely-grid {
   position: relative;
 }
 section.content p {
-  color: #999999;
   font-family: georgia, serif;
 }
 section.content p.first {

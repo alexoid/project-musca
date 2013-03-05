@@ -4,6 +4,10 @@ body {
   background-repeat: repeat-x;
   background-position: 0 1500px;
 }
+video {
+  bottom: 0 !important;
+  top: auto !important;
+}
 section.hero {
   margin: 0 0 40px 0;
   background-color: #ffffff;
@@ -14,10 +18,9 @@ section.hero {
 }
 section.hero .wrapper {
   height: 540px;
-  padding: 20px 0 0 0;
+  padding: 80px 0 0 0;
   background-repeat: no-repeat;
   background-position: right;
-  background-image: url('hero-clouds-bg.png');
 }
 section.hero h3 {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
@@ -41,6 +44,12 @@ section.hero h2 {
 }
 section.hero h2.small {
   font-size: 48px;
+}
+section.hero .baumgartner {
+  margin: 100px 0 0 30px;
+  animation: move 2s;
+  -moz-animation: move 2s infinite;
+  -webkit-animation: move 2s infinite;
 }
 section.hero .baumgartner img {
   position: absolute;

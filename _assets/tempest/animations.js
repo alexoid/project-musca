@@ -1,15 +1,17 @@
 $(document).ready(function () {
 
-    // Hero background video
-    var videoBG = $('#hero-wrapper').videoBG({
-        mp4: "_assets/tempest/Tempest_Lightning-Musca_2000.mp4",
-        ogv: "_assets/tempest/Tempest_Lightning-Musca_2000.mp4",
-        webm: "_assets/tempest/Tempest_Lightning-Musca_2000.mp4",
+    video = {
+        mp4: "_assets/tempest/video.mp4",
+        ogv: "_assets/tempest/video.mp4",
+        webm: "_assets/tempest/video.mp4",
         poster: "",
         autoplay: true,
         loop: true,
-        fullscreen: true
-    });
+        fullscreen: false
+    };
+
+    // Hero background video
+    var videoBG = $('#hero-wrapper').videoBG(video);
 
 
     var controller = $.superscrollorama();

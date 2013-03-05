@@ -4,7 +4,7 @@
 <script src="_assets/storytelling/animations.js"></script>
 
 <section class="hero">
-    <div class="wrapper">
+    <div class="wrapper" id="hero-wrapper">
         <div class="lovely-grid">
             <div class="grid-24">
                 <h3>Perspectives</h3>
@@ -24,8 +24,8 @@
         <div class="grid-14 push-4 pull-2 pad-mobile-20">
             <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
         </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>
