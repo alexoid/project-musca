@@ -1,7 +1,7 @@
 <header id="navigation">
 
     <div class="menu">
-        <div class="grid-6 pad-mobile-20">
+        <div class="grid-6">
 
             <div class="nav">
                 <a href="/"><i class="icon-home"></i></a>
