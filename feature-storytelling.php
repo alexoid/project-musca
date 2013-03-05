@@ -114,7 +114,7 @@
             </div>
             <div class="grid-4 push-2 nested-last">
                 <div id="chipotle">
-                    <div class="more-content" id=""></div>
+                    <div class="more-content"></div>
                     <img src="_assets/storytelling/chipotle.png" id="pig">
                 </div>
             </div>
