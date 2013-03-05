@@ -9,20 +9,22 @@
             <div class="grid-24">
                 <h3>Perspectives</h3>
                 <h2 class="hide-mobile">The Art and Science of<br/> Great Brand Storytelling</h2>
-                <h2 class="small remove-768 remove-960 remove-1200">The Art and Science of<br/> Great Brand Storytelling</h2>
+                <h2 class="small show-mobile">The Art and Science of<br/> Great Brand Storytelling</h2>
                 <h3>By Jon Thomas</h3>
             </div>
-            <div class="grid-10 pull-7 push-7">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20">
                 <div class="baumgartner">
                     <img src="_assets/storytelling/baumgartner.png" id="baumgartner">
                 </div>
             </div>
         </div>
-        <video autoplay="autoplay" class="remove-mobile" preload="auto" loop >
-            <source src="_assets/storytelling/video.mp4" type="video/mp4">
-            <source src="_assets/storytelling/video.mp4" type="video/webm">
-            <source src="_assets/storytelling/video.mp4" type="video/ogg">
-        </video>
+        <div class="video">
+            <video autoplay="autoplay" class="remove-mobile" preload="auto" loop >
+                <source src="_assets/storytelling/video.mp4" type="video/mp4">
+                <source src="_assets/storytelling/video.mp4" type="video/webm">
+                <source src="_assets/storytelling/video.mp4" type="video/ogg">
+            </video>
+        </div>
     </div>
 </section>
 
