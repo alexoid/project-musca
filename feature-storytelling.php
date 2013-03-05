@@ -102,7 +102,7 @@
                 <img src="_assets/storytelling/palm-print.png">
             </div>
             <div class="grid-11 nested-first">
-                <p>So you’ve bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it’s misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more [insert feature here] or a brand being worn by the hottest celebutante are not brand stories.</p>
+                <p>So you’ve bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it’s misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more or a brand being worn by the hottest celebutante are not brand stories.</p>
                 <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand, the ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won’t put it in the footer of your email address or on your website’s homepage. Instead, it is the enduring idea that will serve as the consistent basis for the many stories that a successful brand must tell over time. It’s the glue that holds all your brand’s actions and words together. </p>
                 <p>Your audience may not see it, but without it, your brand is nothing. </p>
                 <p>Finding this story platform isn’t accomplished in a 30-minute brainstorm, mind you. It is a process that takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide) spent years developing a process to help them unearth their brand stories.</p>
@@ -154,6 +154,7 @@
             <p>Now more than ever, brands have the ability to unearth and tell their stories in ways that captivate and engage audiences. Smaller brands aren’t relegated to serving customers within a 50-mile radius. Brands of all sizes can commit to stories that befit their products, their employees and the essence of their brands, and they can tell them on channels with worldwide reach. </p>
             <p>If brands do this well, their content (and inherently their products) will be sought out by their audiences. The result will be a decline in advertising spending as they increasingly use owned and earned media to outsource marketing to their most loyal fans. </p>
             <p>The only question left is, what’s your story?</p>
+            <p>Jon Thomas is the communications director at <a href="http://www.storyworldwide.com/" title="Story Worldwide" target="blank">Story Worldwide</a> and editor-in-chief of <a href="http://www.postadvertising.com/" title="Post Advertising" target="blank">Post Advertising</a>.</p>
         </div>
         <div class="grid-4 push-2 pad-mobile-20">
             <img src="_assets/storytelling/dominos.png">

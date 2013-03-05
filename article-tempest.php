@@ -69,6 +69,7 @@
                 <p><strong>Tempest Data</strong> serves as the data warehouse for the whole platform, collecting and aggregating hundreds of terabytes of interaction data as users consume content, and providing actionable analytics across each of our services to help our publications more efficiently grow and engage their audiences.</p>
                 <p>And finally, <strong>Tempest Infrastructure</strong> provides all the underlying platform services that let us efficiently scale our business, and innovate rapidly.</p>
                 <p>Tempest is a work in progress, and we have miles to go to realize this vision in full — but we’re certain it’s the future of media and excited about the opportunities ahead.</p>
+                <p>David Lerman is co-founder and CTO of <a href="http://www.saymedia.com" title="Say Media" target="blank">Say Media</a>.</p>
             </div>
             <div class="grid-5 pull-1 modules">
                 <img src="_assets/tempest/layers/Experience.png" class="layer" id="experience" />

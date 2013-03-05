@@ -9,7 +9,7 @@
             </div>
 
             <div class="logo">
-                <a href="/" title="Say Quarterly"><b>Say</b> Quarterly &middot; Spring 2013</a>
+                <a href="/" title="Say Quarterly"><b>Say</b> Quarterly &middot; Spring/Summer 2013</a>
             </div>
 
         </div>
