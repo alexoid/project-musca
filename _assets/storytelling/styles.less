@@ -3,9 +3,9 @@
 @import "../../_css/utils";
 
 body {
-    background-image: url("body-bg.png");
-    background-repeat: repeat-x;
-    background-position: 0 1500px;
+  background-image: url("body-bg.png");
+  background-repeat: repeat-x;
+  background-position: 0 1500px;
 }
 
 video {
@@ -15,20 +15,33 @@ video {
 
 // Hero
 section.hero {
-    margin: 0 0 40px 0;
-    background-color: @white;
-    position: relative;
-    background-repeat: repeat-x;
-    background-position: top;
-    background-image: url('hero-bg.png'); }
+  margin: 0 0 40px 0;
+  background-color: @white;
+  position: relative;
+  background-repeat: repeat-x;
+  background-position: top;
+  background-image: url('hero-bg.png');
 
-section.hero .wrapper {
+  .wrapper {
     height: 540px;
     padding: 80px 0 0 0;
     background-repeat: no-repeat;
-    background-position: right; }
+    background-position: right;
+  }
 
-section.hero h3 {
+  h2 {
+    .text-shadow(1px,1px,0,rgba(0,0,0,0.8));
+    color: @white;
+    margin: 10px 0 0 0;
+    font-size: 68px;
+    font-family: @base-font;
+    text-align: center;
+    &.small {
+      font-size: 48px;
+    }
+  }
+
+  h3 {
     .text-shadow(1px,1px,0,rgba(0,0,0,0.8));
     padding: 4px 0 0 0;
     text-transform: uppercase;
@@ -38,100 +51,110 @@ section.hero h3 {
     margin: 10px auto 0 auto;
     width: 140px;
     font-family: @alt-gothic;
-    text-align: center; }
+    text-align: center;
+  }
 
-section.hero h2 {
-    .text-shadow(1px,1px,0,rgba(0,0,0,0.8));
-    color: @white;
-    margin: 10px 0 0 0;
-    font-size: 68px;
+  .baumgartner {
+    margin: 100px 0 0 30px;
+    animation: move 2s;
+    -moz-animation: move 2s infinite;
+    -webkit-animation: move 2s infinite;
+    img {
+      position: absolute;
+    }
+
+  }
+}
+
+section.content {
+  &.page-break {
+    margin-bottom: 50px;
+    position: relative;
+    border-bottom: 1px solid #96c2d6;
+
+    h4 {
+      margin: 20px 0 20px 0;
+    }
+
+    img {
+      margin: 0;
+      bottom: -55px;
+      position: absolute;
+      width: auto;
+    }
+  }
+
+  p {
     font-family: @base-font;
-    text-align: center; }
 
-section.hero h2.small {
-    font-size: 48px; }
+    strong {
+      font-weight: bold;
+    }
 
-section.hero .baumgartner {
-  margin: 100px 0 0 30px;
-  animation:move 2s;
-  -moz-animation:move 2s infinite;
-  -webkit-animation:move 2s infinite;
+    &.first {
+      line-height: 0.9em;
+      font-size: 49px;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      font-family: "iwan-reschniev", sans-serif;
+      font-style: italic;
+      letter-spacing: 2px;
+      color: @blue;
+    }
+  }
 
-
-}
-
-section.hero .baumgartner img {
-    position: absolute;
-}
-
-section.content h3,
-section.content h4 {
+  h3, h4 {
     padding: 30px 0 20px 0;
     line-height: 0.9em;
     font-size: 49px;
     text-transform: uppercase;
-    font-family: "iwan-reschniev",sans-serif; }
+    font-family: "iwan-reschniev", sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: @blue;
+  }
 
-section.content h4 {
+  h4 {
     margin: 5px 0 0 0;
     padding: 0 0 0 0;
-    font-size: 34px; }
+    font-size: 30px;
+    line-height: 30px;
+  }
 
-section.content.page-break {
-    margin-bottom: 50px;
-    position: relative;
-    border-bottom: 1px solid #96c2d6; }
+  .siderail {
+    p {
+      margin-top: 5px;
+      font-size: 12px;
+      font-family: @font-sans;
 
-section.content.page-break h4 {
-    margin: 20px 0 20px 0; }
+      a {
+      }
+    }
 
-section.content.page-break img {
-    margin: 0;
-    bottom: -55px;
-    position: absolute;
-    width: auto; }
+    img {
+      margin: 20px 0 5px 0;
+    }
+  }
 
-section.content p.first {
-    line-height: 0.9em;
-    font-size: 49px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    font-family: "iwan-reschniev",sans-serif; }
-
-section.content p {
-    font-family: @base-font; }
-
-section.content p strong {
-    font-weight: bold; }
-
-section.content .siderail p {
-    margin-top: 5px;
-    font-size: 12px;
-    font-family: @font-sans; }
-
-section.content .siderail img {
-    margin: 20px 0 5px 0; }
-
-
-section.content .row {
+  .row {
     padding: 0 0 0 80px;
     background-repeat: no-repeat;
-    clear: both; }
+    clear: both;
 
-section.content .row.img-1895 {
-    background-image: url("1895.png"); }
+    &.img-1895 {
+      background-image: url("1895.png");
+    }
 
-section.content .row.img-1900 {
-    background-image: url("1900.png"); }
+    &.img-1904 {
+      background-image: url("1904.png");
+    }
 
-section.content .row.img-1904 {
-    background-image: url("1904.png"); }
+    &.img-1954 {
+      background-image: url("1954.png");
+    }
 
-section.content .row.img-1954 {
-    background-image: url("1954.png"); }
+  }
+}
 
-section.content p a {
-    border-color: #6ca1bb;
-    color: #6ca1bb; }
 
 // EOF
