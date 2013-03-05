@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     var $baumgartner = $("#baumgartner");
 
-    var start = 100;
+    var start = 120;
 
     startScroll = $(window).height() / 2;
     offsetPercent = $baumgartner.offset().top / startScroll;
@@ -21,7 +21,7 @@ $(document).ready(function () {
             .append([
                 TweenMax.fromTo($baumgartner, 0.5,
                     {css:{top: start}, immediateRender:true},
-                    {css:{top: -200}})
+                    {css:{top: -50}})
             ]),
         1000
     );
