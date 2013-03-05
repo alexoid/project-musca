@@ -4,7 +4,7 @@
 <script src="_assets/storytelling/animations.js"></script>
 
 <section class="hero">
-    <div class="wrapper">
+    <div class="wrapper" id="hero-wrapper">
         <div class="lovely-grid">
             <div class="grid-24">
                 <h3>Perspectives</h3>
@@ -101,7 +101,10 @@
                 <h3>Unearthing your brand story</h3>
             </div>
             <div class="grid-4 push-2 nested-last">
-                <img src="_assets/storytelling/palm-print.png">
+                <div id="oreo-container">
+                    <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow">
+                    <img src="_assets/storytelling/palm-print.png" id="oreo">
+                </div>
             </div>
             <div class="grid-11 nested-first">
                 <p>So you’ve bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it’s misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more [insert feature here] or a brand being worn by the hottest celebutante are not brand stories.</p>
@@ -110,7 +113,10 @@
                 <p>Finding this story platform isn’t accomplished in a 30-minute brainstorm, mind you. It is a process that takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide) spent years developing a process to help them unearth their brand stories.</p>
             </div>
             <div class="grid-4 push-2 nested-last">
-                <img src="_assets/storytelling/chipotle.png">
+                <div id="chipotle">
+                    <div class="more-content" id=""></div>
+                    <img src="_assets/storytelling/chipotle.png" id="pig">
+                </div>
             </div>
         </div>
     </div>
@@ -118,7 +124,7 @@
 
 <section class="content page-break">
     <div class="lovely-grid">
-        <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" />
+        <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner" />
         <div class="grid-8 push-14 pull-2 pad-mobile-20">
             <h4>Five steps to help you start unearthing your brand story</h4>
         </div>

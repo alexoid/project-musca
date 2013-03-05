@@ -207,10 +207,11 @@
 		}
 
 		// PUBLIC FUNCTIONS
+		var _uniqueCounter = 0;
 		superscrollorama.addTween = function(target, tween, dur, offset) {
 
 			tween.pause();
-
+			tween.vars._uniqueId = ++_uniqueCounter;
 			animObjects.push({
 				target:target,
 				tween: tween,
@@ -220,6 +221,14 @@
 			});
 
 			return superscrollorama;
+		};
+
+		superscrollorama.removeTween = function(tween) {
+			$.each(animObjects, function(i, animObj) {
+				if (tween && animObj && animObj.tween && tween.vars._uniqueId === animObj.tween.vars._uniqueId) {
+					animObjects.splice(i,1);
+				}
+			});
 		};
 
 		superscrollorama.pin = function(el, dur, vars) {

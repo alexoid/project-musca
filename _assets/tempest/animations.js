@@ -37,7 +37,7 @@ $(document).ready(function () {
             (new TimelineLite())
                 .append([
                     TweenMax.fromTo($(key), tweenDuration,
-                        {css:{top: value[1]}, immediateRender:true, ease:Quad.easeOut}, 
+                        {css:{top: value[1]}, immediateRender:true, ease:Quad.easeOut},
                         {css:{top: value[0]}, ease:Quad.easeOut})
                 ]),
             animationDuration,
