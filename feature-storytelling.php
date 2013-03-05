@@ -33,7 +33,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-4 pull-2 push-1 siderail remove-mobile">
-            <h4>4 great moments in brand storytelling</h4>
+            <h4>Great moments in brand storytelling</h4>
             <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a number of brands were embracing brand storytelling well before TVs were in every home and computers were ubiquitous.</p>
 
             <img src="_assets/storytelling/1895.png" />
