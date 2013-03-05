@@ -1,5 +1,21 @@
 $(document).ready(function () {
 
+    // Hero background video
+    video = {
+        mp4: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        ogv: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        webm: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        poster: "",
+        autoplay: true,
+        loop: true,
+        fullscreen: true,
+        height: 500
+    };
+
+    // Hero background video
+    // var videoBG = $('#hero-wrapper').videoBG(video);
+
+
     var controller = $.superscrollorama({
         triggerAtCenter: true,
         isVertical: true,
