@@ -53,7 +53,6 @@
                 <h3>We're also inviting interesting people in the industry to contribute articles.</h3>
                 <p>We're tracking the best writers we know and synopsizing their work or, when possible, syndicating their articles. The vision is to turn ReadWrite into a lively online salon, a place where you come to find great articles by smart people.</p>
                 <p>It's an exciting time to be working in the media business. Everything is being disrupted and reinvented. We're dreaming up new ways to tell stories, new ways for brands to connect with consumers. It's all moving at a breakneck pace, and I'm thrilled and excited to be part of this change.</p>
-                <p><a href="http://readwrite.com/author/dan-lyons">Dan Lyons</a> is editor in chief of ReadWrite. Previously, he was technology editor at Newsweek and spent a decade at Forbes covering technology. He was also the creator of <a href="http://www.fakesteve.net/">The Secret Diary of Steve Jobs</a>, a satirical blog written in the persona of Fake Steve Jobs. Follow him on Twitter <a href="https://twitter.com/realdanlyons">@realdanlyons</a>.</p>
             </div>
         
             <div class="grid-5 pull-1 push-1 pad-mobile-20">
