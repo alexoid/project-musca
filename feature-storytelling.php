@@ -67,8 +67,9 @@
                 <p>When most people think about marketing, they think of these tools: print, radio, TV and the Web. These are just tools, though — tools that can be used to tell great stories. And storytelling is something that is ingrained in us. We’ve been telling stories for thousands of years. The earliest cave paintings date back 40,000 years, around the same time Homo sapiens began to exhibit behavioral modernity.</p>
                 <p>We don’t have to go back that far to understand the powerful effect that storytelling has on our hearts and minds. Go back only as far as your childhood, when you begged your parents to read your favorite story (the one you already knew by heart) just one more time. For me it was Where the Wild Things Are. Why was it so important to hear that story? Why did those characters mean so much? Maybe you don’t know the answers to those questions, but you do know how influential those stories were in your life. </p>
             </div>
-            <div class="grid-15 push-2 nested-sole show-mobile">
-                <h3>4 great momemnts in brand storytelling</h3>
+            <div class="show-mobile">
+            <div class="grid-15 push-2 nested-sole">
+                <h3>4 great moments in brand storytelling</h3>
                 <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a number of brands were embracing brand storytelling well before TVs were in every home and computers were ubiquitous.</p>
 
                 <div class="row img-1895">
@@ -91,6 +92,7 @@
                     <h4>1954</h4>
                     <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
                 </div>
+            </div>
             </div>
             <div class="grid-11 nested-first">
                 <h3>The Storytelling Age</h3>
