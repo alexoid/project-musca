@@ -71,12 +71,11 @@ $(document).ready(function () {
         dudeGone        = false,
         dudeDoneLoading = false;
     $(document).scroll(function () {
-        startOffset = 0.25;
-        endOffset = 0.6;
+        startOffset = 0.35;
         fromBottom = $(window).scrollTop() + $(window).height();
         if (!dudeLoaded && ($falling.offset().top + ($(window).height() * startOffset)) <= fromBottom) {
             dudeLoaded = true;
-            TweenMax.fromTo( $falling, 2.5, {css:{opacity:0,top:-500}}, {css:{opacity:1,top:370}, ease:Elastic.easeInOut, onComplete: function() { dudeDoneLoading = true; }});
+            TweenMax.fromTo( $falling, 3, {css:{opacity:0,top:-500, left:-100}}, {css:{opacity:1,top:370,left:0}, ease:Back.easeOut, onComplete: function() { dudeDoneLoading = true; }});
         }
     });
     controller.triggerCheckAnim(true);
