@@ -3,41 +3,51 @@
 @import "../../_css/utils";
 
 // Hero
+
 section.hero {
-    height: 400px;
-    margin: 0 0 40px 0;
-    background-color: @black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('hero-bg.png'); }
+  height: 400px;
+  margin: 0 0 40px 0;
+  background-color: @black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('hero-bg.png');
 
-section.hero .wrapper {
+  .wrapper {
     padding: 60px 0 0 0;
-    position: relative; }
-
-section.hero h3 {
-    padding: 4px 0 0 0;
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 0.25em;
-    color: @black;
-    margin: 20px auto 0 auto;
-    width: 140px;
-    background-color: @white;
-    font-family: @alt-gothic;
-    text-align: center; }
-
-section.hero h2 {
     position: relative;
-    margin: 20px 0 0 0;
-    font-size: 68px;
-    font-family: @base-font;
-    text-align: center; }
 
-section.hero h2.small {
-    font-size: 48px; }
+    h2 {
+      position: relative;
+      margin: 20px 0 0 0;
+      font-size: 68px;
+      font-family: @base-font;
+      text-align: center;
 
-section.content .quote {
+      &.small {
+        font-size: 48px;
+      }
+    }
+
+    h3 {
+      padding: 4px 0 0 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 0.25em;
+      color: @black;
+      margin: 20px auto 0 auto;
+      width: 140px;
+      background-color: @white;
+      font-family: @alt-gothic;
+      text-align: center;
+    }
+  }
+}
+
+// Content
+
+section.content {
+
+  .quote {
     .text-shadow(0, 0, 8px, rgba(255,255,255,1));
     background-image: url('quote-bg.png');
     background-repeat: no-repeat;
@@ -45,69 +55,87 @@ section.content .quote {
     height: 115px;
     padding: 15px 0 0 0;
     margin: 0 0 25px 0;
-    text-align: right; }
+    text-align: right;
 
-section.content .quote p {
-    font-family: @courier; }
+    p {
+      font-family: @courier;
+      font-size: 22px;
+      line-height: 1.2em;
+      -webkit-font-smoothing: none;
+      text-transform: uppercase;
+    }
+  }
 
-section.content p a {
-    border-color: #6ca1bb;
-    color: #6ca1bb; }
+  p {
+    &.caption {
+      font-size: 14px;
+      line-height: 16px;
+      font-family: @courier;
+      text-transform: uppercase;
+      -webkit-font-smoothing: none;
 
-section.content p.caption {
-    font-size: 12px; }
+      i {
+        display: block;
+      }
+    }
+  }
 
-section.content p.caption i {
-    display: block; }
+  .inline {
+    p.caption {
+      padding: 5px 0 110px 240px;
+      i {
+        display: inline-block;
+      }
+    }
 
-section.content .inline.google {
+    &.google {
+      background-repeat: no-repeat;
+      background-image: url('quote-bg.png');
+      background-position: 0px 20px;
+      p.caption {
+        padding: 150px 0 0 0;
+      }
+    }
+  }
+  .bmw {
     background-repeat: no-repeat;
-    background-image: url('quote-bg.png');
-    background-position: 0px 20px; }
-
-section.content .inline.google p.caption {
-padding: 150px 0 0 0; }
-
-section.content .bmw {
+    background-image: url('bmw-bg.png');
+    p.caption {
+      padding: 160px 0 0 0;
+    }
+  }
+  .toshiba {
     background-repeat: no-repeat;
-    background-image: url('bmw-bg.png'); }
+    background-image: url('toshiba-bg.png');
+    p.caption {
+      padding: 150px 0 0 0;
+    }
+  }
+  .photo {
+    p.caption {
+      line-height: 1em;
+      background-color: @white;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: @alt-gothic;
+      span {
+        display: block;
+        color: @light-gray;
 
-section.content .bmw p.caption {
-    padding: 160px 0 0 0; }
-
-section.content .toshiba {
-    background-repeat: no-repeat;
-    background-image: url('toshiba-bg.png'); }
-
-section.content .toshiba p.caption {
-    padding: 150px 0 0 0; }
-
-section.content .inline p.caption {
-    padding: 5px 0 110px 240px; }
-
-section.content .inline p.caption i {
-    display: inline-block; }
-
-section.content .photo p.caption {
-    line-height: 1em;
-    background-color: @white;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: @alt-gothic; }
-
-section.content .photo p.caption span {
-    display: block;
-    color: @light-gray; }
-
-section.content .photo p.caption.block {
-    width: 120px;
-    position: absolute;
-    padding: 15px 0 0 15px;
-    bottom: -20px;
-    right: 0;
-    font-size: 22px; }
-
-section.content .photo p.caption.block.right {
-    text-align: right; }
+        &.block {
+          width: 120px;
+          position: absolute;
+          padding: 15px 0 0 15px;
+          bottom: -20px;
+          right: 0;
+          font-size: 22px;
+          &.right {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
 
 // EOF

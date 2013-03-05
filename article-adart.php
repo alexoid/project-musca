@@ -18,14 +18,14 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-10 pull-8 push-2 pad-mobile-20">
-            <p class="first">It's easy to not like ads. But it’s harder to not like good art.</p>
+            <p class="first">Great art inspires people.<br/>Great ads should too. </p>
             <p>The next time you’re at a traditional Western art museum looking at sculptures, paintings and thousands of depictions of the birth of Jesus, consider that you’re looking at the most famous and oldest form of advertising: advertising for the Christian Church. For each gem of an ad (artwork), a company (the Church) with cash (ad dollars) commissioned artists (ad agencies) to depict and promulgate faith (ad campaigns).</p>
             <p>Renaissance art is precious for awakening mankind’s creative soul, but who in their right mind defines Renaissance painting or sculpture as “advertising”? We say it’s “art,” right? Never mind that most masterpieces were bankrolled by deep-pocketed religious types with their own agendas.</p>
             <p>Fast forward to ad ads. You know, the ones from Ford, Gillette, McDonalds, etc. Advertising, as opposed to art, is all about the involuntary experience of companies disrupting our space and time. Ads disrupt entertainment (TV); ads disrupt local environments (billboards); ads even disrupt the dietary habits of <a href="http://www.youtube.com/watch?v=KjB6r-HDDI0&feature=fvwrel" title="fictional characters in movies" target="blank">fictional characters in movies</a> sometimes.</p>
 
         </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>

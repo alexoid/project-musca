@@ -1,4 +1,5 @@
 <!doctype html>
+
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
@@ -47,8 +48,25 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <?php include "../_inc/header.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
+
+<script type="text/javascript">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
 
 </body>
 
