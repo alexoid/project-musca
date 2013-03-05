@@ -11,7 +11,7 @@
 
                 <li class="header">Perspectives</li>
 
-                <li><a href="/article-adart.php">Great Advertising is Art</a> <span>By Joe Sabia</span></li>
+                <li><a href="/article-adart.php">Great Advertising Is Art</a> <span>By Joe Sabia</span></li>
                 <li><a href="/article-london.php">Good Ads and Bob Dylan</a> <span>By Jasin Lydiate</span></li>
                 <li><a href="/article-tempest.php">Meet Tempest</a> <span>By David Lerman</span></li>
                 <li><a href="/article-xovain.php">Introducing xoVain</a> <span>By Someone</span></li>
@@ -19,12 +19,12 @@
                 <li class="header">Case Studies</li>
 
                 <li><a href="/article-savoring.php">Savoring Authenticity</a></li>
-                <li><a href="/article-canon.php">Behind The Lens</a></li>
+                <li><a href="/article-canon.php">Behind the Lens</a></li>
                 <li><a href="/article-kate.php">Kate Upton Takes Zoo York</a></li>
 
                 <li class="header">Also</li>
-
                 <li><a href="/">Publisher's Letter</a></li>
+                <li><a href="/sceneheard.php">Scene and Heard</a></li>
             </ul>
         </div>
 </section>

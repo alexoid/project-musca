@@ -7,8 +7,8 @@
         <div class="grid-24">
             <div class="wrapper">
                 <h3>Perspectives</h3>
-                <h2 class="hide-mobile">Great Advertising<br/> is Art</h2>
-                <h2 class="small remove-768 remove-960 remove-1200">Great Advertising<br/> is Art</h2>
+                <h2 class="hide-mobile">Great Advertising<br/> Is Art</h2>
+                <h2 class="small remove-768 remove-960 remove-1200">Great Advertising<br/> Is Art</h2>
                 <h3>By Joe Sabia</h3>
             </div>
         </div>

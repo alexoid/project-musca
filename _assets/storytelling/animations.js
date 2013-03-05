@@ -1,31 +1,46 @@
 $(document).ready(function () {
 
-    // video = {
-    //     mp4: "_assets/storytelling/video.mp4",
-    //     ogv: "_assets/storytelling/video.mp4",
-    //     webm: "_assets/storytelling/video.mp4",
-    //     poster: "",
-    //     autoplay: true,
-    //     loop: true,
-    //     fullscreen: false
-    // };
+    // Hero background video
+    video = {
+        mp4: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        ogv: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        webm: "_assets/storytelling/Great_Storytelling_600x300_5000.mp4",
+        poster: "",
+        autoplay: true,
+        loop: true,
+        fullscreen: true,
+        height: 500
+    };
 
     // Hero background video
-    // var videoBG = $('.wrapper').videoBG(video);
+    // var videoBG = $('#hero-wrapper').videoBG(video);
 
-    var controller = $.superscrollorama();
+
+    var controller = $.superscrollorama({
+        triggerAtCenter: true,
+        isVertical: true,
+        playoutAnimations: false
+    });
+
+    var $baumgartner = $("#baumgartner");
+
+    var start = 120;
+
+    startScroll = $(window).height() / 2;
+    offsetPercent = $baumgartner.offset().top / startScroll;
+    start = start + ((1 - offsetPercent) * 200);
 
     // Falling Baumgartner Hero
     controller.addTween(
-        '#baumgartner',
+        $baumgartner,
         (new TimelineLite())
             .append([
-                TweenMax.fromTo($('#baumgartner'), .5,
-                    {css:{top: 0}, immediateRender:true},
-                    {css:{top: -200}})
+                TweenMax.fromTo($baumgartner, 0.5,
+                    {css:{top: start}, immediateRender:true},
+                    {css:{top: -50}})
             ]),
         1000
     );
 
-    // window.scrollBy(0,1);
+    controller.triggerCheckAnim(true);
 });

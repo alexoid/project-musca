@@ -5,7 +5,7 @@
 <section class="hero">
     <div class="lovely-grid">
         <div class="grid-15 push-9 pad-mobile-20 title">
-            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
+            <p class="first">The Web's best storytellers are finding eager audiences.</p>
         </div>
         <div class="grid-24">
             <div class="wrapper">
@@ -75,7 +75,7 @@
 <section class="content red">
     <div class="lovely-grid">
         <div class="grid-18 push-6 pad-mobile-20">
-            <h3>“The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them.”</h3>
+            <h3>“Digital storytellers come in nearly every variation — narrators of the everyday and the remarkable.”</h3>
         </div>
     </div>
 </section>
@@ -85,7 +85,7 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3></h3>
             <p>How did this happen? Simple: They used their personal brands to push product. Their outfits, friends, travels and love lives are covered in a narrative and polished manner that offers daily inspiration — opposed to the catalogs of world-class models and trends that magazines offer. Plus, these bloggers offer an approachable level of personality, access and narration, giving fans a familiarity with their lives in a way that was never possible in a print product. “I’ve never wanted to be a salesperson. I want to be a storyteller,” Framel says. “My job is not to report or to sell; my job is to inspire.” </p>
-            <p>“I call being online ‘being on the world’s stage,’" Beck says. “When you click publish, your content is out there, and it goes everywhere. That incentivizes me to push myself harder for my own outlet. That ambition and hunger led to <a href="http://cinemagraphs.com/" title="Cinemagraphs" target="blank">Cinemagraphs</a>, my work with <a href="http://www.buchwald.com/" title="DBA" target="blank">DBA</a> [a talent agency] and larger collaborations.”</p>
+            <p>“I call being online 'being on the world’s stage,'" Beck says. “When you click publish, your content is out there, and it goes everywhere. That incentivizes me to push myself harder for my own outlet. That ambition and hunger led to <a href="http://cinemagraphs.com/" title="Cinemagraphs" target="blank">Cinemagraphs</a>, my work with <a href="http://www.buchwald.com/" title="DBA" target="blank">DBA</a> [a talent agency] and larger collaborations.”</p>
         </div>
     </div>
 </section>
@@ -196,7 +196,7 @@
 <section class="content red">
     <div class="lovely-grid">
         <div class="grid-18 push-6 pad-mobile-20">
-            <h3>“The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them.”</h3>
+            <h3>“These content creators continue to drive the e-commerce revolution.”</h3>
         </div>
     </div>
 </section>
@@ -236,6 +236,7 @@
             <p>The final result, released in early November, was a zine filled with 20-some stories on subjects including the value of procrastination, a digital community of recovering addicts, getting an abortion, the merits of musician Ke$ha and the complications of blogging as an Orthodox Jew. Online, the magazine’s offerings are arranged in a sleek, simple design that presents the articles in a scrollable table of contents arranged by mood that lists some of the most in-demand writers online today. The masthead lists sponsors including the official co-working space, party planner, booze and vibrator of the magazine. </p>
             <p>The relative success of the project has been celebrated as a beacon and an example of the sort of future that’s possible for storytellers in the digital age. But the reality is a little more complicated — Friedman says they ended up breaking even; to make a profit that would allow the project to be sustainable, they would have had to raise at least eight times their initial fundraising goal. </p>
             <p>There’s no guarantee that what works now will work in the future or that brilliant ideas can be sustainable. Internet video is rumored to be the next big thing, native advertising promises to revive a sagging digital economy, and storytellers will continue to be challenged with entrepreneurialism. “I don’t think there’s one solution. That’s precisely why it’s exciting,” Friedman says. “What you’re seeing is a lot of possibilities.”</p>
+            <p>Lauren Streib is a freelance journalist in Brooklyn. She has worked at Newsweek, The Daily Beast, Forbes, WWD and Bloomberg Businessweek. Follow her on Twitter <a href="https://twitter.com/lostreib">@lostreib</a>.</p>
         </div>
     </div>
 </section>
