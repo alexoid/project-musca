@@ -48,100 +48,42 @@ header#navigation {
     font-family: @base-font;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-size: 16px;
+    overflow: hidden;
 
-    .main {
-      line-height: 20px;
-      overflow: hidden;
-      padding-top: 20px;
-      padding-bottom: 20px;
+    a {
+      color: @white;
+      text-decoration: none;
 
-      .logo {
-        width: 140px;
-        margin: 0 auto; // margin: 0 0 0 -60px;
-      // position: absolute;
-      // top: 15px;
-      // left: 50%;
-        a {
-          color: @white;
-          text-transform: uppercase;
-          b {
-            position: relative;
-            margin: 0 4px 0 0;
-            &:after {
-              content: ",,";
-              color: @red;
-              margin: -10px 0 0 -5px;
-              letter-spacing: -1px;
-              border-radius: 2px;
-              padding: 0 2px;
-              line-height: 20px;
-              position: absolute;
-              background-color: @black;
-
-            }
-          }
-        }
-      }
-
-      .logo.left {
-        display: inline-block;
-        width: 140px;
-        margin: 0 0 0 15px;
-      }
-
-      .issue {
-        font-size: 14px;
-        text-align: right;
-      }
-      .issue.left {
-        float: right;
-        display: inline-block;
-        width: 140px;
-        margin: 0 0 0 20px;
-      }
-
-    }
-
-    .expand {
-      overflow: hidden;
-      height: 0;
-      opacity: 0; // padding: 0 20px;
-      .transition (all 0.3s ease-in-out);
-      ul { // float: left;
-      // width: 25%;
-        li {
-          margin: 0 0 15px 0;
-          padding: 0 20px 0 0;
-          &.header {
-            font-family: @font-sans;
-            font-size: 10px;
-            text-transform: uppercase;
-          }
-        }
+      &:hover {
+        background-color: @red;
       }
     }
 
-    &:hover {
-      .expand {
-        margin: 0;
-        padding-top: 15px;
+    .nav {
+
+      a {
+        border-right: 1px solid rgba(255,255,255,0.3);
         display: block;
-        height: 170px;
-        opacity: 1;
-        .transition (all 0.3s ease-in-out);
-      }
-      .expand.mobile {
-        height: 340px;
-      }
-      .expand.mobile ul {
-        margin: 0 0 10px 0;
+        line-height: 40px;
+        padding: 0 16px;
+        float: left;
+
+
+        i {
+          -webkit-font-smoothing: antialiased;
+          font-size: 14px;
+        }
       }
     }
 
-    ul.mobile {
-      float: left;
-      width: 50%;
+    .logo {
+
+      a {
+        border-left: 1px solid rgba(255,255,255,0.3);
+        display: block;
+        line-height: 40px;
+        padding: 0 16px;
+        float: right;}
     }
   }
 }
@@ -200,9 +142,13 @@ section.toc {
       padding: 0 40px;
       font-family: @alt-gothic;
       text-align: center;
+      &.title {
+        font-size: 30px;
+        text-transform: uppercase;
+      }
       &.header {
         font-size: 30px;
-        padding: 40px 0 0 0;
+        padding: 50px 0 0 0;
         margin: 50px 0 30px 0;
         border-top: 1px solid @light-gray;
         text-transform: uppercase;

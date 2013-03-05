@@ -1,7 +1,7 @@
 <section class="toc">
         <div>
             <ul>
-                <li><a href="/">Publisher's Letter</a></li>
+                <li class="title">In this issue</li>
 
                 <li class="header">Features</li>
 
@@ -18,11 +18,13 @@
 
                 <li class="header">Case Studies</li>
 
-
-
                 <li><a href="/article-savoring.php">Savoring Authenticity</a></li>
                 <li><a href="/article-canon.php">Behind The Lens</a></li>
                 <li><a href="/article-kate.php">Kate Upton Takes Zoo York</a></li>
+
+                <li class="header">Also</li>
+
+                <li><a href="/">Publisher's Letter</a></li>
             </ul>
         </div>
 </section>

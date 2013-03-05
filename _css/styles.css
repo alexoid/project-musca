@@ -1068,92 +1068,32 @@ header#navigation .menu {
   font-family: georgia, serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-size: 16px;
-}
-header#navigation .menu .main {
-  line-height: 20px;
   overflow: hidden;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
-header#navigation .menu .main .logo {
-  width: 140px;
-  margin: 0 auto;
-}
-header#navigation .menu .main .logo a {
+header#navigation .menu a {
   color: #ffffff;
-  text-transform: uppercase;
+  text-decoration: none;
 }
-header#navigation .menu .main .logo a b {
-  position: relative;
-  margin: 0 4px 0 0;
+header#navigation .menu a:hover {
+  background-color: #cc0033;
 }
-header#navigation .menu .main .logo a b:after {
-  content: ",,";
-  color: #cc0033;
-  margin: -10px 0 0 -5px;
-  letter-spacing: -1px;
-  border-radius: 2px;
-  padding: 0 2px;
-  line-height: 20px;
-  position: absolute;
-  background-color: #000000;
-}
-header#navigation .menu .main .logo.left {
-  display: inline-block;
-  width: 140px;
-  margin: 0 0 0 15px;
-}
-header#navigation .menu .main .issue {
-  font-size: 14px;
-  text-align: right;
-}
-header#navigation .menu .main .issue.left {
-  float: right;
-  display: inline-block;
-  width: 140px;
-  margin: 0 0 0 20px;
-}
-header#navigation .menu .expand {
-  overflow: hidden;
-  height: 0;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-header#navigation .menu .expand ul li {
-  margin: 0 0 15px 0;
-  padding: 0 20px 0 0;
-}
-header#navigation .menu .expand ul li.header {
-  font-family: arial, helvetica, sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-header#navigation .menu:hover .expand {
-  margin: 0;
-  padding-top: 15px;
+header#navigation .menu .nav a {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   display: block;
-  height: 170px;
-  opacity: 1;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-header#navigation .menu:hover .expand.mobile {
-  height: 340px;
-}
-header#navigation .menu:hover .expand.mobile ul {
-  margin: 0 0 10px 0;
-}
-header#navigation .menu ul.mobile {
+  line-height: 40px;
+  padding: 0 16px;
   float: left;
-  width: 50%;
+}
+header#navigation .menu .nav a i {
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+header#navigation .menu .logo a {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  display: block;
+  line-height: 40px;
+  padding: 0 16px;
+  float: right;
 }
 section.content p {
   color: #2a2628;
@@ -1198,9 +1138,13 @@ section.toc ul li {
   font-family: "alternate-gothic-no-1-d", sans-serif;
   text-align: center;
 }
+section.toc ul li.title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
 section.toc ul li.header {
   font-size: 30px;
-  padding: 40px 0 0 0;
+  padding: 50px 0 0 0;
   margin: 50px 0 30px 0;
   border-top: 1px solid #999999;
   text-transform: uppercase;
