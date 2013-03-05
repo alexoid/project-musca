@@ -183,6 +183,10 @@ section.content {
   .more-content {
     display: none;
     position: absolute;
+    background-image: url("icon-link.png");
+    width: 47px;
+    height: 47px;
+    z-index: 2;
   }
 
   #oreo-container {
@@ -199,15 +203,36 @@ section.content {
   #chipotle {
     position: relative;
     height: 200px;
+
+    .more-content {
+      top: 0px;
+      left: 40px;
+    }
+
+    #pig {
+      position: relative;
+    }
   }
 
-  #chipotle .more-content {
-    top: 10px;
-    left: 50px;
-  }
-
-  #pig {
+  .baumgartner-small-container {
+    height: 0;
     position: relative;
+
+    .more-content {
+      position: absolute;
+      top: 280px;
+      left: 25px;
+    }
+  }
+
+  .pizza {
+    position: relative;
+
+    .more-content {
+      top: 10px;
+      left: 20px;
+      display: block;
+    }
   }
 
   #falling-baumgartner {

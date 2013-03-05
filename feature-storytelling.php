@@ -116,7 +116,7 @@
             </div>
             <div class="grid-4 push-2 nested-last">
                 <div id="chipotle">
-                    <div class="more-content"></div>
+                    <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank"></a>
                     <img src="_assets/storytelling/chipotle.png" id="pig">
                 </div>
             </div>
@@ -126,7 +126,10 @@
 
 <section class="content page-break">
     <div class="lovely-grid">
-        <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner" />
+        <div class="baumgartner-small-container">
+            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
+            <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner" />
+        </div>
         <div class="grid-8 push-14 pull-2 pad-mobile-20">
             <h4>Five steps to help you start unearthing your brand story</h4>
         </div>
@@ -165,7 +168,8 @@
             <p>If brands do this well, their content (and inherently their products) will be sought out by their audiences. The result will be a decline in advertising spending as they increasingly use owned and earned media to outsource marketing to their most loyal fans. </p>
             <p>The only question left is, what’s your story?</p>
         </div>
-        <div class="grid-4 push-2 pad-mobile-20">
+        <div class="grid-4 push-2 pad-mobile-20 pizza">
+            <a class="more-content" href="http://pizzaturnaround.com/" target="_blank"></a>
             <img src="_assets/storytelling/dominos.png">
         </div>
     </div>
