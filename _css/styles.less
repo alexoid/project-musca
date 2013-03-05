@@ -8,6 +8,8 @@ body, html {
   font-style: normal;
   margin: 0;
   padding: 60px 0 0 0;
+  font-family: @base-font;
+  color: @dark-gray;
 }
 
 body {
@@ -19,6 +21,7 @@ a {
   .transition(color 0.1s);
 
   &:hover {
+    color: @blue;
   }
 }
 
@@ -55,11 +58,10 @@ header#navigation {
 
       .logo {
         width: 140px;
-        margin: 0 auto;
-        // margin: 0 0 0 -60px;
-        // position: absolute;
-        // top: 15px;
-        // left: 50%;
+        margin: 0 auto; // margin: 0 0 0 -60px;
+      // position: absolute;
+      // top: 15px;
+      // left: 50%;
         a {
           color: @white;
           text-transform: uppercase;
@@ -67,7 +69,7 @@ header#navigation {
             position: relative;
             margin: 0 4px 0 0;
             &:after {
-              content:",,";
+              content: ",,";
               color: @red;
               margin: -10px 0 0 -5px;
               letter-spacing: -1px;
@@ -85,7 +87,8 @@ header#navigation {
       .logo.left {
         display: inline-block;
         width: 140px;
-        margin: 0 0 0 15px; }
+        margin: 0 0 0 15px;
+      }
 
       .issue {
         font-size: 14px;
@@ -95,26 +98,26 @@ header#navigation {
         float: right;
         display: inline-block;
         width: 140px;
-        margin: 0 0 0 20px; }
+        margin: 0 0 0 20px;
+      }
 
     }
 
     .expand {
       overflow: hidden;
       height: 0;
-      opacity: 0;
-      // padding: 0 20px;
+      opacity: 0; // padding: 0 20px;
       .transition (all 0.3s ease-in-out);
-      ul {
-        // float: left;
-        // width: 25%;
+      ul { // float: left;
+      // width: 25%;
         li {
           margin: 0 0 15px 0;
           padding: 0 20px 0 0;
-          &.header{
-          font-family: @font-sans;
-          font-size: 10px;
-          text-transform: uppercase;}
+          &.header {
+            font-family: @font-sans;
+            font-size: 10px;
+            text-transform: uppercase;
+          }
         }
       }
     }
@@ -137,8 +140,9 @@ header#navigation {
     }
 
     ul.mobile {
-        float: left;
-        width: 50%; }
+      float: left;
+      width: 50%;
+    }
   }
 }
 
@@ -180,6 +184,47 @@ section.content p {
     margin: 0 0 5px 0;
     &.share-fb {
       margin: 0 0 8px 0;
+    }
+  }
+}
+
+// TOC
+
+section.toc {
+  margin: 50px auto;
+  max-width: 400px;
+  ul {
+    display: block;
+    li {
+      margin: 0 0 30px 0;
+      padding: 0 40px;
+      font-family: @alt-gothic;
+      text-align: center;
+      &.header {
+        font-size: 30px;
+        padding: 40px 0 0 0;
+        margin: 50px 0 30px 0;
+        border-top: 1px solid @light-gray;
+        text-transform: uppercase;
+      }
+      a {
+        font-family: @base-font;
+        font-size: 28px;
+        display: block;
+        line-height: 1.2em;
+        margin: 0 0 10px 0;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      span {
+        font-family: @alt-gothic;
+        text-transform: uppercase;
+        -webkit-font-smoothing: antialiased;
+        font-size: 18px;
+        letter-spacing: 2px;
+      }
     }
   }
 }

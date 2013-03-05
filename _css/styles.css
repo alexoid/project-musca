@@ -1030,6 +1030,8 @@ html {
   font-style: normal;
   margin: 0;
   padding: 60px 0 0 0;
+  font-family: georgia, serif;
+  color: #2a2628;
 }
 body {
   padding: 0;
@@ -1041,6 +1043,9 @@ a {
   -o-transition: color 0.1s;
   -ms-transition: color 0.1s;
   transition: color 0.1s;
+}
+a:hover {
+  color: #1477bc;
 }
 h1,
 h2,
@@ -1179,4 +1184,42 @@ section.content p img {
 }
 .social-share div.share-fb {
   margin: 0 0 8px 0;
+}
+section.toc {
+  margin: 50px auto;
+  max-width: 400px;
+}
+section.toc ul {
+  display: block;
+}
+section.toc ul li {
+  margin: 0 0 30px 0;
+  padding: 0 40px;
+  font-family: "alternate-gothic-no-1-d", sans-serif;
+  text-align: center;
+}
+section.toc ul li.header {
+  font-size: 30px;
+  padding: 40px 0 0 0;
+  margin: 50px 0 30px 0;
+  border-top: 1px solid #999999;
+  text-transform: uppercase;
+}
+section.toc ul li a {
+  font-family: georgia, serif;
+  font-size: 28px;
+  display: block;
+  line-height: 1.2em;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+}
+section.toc ul li a:hover {
+  text-decoration: underline;
+}
+section.toc ul li span {
+  font-family: "alternate-gothic-no-1-d", sans-serif;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  letter-spacing: 2px;
 }

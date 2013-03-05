@@ -30,9 +30,9 @@
                     <ul>
                         <li class="header">Issue V</li>
                         <li><a href="/">Cover</a></li>
+                        <li><a href="/">Publisher's Letter</a></li>
+                        <li><a href="/toc.php">Table of Contents</a></li>
                         <li><a href="/article-adart.php">Great Advertising is Art</a></li>
-                        <li><a href="/article-adart.php">Publisher's Letter</a></li>
-                        <li><a href="/article-adart.php">Table of Contents</a></li>
                     </ul>
                 </div>
                 <div class="grid-6">
