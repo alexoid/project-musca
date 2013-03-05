@@ -21,11 +21,11 @@ $(document).ready(function () {
         (new TimelineLite())
             .append([
                 TweenMax.fromTo($('#baumgartner'), .5,
-                    {css:{top: 0}, immediateRender:true},
+                    {css:{top: 70}, immediateRender:true},
                     {css:{top: -200}})
             ]),
         1000
     );
 
-    // window.scrollBy(0,1);
+    window.scrollBy(0,1);
 });

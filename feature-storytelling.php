@@ -18,8 +18,8 @@
                 </div>
             </div>
         </div>
-        <div class="video">
-            <video autoplay="autoplay" class="remove-mobile" preload="auto" loop >
+        <div class="video remove-mobile">
+            <video autoplay="autoplay" preload="auto" width="100%" loop >
                 <source src="_assets/storytelling/video.mp4" type="video/mp4">
                 <source src="_assets/storytelling/video.mp4" type="video/webm">
                 <source src="_assets/storytelling/video.mp4" type="video/ogg">
