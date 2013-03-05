@@ -8,11 +8,6 @@ body {
   background-position: 0 1500px;
 }
 
-video {
-  bottom: 0 !important;
-  top: auto !important;
-}
-
 // Hero
 section.hero {
   margin: 0 0 40px 0;
@@ -20,16 +15,25 @@ section.hero {
   position: relative;
   background-repeat: repeat-x;
   background-position: top;
-  background-image: url('hero-bg.png');
+  background-image: url("hero-bg.png");
 
   .wrapper {
     height: 540px;
     padding: 80px 0 0 0;
+    background-image: url("hero-clouds-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
+
+    video {
+      position: absolute;
+      width: 100%;
+      z-index: 100;
+      bottom: 0 !important; }
   }
 
   h2 {
+    position: relative;
+    z-index: 1000;
     .text-shadow(1px,1px,0,rgba(0,0,0,0.8));
     color: @white;
     margin: 10px 0 0 0;
@@ -42,6 +46,8 @@ section.hero {
   }
 
   h3 {
+    position: relative;
+    z-index: 1000;
     .text-shadow(1px,1px,0,rgba(0,0,0,0.8));
     padding: 4px 0 0 0;
     text-transform: uppercase;
@@ -55,18 +61,26 @@ section.hero {
   }
 
   .baumgartner {
-    margin: 100px 0 0 30px;
+    position: relative;
+    z-index: 2000;
+    top: 0;
+    margin: 0;
     animation: move 2s;
     -moz-animation: move 2s infinite;
     -webkit-animation: move 2s infinite;
     img {
+      width: 100%;
       position: absolute;
     }
-
   }
+
 }
 
 section.content {
+  position: relative;
+  z-index: 1000;
+
+
   &.page-break {
     margin-bottom: 50px;
     position: relative;

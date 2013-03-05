@@ -1,34 +1,31 @@
 $(document).ready(function () {
 
-    video = {
-        mp4: "_assets/storytelling/video.mp4",
-        ogv: "_assets/storytelling/video.mp4",
-        webm: "_assets/storytelling/video.mp4",
-        poster: "",
-        autoplay: true,
-        loop: true,
-        fullscreen: false
-    };
+    // video = {
+    //     mp4: "_assets/storytelling/video.mp4",
+    //     ogv: "_assets/storytelling/video.mp4",
+    //     webm: "_assets/storytelling/video.mp4",
+    //     poster: "",
+    //     autoplay: true,
+    //     loop: true,
+    //     fullscreen: false
+    // };
 
     // Hero background video
-    var videoBG = $('#hero-wrapper').videoBG(video);
+    // var videoBG = $('.wrapper').videoBG(video);
 
     var controller = $.superscrollorama();
 
     // Falling Baumgartner Hero
     controller.addTween(
-        '#baumgartner-capsule',
+        '#baumgartner',
         (new TimelineLite())
             .append([
-                TweenMax.fromTo($('#baumgartner'), .5, 
-                    {css:{top: 500}, immediateRender:true}, 
-                    {css:{top: 150}})
+                TweenMax.fromTo($('#baumgartner'), .5,
+                    {css:{top: 0}, immediateRender:true},
+                    {css:{top: -200}})
             ]),
         1000
     );
 
-
-
-
-    window.scrollBy(0,1);
+    // window.scrollBy(0,1);
 });

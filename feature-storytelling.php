@@ -4,7 +4,7 @@
 <script src="_assets/storytelling/animations.js"></script>
 
 <section class="hero">
-    <div class="wrapper" id="hero-wrapper">
+    <div class="wrapper">
         <div class="lovely-grid">
             <div class="grid-24">
                 <h3>Perspectives</h3>
@@ -12,10 +12,17 @@
                 <h2 class="small remove-768 remove-960 remove-1200">The Art and Science of<br/> Great Brand Storytelling</h2>
                 <h3>By Jon Thomas</h3>
             </div>
-            <div class="grid-10 pull-7 push-7 pad-mobile-20 baumgartner" id="baumgartner-capsule">
-                <img src="_assets/storytelling/baumgartner.png" id="baumgartner">
+            <div class="grid-10 pull-7 push-7">
+                <div class="baumgartner">
+                    <img src="_assets/storytelling/baumgartner.png" id="baumgartner">
+                </div>
             </div>
         </div>
+        <video autoplay="autoplay" class="remove-mobile" preload="auto" loop >
+            <source src="_assets/storytelling/video.mp4" type="video/mp4">
+            <source src="_assets/storytelling/video.mp4" type="video/webm">
+            <source src="_assets/storytelling/video.mp4" type="video/ogg">
+        </video>
     </div>
 </section>
 
@@ -24,7 +31,7 @@
         <div class="grid-14 push-4 pull-2 pad-mobile-20">
             <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
         </div>
-        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+        <div class="social-share grid-2 push-2 pad-mobile-20">
             <?php include "../_inc/social.php"; ?>
         </div>
     </div>
@@ -82,8 +89,6 @@
                     <h4>1954</h4>
                     <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
                 </div>
-
-                <h3>the Storytelling age</h3>
             </div>
             <div class="grid-11 nested-first">
                 <h3>The Storytelling Age</h3>
