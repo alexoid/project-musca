@@ -1,19 +1,5 @@
 $(document).ready(function () {
 
-    // Hero background video
-    video = {
-        mp4: "_assets/escape/Dan_GreatEscape_2000.mp4",
-        ogv: "_assets/escape/Dan_GreatEscape_2000.mp4",
-        webm: "_assets/escape/Dan_GreatEscape_2000.mp4",
-        poster: "",
-        autoplay: true,
-        loop: true,
-        fullscreen: false
-    };
-
-    // Hero background video
-    var videoBG = $('#hero-wrapper').videoBG(video);
-
     var controller = $.superscrollorama();
 
     controller.addTween('#sarah-rotman', TweenMax.from( $('#sarah-rotman'), .75, {css:{right:'1000px', rotation: -100}, ease:Quad.easeInOut}), 0, -200);

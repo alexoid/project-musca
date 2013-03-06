@@ -22,14 +22,14 @@
             <div class="grid-14 push-4 pull-2 pad-mobile-20">
                 <p class="first">At ReadWrite, we are breaking all the rules to cover tech stories that really matter. <span>Get ready.</span></p>
             </div>
-            <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-                <img src="_img/social.png" alt="">
+            <div class="social-share grid-2 push-2 pad-mobile-20">
+                <?php include "../_inc/social.php"; ?>
             </div>
         </div>
     </section>
 
     <section class="content">
-        <div class="lovely-grid">
+        <div class="lovely-grid map">
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
                 <p>People keep asking me about my vision for ReadWrite, and to be honest, it's pretty simple. I'm trying to make the kind of tech news site that I've always wanted to read but couldn't find. I want to create a site where a handful of really great "dream team" writers deliver smart, lively, entertaining and provocative articles about what's happening in the world of tech. I call it "tech news for people who think."</p>
                 <p>ReadWrite needs to be timely and topical and on top of the news, but our role is not to report everything that happens. Rather, it is to sift through the noise and find the events and issues that really matter, and then explain them in a fresh and interesting way.</p>

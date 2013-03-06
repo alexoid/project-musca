@@ -4,9 +4,6 @@
 
 <section class="hero">
     <div class="lovely-grid">
-        <div class="grid-15 push-9 pad-mobile-20 title">
-            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
-        </div>
         <div class="grid-24">
             <div class="wrapper">
                 <h3>Feature</h3>
@@ -18,19 +15,11 @@
     </div>
 </section>
 
-<!-- <section class="content">
-    <div class="lovely-grid">
-        <div class="grid-14 push-4 pull-2 pad-mobile-20">
-            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
-        </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
-        </div>
-    </div>
-</section> -->
-
 <section class="content">
     <div class="lovely-grid">
+        <div class="grid-15 push-9 pad-mobile-20 title">
+            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
+        </div>
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p>
                 <img src="_assets/unusual/kelly-framel.png" class="kelly-framel remove-mobile" />
@@ -55,15 +44,12 @@
             <p class="pad-right">
                 <span class="sarinara-lau-medine large remove-mobile remove-768">
                     <img src="_assets/unusual/sarinara-lau-medine.png" />
-                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
                 </span>
                 <span class="sarinara-lau-medine med remove-mobile remove-960 remove-1200">
                     <img src="_assets/unusual/sarinara-lau-medine.png" />
-                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
                 </span>
                 <span class="sarinara-lau-medine small remove-768 remove-960 remove-1200">
                     <img src="_assets/unusual/sarinara-lau-medine.png" />
-                    <img src="_assets/unusual/sarinara-lau-medine-tag.png" class="tag" />
                 </span>
                 Others who’ve mastered the artful balance between self and style include Julie Sarinana of <a href="http://www.sincerelyjules.com/" title="Sincerely, Jules" target="blank">Sincerely, Jules</a> who catalogs her West Coast cool daily style; Susanna Lau (aka Susie Bubble) and her online diary of fashionable observations and original outfits on <a href="http://www.stylebubble.co.uk/" title="Style Bubble" target="blank">Style Bubble</a>; and Leandra Medine of <a href="http://www.manrepeller.com/" title="Man Repeller" target="blank">Man Repeller</a>, a site that chronicles her habit of dressing “in a sartorially offensive mode that may result in repelling members of the opposite sex.”</p>
             <p class="pad-right">As the independent fashion media began attracting influence, designers and retail brands gave them access once reserved for only old-media outlets. Digital fashionistas sit front row at fashion week, model in ad campaigns, forge design collaborations and make guest appearances in the pages of Vogue and its ilk. </p>
