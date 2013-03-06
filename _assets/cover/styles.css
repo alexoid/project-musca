@@ -1,20 +1,4 @@
 @charset 'utf-8';
-body {
-  background: no-repeat url(/_img/cover.jpg) #e30239;
-  background-attachment: fixed;
-  background-size: auto 100%;
-  background-position: bottom left;
-}
-header {
-  display: none;
-}
-#cover section.toc {
-  margin: 0;
-  background-color: #ffffff;
-  padding: 60px 40px;
-  float: right;
-  max-width: 320px;
-}
-#cover section.toc a {
-  font-size: 20px !important;
-}
+body{background:no-repeat url("./_img/cover.jpg") #e30239;background-attachment:fixed;background-size:auto 100%;background-position:bottom left;}
+header{display:none;}
+#cover section.toc{margin:0;background-color:#ffffff;padding:60px 40px;float:right;max-width:320px;}#cover section.toc a{font-size:20px !important;}
