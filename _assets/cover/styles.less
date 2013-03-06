@@ -6,6 +6,10 @@
 // @import url('./lovely-grid-24-0-768.css') (min-width: 769px) and (max-width: 960px);
 // @import url('./lovely-grid-24-0-960.css') (min-width: 961px) and (max-width: 1200px);
 // @import url('./lovely-grid-24-0-1200.css') (min-width: 1201px);
+body {
+  height: 100%;
+  min-height: 100%;
+}
 
 @media screen and (min-width: 791px) { // Desktops
   #background {
@@ -13,6 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    height: 100%;
     min-height: 100%;
     width: 100%;
     background: no-repeat url("cover.jpg") rgb(227, 2, 57);
@@ -28,6 +33,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    height: 100%;
     min-height: 100%;
     width: 100%;
     background: no-repeat url("cover.jpg") rgb(227, 2, 57);
@@ -40,6 +46,8 @@
 @media screen and (max-width: 610px) { // Mobile
   body {
     background: rgb(227, 2, 57);
+    height: 100%;
+    min-height: 100%;
   }
 }
 
