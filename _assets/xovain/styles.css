@@ -1,2 +1,75 @@
-@charset 'utf-8';section.hero{margin:0 0 40px 0;background-color:#000;background-position:center;background-image:url('hero-bg.png')}section.hero .wrapper{height:340px;background-position:center;background-repeat:no-repeat;background-image:url('hero-grad-bg.png');padding:140px 0 0 0;position:relative}section.hero h3{padding:4px 0 0 0;font-size:30px;color:#fff;margin:20px auto 0 auto;font-family:arial,helvetica,sans-serif;font-weight:700;text-align:center}section.hero img{width:100%}section.content .photo.inline{margin-top:6px;width:170px;float:left}section.content .photo{padding-top:5px}section.content .photo img{margin:0 0 10px 0}section.content .photo p.caption{line-height:1em;font-size:12px}section.content p a{border-color:#f06;color:#f06}section.content.dark{margin:50px 0 40px 0;box-shadow:0 -8px 15px rgba(0,0,0,.3);-moz-box-shadow:0 -8px 15px rgba(0,0,0,.3);-webkit-box-shadow:0 -8px 15px rgba(0,0,0,.3);color:#fff;background-color:#2a2628}section.content blockquote{position:relative;margin-top:-50px;margin-bottom:30px;padding:25px 40px;font-size:30px;font-family:georgia,serif;background-color:#f06}section.content blockquote i{bottom:-30px;position:absolute;font-size:50px;color:#f06}section.content blockquote strong{font-family:arial,helvetica,sans-serif;font-weight:700}section.content.dark p{color:#fff}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+@charset 'utf-8';
+section.hero {
+  margin: 0 0 40px 0;
+  background-color: #000000;
+  background-position: center;
+  background-image: url('hero-bg.jpg');
+}
+section.hero .wrapper {
+  height: 340px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 140px 0 0 0;
+  position: relative;
+}
+section.hero h3 {
+  padding: 4px 0 0 0;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 20px auto 0 auto;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+section.hero img {
+  width: 100%;
+}
+section.content .photo.inline {
+  margin-top: 6px;
+  width: 170px;
+  float: left;
+}
+section.content .photo {
+  padding-top: 5px;
+}
+section.content .photo img {
+  margin: 0 0 10px 0;
+}
+section.content .photo p.caption {
+  line-height: 1em;
+  font-size: 12px;
+}
+section.content p a {
+  border-color: #ff0066;
+  color: #ff0066;
+}
+section.content.dark {
+  margin: 50px 0 40px 0;
+  box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  background-color: #2a2628;
+}
+section.content blockquote {
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  padding: 25px 40px;
+  font-size: 30px;
+  font-family: georgia, serif;
+  background-color: #ff0066;
+}
+section.content blockquote i {
+  bottom: -30px;
+  position: absolute;
+  font-size: 50px;
+  color: #ff0066;
+}
+section.content blockquote strong {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+}
+section.content.dark p {
+  color: #ffffff;
+}
