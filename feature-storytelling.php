@@ -31,7 +31,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 push-4 pull-2 pad-mobile-20">
-            <p class="first">Enabled by new platforms and communities, these emerging and established storytellers are finding eager audiences.</p>
+            <p class="first">People don’t have 30 seconds to be interrupted — but they always have 30 minutes to hear a great story.</p>
         </div>
         <div class="social-share grid-2 push-2 pad-mobile-20">
             <?php include "../_inc/social.php"; ?>
@@ -47,7 +47,7 @@
 
             <img src="_assets/storytelling/1895.png" />
             <h4>1895</h4>
-            <p><strong>John Deere Customer Magazine:</strong> The Furrow / John Deere wanted to help farmers change the face of agriculture.</p>
+            <p><strong>John Deere Customer Magazine: The Furrow</strong> / John Deere wanted to help farmers change the face of agriculture.</p>
 
             <img src="_assets/storytelling/1900.png" />
             <h4>1900</h4>
