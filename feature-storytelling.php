@@ -104,6 +104,7 @@
             </div>
             <div class="grid-4 push-2 nested-last">
                 <div id="oreo-container">
+                    <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank"></a>
                     <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow">
                     <img src="_assets/storytelling/palm-print.png" id="oreo">
                 </div>

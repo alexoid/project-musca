@@ -49,7 +49,6 @@ $(document).ready(function () {
         }
     };
 
-    // controller.addTween('#pig', TweenMax.from( $('#pig'), 0.75, {css:{opacity:0}}), 0);
     controller.addTween('#pig', TweenMax.from( $('#pig'), 0.75,
         {
             css: {opacity:0, width:0},
@@ -64,8 +63,8 @@ $(document).ready(function () {
 
 
     var $container = $('oreo-container');
-    controller.addTween('#oreo', TweenMax.from( $('#oreo'), 1.5, {css:{rotation: 720}, ease:Back.easeOut, onComplete:clearTween, onCompleteParams:["{self}"]}), 0);
-    controller.addTween('#oreo-container', TweenMax.from( $('#oreo-container'), 1.5,
+    controller.addTween('#oreo', TweenMax.from( $('#oreo'), 2, {css:{rotation: 720}, ease:Back.easeOut, onComplete:clearTween, onCompleteParams:["{self}", showMoreInfo]}), 0);
+    controller.addTween('#oreo-container', TweenMax.from( $('#oreo-container'), 2,
         {
             css: {right:-1000},
             ease:Back.easeOut,
