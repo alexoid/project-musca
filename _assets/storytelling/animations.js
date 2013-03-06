@@ -39,7 +39,6 @@ $(document).ready(function () {
     );
 
     var showMoreInfo = function (tween) {
-        console.log(tween.target.siblings('.more-content'));
         tween.target.siblings('.more-content').fadeIn();
     };
 
@@ -64,8 +63,15 @@ $(document).ready(function () {
     );
 
 
+    var $container = $('oreo-container');
     controller.addTween('#oreo', TweenMax.from( $('#oreo'), 1.5, {css:{rotation: 720}, ease:Back.easeOut, onComplete:clearTween, onCompleteParams:["{self}"]}), 0);
-    controller.addTween('#oreo-container', TweenMax.from( $('#oreo-container'), 1.5, {css:{right:-1000}, ease:Back.easeOut, onComplete:clearTween, onCompleteParams:["{self}"]}), 0);
+    controller.addTween('#oreo-container', TweenMax.from( $('#oreo-container'), 1.5,
+        {
+            css: {right:-1000},
+            ease:Back.easeOut,
+            onComplete: clearTween,
+            onCompleteParams:["{self}"]
+        }), 0);
 
     $falling = $('#falling-baumgartner');
     var dudeLoaded = false;
