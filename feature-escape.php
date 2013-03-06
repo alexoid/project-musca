@@ -22,8 +22,8 @@
             <div class="grid-14 push-4 pull-2 pad-mobile-20">
                 <p class="first">At ReadWrite, we are breaking all the rules to cover tech stories that really matter. <span>Get ready.</span></p>
             </div>
-            <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-                <img src="_img/social.png" alt="">
+            <div class="social-share grid-2 push-2 pad-mobile-20">
+                <?php include "../_inc/social.php"; ?>
             </div>
         </div>
     </section>
