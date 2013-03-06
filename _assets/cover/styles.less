@@ -8,7 +8,6 @@
 // @import url('./lovely-grid-24-0-1200.css') (min-width: 1201px);
 body {
   height: 100%;
-  min-height: 100%;
 }
 
 @media screen and (min-width: 791px) { // Desktops
@@ -18,12 +17,19 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    min-height: 100%;
     width: 100%;
-    background: no-repeat url("cover.jpg") rgb(227, 2, 57);
-    background-attachment: fixed;
-    background-size: auto 95%;
-    background-position: bottom left;
+      .inner {
+      z-index: -1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: no-repeat url("cover.jpg") rgb(227, 2, 57);
+      background-attachment: fixed;
+      background-size: auto 95%;
+      background-position: bottom left;
+    }
   }
 }
 
@@ -34,12 +40,19 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    min-height: 100%;
     width: 100%;
-    background: no-repeat url("cover.jpg") rgb(227, 2, 57);
-    background-attachment: fixed;
-    background-size: auto 35%;
-    background-position: bottom left;
+      .inner {
+      z-index: -1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: no-repeat url("cover.jpg") rgb(227, 2, 57);
+      background-attachment: fixed;
+      background-size: auto 35%;
+      background-position: bottom left;
+    }
   }
 }
 
