@@ -35,7 +35,7 @@
             </div>
             <div class="grid-10 push-7 pad-mobile-20">
                 <div class="show-mobile">
-                    <img src="_assets/escape/map.png" class="map-picture mobile" />
+                    <a href="_assets/escape/map.png" class="fresco"><img src="_assets/escape/map.png" class="map-picture mobile" /></a>
                 </div>
                 <p>People keep asking me about my vision for ReadWrite, and to be honest, it's pretty simple. I'm trying to make the kind of tech news site that I've always wanted to read but couldn't find. I want to create a site where a handful of really great "dream team" writers deliver smart, lively, entertaining and provocative articles about what's happening in the world of tech. I call it "tech news for people who think."</p>
                 <p>ReadWrite needs to be timely and topical and on top of the news, but our role is not to report everything that happens. Rather, it is to sift through the noise and find the events and issues that really matter, and then explain them in a fresh and interesting way.</p>
