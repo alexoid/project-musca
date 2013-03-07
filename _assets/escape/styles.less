@@ -20,29 +20,92 @@ section.hero .wrapper {
   background-repeat: no-repeat;
 }
 
-section.hero h3 {
-  padding: 4px 0 0 0;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 0.25em;
-  color: @black;
-  margin: 20px auto 0 auto;
-  width: 180px;
-  background-color: @white;
-  font-family: @alt-gothic;
-  text-align: center; }
 
-section.hero h2 {
-  line-height: 0.9em;
-  .text-shadow(5px,5px,0,rgba(0,0,0,0.2));
-  position: relative;
-  margin: 20px 0 0 0;
-  font-size: 180px;
-  color: @black;
-  text-transform: uppercase;
-  font-style: italic;
-  font-family: "league-gothic",sans-serif;
-  text-align: center; }
+@media screen and (min-width: 801px) { // Tablets
+  section.hero {
+    padding-top: 100px; }
+  section.hero h3 {
+    padding: 4px 0 0 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    color: @black;
+    margin: 20px auto 0 auto;
+    width: 180px;
+    background-color: @white;
+    font-family: @alt-gothic;
+    text-align: center; }
+
+  section.hero h2 {
+    line-height: 0.9em;
+    .text-shadow(5px,5px,0,rgba(0,0,0,0.2));
+    position: relative;
+    margin: 20px 0 0 0;
+    font-size: 180px;
+    color: @black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "league-gothic",sans-serif;
+    text-align: center; }
+
+  section.content p.first {
+    line-height: 0.9em;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: "league-gothic", sans-serif; }
+
+  section.content h3 {
+    padding: 0 0 20px 0;
+    line-height: 1em;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: "league-gothic", sans-serif; }
+
+}
+
+@media screen and (max-width: 800px) { // Mobile
+  section.hero {
+    padding-top: 50px; }
+
+  section.hero h3 {
+    padding: 4px 0 0 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    color: @black;
+    margin: 20px auto 0 auto;
+    width: 180px;
+    background-color: @white;
+    font-family: @alt-gothic;
+    text-align: center; }
+
+  section.hero h2 {
+    line-height: 0.9em;
+    .text-shadow(5px,5px,0,rgba(0,0,0,0.2));
+    position: relative;
+    margin: 20px 0 0 0;
+    font-size: 90px;
+    color: @black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "league-gothic",sans-serif;
+    text-align: center; }
+
+  section.content p.first {
+    line-height: 0.9em;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "league-gothic", sans-serif; }
+
+  section.content h3 {
+    padding: 0 0 20px 0;
+    line-height: 1em;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "league-gothic", sans-serif; }
+
+}
+
 
 #article {
   margin-top: 800px;
@@ -50,10 +113,6 @@ section.hero h2 {
   position: relative;
   padding-top: 40px;
 }
-
-.map {
-  background: no-repeat url(map.png) transparent;
-  background-position: 80px 0;}
 
 section.content.black {
   color: @white;
@@ -65,13 +124,7 @@ section.content.red {
   background-color: #d80c1b;
 }
 
-section.content h3 {
-  padding: 0 0 20px 0;
-  line-height: 1em;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-family: "league-gothic", sans-serif;
-}
+
 
 section.content.black h3 {
   color: @white;
@@ -81,12 +134,7 @@ section.content.black p {
   color: @white;
 }
 
-section.content p.first {
-  line-height: 0.9em;
-  font-size: 54px;
-  text-transform: uppercase;
-  font-family: "league-gothic", sans-serif;
-}
+
 
 section.content p.first span {
   color: #f26612;
@@ -121,6 +169,18 @@ section.content p a {
 .profile-picture {
   .box-shadow(1px, 1px, 5px, #555);
   position: relative;
+}
+
+.map-picture {
+  position: relative;
+}
+
+.profile-picture.mobile,
+.map-picture.mobile {
+  width: 40%;
+  float: left;
+  clear: left;
+  margin: 0 20px 30px 0;
 }
 
 #sarah-rotman { .format-profile(2deg);
