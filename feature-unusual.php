@@ -18,7 +18,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-15 push-9 pad-mobile-20 title">
-            <p class="first">Emerging and established storytellers are finding eager audiences.</p>
+            <p class="first">The Web's best storytellers are finding eager audiences.</p>
         </div>
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p>
@@ -61,7 +61,7 @@
 <section class="content red">
     <div class="lovely-grid">
         <div class="grid-18 push-6 pad-mobile-20">
-            <h3>"The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them."</h3>
+            <h3>"Digital storytellers come in nearly every variation — narrators of the everyday and the remarkable."</h3>
         </div>
     </div>
 </section>
@@ -186,7 +186,7 @@
 <section class="content red">
     <div class="lovely-grid">
         <div class="grid-18 push-6 pad-mobile-20">
-            <h3>"The person has to be inspirational. They probably do something that’s really creative. That’s the type of person I’m interested in. I look for what their space says about them."</h3>
+            <h3>"These content creators continue to drive the e-commerce revolution."</h3>
         </div>
     </div>
 </section>

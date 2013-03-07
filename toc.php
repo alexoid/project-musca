@@ -18,7 +18,7 @@
 
                 <li class="header">Case Studies</li>
                 <li><a href="./article-savoring.php">Savoring Authenticity</a></li>
-                <li><a href="./article-canon.php">Behind The Lens</a></li>
+                <li><a href="./article-canon.php">Behind the Lens</a></li>
                 <li><a href="./article-kate.php">Kate Upton Takes Zoo York</a></li>
 
 
