@@ -89,7 +89,7 @@
                 <img src="_assets/tempest/bio-dave.jpg" />
                 <p>
                    <strong>David Lerman</strong> is co-founder and CTO of Say Media.</p>
-                   <p><a href="https://twitter.com/dlerman" class="twitter-follow-button" data-show-count="false">Follow @dlerman</a></p>
+                   <a href="https://twitter.com/dlerman" class="twitter-follow-button" data-show-count="false">Follow @dlerman</a>
             </div>
         </div>
     </section>
