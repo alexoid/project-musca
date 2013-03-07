@@ -287,7 +287,7 @@ section.content p{color:#2a2628;margin:0 0 25px 0;line-height:1.5em;font-size:16
 section.content a{color:#cc0033;}
 section.content img{margin:0 0 25px 0;width:100%;}
 section.content.bio{border-top:1px solid #cccccc;padding:25px 0 0 0;}section.content.bio p{font-size:13px;}section.content.bio p strong{font-weight:bold;}
-section.content.bio p .twitter-follow-button{margin:10px 0 0 0;}
+section.content.bio p .twitter-follow-button{display:block;margin:0 0 0 0;}
 section.content.bio img{border-radius:150px;-webkit-border-radius:150px;-moz-border-radius:150px;-ms-border-radius:150px;-o-border-radius:150px;float:left;margin:3px 20px 10px 0;width:75px;}
 .social-share{margin-bottom:30px;opacity:0.5;}.social-share:hover{opacity:1;}
 .social-share div{width:80px;float:left;margin:0 10px 5px 0;}.social-share div.share-fb{margin:0 10px 8px 0;}
