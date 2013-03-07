@@ -225,11 +225,18 @@
             <p>The process was apparently simple. After being unceremoniously canned, the staffers asked for $15,000 via a Kickstarter campaign. Less than five hours later, they met their fundraising goal. Of course, it helped that several of the staffers were relatively well-known, with large Twitter, Tumblr and industry followings thanks to their previous work. "I think people supported the project because they supported us. The content was an ancillary benefit," says editor Ann Friedman.  A total of 1,779 people contributed $45,452 during the month-long campaign.</p>
             <p>The relative success of the project has been celebrated as a beacon and an example of the sort of future that's possible for storytellers in the digital age. But the reality is a little more complicated — Friedman says they ended up breaking even; to make a profit that would allow the project to be sustainable, they would have had to raise at least eight times their initial fundraising goal.</p>
             <p>There’s no guarantee that what works now will work in the future or that brilliant ideas can be sustainable. Internet video is rumored to be the next big thing, native advertising promises to revive a sagging digital economy, and storytellers will continue to be challenged with entrepreneurialism. "I don’t think there’s one solution. That’s precisely why it’s exciting," Friedman says. "What you’re seeing is a lot of possibilities."</p>
-            <p>Lauren Streib is a freelance journalist in Brooklyn. She has worked at Newsweek, The Daily Beast, Forbes, WWD and Bloomberg Businessweek. Follow her on Twitter <a href="https://twitter.com/lostreib" title="@lostreib" target="blank">@lostreib</a>.</p>
         </div>
     </div>
 </section>
-
+ <section class="content bio">
+        <div class="lovely-grid">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20">
+                <img src="_assets/unusual/bio-lauren.jpg" />
+                <p><strong>Lauren Streib</strong> is a freelance journalist in Brooklyn. She has worked at Newsweek, The Daily Beast, Forbes, WWD and Bloomberg Businessweek.</p>
+                   <p><a href="https://twitter.com/lostreib" class="twitter-follow-button" data-show-count="false">Follow @lostreib</a></p>
+            </div>
+        </div>
+    </section>
 
 
 
