@@ -5,7 +5,7 @@
 
             <div class="nav">
                 <a href="./"><i class="icon-home"></i></a>
-                <!-- <a href="./toc.php"><i class="icon-reorder"></i></a> -->
+                <?php /* <a href="./toc.php"><i class="icon-reorder"></i></a> */ ?>
             </div>
 
             <div class="logo">
