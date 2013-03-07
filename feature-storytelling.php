@@ -31,7 +31,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 push-4 pull-2 pad-mobile-20">
-            <p class="first">People don’t have 30 seconds to be interrupted — but they always have 30 minutes to hear a great story.</p>
+            <p class="first">People don't have 30 seconds to be interrupted — but they always have 30 minutes to hear a great story.</p>
         </div>
         <div class="social-share grid-2 push-2 pad-mobile-20">
             <?php include "../_inc/social.php"; ?>
@@ -55,17 +55,17 @@
 
             <img src="_assets/storytelling/1904.png" />
             <h4>1904</h4>
-            <p><strong>Jell-O’s Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
+            <p><strong>Jell-O's Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
 
             <img src="_assets/storytelling/1954.png" />
             <h4>1954</h4>
-            <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
+            <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain's number one best-seller, and the brewery's name has been synonymous with notable feats. ever since.</p>
         </div>
         <div class="grid-17 pad-mobile-20">
             <div class="grid-15 push-2 nested-sole">
-                <p>Johannes Gutenberg invented mechanical movable-type printing around 1440. The first radio transmissions were in the early 1900s. The television became commercially available less than a century ago. The Internet is not even old enough to have a drink (legally, at least not in the United States). Facebook and Twitter are just out of diapers, and the next big marketing tool is still in the womb or possibly a mere twinkle in its creator’s eye. </p>
-                <p>When most people think about marketing, they think of these tools: print, radio, TV and the Web. These are just tools, though — tools that can be used to tell great stories. And storytelling is something that is ingrained in us. We’ve been telling stories for thousands of years. The earliest cave paintings date back 40,000 years, around the same time Homo sapiens began to exhibit behavioral modernity.</p>
-                <p>We don’t have to go back that far to understand the powerful effect that storytelling has on our hearts and minds. Go back only as far as your childhood, when you begged your parents to read your favorite story (the one you already knew by heart) just one more time. For me it was Where the Wild Things Are. Why was it so important to hear that story? Why did those characters mean so much? Maybe you don’t know the answers to those questions, but you do know how influential those stories were in your life. </p>
+                <p>Johannes Gutenberg invented mechanical movable-type printing around 1440. The first radio transmissions were in the early 1900s. The television became commercially available less than a century ago. The Internet is not even old enough to have a drink (legally, at least not in the United States). Facebook and Twitter are just out of diapers, and the next big marketing tool is still in the womb or possibly a mere twinkle in its creator's eye. </p>
+                <p>When most people think about marketing, they think of these tools: print, radio, TV and the Web. These are just tools, though — tools that can be used to tell great stories. And storytelling is something that is ingrained in us. We've been telling stories for thousands of years. The earliest cave paintings date back 40,000 years, around the same time Homo sapiens began to exhibit behavioral modernity.</p>
+                <p>We don't have to go back that far to understand the powerful effect that storytelling has on our hearts and minds. Go back only as far as your childhood, when you begged your parents to read your favorite story (the one you already knew by heart) just one more time. For me it was Where the Wild Things Are. Why was it so important to hear that story? Why did those characters mean so much? Maybe you don't know the answers to those questions, but you do know how influential those stories were in your life. </p>
             </div>
             <div class="show-mobile">
             <div class="grid-15 push-2 nested-sole">
@@ -85,21 +85,21 @@
 
                 <div class="row img-1904">
                     <h4>1904</h4>
-                    <p><strong>Jell-O’s Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
+                    <p><strong>Jell-O's Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to customers. </p>
                 </div>
 
                 <div class="row img-1954">
                     <h4>1954</h4>
-                    <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain’s number one best-seller, and the brewery’s name has been synonymous with notable feats. ever since.</p>
+                    <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called The Guinness Book of Records became Britain's number one best-seller, and the brewery's name has been synonymous with notable feats. ever since.</p>
                 </div>
             </div>
             </div>
             <div class="grid-11 nested-first">
                 <h3>The Storytelling Age</h3>
-                <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60 years. The big winners in the ad race were the brands with the deepest pockets. They could buy the billboard in Times Square, create the Super Bowl ad spot and advertise in their customers’ favorite magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up, uninvited, interrupt and badger the audience, and that was okay, because that’s what advertising was. </p>
+                <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60 years. The big winners in the ad race were the brands with the deepest pockets. They could buy the billboard in Times Square, create the Super Bowl ad spot and advertise in their customers' favorite magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up, uninvited, interrupt and badger the audience, and that was okay, because that's what advertising was. </p>
                 <p>But this brute-force method of advertising is rapidly losing effectiveness. The persistent interruption has caused audiences to put their blinders up and become defensive. Audiences simply have no patience for branded messages that feel like advertising. </p>
-                <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and simply enjoyable — even if it’s branded — they miraculously have as much as 30 minutes to watch and share the content with their own audiences. Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often helping spread the message to their own audiences without prompting. </p>
-                <p>This is the dawn of the post-advertising age, in which the only messages people see and hear are the ones they choose to see and hear. Audiences don’t want to hear an advertisement. They want to be gripped by a compelling story. </p>
+                <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and simply enjoyable — even if it's branded — they miraculously have as much as 30 minutes to watch and share the content with their own audiences. Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often helping spread the message to their own audiences without prompting. </p>
+                <p>This is the dawn of the post-advertising age, in which the only messages people see and hear are the ones they choose to see and hear. Audiences don't want to hear an advertisement. They want to be gripped by a compelling story. </p>
                 <h3>Unearthing your brand story</h3>
             </div>
             <div class="grid-4 push-2 nested-last">
@@ -110,10 +110,10 @@
                 </div>
             </div>
             <div class="grid-11 nested-first">
-                <p>So you’ve bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it’s misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more [insert feature here] or a brand being worn by the hottest celebutante are not brand stories.</p>
-                <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand, the ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won’t put it in the footer of your email address or on your website’s homepage. Instead, it is the enduring idea that will serve as the consistent basis for the many stories that a successful brand must tell over time. It’s the glue that holds all your brand’s actions and words together. </p>
+                <p>So you've bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it's misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more [insert feature here] or a brand being worn by the hottest celebutante are not brand stories.</p>
+                <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand, the ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won't put it in the footer of your email address or on your website's homepage. Instead, it is the enduring idea that will serve as the consistent basis for the many stories that a successful brand must tell over time. It's the glue that holds all your brand's actions and words together. </p>
                 <p>Your audience may not see it, but without it, your brand is nothing. </p>
-                <p>Finding this story platform isn’t accomplished in a 30-minute brainstorm, mind you. It is a process that takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide) spent years developing a process to help them unearth their brand stories.</p>
+                <p>Finding this story platform isn't accomplished in a 30-minute brainstorm, mind you. It is a process that takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide) spent years developing a process to help them unearth their brand stories.</p>
             </div>
             <div class="grid-4 push-2 nested-last">
                 <div id="chipotle">
@@ -153,9 +153,9 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-11 pull-7 push-6 pad-mobile-20">
-            <p>These steps are just part of the process of unearthing your story. If you’ve never taken the time to perform exercises like these, you now have the opportunity to take long strides toward building that story platform. </p>
+            <p>These steps are just part of the process of unearthing your story. If you've never taken the time to perform exercises like these, you now have the opportunity to take long strides toward building that story platform. </p>
             <h3>Telling your brand Story</h3>
-            <p>Once you have a firm grasp of your brand’s story, you have to tell it in the places where your customers choose to engage with you (not where you find it most convenient to advertise). Instead of simply trying to be the loudest, you want to be the smartest. Map all of your brand’s touch points and create a strategy that will encourage targeted groups to associate with the brand voluntarily, building a much deeper knowledge of and connection to it. </p>
+            <p>Once you have a firm grasp of your brand's story, you have to tell it in the places where your customers choose to engage with you (not where you find it most convenient to advertise). Instead of simply trying to be the loudest, you want to be the smartest. Map all of your brand's touch points and create a strategy that will encourage targeted groups to associate with the brand voluntarily, building a much deeper knowledge of and connection to it. </p>
             <p>By engaging with customers along their journey (no two such journeys are the same), you have the opportunity to tell audience members a new chapter of your story each time they touch your brand. As you reveal more and more of your story at different touchpoints — social media, email, search, print, mobile, in-store — you walk the audience through the traditional process of interest, purchase, repeat purchase and advocacy. </p>
             <h3>the next Chapter</h3>
         </div>
@@ -165,9 +165,9 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-11 pull-7 pad-mobile-20">
-            <p>Now more than ever, brands have the ability to unearth and tell their stories in ways that captivate and engage audiences. Smaller brands aren’t relegated to serving customers within a 50-mile radius. Brands of all sizes can commit to stories that befit their products, their employees and the essence of their brands, and they can tell them on channels with worldwide reach. </p>
+            <p>Now more than ever, brands have the ability to unearth and tell their stories in ways that captivate and engage audiences. Smaller brands aren't relegated to serving customers within a 50-mile radius. Brands of all sizes can commit to stories that befit their products, their employees and the essence of their brands, and they can tell them on channels with worldwide reach. </p>
             <p>If brands do this well, their content (and inherently their products) will be sought out by their audiences. The result will be a decline in advertising spending as they increasingly use owned and earned media to outsource marketing to their most loyal fans. </p>
-            <p>The only question left is, what’s your story?</p>
+            <p>The only question left is, what's your story?</p>
         </div>
         <div class="grid-4 push-2 pad-mobile-20 pizza">
             <a class="more-content" href="http://pizzaturnaround.com/" target="_blank"></a>
@@ -175,3 +175,14 @@
         </div>
     </div>
 </section>
+   <section class="content bio">
+        <div class="lovely-grid">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20">
+                <img src="_assets/storytelling/bio-jon.jpg" />
+                <p>
+                    <strong>Jon Thomas</strong> is the communications director at Story Worldwide and editor-in-chief of Post Advertising.</p>
+                   <p><a href="https://twitter.com/Story_Jon" class="twitter-follow-button" data-show-count="false">Follow @Story_Jon</a></p>
+                
+            </div>
+        </div>
+    </section>
