@@ -1,0 +1,105 @@
+// TODO: section.content -> #content
+
+@import "bourbon/bourbon";
+@import "profoundgrid/grid";
+@import "vancura-helpers/vancura-helpers";
+
+
+// BASELINE
+// --------
+
+$total_width: 100%;
+$total_columns: 12;
+$gutter_width: 3%;
+$container_margin: 3%;
+
+$media-size-b: 740px;
+$media-size-c: 1024px;
+$media-size-d: 1360px; // 60px margin on either side of content
+
+// GRID LAYOUT A
+// -------------
+
+
+.grid {
+    @include container();
+    @include clearfix();
+    // @include generate_grid_positions('.item',2); // FIXME this should generate a grid of equality spaced tiles, but doesn't!
+}
+
+
+// GRID LAYOUT B
+// -------------
+/*
+@media screen and (min-width: $media-size-b) {
+    $total_width: 700px;
+    $total_columns: 12;
+    $gutter_width: 20px;
+    $container_margin: auto;
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+}
+
+// GRID LAYOUT C
+// -------------
+
+@media screen and (min-width: $media-size-c) {
+    $total_width: 940px;
+    $total_columns: 12;
+    $gutter_width: 20px;
+    $container_margin: auto;
+
+    .grid {
+        @include container();
+        @include clearfix();
+
+        .rail {
+            @include column(4);
+        }
+
+        .copy {
+            @include column(7);
+            @include push(4);
+        }
+
+        .tools {
+            @include column(2);
+            @include push(10);
+        }
+    }
+}
+
+// GRID LAYOUT D
+// -------------
+
+@media screen and (min-width: $media-size-d) {
+    $total_width: 1290px;
+    $total_columns: 12;
+    $gutter_width: 30px;
+    $container_margin: auto;
+
+    .grid {
+        @include container();
+        @include clearfix();
+
+
+        .rail {
+            @include column(3);
+        }
+
+        .copy {
+            @include column(7);
+            @include push(3);
+        }
+
+        .tools {
+            @include column(2);
+            @include push(10);
+        }
+    }
+}
+*/

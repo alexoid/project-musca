@@ -1,0 +1,53 @@
+@import "vancura-helpers/vancura-helpers";
+
+
+@font-face {
+    font-family: 'UIGlyphsReadWrite';
+    src: url('../fonts/uiglyphsreadwrite-regular.eot');
+    src: url('../fonts/uiglyphsreadwrite-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/uiglyphsreadwrite-regular.woff') format('woff'), url('../fonts/uiglyphsreadwrite-regular.ttf') format('truetype'), url('../fonts/uiglyphsreadwrite-regular.svg#new_fontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+    font-family: 'UIGlyphsReadWrite';
+    content: attr(data-icon);
+    speak: none;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin ui-glyphs($ui-scale: small) {
+    font-family: 'UIGlyphsReadWrite';
+    content: "";
+    speak: none;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+
+    // FIXME The sizes seem off. 24px shows up tiny. Does this need fixing in the Glyph file?
+
+    @if($ui-scale == "x-small") {
+        font-size: 26px;
+    }
+
+    @if($ui-scale == "small") {
+        font-size: 32px;
+    }
+
+    @if($ui-scale == "medium") {
+        font-size: 48px;
+    }
+
+    @if($ui-scale == "large") {
+        font-size: 128px;
+    }
+}
+
+* {
+    font: inherit;
+}
+

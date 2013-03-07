@@ -1,0 +1,48 @@
+@import "../bourbon/bourbon";
+
+
+@mixin debug($color: red) {
+    @if($color == red) {
+        background: rgba(255, 0, 0, 0.5) !important;
+    }
+
+    @if($color == green) {
+        background: rgba(0, 255, 0, 0.5) !important;
+    }
+
+    @if($color == blue) {
+        background: rgba(0, 0, 255, 0.5) !important;
+    }
+}
+
+
+@mixin triangle($triangleSize, $triangleColor, $triangleDirection) {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: solid $triangleSize;
+
+    @if($triangleDirection == top) {
+        border-color: $triangleColor transparent transparent transparent;
+    }
+
+    @if($triangleDirection == bottom) {
+        border-color: transparent transparent $triangleColor transparent;
+    }
+
+    @if($triangleDirection == left) {
+        border-color: transparent transparent transparent $triangleColor;
+    }
+
+    @if($triangleDirection == right) {
+        border-color: transparent $triangleColor transparent transparent;
+    }
+}
+
+
+@include hidpi(1.5) {
+    .sprite {
+        zoom: 0.5;
+    }
+}
