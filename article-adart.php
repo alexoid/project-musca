@@ -83,9 +83,22 @@
         <div class="grid-10 pull-1 push-6 pad-mobile-20">
             <p>The world we live in today is <a href="http://saydaily.com/2012/06/the-problem-with-advertising-that-facebook-cant-fix.html" title="completely mediated" target="blank">completely mediated</a>. As a result, consumers are often deeply suspicious that everyone is trying to sell them something. What’s an advertiser to do? Well, it’s easy to not like ads. But it’s harder to not like good art. Any marketing department has a lot to learn from the modern-day Caravaggios and Berninis of the world, employed by ad agencies or not. The whole industry needs its own revolution in making its consumers feel inspired — not sold to.</p>
             <p>If a company blows a consumer’s mind, the consumer will forget it’s an ad. The creator will innovate artistically. And the company? Maybe it will earn the respect that comes with the title patron.</p>
-            <p><a href="http://www.joesabia.co/" title="Joe Sabia" target="blank">Joe Sabia</a> gave a <a href="http://blog.ted.com/2011/11/23/the-technology-of-storytelling-joe-sabia-on-ted-com/" title="TED Talk" target="blank">TED Talk</a> in 2011 on the topic of storytelling and acts as the co-curator of Boing Boing TV on all Virgin America flights.</p>
-        </div>
+        </div> 
     </div>
-</section>
+</section>   
+  <section class="content bio">
+        <div class="lovely-grid">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20">
+                <img src="_assets/adart/bio-joe.jpg" />
+                <p>
+                    <strong>Joe Sabia</strong> gave a <a href="http://blog.ted.com/2011/11/23/the-technology-of-storytelling-joe-sabia-on-ted-com/" title="TED Talk" target="blank">TED Talk</a> in 2011 on the topic of storytelling and acts as the co-curator of Boing Boing TV on all Virgin America flights.</p>
+                    <a href="https://twitter.com/joesabia" class="twitter-follow-button" data-show-count="false">Follow @joesabia</a>
+                 
+            </div>
+        </div>
+
+    </section>
+        
+    
 
 

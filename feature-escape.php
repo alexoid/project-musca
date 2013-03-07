@@ -67,9 +67,9 @@
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
                 <img src="_assets/escape/bio-dan.jpg" />
                 <p>
-                    <strong>Dan Lyons</strong> is editor in chief of ReadWrite. Previously, he was technology editor at Newsweek and spent a decade at Forbes covering technology. He was also the creator of The Secret Diary of Steve Jobs, a satirical blog written in the persona of Fake Steve Jobs.
-                    <a href="https://twitter.com/realdanlyons" class="twitter-follow-button" data-show-count="false">Follow @realdanlyons</a>
-                </p>
+                    <strong>Dan Lyons</strong> is editor in chief of ReadWrite. Previously, he was technology editor at Newsweek and spent a decade at Forbes covering technology. He was also the creator of The Secret Diary of Steve Jobs, a satirical blog written in the persona of Fake Steve Jobs.</p>
+                   <p><a href="https://twitter.com/realdanlyons" class="twitter-follow-button" data-show-count="false">Follow @realdanlyons</a></p>
+                
             </div>
         </div>
     </section>
