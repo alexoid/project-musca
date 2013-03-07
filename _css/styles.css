@@ -282,7 +282,7 @@ h1,h2,h3{-webkit-font-smoothing:antialiased;}
 section.hero{top:0;}
 header#navigation{top:0;z-index:10000;background-color:rgba(0, 0, 0, 0.8);color:#ffffff;overflow:hidden;width:100%;position:fixed;border-bottom:1px solid rgba(255, 255, 255, 0.3);}header#navigation .menu{font-family:georgia,serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow:hidden;}header#navigation .menu a{color:#ffffff;text-decoration:none;}header#navigation .menu a:hover{background-color:#cc0033;}
 header#navigation .menu .nav a{border-right:1px solid rgba(255, 255, 255, 0.3);display:block;line-height:40px;padding:0 16px;float:left;}header#navigation .menu .nav a i{-webkit-font-smoothing:antialiased;font-size:14px;}
-header#navigation .menu .logo a{font-size:14px;border-left:1px solid rgba(255, 255, 255, 0.3);display:block;line-height:40px;padding:0 16px;float:right;}
+header#navigation .menu .logo a{font-size:14px;display:block;line-height:40px;padding:0 16px;float:right;}
 section.content p{color:#2a2628;margin:0 0 25px 0;line-height:1.5em;font-size:16px;}section.content p.first{line-height:1.2em;font-size:36px;font-family:"source-sans-pro",sans-serif;}
 section.content a{color:#cc0033;}
 section.content img{margin:0 0 25px 0;width:100%;}
