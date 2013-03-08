@@ -42,13 +42,13 @@
             <p>"Fashion collections have to be created at such a fast pace these days, so I was drawing a lot of my inspiration from the Internet, especially using personal style blogs as a barometer of trends," Framel says. "Finally I decided that it might actually be fun to get in on the conversation." The burgeoning popularity of street style bloggers helped, creating a digital reverence for individual style — but the journalistic nature of their work left an opening for stylish people who wanted to tell their own style stories.</p>
             <p class="pad-right">
                 <span class="sarinara-lau-medine large remove-mobile remove-768">
-                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine.jpg" />
                 </span>
                 <span class="sarinara-lau-medine med remove-mobile remove-960 remove-1200">
-                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine.jpg" />
                 </span>
                 <span class="sarinara-lau-medine small remove-768 remove-960 remove-1200">
-                    <img src="_assets/unusual/sarinara-lau-medine.png" />
+                    <img src="_assets/unusual/sarinara-lau-medine.jpg" />
                 </span>
                 Others who've mastered the artful balance between self and style include Julie Sarinana of <a href="http://www.sincerelyjules.com/" title="Sincerely, Jules" target="blank">Sincerely, Jules</a> who catalogs her West Coast cool daily style; Susanna Lau (aka Susie Bubble) and her online diary of fashionable observations and original outfits on <a href="http://www.stylebubble.co.uk/" title="Style Bubble" target="blank">Style Bubble</a>; and Leandra Medine of <a href="http://www.manrepeller.com/" title="Man Repeller" target="blank">Man Repeller</a>, a site that chronicles her habit of dressing "in a sartorially offensive mode that may result in repelling members of the opposite sex."</p>
             <p class="pad-right">As the independent fashion media began attracting influence, designers and retail brands gave them access once reserved for only old-media outlets. Digital fashionistas sit front row at Fashion Week, model in ad campaigns, forge design collaborations and make guest appearances in the pages of Vogue.</p>
@@ -66,37 +66,13 @@
     </div>
 </section>
 
-
-<!--
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>Storybook lives</h3>
             <p>
-                <img src="_assets/unusual/tod-selby.png" class="tod-selby remove-mobile" />
-                <img src="_assets/unusual/tod-selby.png" class="tod-selby inline remove-768 remove-960 remove-1200" />
-                Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who’s often in front of the camera on From Me To You, or Hanneli Mustaparta, the former model who offers candid access to her life on Hanneli.com. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors. Framel and Hanneli are consistent stars of their posts; Beck appears among a portfolio of landscapes and editorial work. Hanneli is usually modeling the hottest pieces from an upcoming season, while Framel and Beck often include pieces from past seasons and vintage finds. </p>
-            <p>"Fashion collections have to be created at such a fast pace these days, so I was drawing a lot of my inspiration from the Internet, especially using personal style blogs as a barometer of trends," Framel says. "The girls who worked in the studio with me were always goading me to start one of my own, and finally I decided that it might actually be fun to get in on the conversation." The burgeoning popularity of street style bloggers helped, creating a digital reverence for individual style — but the journalistic nature of their work left an opening for stylish people who wanted to tell their own style stories. "Building my site has allowed me the freedom to write my own rules, to juggle a hundred different projects at once," Framel says. "It's the reason I’ve found so much passion in my work as a stylist: Every week I get to weave a brand new dream." </p>
-            <p>Several other people are creating interesting spaces online from which to show off their work. <a href="http://www.freundevonfreunden.com/" title="Freunde von Freunden" target="blank">Freunde von Freunden</a>, founded by a German creative trio, interviews interesting people and showcases their living spaces around the globe. As well, <a href="http://www.thecoolhunter.net/" title="The Cool Hunter" target="blank">The Cool Hunter</a>, founded by Bill Tikos, spotlights posh homes, hotels, restaurants and objects in a narrative format. In the style realm, the rise of street style is undeniable. Unlike the style bloggers documenting personal outfits, bloggers such as Scott Schuman of <a href="http://www.thesartorialist.com/" title="The Sartorialist" target="blank">The Sartorialist</a>, Tommy Ton of <a href="http://jakandjil.com/" title="Jak & Jil" target="blank">Jak & Jil</a>, Phil Oh of <a href="http://streetpeeper.com/" title="Street Peeper" target="blank">Street Peeper</a> and <a href="http://www.garancedore.fr/en/" title="Garance Doré" target="blank">Garance Doré</a> of her eponymous site have turned their lenses on the sophisticated public to celebrated effect. They snag images of the world’s most fashionable people as well as everyday trendsetters. Picture by picture, they are telling the visual story of the world’s most coveted streets and buildings.</p>
-        </div>
-    </div>
-</section>
-<section class="content">
-    <div class="lovely-grid">
-        <div class="grid-20 pull-2 push-2 pad-mobile-20">
-            <img src="_assets/unusual/schuman-ton-oh-dore.png" />
-        </div>
-    </div>
-</section>
--->
-
-<section class="content">
-    <div class="lovely-grid">
-        <div class="grid-14 pull-5 push-5 pad-mobile-20">
-            <h3>Storybook lives</h3>
-            <p>
-                <img src="_assets/unusual/tod-selby.png" class="tod-selby remove-mobile" />
-                <img src="_assets/unusual/tod-selby.png" class="tod-selby inline remove-768 remove-960 remove-1200" />
+                <img src="_assets/unusual/todd-selby.jpg" class="tod-selby remove-mobile" />
+                <img src="_assets/unusual/todd-selby.jpg" class="tod-selby inline remove-768 remove-960 remove-1200" />
                 For Todd Selby, building a site was just a hobby, an extension of his day job as a professional photographer specializing in portraits and fashion photography for magazines and advertisers. Growing restless waiting for assignments and inspired by the living spaces of his creative friends and assigned subjects, he launched <a href="http://theselby.com/" title="The Selby" target="blank">The Selby</a> in 2008.</p>
                 <p>The conceit is simple: gorgeous photographs of supremely interesting interiors. But the result is striking. With images of knickknack collections, stacked art supplies and intimate portraits of people in their homes — as well as a hand-drawn questionnaire denouement to each post — The Selby manages to capture the spirit of a person's life with objects. "I just really wanted to do this cool thing and put it on the Internet," Selby says. "Working online is the way to do things. It's global, and it's instantaneous, and it's forever."</p>
                 <p>The site has been an unparalleled calling card for Selby, who supports himself by working on advertising collaborations. He has produced a <a href="http://louisvuittonexpress.com/" title="Louis Vuitton" target="blank">series of travel journals for Louis Vuitton</a>, a <a href="http://theselby.com/galleries/collaborations/the-selby-x-fendi/" title="portfolio of photographs for Fendi" target="blank">portfolio of photographs for Fendi</a> and a <a href="http://www.youtube.com/watch?feature=player_embedded&v=s3gDnnTfE2E" title="branding video for Zara" target="blank">branding video for Zara</a>. His inimitable style also has filled two books, <a href="http://www.amazon.com/Selby-Your-Place-Todd/dp/0810984865" title="The Selby Is in Your Place" target="blank">The Selby Is in Your Place</a> and most recently <a href="http://www.amazon.com/Edible-Selby-Todd/dp/0810998041/ref=sr_1_1?s=books&ie=UTF8&qid=1361397656&sr=1-1&keywords=Edible+Selby" title="Edible Selby" target="blank">Edible Selby</a>, a photo collection of the culinary workspaces and restaurants of leading chefs that sprouted from a column Selby began doing in 2011 for <a href="http://www.nytimes.com/pages/t-magazine/index.html" title="The New York Times' quarterly T Magazine" target="blank">The New York Times' quarterly T Magazine</a>.</p>
@@ -114,16 +90,13 @@
             <p>Another thriving facet of digital storytelling is more explicitly instructive. How to remodel your house. How to make a gourmet meal in a shoebox kitchen. How to build a holiday centerpiece and make homemade wood cleaner. In other words, there's a Martha Stewart for everyone and every ambition.</p>
             <p>
                 <span class="pippa-lord large remove-mobile remove-768">
-                    <img src="_assets/unusual/pippa-lord.png" />
-                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                    <img src="_assets/unusual/pippa-lord.jpg" />
                 </span>
                 <span class="pippa-lord med remove-mobile remove-960 remove-1200">
-                    <img src="_assets/unusual/pippa-lord.png" />
-                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                    <img src="_assets/unusual/pippa-lord.jpg" />
                 </span>
                 <span class="pippa-lord small remove-768 remove-960 remove-1200">
-                    <img src="_assets/unusual/pippa-lord.png" />
-                    <img src="_assets/unusual/pippa-lord-tag.png" class="tag" />
+                    <img src="_assets/unusual/pippa-lord.jpg" />
                 </span>
                 Last year, Pippa Lord launched <a href="http://sousstyle.com/" target="blank" title="Sous Style">Sous Style</a>, a site half-devoted to showing how beautiful people live through gorgeous photographs and breezy questionnaires and half-devoted to passing on recipes, dining hotspots and housewarming tricks. Lord, a photo editor at <a href="http://www.elle.com/" title="ELLE" target="blank">ELLE</a>, lists the site as designed for a "new generation of homemakers" that comes replete with a manifesto.</p>
                 <p>For example: "Our ‘houses’ might be apartments or rooms we rent, but they are spaces we call our own." She’s not alone in trying to perfect the quirky art of urban homemaking. <a href="http://smittenkitchen.com/" title="Smitten Kitchen" target="blank">Smitten Kitchen</a>, a recipe blog run by Deb Perelman is an account of "fearless cooking from a tiny kitchen in New York City." From the West Coast, Joy Wilson of <a href="http://joythebaker.com/" title="Joy the Baker" target="blank">Joy the Baker</a>, is a self-taught foodie with a sweet tooth, who stuffs her recipes amidst humorous life bits and pictures of her cat. As well, Emily Schuman of Los Angeles is the creator of the hugely popular site <a href="http://cupcakesandcashmere.com/" title="Cupcakes and Cashmere" target="blank">Cupcakes and Cashmere</a>, which details her exploits at creating a glamorous life, from closet to kitchen.</p>
@@ -131,20 +104,16 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p class="pad-right extra">
                 <span class="bonney-wilson-schuman-perelman large remove-mobile remove-768 remove-960">
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.jpg" />
                 </span>
                 <span class="bonney-wilson-schuman-perelman med2 remove-mobile remove-768 remove-1200">
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.jpg" />
                 </span>
                 <span class="bonney-wilson-schuman-perelman med remove-mobile remove-960 remove-1200">
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.jpg" />
                 </span>
                 <span class="bonney-wilson-schuman-perelman small remove-768 remove-960 remove-1200">
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.png" />
-                    <img src="_assets/unusual/bonney-wilson-schuman-perelman-tag.png" class="tag" />
+                    <img src="_assets/unusual/bonney-wilson-schuman-perelman.jpg" />
                 </span>
                 </p>
                 <p class="pad-right extra">On the design side, the gold standard is <a href="http://www.designsponge.com/" title="Design*Sponge" target="blank">Design*Sponge</a>. It’s the brainchild of Grace Bonney, a former editor and writer for a stack of print publications including <a href="http://www.dominomag.com/" title="Domino" target="blank">Domino</a> and <a href="http://www.bhg.com/" title="Better Homes and Gardens" target="blank">Better Homes and Gardens</a>. Design solutions, product features, profiles of interesting living spaces and, of course, do-it-yourself tutorials fill the site. On the other side of earnest is Morgan Satterfield of <a href="http://www.the-brick-house.com/" title="The Brick House" target="blank">The Brick House</a>, a blog that was conceived to tell the story of Satterfield’s on-a-budget renovation in her modern California abode.</p>
