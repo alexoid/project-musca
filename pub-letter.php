@@ -49,6 +49,10 @@
                     Kyle Derkacz
                 </li>
                 <li>
+                    <h4>PRODUCT MANAGER</h4>
+                    Rachel Wolan
+                </li>
+                <li>
                     <h4>PHOTO EDITOR</h4>
                     Madeleine Weiss
                 </li>
@@ -61,10 +65,6 @@
                 <li>
                     <h4>COPY EDITOR</h4>
                     Michelle D. Williams
-                </li>
-                <li>
-                    <h4>PRODUCT MANAGER</h4>
-                    Rachel Wolan
                 </li>
                 <li>
                     <h4>PROOFREADER</h4>
