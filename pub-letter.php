@@ -24,6 +24,10 @@
                     Matt Sanchez
                 </li>
                 <li>
+                    <h4>PRESIDENT</h4>
+                    Kim Kelleher
+                </li>
+                <li>
                     <h4>MANAGING EDITOR</h4>
                     Wendy Taylor
                 </li>
@@ -70,41 +74,14 @@
             </ul>
         </div>
         <div class="grid-10 push-8 pad-mobile-20">
-            <p class="first">In the media and marketing worlds, we frequently throw around a few expressions about
-                content.</p>
-            <p>You’ve all heard them: Be a part of the conversation. Think like a publisher. Or the one I
-                really dislike: We need a content strategy. </p>
-            <p>What all of those are really saying is this: We need a point of view. If you can figure out your point of
-                view, you’ll be able to carve out a place in the world of digital media that will be the envy of your
-                competitors.</p>
-            <p>The power of point of view is not unique to digital publishing, of course. We’ve seen it define and shape
-                successful magazines, newspapers and cable TV shows (hello, Fox News). But the fact that it’s now
-                defining the successful digital media properties signals that digital media is approaching its golden
-                age. </p>
-            <p>That’s why we devoted this issue of Say Magazine to the power of what we call Point-of-View Publishing
-                and the pioneers who are leading the way. In our cover story (“The Great Escape,” page xx), Dan Lyons,
-                editor in chief of ReadWrite, who you also may know as an award-winning columnist and the creator of
-                Fake Steve Jobs, talks about how he’s harnessing storytelling and point of view as the secret to
-                covering the tech stories that really matter — and engaging readers in a two-way conversation. We’ve
-                pictured him on the cover of the issue in a prison jumpsuit for fun but also to signal that you should
-                expect the unexpected from Lyons’ vision for ReadWrite (and we mean that in the best way
-                imaginable).</p>
-            <p>Also in this issue, you'll find interviews some of the Web’s most talented — and in some cases surprising
-                — storytellers (“Unusual Suspects,” page xx). These content creators are narrators of the everyday as
-                well as the remarkable who use images, words or social media to engross an audience that is more
-                plugged-in than ever before. Media entrepreneurs such as Kelly Framel from Glamourai, Jamie Beck of From
-                Me To You, Pippa Lord of Sous Style and Emily Schuman of Cupcakes and Cashmere are strong, individual
-                personalities that have cultivated significant influence, are driving the e-commerce revolution, and
-                have attracted motivated and sizable loyal audiences. We’ve also created a cool map that highlights some
-                of the most promising and interesting point-of-view publishers and storytellers on page xx (prepare to
-                be surprised). </p>
-            <p>On page xx, Jon Thomas, editor in chief of Post Advertising, takes point of view a step further in “The
-                Art and Science of Great Brand Storytelling” and shows you how to unearth your own brand story. We also
-                asked Brian Clark, one of the foremost experts on creating great copy to write about how to create great
-                online content that builds your business (“The State of the Art in Content Marketing,” page xx). </p>
-            <p>And there’s much, much more. Taken together, all these stories are a playbook for what we believe it
-                takes for advertisers, content creators and all of us to be successful, relevant and competitive in this
-                brave new world of digital media.</p>
+            <p class="first">If you're a frequent reader of our content, you'll know that each quarter we cover an important theme in media and marketing. This time it's different.</p><p>This issue of Say Quarterly (formerly Say Magazine) is for everyone who needs to connect with people, whether at the office, on a website, as an editor or as a marketer. There is just too much media today — too much competing for our attention. Worse, too much of it is bland, uninteresting or uninspiring — and too easy to tune out. If you want to be noticed by your readers, customers or peers, you have to take a stand (for better or worse). <strong>You need a point of view.</strong></p>
+            <p>There is no fence-sitting when it comes to Mike Bloomberg or Chris Christie. They are polarizing, but people listen, and more important, people join the conversation when these two men take a position on an issue. People rally passionately behind causes they identify with that are clearly articulated. The same is true of the loyal followings that have propelled great magazines, TV shows and digital media brands. FOX News, Girls and Jon Stewart have all built passionate audiences by unapologetically tackling issues from their unique perspectives.</p>
+            <p><b>Simply put, point of view is brand.</b> And it's more important than topic. The people you enjoy spending time with usually share your point of view. And when you share a point of view with someone, you can talk about anything. That's true whether you create content, consume it or advertise with it.</p>
+            <p>The fact that it's now defining the successful digital media properties signals that digital media is approaching its golden age. What differentiates online media properties is not a domain name, an SEO strategy or technology pyrotechnics. Ultimately, what attracts and keeps an audience engaged over time is great storytelling and a clear and compelling point of view.</p>
+            <p>That's why we've devoted this issue of Say Quarterly to the power of what we call Point-of-View Publishing — and the pioneers who are leading the way. In "The Great Escape," Dan Lyons, editor in chief of ReadWrite, award-winning columnist and the creator of Fake Steve Jobs, talks about how he's harnessing storytelling and point of view as the secret to covering the tech stories that really matter — and engaging readers in a two-way conversation. We've pictured him in a prison jumpsuit for fun but also to signal that you should expect the unexpected from Dan's vision for <a href="http://readwrite.com" title="ReadWrite" target="blank">ReadWrite</a> (and we mean that in the best way imaginable).</p>
+            <p>Also in this issue of Say Quarterly, Lauren Streib of The Daily Beast interviews some of the Web's most talented, and in some cases surprising, storytellers (<a href="feature-unusual.php" title="The Unusual Suspects">"The Unusual Suspects"</a>). These content creators are narrators of the everyday and the remarkable who use images, words or social media to engross an audience that is more plugged-in than ever before. Media entrepreneurs such as Kelly Framel from <a href="http://www.theglamourai.com/" title="The Glamourai" target="blank">The Glamourai</a>, Jamie Beck of <a href="http://annstreetstudio.com/" title="Ann Street Studio" target="blank">Ann Street Studio</a>, Pippa Lord of <a href="http://sousstyle.com/" title="Sous Style" target="blank">Sous Style</a> and Emily Schuman of <a href="http://cupcakesandcashmere.com/" title="Cupcakes and Cashmere" target="blank">Cupcakes and Cashmere</a> are strong, individual personalities who have cultivated significant influence, are driving the e-commerce revolution, and have attracted motivated and sizable loyal audiences.</p>
+            <p>Also in this first edition, Jon Thomas, editor in chief of Post Advertising takes point of view a step further in <a href="feature-storytelling.php" title="The Art and Science of Great Brand Storytelling">"The Art and Science of Great Brand Storytelling"</a> and shows you how to unearth your own brand story. Say Media's chief technology officer and co-founder David Lerman previews the next-generation media platform we're working on that will dramatically change the way media is created and consumed and that is part of our vision for the media company of the future (<a href="article-tempest.php" title="Meet Tempest">"Meet Tempest, Our Next-Generation Media Platform"</a>). And there's much, much more. Together, all these stories are a playbook for what we believe it takes for great content, from editors and advertisers alike, to be successful, relevant and competitive in this brave new world of digital media.</p>
+            <p>We hope you find this issue of Say Quarterly enlightening, entertaining — and above all useful. We look forward to having a conversation with you about all of it.</p>
         </div>
         <div class="show-mobile">
         <div class="grid-5 push-1 pad-mobile-20 masthead">
