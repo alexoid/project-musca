@@ -36,8 +36,8 @@
 
             <p>Starring supermodel and actress Kate Upton and a couple of cockroaches with attitude, the campaign included videos, rich media and social sharing. Created on Say Media’s <a href="http://www.saymedia.com/ad-products" title="AdFrames 3 platform" target="blank">AdFrames 3 platform</a>, the <a href="http://clientpreview.saymedia.com/?ccid=2898624-1" title="ad unit" target="blank">ad unit</a> featured a series of “choose your own ending” videos starring Upton as well as an embedded “smash-a-roach” challenge and a “lookbook” of the company’s current line.</p>
         </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>

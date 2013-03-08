@@ -35,8 +35,8 @@
                 <p class="first">Canon and Say Media created an original content series around one editor's passion for photography.</p>
             </div>
 
-            <div class="grid-2 pad-mobile-20 hide-mobile nested-last">
-                <img src="_img/social.png" alt="">
+            <div class="social-share grid-2 pad-mobile-20 hide-mobile nested-last">
+                <?php include "../_inc/social.php"; ?>
             </div>
 
             <div class="grid-7 nested-first">
