@@ -19,15 +19,13 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-5 pull-2 remove-mobile">
-
             <div class="photo">
-                <img src="_assets/canon/video.png" alt="">
-                <p class="caption hide-mobile">
+                <img src="_assets/canon/video.jpg" alt="">
+                <p class="caption">
                     See it in action
                     <span>0:15 sec</span>
                 </p>
             </div>
-
         </div>
         <div class="grid-14 push-2 pull-1 pad-mobile-20">
 
@@ -35,7 +33,7 @@
                 <p class="first">Canon and Say Media created an original content series around one editor's passion for photography.</p>
             </div>
 
-            <div class="social-share grid-2 pad-mobile-20 hide-mobile nested-last">
+            <div class="social-share grid-2 nested-last">
                 <?php include "../_inc/social.php"; ?>
             </div>
 
@@ -43,7 +41,7 @@
 
                 <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
                     <div class="photo">
-                        <img src="_assets/zoo-york/video.png" alt="">
+                        <img src="_assets/canon/video-sm.jpg" alt="">
                         <p class="caption">
                             See it in action
                             <span>0:15 sec</span>
