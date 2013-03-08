@@ -54,6 +54,15 @@ header#navigation {
     text-rendering: optimizeLegibility;
     overflow: hidden;
 
+    a {
+      color: @white;
+      text-decoration: none;
+
+      &:hover {
+        background-color: @red;
+      }
+    }
+
     .nav {
 
       a {
@@ -82,19 +91,6 @@ header#navigation {
       }
     }
   }
-}
-
-.no-touch header#navigation a {
-  color: @white;
-  text-decoration: none;
-
-  &:hover {
-    background-color: @red;
-  }
-}
-.touch header#navigation a {
-  color: @white;
-  text-decoration: none;
 }
 
 // Content Styles
@@ -215,5 +211,6 @@ section.toc {
     }
   }
 }
+
 
 // EOF
