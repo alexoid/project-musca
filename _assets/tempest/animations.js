@@ -1,17 +1,17 @@
 $(document).ready(function () {
 
-    video = {
-        mp4: "_assets/tempest/video.mp4",
-        ogv: "_assets/tempest/video.mp4",
-        webm: "_assets/tempest/video.mp4",
-        poster: "",
-        autoplay: true,
-        loop: true,
-        fullscreen: false
-    };
+    // video = {
+    //     mp4: "_assets/tempest/video.mp4",
+    //     ogv: "_assets/tempest/video.mp4",
+    //     webm: "_assets/tempest/video.mp4",
+    //     poster: "",
+    //     autoplay: true,
+    //     loop: true,
+    //     fullscreen: false
+    // };
 
     // Hero background video
-    var videoBG = $('#hero-wrapper').videoBG(video);
+    // var videoBG = $('#hero-wrapper').videoBG(video);
 
 
     var controller = $.superscrollorama();

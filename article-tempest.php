@@ -9,34 +9,46 @@
             <div class="grid-24">
                 <h3>Innovation</h3>
                 <h2 class="hide-mobile">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
-                <h2 class="small remove-768 remove-960 remove-1200">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
+                <h2 class="small show-mobile">Meet Tempest<br/> Our Next-Generation<br/> Media Platform</h2>
                 <h3>By David Lerman</h3>
             </div>
+        </div>
+        <div class="video remove-mobile">
+            <video autoplay="autoplay" preload="auto" width="100%" loop >
+                <source src="_assets/tempest/video.mp4" type="video/mp4">
+                <source src="_assets/tempest/video.mp4" type="video/webm">
+                <source src="_assets/tempest/video.mp4" type="video/ogg">
+            </video>
         </div>
     </div>
 </section>
 
-<div class="article">
+
     <section class="content">
         <div class="lovely-grid">
             <div class="grid-10 pull-8 push-2 pad-mobile-20">
                 <p class="first">Beautiful, scalable online media experiences have been limited by existing, cobbled-together systems. That's about to change.</p>
-                <p>To quote the great computer scientist Alan Kay, the best way to predict the future is to invent it — so as part of our <a href="http://saydaily.com/2012/07/how-to-build-a-great-media-company.html" title="goal to build the media company of the future" target="blank">goal to build the media company of the future</a>, we've also been building the technology platform to enable it. This initiative is broader than just developing a better content management system. It's about looking at where media is headed and building a whole new kind of technology solution that dramatically changes the way media is created and consumed.</p>
             </div>
-            <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
-            <?php include "../_inc/social.php"; ?>
-        </div>
+            <div class="social-share grid-2 push-2 pad-mobile-20">
+                <?php include "../_inc/social.php"; ?>
+            </div>
         </div>
     </section>
 
     <section class="content">
         <div class="lovely-grid">
             <div class="grid-10 pull-8 push-6 pad-mobile-20">
-                <div class="grid-5 pull-1 quote">
-                    <p>A Tempest publication seamlessly integrates content, community, commerce and advertising — across all devices.</p>
+                <p>To quote the great computer scientist Alan Kay, the best way to predict the future is to invent it — so as part of our <a href="http://saydaily.com/2012/07/how-to-build-a-great-media-company.html" title="goal to build the media company of the future" target="blank">goal to build the media company of the future</a>, we've also been building the technology platform to enable it. This initiative is broader than just developing a better content management system. It's about looking at where media is headed and building a whole new kind of technology solution that dramatically changes the way media is created and consumed.</p>
+                <div class="grid-5 pull-1 quote remove-mobile">
+                    <p>"A Tempest publication seamlessly integrates content, community, commerce and advertising — across all devices."</p>
                 </div>
                 <p>Today's digital media experiences are limited by the cobbled-together publishing systems they're built with. The publication of the future won't have a mobile template and a Web template; it will be built from the ground up for all devices. It will not have social plug-ins; it will be inherently social, richly interactive and deeply community-oriented. It won't have Google Analytics or Chartbeat sitting on the side; it will integrate actionable data across every dimension of the experience to help build and grow audience. It won't have ads tacked on in little boxes around the edges; it will deeply integrate brands into the site experience in a way that creates real value for the marketer while respecting (and even enhancing) the site's voice. And most of all, the publication of the future will be authentic, it will be engaging and it will be beautiful.</p>
                 <p>Tempest is Say Media's next-generation media platform that is making all this possible. Tempest publications seamlessly integrate content, community, commerce and marketing into a beautiful experience that is led by point of view and powered by great technology.</p>
+            </div>
+            <div class="show-mobile">
+            <div class="grid-10 pull-8 push-6 quote pad-mobile-20">
+                <p>"A Tempest publication seamlessly integrates content, community, commerce and advertising — across all devices."</p>
+            </div>
             </div>
         </div>
     </section>
@@ -81,8 +93,10 @@
                 <img src="_assets/tempest/layers/Data.png" class="layer" id="data" />
                 <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
             </div>
-            <div class="grid-5 pull-1 remove-1200 remove-768 remove-960">
+            <div class="show-mobile">
+            <div class=" pad-mobile-20">
                 <img src="_assets/tempest/layers/Mobile.png" class="layer" />
+            </div>
             </div>
 
         </div>
@@ -97,4 +111,3 @@
             </div>
         </div>
     </section>
-</div>

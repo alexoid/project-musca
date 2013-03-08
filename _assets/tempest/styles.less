@@ -2,26 +2,45 @@
 
 @import "../../_css/utils";
 
-video {
-  bottom: 0 !important;
-  top: auto !important;
-}
+
 
 // Hero
 
 section.hero {
+  margin: 0 0 40px 0;
   overflow: hidden;
-  position: fixed;
+  position: relative;
   width: 100%;
-  z-index: -1;
+  height: 420px;
   background-color: @black;
+  background-repeat: repeat-x;
+  background-position: top;
+  background-image: url("hero-bg.jpg");
+
+  .wrapper {
+    height: 340px;
+    padding: 80px 0 0 0;
+
+    .video {
+        // height: 480px;
+
+        video {
+            position: absolute;
+            top: 40px;
+            min-height: 50%;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+  }
 
   h2 {
     z-index: 1000;
     color: @white;
     position: relative;
     margin: 20px 0 0 0;
-    font-size: 68px;
+    font-size: 56px;
     font-family: @base-font;
     text-align: center;
 
@@ -45,11 +64,6 @@ section.hero {
     text-align: center;
   }
 
-  .wrapper {
-    height: 700px;
-    padding: 120px 0 0 0;
-    position: relative;
-  }
 }
 
 // Content
@@ -76,7 +90,7 @@ section.content p strong {
 }
 
 section.content .quote {
-  margin: 5px -150px 0 0;
+  margin: 5px -150px 20px 0;
   float: right;
 }
 
@@ -87,6 +101,11 @@ section.content .quote p {
   color: @black;
   text-transform: uppercase;
   font-family: @alt-gothic;
+}
+
+section.content .show-mobile .quote {
+  margin: 40px;
+  float: none;
 }
 
 section.content p a {

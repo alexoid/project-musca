@@ -1,142 +1,28 @@
 @charset 'utf-8';
-video {
-  bottom: 0 !important;
-  top: auto !important;
-}
-section.hero {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-  background-color: #000000;
-}
-section.hero h2 {
-  z-index: 1000;
-  color: #ffffff;
-  position: relative;
-  margin: 20px 0 0 0;
-  font-size: 68px;
-  font-family: georgia, serif;
-  text-align: center;
-}
-section.hero h2.small {
-  font-size: 48px;
-}
-section.hero h3 {
-  z-index: 1000;
-  padding: 4px 0 0 0;
-  position: relative;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 0.25em;
-  color: #000000;
-  margin: 20px auto 0 auto;
-  width: 180px;
-  background-color: #ffffff;
-  font-family: "alternate-gothic-no-1-d", sans-serif;
-  text-align: center;
-}
-section.hero .wrapper {
-  height: 700px;
-  padding: 120px 0 0 0;
-  position: relative;
-}
-.article {
-  margin-top: 550px;
-  background-color: #ffffff;
-  padding-top: 20px;
-}
-section.content .lovely-grid {
-  position: relative;
-}
-section.content p {
-  font-family: georgia, serif;
-}
-section.content p.first {
-  color: #000000;
-}
-section.content p strong {
-  color: #000000;
-}
-section.content .quote {
-  margin: 5px -150px 0 0;
-  float: right;
-}
-section.content .quote p {
-  display: inline;
-  font-size: 34px;
-  line-height: 1em;
-  color: #000000;
-  text-transform: uppercase;
-  font-family: "alternate-gothic-no-1-d", sans-serif;
-}
-section.content p a {
-  border-color: #ce950c;
-  color: #ce950c;
-}
-section.fullwidth {
-  height: 215px;
-  background-image: url("devices.jpg");
-  background-repeat: repeat-x;
-  background-position: center;
-  margin: 0 0 25px 0;
-}
-.modules-floated {
-  position: fixed;
-  top: 100px;
-}
-.modules {
-  position: relative;
-}
-.modules IMG {
-  position: absolute;
-}
-.modules .layer {
-  width: 317px;
-}
-.modules .block {
-  width: 161px;
-}
-#experience {
-  z-index: 18;
-  left: 51px;
-}
-#content {
-  z-index: 13;
-  top: 60px;
-}
-#community {
-  z-index: 15;
-  top: 86px;
-  left: 128px;
-}
-#community-cover {
-  z-index: 17;
-  top: 86px;
-  left: 128px;
-}
-#commerce {
-  z-index: 16;
-  top: 86px;
-  left: 130px;
-}
-#marketing {
-  z-index: 14;
-  top: 60px;
-  left: 207px;
-}
-#distribution {
-  z-index: 12;
-  top: 116px;
-  left: 51px;
-}
-#data {
-  z-index: 11;
-  top: 150px;
-  left: 51px;
-}
-#infrastructure {
-  z-index: 10;
-  top: 183px;
-  left: 51px;
-}
+section.hero{margin:0 0 40px 0;overflow:hidden;position:relative;width:100%;height:420px;background-color:#000000;background-repeat:repeat-x;background-position:top;background-image:url("hero-bg.jpg");}section.hero .wrapper{height:340px;padding:80px 0 0 0;}section.hero .wrapper .video video{position:absolute;top:40px;min-height:50%;width:100%;height:auto;}
+section.hero h2{z-index:1000;color:#ffffff;position:relative;margin:20px 0 0 0;font-size:56px;font-family:georgia,serif;text-align:center;}section.hero h2.small{font-size:48px;}
+section.hero h3{z-index:1000;padding:4px 0 0 0;position:relative;text-transform:uppercase;font-size:18px;letter-spacing:0.25em;color:#000000;margin:20px auto 0 auto;width:180px;background-color:#ffffff;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center;}
+.article{margin-top:550px;background-color:#ffffff;padding-top:20px;}
+section.content .lovely-grid{position:relative;}
+section.content p{font-family:georgia,serif;}
+section.content p.first{color:#000000;}
+section.content p strong{color:#000000;}
+section.content .quote{margin:5px -150px 20px 0;float:right;}
+section.content .quote p{display:inline;font-size:34px;line-height:1em;color:#000000;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif;}
+section.content .show-mobile .quote{margin:40px;float:none;}
+section.content p a{border-color:#ce950c;color:#ce950c;}
+section.fullwidth{height:215px;background-image:url("devices.jpg");background-repeat:repeat-x;background-position:center;margin:0 0 25px 0;}
+.modules-floated{position:fixed;top:100px;}
+.modules{position:relative;}
+.modules IMG{position:absolute;}
+.modules .layer{width:317px;}
+.modules .block{width:161px;}
+#experience{z-index:18;left:51px;}
+#content{z-index:13;top:60px;}
+#community{z-index:15;top:86px;left:128px;}
+#community-cover{z-index:17;top:86px;left:128px;}
+#commerce{z-index:16;top:86px;left:130px;}
+#marketing{z-index:14;top:60px;left:207px;}
+#distribution{z-index:12;top:116px;left:51px;}
+#data{z-index:11;top:150px;left:51px;}
+#infrastructure{z-index:10;top:183px;left:51px;}
