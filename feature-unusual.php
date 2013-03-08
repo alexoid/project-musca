@@ -7,8 +7,8 @@
         <div class="grid-24">
             <div class="wrapper">
                 <h3>Feature</h3>
-                <h2 class="hide-mobile">Unusual<br/> Suspects</h2>
-                <h2 class="small remove-768 remove-960 remove-1200">Unusual<br/> Suspects</h2>
+                <h2 class="remove-mobile">Unusual<br/> Suspects</h2>
+                <h2 class="small show-mobile">Unusual<br/> Suspects</h2>
                 <h3>By Lauren Streib</h3>
             </div>
         </div>
@@ -118,7 +118,7 @@
                 </p>
                 <p class="pad-right extra">On the design side, the gold standard is <a href="http://www.designsponge.com/" title="Design*Sponge" target="blank">Design*Sponge</a>. It’s the brainchild of Grace Bonney, a former editor and writer for a stack of print publications including <a href="http://www.dominomag.com/" title="Domino" target="blank">Domino</a> and <a href="http://www.bhg.com/" title="Better Homes and Gardens" target="blank">Better Homes and Gardens</a>. Design solutions, product features, profiles of interesting living spaces and, of course, do-it-yourself tutorials fill the site. On the other side of earnest is Morgan Satterfield of <a href="http://www.the-brick-house.com/" title="The Brick House" target="blank">The Brick House</a>, a blog that was conceived to tell the story of Satterfield’s on-a-budget renovation in her modern California abode.</p>
                 <p class="pad-right extra">Their sites are just part of the allure of these creators. They also truly excel at creating content that is shareable, an ever more valuable commodity in the digital space. There are 80 million Instagram users, 340 million Tweets are sent each day and Pinterest generates nearly 2 billion monthly page views. These bloggers have learned to harness that opportunity while staying true to telling the stories of their process and product. Joy the Baker has a <a href="http://joythebaker.com/podcast/" title="Joy the Baker's weekly podcast" target="blank">weekly podcast</a>, a <a href="http://joythebaker.com/cookbook/" title="Joy the Baker's published cookbook" target="blank">published cookbook</a> and a strong Pinterest following. <a href="http://www.amazon.com/Smitten-Kitchen-Cookbook-Deb-Perelman/dp/030759565X/ref=sr_1_1?s=books&ie=UTF8&qid=1361399412&sr=1-1&keywords=smitten+kitchen+cookbook" title="The Smitten Kitchen Cookbook" target="blank">The Smitten Kitchen Cookbook</a> was released in October, and Perelman has thousands of Instagram followers (though the pictures rarely involve food). Design*Sponge has nearly half a million Twitter followers, <a href="http://www.amazon.com/Design-Sponge-Home-Grace-Bonney/dp/1579654312/ref=la_B004DSAV1I_1_1?ie=UTF8&qid=1361399504&sr=1-1" title="Design*Sponge book" target="blank">a new book</a> and offers scholarship money to design students. </p>
-        
+
                <!--
                 "I think there’s now this pressure associated with starting and maintaining a blog, since people have been able to build successful careers on their own," Schuman told Say Daily earlier this year. "But if you’re not writing about what you’re passionate about, it’ll come across as inauthentic and you’ll get bored."</p>
                 -->
@@ -191,15 +191,16 @@
         </div>
     </div>
 </section>
- <section class="content bio">
-        <div class="lovely-grid">
-            <div class="grid-10 pull-7 push-7 pad-mobile-20">
-                <img src="_assets/unusual/bio-lauren.jpg" />
-                <p><strong>Lauren Streib</strong> is a freelance journalist in Brooklyn. She has worked at Newsweek, The Daily Beast, Forbes, WWD and Bloomberg Businessweek.</p>
-                   <p><a href="https://twitter.com/lostreib" class="twitter-follow-button" data-show-count="false">Follow @lostreib</a></p>
-            </div>
+
+<section class="content bio">
+    <div class="lovely-grid">
+        <div class="grid-10 pull-5 push-9 pad-mobile-20">
+            <img src="_assets/unusual/bio-lauren.jpg" />
+            <p><strong>Lauren Streib</strong> is a freelance journalist in Brooklyn. She has worked at Newsweek, The Daily Beast, Forbes, WWD and Bloomberg Businessweek.</p>
+               <p><a href="https://twitter.com/lostreib" class="twitter-follow-button" data-show-count="false">Follow @lostreib</a></p>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
