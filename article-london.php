@@ -27,8 +27,8 @@
             <p>Developments such as click-word models were difficult to sell to publishers who faced vehement opposition from editorial staff. But if we go for another Bob reference, you’ve “Gotta Serve Somebody” nicely encapsulates the feeling that advertising serves advertisers and viewers, not editors. </p>
             <p>Love it or loathe it, click-words are a good example of how (some) publishers are willing to take risks. Ad formats that are new to the user come with added curiosity value, and with curiosity comes investigation. Ironically, online advertising needs to work on its own advertising. When I speak to publishers, I don’t talk about an expandable unit, I just show them Say Media’s ad units and demonstrate how cool they actually are.</p>
         </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>

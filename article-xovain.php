@@ -20,8 +20,8 @@
             <p>When <a href="http://www.xojane.com" title="XO Jane" target="blank">xoJane</a> launched almost two years ago, it was truly one of the first websites where independent, passionate and opinionated women could go to find raw, honest and compelling stories from real, relatable women. Readers were drawn to the site instantly, spending an average of five minutes per visit engaging with the authors and each other in the comments. Even more impressive is how thoughtful the readers' reactions were to the personal articles they couldn't find anywhere else on the Web.</p>
             <p>At the same time, these readers had no problem clicking from an article like <a href="http://www.xojane.com/it-happened-to-me/ihtm-im-married-to-a-virgin" title="It Happened to Me: I'm Married to a Virgin" target="blank">It Happened to Me: I'm Married to a Virgin</a> to a beauty article telling them how one writer <a href="http://www.xojane.com/beauty/how-i-fixed-my-keratosis-pilaris-aka-chicken-skin-and-got-awesome-hair-boot" title="fixed her chicken skin and got awesome hair to boot" target="blank">fixed her chicken skin and got awesome hair to boot</a>.</p>
         </div>
-        <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>
