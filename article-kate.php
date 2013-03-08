@@ -22,21 +22,22 @@
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
             <p class="first">A supermodel, plucky roaches and an award-winning campaign take an apparel line to the digital advertising hall of fame.</p>
+            <div class="social-share show-mobile">
+                <?php include "../_inc/social.php"; ?>
+            </div>
             <p><a href="http://www.zooyork.com/" title="Zoo York" target="blank">Zoo York</a> apparel embodies the attitude and lifestyle of the Big Apple's skateboarding, graffiti and hip-hop community. To showcase its brand, the company put together an irreverent and engaging interactive experience, highlighting the clothing company's latest styles.</p>
-
             <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
                 <div class="photo">
-                    <img src="_assets/zoo-york/video.png" alt="">
+                    <img src="_assets/zoo-york/video-sm.jpg" alt="">
                     <p class="caption">
                         See it in action
                         <span>0:15 sec</span>
                     </p>
                 </div>
             </div>
-
             <p>Starring supermodel and actress Kate Upton and a couple of cockroaches with attitude, the campaign included videos, rich media and social sharing. Created on Say Media's <a href="http://www.saymedia.com/ad-products" title="AdFrames 3 platform" target="blank">AdFrames 3 platform</a>, the <a href="http://clientpreview.saymedia.com/?ccid=2898624-1" title="ad unit" target="blank">ad unit</a> featured a series of "choose your own ending" videos starring Upton as well as an embedded "smash-a-roach" challenge and a "lookbook" of the company's current line.</p>
         </div>
-        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+        <div class="social-share grid-2 push-2 remove-mobile">
             <?php include "../_inc/social.php"; ?>
         </div>
     </div>
@@ -46,7 +47,7 @@
     <div class="lovely-grid">
         <div class="grid-5 pull-2 remove-mobile">
             <div class="photo">
-                <img src="_assets/zoo-york/video.png" alt="">
+                <img src="_assets/zoo-york/video.jpg" alt="">
                 <p class="caption hide-mobile">
                     See it in action
                     <span>0:15 sec</span>
