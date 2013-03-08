@@ -1073,6 +1073,13 @@ header#navigation .menu {
   text-rendering: optimizeLegibility;
   overflow: hidden;
 }
+header#navigation .menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header#navigation .menu a:hover {
+  background-color: #cc0033;
+}
 header#navigation .menu .nav a {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   display: block;
@@ -1091,17 +1098,6 @@ header#navigation .menu .right a {
   line-height: 40px;
   padding: 0 16px;
   float: right;
-}
-.no-touch header#navigation a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.no-touch header#navigation a:hover {
-  background-color: #cc0033;
-}
-.touch header#navigation a {
-  color: #ffffff;
-  text-decoration: none;
 }
 section.content p {
   color: #2a2628;
