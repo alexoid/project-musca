@@ -56,8 +56,8 @@
     <section class="content">
         <div class="lovely-grid">
             <div class="grid-5 pull-1 push-1 pad-mobile-20 remove-mobile">
-                <img src="_assets/escape/Sarah-Rotman-Epps-PR.png" id="sarah-rotman" class="profile-picture" />
-                <img src="_assets/escape/JP-rangaswami.png" id="jp-rangaswami" class="profile-picture" />
+                <a href="http://readwrite.com/author/sarah-rotman-epps" title="Sarah Rotman Epps" target="blank"><img src="_assets/escape/Sarah-Rotman-Epps-PR.png" id="sarah-rotman" class="profile-picture" /></a>
+                <a href="http://readwrite.com/author/jp-rangaswami" title="JP Rangaswami" target="blank"><img src="_assets/escape/JP-rangaswami.png" id="jp-rangaswami" class="profile-picture" /></a>
             </div>
             <div class="grid-10 pad-mobile-20">
                 <h3>So whose point of view are we publishing?</h3>
