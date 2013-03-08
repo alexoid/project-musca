@@ -111,7 +111,7 @@
         </div>
 
         <div class="grid-5 push-1 pad-mobile-20 masthead show-mobile">
-            <ul>
+            <ul class="centered">
                 <li>
                     <h4>PUBLISHER</h4>
                     Matt Sanchez
