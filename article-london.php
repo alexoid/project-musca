@@ -24,7 +24,7 @@
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
             <p class="first">To paraphrase the great singer-songwriter, "Chaos is your friend." And ad units that don't fit the traditional models do really well.</p>
             <p>Online publishing, for all the technology it relies on, has been unusually slow to innovate when it comes to advertising. But, like Dylan said, "The times they are a-changing." After years of being locked into publishing platforms that could only cope with Interactive Advertising Bureau (IAB) standards, new technology means publishers are starting to explore new formats. It's not been an easy ride. </p>
-            <p>Developments such as click-word models were difficult to sell to publishers who faced vehement opposition from editorial staff. But if we go for another Bob reference, you've "Gotta Serve Somebody" nicely encapsulates the feeling that advertising serves advertisers and viewers, not editors. </p>
+            <p>Developments such as click-word models were difficult to sell to publishers who faced vehement opposition from editorial staff. But if we go for another Dylan reference, you've "Gotta Serve Somebody" nicely encapsulates the feeling that advertising serves advertisers and viewers, not editors. </p>
             <p>Love it or loathe it, click-words are a good example of how (some) publishers are willing to take risks. Ad formats that are new to the user come with added curiosity value, and with curiosity comes investigation. Ironically, online advertising needs to work on its own advertising. When I speak to publishers, I don't talk about an expandable unit, I just show them Say Media's ad units and demonstrate how cool they actually are.</p>
         </div>
         <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
@@ -71,7 +71,7 @@
                 <h3>Slow Train Coming</h3>
                 <p>In February 2011, London24 launched. Eighteen months later, it is No. 2 in the market and on track to be profitable by 2013.</p>
                 <p>Local community-based titles such as London24 represent just how powerful the combination can be when you have engaging advertising built around relevant, compelling content. Engagement rates on regional U.K. press are close to 2 percent, which stacks up favorably against an average of 0.8 percent. </p>
-                <p>What becomes obvious from this stat? Community and special-interest sites are hotbeds of engagement, which is strong incentive for media owners in this space to focus on their core audiences and avoid the temptation to dilute their audience as they attempt to increase it with more middle-of-the-road content. An engaged community equals more passion. We call this Point-Of-View Publishing, and believe it's the key to success for the media companies of the future. It's important to keep up too - because as Dylan put in '78, there really is "No Time to Think".</p>
+                <p>What becomes obvious from this stat? Community and special-interest sites are hotbeds of engagement, which is strong incentive for media owners in this space to focus on their core audiences and avoid the temptation to dilute their audience as they attempt to increase it with more middle-of-the-road content. An engaged community equals more passion. We call this Point-Of-View Publishing and believe it's the key to success for the media companies of the future. It's important to keep up too-because as Dylan put in '78, there really is "No Time to Think."</p>
             </div>
         </div>
     </div>
