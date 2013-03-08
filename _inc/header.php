@@ -49,8 +49,8 @@ function prevPage(){
             <div class="nav">
                 <a href="./"><i class="icon-home"></i></a>
                 <a href="./pub-letter.php"><i class="icon-info-sign remove-mobile"></i></a>
-                <a href="#" onclick="nextPage()"><i class="icon-arrow-left remove-mobile"></i></a>
-                <a href="#" onclick="prevPage()"><i class="icon-arrow-right remove-mobile"></i></a>
+                <a href="#" onclick="nextPage()"><i class="icon-arrow-left"></i></a>
+                <a href="#" onclick="prevPage()"><i class="icon-arrow-right"></i></a>
                 <?php /* <a href="./toc.php"><i class="icon-reorder"></i></a> */ ?>
             </div>
 
@@ -59,7 +59,7 @@ function prevPage(){
             </div>
 
             <div class="right logo">
-                <a href="./" title="Say Quarterly">Say Quarterly &middot; <span class="remove-mobile">Spring/Summer 2013</span></a>
+                <a href="./" title="Say Quarterly">Say Quarterly<span class="remove-mobile"> &middot; Spring/Summer 2013</span></a>
             </div>
 
         </div>
