@@ -44,14 +44,6 @@
 
             <div class="grid-7 nested-first">
 
-                <div class="show-mobile">
-                <div class="grid-5 pull-2 inline right">
-                    <div class="photo">
-                        <img src="_assets/canon/stats.png" />
-                    </div>
-                </div>
-                </div>
-
                 <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and documenting the minute details of life became the status quo. But for many, the camera phone or the point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for convenience.</p>
 
                 <div class="show-mobile">
@@ -79,6 +71,14 @@
 
             <div class="grid-7 nested-last remove-mobile">
                 <img src="_assets/canon/eric.jpg">
+            </div>
+
+            <div class="show-mobile">
+                <div class="grid-14 pad-mobile-20">
+                    <div class="photo">
+                        <img src="_assets/canon/stats.png" />
+                    </div>
+                </div>
             </div>
 
         </div>
