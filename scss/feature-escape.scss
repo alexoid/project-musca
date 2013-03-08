@@ -4,7 +4,7 @@
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
 
-@import "grid";
+@import "grid-feature-escape";
 
 // variables
 @import "utils";
@@ -24,25 +24,25 @@ section.hero {
     height: 750px;
     background: no-repeat url('../_assets/escape/hero-wall.jpg') #f2f2ef;
     background-position: bottom center;
-}
-section.hero .wrapper {
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-section.hero h3 {
-    padding: 4px 0 0 0;
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 0.25em;
-    color: #000000;
-    margin: 20px auto 0 auto;
-    width: 180px;
-    background-color: #ffffff;
-    font-family: "alternate-gothic-no-1-d", sans-serif;
-    text-align: center;
-}
 
+    .wrapper {
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
 
+    h3 {
+        padding: 4px 0 0 0;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 0.25em;
+        color: #000000;
+        margin: 20px auto 0 auto;
+        width: 180px;
+        background-color: #ffffff;
+        font-family: "alternate-gothic-no-1-d", sans-serif;
+        text-align: center;
+    }
+}
 
 section.hero h2 {
     line-height: 0.9em;
@@ -77,6 +77,7 @@ section.hero h2 {
     position: relative;
     padding-top: 40px;
 }
+
 .map {
     background: no-repeat url('../_assets/escape/map.png') transparent;
     background-position: 80px 0;
@@ -130,20 +131,20 @@ section.content {
 }
 
 
-
-
-
 /* Fixed Hero */
 /* Profile pictures */
+
 #article {
     overflow: hidden;
 }
+
 .profile-picture {
     box-shadow: 1px 1px 5px #555555;
     -moz-box-shadow: 1px 1px 5px #555555;
     -webkit-box-shadow: 1px 1px 5px #555555;
     position: relative;
 }
+
 #sarah-rotman {
     -webkit-transform: scale(0.75) rotate(2deg);
     -moz-transform: scale(0.75) rotate(2deg);

@@ -3,11 +3,14 @@
 @import "bourbon/bourbon";
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
+
 // variables
 @import "utils";
+
 // Design System
 @import "fonts";
 @import "font-awesome";
+
 
 // Main CSS
 body, html {
@@ -133,19 +136,20 @@ section.content {
 .social-share {
     margin-bottom: 30px;
     opacity: 0.5;
+
     &:hover {
         opacity: 1;
     }
+
     div {
         width: 80px;
         float: left;
         margin: 0 10px 5px 0;
+
         &.share-fb {
             margin: 0 10px 8px 0;
         }
     }
-
-
 }
 
 // TOC

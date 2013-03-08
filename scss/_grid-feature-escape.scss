@@ -2,7 +2,6 @@
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
 
-
 // BASELINE
 // --------
 
@@ -13,12 +12,11 @@ $container_margin: 3%;
 
 $media-size-b: 740px;
 $media-size-c: 1024px;
-$media-size-d: 1200px; // 60px margin on either side of content
-
+$media-size-d: 1200px;
+// 60px margin on either side of content
 
 // GRID LAYOUT A
 // -------------
-
 
 .grid {
     @include container();
@@ -40,8 +38,6 @@ $media-size-d: 1200px; // 60px margin on either side of content
     }
 
 }
-
-
 
 // GRID LAYOUT B
 // -------------
@@ -82,7 +78,6 @@ $media-size-d: 1200px; // 60px margin on either side of content
             width: auto;
             float: none;
 
-
             @include column(5);
             @include push(17);
 
@@ -104,7 +99,6 @@ $media-size-d: 1200px; // 60px margin on either side of content
     }
 
 }
-
 
 // GRID LAYOUT C
 // -------------
