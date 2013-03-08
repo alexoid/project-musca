@@ -30,7 +30,7 @@
 
             <div class=" inline show-mobile">
                 <div class="photo">
-                    <img src="_assets/savoring-auth/video-sm.jpg" alt="">
+                    <a href="https://vimeo.com/61373118" title="See it in action" class="fresco"><img src="_assets/savoring-auth/video-sm.jpg" alt=""></a>
                     <p class="caption">
                         See it in action
                         <span>0:15 sec</span>
@@ -51,7 +51,7 @@
     <div class="lovely-grid">
         <div class="grid-5 pull-2 remove-mobile">
             <div class="photo">
-                <img src="_assets/savoring-auth/video.jpg" alt="">
+                <a href="https://vimeo.com/61373118" title="See it in action" class="fresco"><img src="_assets/savoring-auth/video.jpg" alt=""></a>
                 <p class="caption hide-mobile">
                     See it in action
                     <span>0:15 sec</span>

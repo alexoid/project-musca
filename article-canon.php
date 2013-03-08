@@ -19,8 +19,13 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-5 pull-2 remove-mobile">
+
             <div class="photo">
-                <img src="_assets/canon/video.jpg" alt="">
+                <img src="_assets/canon/stats.png" />
+            </div>
+
+            <div class="photo">
+                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco"><img src="_assets/canon/video.jpg" alt=""></a>
                 <p class="caption">
                     See it in action
                     <span>0:15 sec</span>
@@ -39,17 +44,28 @@
 
             <div class="grid-7 nested-first">
 
-                <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
+                <div class="show-mobile">
+                <div class="grid-5 pull-2 inline right">
                     <div class="photo">
-                        <img src="_assets/canon/video-sm.jpg" alt="">
+                        <img src="_assets/canon/stats.png" />
+                    </div>
+                </div>
+                </div>
+
+                <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and documenting the minute details of life became the status quo. But for many, the camera phone or the point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for convenience.</p>
+
+                <div class="show-mobile">
+                <div class="grid-5 pull-2 inline">
+                    <div class="photo">
+                        <a href="https://vimeo.com/61373162" title="See it in action" class="fresco"><img src="_assets/canon/video-sm.jpg" alt=""></a>
                         <p class="caption">
                             See it in action
                             <span>0:15 sec</span>
                         </p>
                     </div>
                 </div>
+                </div>
 
-                <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and documenting the minute details of life became the status quo. But for many, the camera phone or the point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for convenience.</p>
                 <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever — while also teaching consumers how to shoot smarter and better.</p>
 
                 <div class="grid-7 remove-768 remove-960 remove-1200 inline-right">
