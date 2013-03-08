@@ -1,5 +1,5 @@
 <script>
-var pageArr = ['index.php','pub-letter.php','feature-escape.php','feature-storytelling.php','feature-unusual.php','article-adart.php','article-london.php','article-tempest.php','article-xovain.php','article-savoring.php','article-canon.php','article-kate.php'];
+var pageArr = ['pub-letter.php','feature-escape.php','feature-storytelling.php','feature-unusual.php','article-adart.php','article-london.php','article-tempest.php','article-xovain.php','article-savoring.php','article-canon.php','article-kate.php'];
 
 function getFileName() {
     var url = document.location.href;
@@ -49,13 +49,13 @@ function prevPage(){
             <div class="nav">
                 <a href="./"><i class="icon-home"></i></a>
                 <a href="./pub-letter.php"><i class="icon-info-sign remove-mobile"></i></a>
-                <a href="#" onclick="nextPage()"><i class="icon-arrow-left"></i></a>
-                <a href="#" onclick="prevPage()"><i class="icon-arrow-right"></i></a>
+                <a href="#" onclick="prevPage()"><i class="icon-arrow-left"></i></a>
+                <a href="#" onclick="nextPage()"><i class="icon-arrow-right"></i></a>
                 <?php /* <a href="./toc.php"><i class="icon-reorder"></i></a> */ ?>
             </div>
 
             <div class="right url">
-                <a href="http://saymedia.com" title="Say Media" class="remove-mobile">SayMedia.com </a>
+                <a href="http://saymedia.com" title="Say Media" class="remove-mobile" target="blank">SayMedia.com </a>
             </div>
 
             <div class="right logo">

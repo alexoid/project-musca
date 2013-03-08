@@ -122,7 +122,7 @@
 <section class="content bio">
     <div class="lovely-grid">
         <div class="grid-10 pull-7 push-7 pad-mobile-20">
-            <img src="_assets/storytelling/bio-jon.jpg" />
+            <img src="_assets/pub-letter/bio-matt.jpg" />
             <p>
                 <strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
             <p><a href="https://twitter.com/msanchez" class="twitter-follow-button" data-show-count="false">Follow @msanchez</a></p>
