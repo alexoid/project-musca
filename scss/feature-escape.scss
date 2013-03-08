@@ -4,6 +4,8 @@
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
 
+@import "grid";
+
 // variables
 @import "utils";
 
@@ -39,18 +41,36 @@ section.hero h3 {
     font-family: "alternate-gothic-no-1-d", sans-serif;
     text-align: center;
 }
+
+
+
 section.hero h2 {
     line-height: 0.9em;
     text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
     position: relative;
-    margin: 20px 0 0 0;
-    font-size: 180px;
+    margin: 10px 0 0 0;
+    font-size: 96px;
     color: #000000;
     text-transform: uppercase;
     font-style: italic;
     font-family: "league-gothic", sans-serif;
     text-align: center;
 }
+
+@media screen and (min-width: $media-size-b) {
+    section.hero h2 {
+        margin: 20px 0 0 0;
+        font-size: 136px;
+    }
+}
+
+@media screen and (min-width: $media-size-c) {
+    section.hero h2 {
+        margin: 20px 0 0 0;
+        font-size: 180px;
+    }
+}
+
 #article {
     margin-top: 800px;
     background-color: white;
@@ -61,43 +81,58 @@ section.hero h2 {
     background: no-repeat url('../_assets/escape/map.png') transparent;
     background-position: 80px 0;
 }
-section.content.black {
-    color: #ffffff;
-    background-color: #000000;
+
+section.content {
+
+    black {
+        color: #ffffff;
+        background-color: #000000;
+        h3 {
+            color: #ffffff;
+        }
+        p {
+            color: #ffffff;
+        }
+    }
+
+    red {
+        color: #ffffff;
+        background-color: #d80c1b;
+    }
+
+    h3 {
+        padding: 0 0 20px 0;
+        line-height: 1em;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: "league-gothic", sans-serif;
+    }
+
+    p {
+        font-family: georgia, serif;
+
+        a {
+            border-color: #f26612;
+            color: #f26612;
+        }
+
+        &.first {
+            line-height: 0.9em;
+            font-size: 54px;
+            text-transform: uppercase;
+            font-family: "league-gothic", sans-serif;
+
+            span {
+                color: #f26612;
+            }
+        }
+    }
 }
-section.content.red {
-    color: #ffffff;
-    background-color: #d80c1b;
-}
-section.content h3 {
-    padding: 0 0 20px 0;
-    line-height: 1em;
-    font-size: 32px;
-    text-transform: uppercase;
-    font-family: "league-gothic", sans-serif;
-}
-section.content.black h3 {
-    color: #ffffff;
-}
-section.content.black p {
-    color: #ffffff;
-}
-section.content p.first {
-    line-height: 0.9em;
-    font-size: 54px;
-    text-transform: uppercase;
-    font-family: "league-gothic", sans-serif;
-}
-section.content p.first span {
-    color: #f26612;
-}
-section.content p {
-    font-family: georgia, serif;
-}
-section.content p a {
-    border-color: #f26612;
-    color: #f26612;
-}
+
+
+
+
+
 /* Fixed Hero */
 /* Profile pictures */
 #article {

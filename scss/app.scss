@@ -31,71 +31,7 @@ $support-for-ie6-and-ie7: true;
     font: inherit;
 }
 
-body {
 
-}
-
-
-/*
-a {
-    color: #cc0033;
-    @include transition(color 0.1s);
-}
-
-a:hover {
-    color: #1477bc;
-    @include transition(color 0.1s);
-}
-
-
-header#navigation {
-    top: 0;
-    z-index: 10000;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #ffffff;
-    overflow: hidden;
-    width: 100%;
-    position: fixed;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
-
-    .menu {
-
-        font-family: georgia, serif;
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-        overflow: hidden;
-
-        a {
-            display: block;
-            color: #ffffff;
-            text-decoration: none;
-            line-height: 40px;
-            padding: 0 16px;
-            @include transition(all 0.1s);
-
-            &:hover {
-                background-color: #cc0033;
-            }
-        }
-
-        .nav a {
-            border-right: 1px solid rgba(255, 255, 255, 0.3);
-            float: left;
-
-            i {
-                font-size: 14px;
-            }
-        }
-
-        .logo a {
-            border-left: 1px solid rgba(255, 255, 255, 0.3);
-            float: right;
-        }
-
-    }
-}
-*/
 
 
 // hero

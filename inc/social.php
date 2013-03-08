@@ -1,5 +1,6 @@
 <!-- Social Sharing Tools -->
 
+<section class="social-box">
 <div class="share-fb">
     <fb:like send="false" layout="button_count" width="120" show_faces="false"></fb:like>
 </div>
@@ -18,3 +19,4 @@
 </div>
 
 <div class="g-plusone" data-size="tall" data-annotation="none"></div>
+</section>
