@@ -48,9 +48,9 @@ function prevPage(){
 
             <div class="nav">
                 <a href="./"><i class="icon-home"></i></a>
-                <a href="./pub-letter.php"><i class="icon-info-sign"></i></a>
-                <a href="#" onclick="nextPage()"><i class="icon-arrow-left"></i></a>
-                <a href="#" onclick="prevPage()"><i class="icon-arrow-right"></i></a>
+                <a href="./pub-letter.php"><i class="icon-info-sign remove-mobile"></i></a>
+                <a href="#" onclick="nextPage()"><i class="icon-arrow-left remove-mobile"></i></a>
+                <a href="#" onclick="prevPage()"><i class="icon-arrow-right remove-mobile"></i></a>
                 <?php /* <a href="./toc.php"><i class="icon-reorder"></i></a> */ ?>
             </div>
 
