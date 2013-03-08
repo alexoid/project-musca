@@ -23,8 +23,7 @@
                 <li><a href="/article-kate.php">Kate Upton Takes Zoo York</a></li>
 
                 <li class="header">Also</li>
-
-                <li><a href="/">Publisher's Letter</a></li>
+                <li><a href="/pub-letter.php">Publisher's Letter</a></li>
             </ul>
         </div>
 </section>
