@@ -3,7 +3,7 @@
             <ul>
                 <li class="title">In this issue</li>
                 
-                <li><a href="./">Publisher's Letter</a></li>
+                <li><a href="./pub-letter.php">Publisher's Letter</a></li>
 
                 <li class="header">Features</li>
                 <li><a href="./feature-escape.php">The Great Escape</a> <span>By Dan Lyons</span></li>
