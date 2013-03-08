@@ -29,7 +29,11 @@
             <div class="grid-10 pull-8 push-2 pad-mobile-20">
                 <p class="first">Beautiful, scalable online media experiences have been limited by existing, cobbled-together systems. That's about to change.</p>
             </div>
+<<<<<<< HEAD
             <div class="social-share grid-2 push-2 pad-mobile-20">
+=======
+            <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
+>>>>>>> cc921d6126caad212932021bb606a04dfb14e9ad
                 <?php include "../_inc/social.php"; ?>
             </div>
         </div>
@@ -64,7 +68,6 @@
     </section>
 
     <section class="content fullwidth">
-
     </section>
 
     <section class="content">
@@ -82,16 +85,18 @@
                 <p>And finally, <strong>Tempest Infrastructure</strong> provides all the underlying platform services that let us efficiently scale our business and innovate rapidly.</p>
                 <p>Tempest is a work in progress, and we have miles to go to realize this vision in full — but we're certain it's the future of media and excited about the opportunities ahead.</p>
             </div>
-            <div class="grid-5 pull-1 modules remove-mobile" id="modules">
-                <img src="_assets/tempest/layers/Experience.png" class="layer" id="experience" />
-                <img src="_assets/tempest/layers/Content.png" class="block" id="content" />
-                <img src="_assets/tempest/layers/Communitycover.png" class="block" id="community-cover" />
-                <img src="_assets/tempest/layers/Community.png" class="block" id="community" />
-                <img src="_assets/tempest/layers/Commerce.png" class="block" id="commerce" />
-                <img src="_assets/tempest/layers/Marketing.png" class="block" id="marketing" />
-                <img src="_assets/tempest/layers/Distribution.png" class="layer" id="distribution" />
-                <img src="_assets/tempest/layers/Data.png" class="layer" id="data" />
-                <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
+            <div class="grid-5 pull-1 modules remove-mobile">
+                <div id="modules">
+                    <img src="_assets/tempest/layers/Experience.png" class="layer" id="experience" />
+                    <img src="_assets/tempest/layers/Content.png" class="block" id="content" />
+                    <img src="_assets/tempest/layers/Communitycover.png" class="block" id="community-cover" />
+                    <img src="_assets/tempest/layers/Community.png" class="block" id="community" />
+                    <img src="_assets/tempest/layers/Commerce.png" class="block" id="commerce" />
+                    <img src="_assets/tempest/layers/Marketing.png" class="block" id="marketing" />
+                    <img src="_assets/tempest/layers/Distribution.png" class="layer" id="distribution" />
+                    <img src="_assets/tempest/layers/Data.png" class="layer" id="data" />
+                    <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
+                </div>
             </div>
             <div class="show-mobile">
             <div class=" pad-mobile-20">
