@@ -4,7 +4,7 @@
 
 <section class="hero">
         <div class="lovely-grid">
-            <div class="grid-24">
+            <div class="grid-24 pad-mobile-20">
                 <div class="wrapper">
                     <h3>Publisher's Letter</h3>
 
@@ -20,7 +20,7 @@
 
 <section class="content">
     <div class="lovely-grid">
-        <div class="grid-5 pad-mobile-20 masthead">
+        <div class="grid-5 push-1 pad-mobile-20 masthead">
             <ul>
                 <li>
                     <h4>PUBLISHER</h4>
@@ -72,7 +72,7 @@
                 </li>
             </ul>
         </div>
-        <div class="grid-10 pull-1 push-2 pad-mobile-20">
+        <div class="grid-10 push-8 pad-mobile-20">
             <p class="first">In the media and marketing worlds, we frequently throw around a few expressions about
                 content.</p>
 
@@ -121,7 +121,7 @@
 
 <section class="content bio">
     <div class="lovely-grid">
-        <div class="grid-10 pull-7 push-7 pad-mobile-20">
+        <div class="grid-10 pull-6 push-8 pad-mobile-20">
             <img src="_assets/pub-letter/bio-matt.jpg" />
             <p>
                 <strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
