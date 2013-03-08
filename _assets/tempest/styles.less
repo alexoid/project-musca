@@ -2,19 +2,15 @@
 
 @import "../../_css/utils";
 
-video {
-  bottom: 0 !important;
-  top: auto !important;
-}
-
 // Hero
-
 section.hero {
   overflow: hidden;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
+  position: relative;
   background-color: @black;
+  background-image: url("Tempest_Mobile.png");
+  background-size: cover;
+  height: 500px;
+
 
   h2 {
     z-index: 1000;
@@ -46,15 +42,26 @@ section.hero {
   }
 
   .wrapper {
-    height: 700px;
     padding: 120px 0 0 0;
-    position: relative;
+    height: 540px;
+
+    .video {
+        background-color: @black;
+
+        video {
+            position: absolute;
+            top: 0;
+            min-height: 50%;
+            width: 100%;
+            height: auto;
+        }
+    }
+
   }
 }
 
 // Content
 .article {
-  margin-top: 550px;
   background-color: @white;
   padding-top: 20px;
 }
@@ -102,25 +109,26 @@ section.fullwidth {
   margin: 0 0 25px 0;
 }
 
-.modules-floated {
-  position: fixed;
-  top: 100px;
-}
 
 .modules {
   position: relative;
-}
 
-.modules IMG {
-  position: absolute;
-}
+  #modules {
+    top: 70px;
+  }
 
-.modules .layer {
-  width: 317px;
-}
+  .layer {
+    width: 317px;
+  }
 
-.modules .block {
-  width: 161px;
+  .block {
+    width: 161px;
+  }
+
+  IMG {
+    position: absolute;
+  }
+
 }
 
 #experience {
@@ -130,6 +138,7 @@ section.fullwidth {
 
 #content {
   z-index: 13;
+  left: 50px;
   top: 60px;
 }
 
