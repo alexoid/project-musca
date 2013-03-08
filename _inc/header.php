@@ -55,7 +55,7 @@ function prevPage(){
             </div>
 
             <div class="right url">
-                <a href="http://saymedia.com" title="Say Media">SayMedia.com </a>
+                <a href="http://saymedia.com" title="Say Media" class="remove-mobile">SayMedia.com </a>
             </div>
 
             <div class="right logo">
