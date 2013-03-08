@@ -59,7 +59,7 @@ function prevPage(){
             </div>
 
             <div class="right logo">
-                <a href="./" title="Say Quarterly">Say Quarterly &middot; Spring/Summer 2013</a>
+                <a href="./" title="Say Quarterly">Say Quarterly &middot; <span class="remove-mobile">Spring/Summer 2013</span></a>
             </div>
 
         </div>
