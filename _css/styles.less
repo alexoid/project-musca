@@ -45,7 +45,7 @@ header#navigation {
   color: @white;
   overflow: hidden;
   width: 100%;
-  position: absolute;
+  position: fixed;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
   .menu {
@@ -82,7 +82,8 @@ header#navigation {
     .logo {
 
       a {
-        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 14px;
+        // border-left: 1px solid rgba(255, 255, 255, 0.3);
         display: block;
         line-height: 40px;
         padding: 0 16px;
@@ -93,7 +94,6 @@ header#navigation {
 }
 
 // Content Styles
-
 section.content {
   p {
     color: @dark-gray;
@@ -118,6 +118,29 @@ section.content {
   img {
     margin: 0 0 25px 0;
     width: 100%;
+  }
+}
+
+// Bio Style
+section.content.bio {
+
+  border-top: 1px solid @silver;
+  padding: 25px 0 0 0;
+
+  p {
+    font-size: 13px;
+    strong {
+      font-weight: bold; }
+    .twitter-follow-button {
+      display: block;
+      margin: 0 0 0 0; }
+  }
+
+  img {
+    .border-radius(150px);
+    float: left;
+    margin: 3px 20px 10px 0;
+    width: 75px;
   }
 }
 

@@ -32,12 +32,14 @@
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <!-- <script src="_js/jquery.isotope.min.js"></script> -->
-    <script src="_js/jquery.superscrollorama.js"></script>
-    <script src="_js/jquery.videoBG.js"></script>
-    <script src="_js/scripts.js"></script>
+    <script src="./_js/jquery.superscrollorama.js"></script>
+    <script src="./_js/jquery.videoBG.js"></script>
+    <script src="./_js/scripts.js"></script>
+    <script src="./_js/fresco.js"></script>
 
     <style type="text/css" media="screen">
             /*@import url("//grid.ohmylovely.com/1/24/0/768/960/1200/");*/
+            @import url("./_css/fresco.css");
             @import url("./_css/lovely-grid.css");
     </style>
 

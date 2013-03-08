@@ -12,6 +12,14 @@ html {
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 801px) { // Tablets
+
+}
+
+@media screen and (max-width: 800px) { // Mobile
+
+}
+
 // Hero
 section.hero {
   margin: 0 0 40px 0;
@@ -174,6 +182,10 @@ section.content {
       background-image: url("1895.png");
     }
 
+    &.img-1900 {
+      background-image: url("1900.png");
+    }
+
     &.img-1904 {
       background-image: url("1904.png");
     }
@@ -191,6 +203,9 @@ section.content {
     width: 47px;
     height: 47px;
     z-index: 2;
+  }
+  .show-mobile .more-content {
+    display: block;
   }
 
   #oreo-container {
@@ -210,6 +225,22 @@ section.content {
 
   }
 
+  .show-mobile#oreo-container {
+    position: relative;
+    width: 35%;
+    float: left;
+    margin: 0 20px 20px 0;
+
+    .more-content {
+      top: 6%;
+      left: 6%;
+    }
+
+    img {
+      margin: 0;
+    }
+
+  }
 
   #chipotle {
     position: relative;
@@ -222,6 +253,22 @@ section.content {
 
     #pig {
       position: relative;
+    }
+  }
+
+  .show-mobile#chipotle {
+    position: relative;
+    width: 35%;
+    float: left;
+    height: auto;
+
+    .more-content {
+      top: 6%;
+      left: 6%;
+    }
+
+    img {
+      margin: 0;
     }
   }
 
@@ -246,11 +293,41 @@ section.content {
     }
   }
 
+  .show-mobile#dominos {
+    position: relative;
+    width: 35%;
+    float: left;
+    height: auto;
+
+    .more-content {
+      top: 2%;
+      left: 6%;
+    }
+
+    img {
+      margin: 0;
+    }
+  }
+
   #falling-baumgartner {
     opacity: 0;
     position: relative;
   }
+
+  &.page-break .baumgartner-mobile {
+    width: 50%;
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+  &.page-break .baumgartner-mobile img {
+    margin: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+
 }
+
 
 
 // EOF
