@@ -77,7 +77,14 @@
     </div>
 </section>
 
-
+    <section class="content bio">
+        <div class="lovely-grid">
+            <div class="grid-10 pull-7 push-7 pad-mobile-20">
+                <img src="_assets/london/bio-jason.jpg" />
+                <p><strong>Jason Lydiate</strong> is head of business development at Say Media UK.</p>
+            </div>
+        </div>
+    </section>
 
 
 
