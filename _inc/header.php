@@ -1,5 +1,5 @@
 <script>
-var pageArr = ['pub-letter.php','index.php','article-adart.php','article-canon.php','article-kate.php','article-london.php','article-savoring.php','article-tempest.php','article-xovain.php','feature-escape.php','feature-storytelling.php','feature-unusual.php'];
+var pageArr = ['index.php','pub-letter.php','feature-escape.php','feature-storytelling.php','feature-unusual.php','article-adart.php','article-london.php','article-tempest.php','article-xovain.php','article-savoring.php','article-canon.php','article-kate.php'];
 
 function getFileName() {
     var url = document.location.href;
