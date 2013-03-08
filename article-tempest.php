@@ -70,7 +70,7 @@
                 <p>And finally, <strong>Tempest Infrastructure</strong> provides all the underlying platform services that let us efficiently scale our business, and innovate rapidly.</p>
                 <p>Tempest is a work in progress, and we have miles to go to realize this vision in full — but we're certain it's the future of media and excited about the opportunities ahead.</p>
             </div>
-            <div class="grid-5 pull-1 modules">
+            <div class="grid-5 pull-1 modules remove-mobile" id="modules">
                 <img src="_assets/tempest/layers/Experience.png" class="layer" id="experience" />
                 <img src="_assets/tempest/layers/Content.png" class="block" id="content" />
                 <img src="_assets/tempest/layers/Communitycover.png" class="block" id="community-cover" />
@@ -81,6 +81,10 @@
                 <img src="_assets/tempest/layers/Data.png" class="layer" id="data" />
                 <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
             </div>
+            <div class="grid-5 pull-1 remove-1200 remove-768 remove-960">
+                <img src="_assets/tempest/layers/Mobile.png" class="layer" />
+            </div>
+
         </div>
     </section>
     <section class="content bio">
