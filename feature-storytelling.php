@@ -47,7 +47,7 @@
 
             <img src="_assets/storytelling/1895.png" />
             <h4>1895</h4>
-            <p><strong>John Deere Customer Magazine: The Furrow</strong> / John Deere wanted to help farmers change the face of agriculture.</p>
+            <p><strong>John Deere Customer Magazine: The Furrow</strong> John Deere wanted to help farmers change the face of agriculture.</p>
 
             <img src="_assets/storytelling/1900.png" />
             <h4>1900</h4>
@@ -98,7 +98,7 @@
                 <h3>The Storytelling Age</h3>
                 <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60 years. The big winners in the ad race were the brands with the deepest pockets. They could buy the billboard in Times Square, create the Super Bowl ad spot and advertise in their customers' favorite magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up, uninvited, interrupt and badger the audience, and that was okay, because that's what advertising was. </p>
                 <p>But this brute-force method of advertising is rapidly losing effectiveness. The persistent interruption has caused audiences to put their blinders up and become defensive. Audiences simply have no patience for branded messages that feel like advertising. </p>
-                <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and simply enjoyable — even if it's branded — they miraculously have as much as 30 minutes to watch and share the content with their own audiences. Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often helping spread the message to their own audiences without prompting. </p>
+                <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and simply enjoyable — even if it's branded — they miraculously have as much as 30 minutes to watch. Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often helping spread the message to their own audiences without prompting. </p>
                 <p>This is the dawn of the post-advertising age, in which the only messages people see and hear are the ones they choose to see and hear. Audiences don't want to hear an advertisement. They want to be gripped by a compelling story. </p>
                 <h3>Unearthing your brand story</h3>
             </div>
@@ -151,10 +151,10 @@
                 <p><strong>Form your basis for insights</strong> Listen to your audience across all channels. Hold focus groups. Send out questionnaires. Talk to them face to face. Find out what they think. You may be surprised. </p>
             </div>
             <div class="grid-3 push-1">
-                <p><strong>Map your competitive ecosystem</strong> Take a look at your brand in comparison to your competition, and see if the similarities and differences expose new opportunities. Are you the biggest? Smallest? How does your tone of voice differ from theirs? Which among you is the most active in social media?</p>
+                <p><strong>Map your competitive ecosystem</strong> Take a look at your brand in comparison with your competition, and see if the similarities and differences expose new opportunities. Are you the biggest? Smallest? How does your tone of voice differ from theirs? Which among you is the most active in social media?</p>
             </div>
             <div class="grid-3 push-1">
-                <p><strong>Understand your audience</strong> Explore who your audience is and how they interact with your brand. Are they innovating your brand (for example, using your product in a new way)? What are they saying about you? How does your brand affect their lives?</p>
+                <p><strong>Understand your audience</strong> Explore who your audience is and how those individuals interact with your brand. Are they innovating your brand (for example, using your product in a new way)? What are they saying about you? How does your brand affect their lives?</p>
             </div>
             <div class="grid-3 push-1">
                 <p><strong>Understand your brand</strong> It seems obvious, but few brands are introspective. What is the clear, consistent direction for your brand? Where are you going, and where do you want to be?</p>

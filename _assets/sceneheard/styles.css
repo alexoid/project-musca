@@ -2,8 +2,8 @@
 body{background-image:url("body-bg.png");background-color:#000000;}
 header{border-bottom:1px solid #333333;}
 section.hero{margin:60px 0 0 0;}
-section.hero h2{overflow:hidden;text-indent:100%;display:block;white-space:nowrap;margin:30px auto;height:142px;width:529px;background-repeat:no-repeat;background-position:center;background-image:url('logo-bg.png');}
-section.hero h2.small{height:83px;width:310px;background-image:url('logo-small-bg.png');}
+section.hero h2{overflow:hidden;text-indent:100%;display:block;white-space:nowrap;margin:30px auto;height:142px;width:529px;background-repeat:no-repeat;background-position:center;background-image:url("logo-bg.png");}
+section.hero h2.small{height:83px;width:310px;background-image:url("logo-small-bg.png");}
 section.hero h3{margin:0 0 30px 0;color:#ffffff;text-align:center;}
 section.content .photo{padding:0;margin:0;position:relative;}
 section.content .photo img{padding:0;margin:0 0 -3px 0;}

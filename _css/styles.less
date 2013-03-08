@@ -18,10 +18,9 @@ body {
 a {
   color: @red;
   .transition(color 0.1s);
-
-  &:hover {
-    color: @blue;
-  }
+}
+html.no-touch a:hover {
+  color: @blue;
 }
 
 h1, h2, h3 {
@@ -54,15 +53,6 @@ header#navigation {
     text-rendering: optimizeLegibility;
     overflow: hidden;
 
-    a {
-      color: @white;
-      text-decoration: none;
-
-      &:hover {
-        background-color: @red;
-      }
-    }
-
     .nav {
 
       a {
@@ -93,6 +83,15 @@ header#navigation {
   }
 }
 
+header#navigation a {
+  color: @white;
+  text-decoration: none;
+}
+
+html.no-touch header#navigation a:hover {
+  background-color: @red;
+}
+
 // Content Styles
 section.content {
   p {
@@ -106,13 +105,15 @@ section.content {
       font-size: 36px;
       font-family: @source-pro;
     }
+
+    em {
+      font-style: italic;
+    }
+
   }
 
   a {
     color: @red;
-
-    &:hover {
-    }
   }
 
   img {

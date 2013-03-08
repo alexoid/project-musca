@@ -31,7 +31,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.8.4/TweenMax.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <!-- <script src="_js/jquery.isotope.min.js"></script> -->
     <script src="./_js/jquery.superscrollorama.js"></script>
     <script src="./_js/jquery.videoBG.js"></script>
     <script src="./_js/scripts.js"></script>
@@ -50,6 +49,9 @@
 
 <body>
 
+<?php include "../_inc/header.php"; ?>
+<?php include "../".$_GET['include'].".php"; ?>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -58,9 +60,6 @@
         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-
-<?php include "../_inc/header.php"; ?>
-<?php include "../".$_GET['include'].".php"; ?>
 
 <script type="text/javascript">
     (function() {
@@ -71,15 +70,26 @@
 </script>
 
 <script>!function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, "script", "twitter-wjs");</script>
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");</script>
 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1778701-12']);
+  _gaq.push(['_setDomainName', 'sayquarterly.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
 </body>
 
