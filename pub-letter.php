@@ -39,6 +39,10 @@
                     Alex Schleifer
                 </li>
                 <li>
+                    <h4>PRODUCT DIRECTOR</h4>
+                    Rachel Wolan
+                </li>
+                <li>
                     <h4>SENIOR DESIGNER</h4>
                     Sarah Teubner
                 </li>
