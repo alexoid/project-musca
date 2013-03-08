@@ -22,8 +22,8 @@
         </div>
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p>
-                <img src="_assets/unusual/kelly-framel.png" class="kelly-framel remove-mobile" />
-                <img src="_assets/unusual/kelly-framel.png" class="kelly-framel inline remove-768 remove-960 remove-1200" />
+                <img src="_assets/unusual/kelly-framel.jpg" class="kelly-framel remove-mobile" />
+                <img src="_assets/unusual/kelly-framel.jpg" class="kelly-framel inline remove-768 remove-960 remove-1200" />
                 When Kelly Framel launched her personal style blog, <a href="http://www.theglamourai.com/" title="The Glamourai" target="blank">The Glamourai</a> in 2008, she was embarrassed. At the time, she was a designer for <a href="http://www.naeemkhan.com/" title="Naeem Khan" target="blank">Naeem Khan</a>. "I was terrified to share it with the serious, old-school stylists and industry insiders I was constantly working with. I thought no one in the business could possibly take me seriously if they knew I had this silly little blog," Framel says.</p>
             <p>But the site established Framel as a tastemaker and pushed her personal artistic boundaries. Eventually, it became her full-time gig. Many of the Web's best storyteller's have a similar tale — they experimented with something for themselves only to find an audience and an unimagined future.</p>
             <p>Digital storytellers come in nearly every variation — narrators of the everyday and the remarkable who use images, words or social media missives to engross an audience that is more plugged-in than ever before. In fact, the prevalence of the screen has been a boon to creatives with an eye for innovation. These content creators continue to drive the e-commerce revolution, motivating the sale of cookbooks, clothes and furniture; prescient publishers are honing a new way to cover news, promote long-form writing and attract an influential audience; and inventive use of new platforms is allowing artists of all types to distribute their work.</p>
@@ -36,8 +36,8 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <h3>The Aesthetic Economy</h3>
             <p>
-                <img src="_assets/unusual/hanneli-beck.png" class="hanneli-beck remove-mobile" />
-                <img src="_assets/unusual/hanneli-beck.png" class="hanneli-beck inline remove-768 remove-960 remove-1200" />
+                <img src="_assets/unusual/hanneli-beck.jpg" class="hanneli-beck remove-mobile" />
+                <img src="_assets/unusual/hanneli-beck.jpg" class="hanneli-beck inline remove-768 remove-960 remove-1200" />
                 Fashion and lifestyle media brands have been slow to adapt to the power of digital. In their stead, a cottage industry of strong, individual personalities has cultivated significant influence. Consider Framel or Jamie Beck, the photographer who's often in front of the camera on <a href="http://annstreetstudio.com/" title="From Me To You" target="blank">From Me To You</a>, or or Hanneli Mustaparta, the former model who offers candid access to her life on <a href="http://www.hanneli.com/" title="Hanneli.com" target="blank">Hanneli.com</a>. This breed of content creators is less interested in the rough, outfit-of-the-day, self-portrait-in-the-mirror form of style blogging than in high-gloss, thematic fashion editorials reminiscent of print magazines. Their sites feature shots staged in glamorous foreign locales, from the sidelines of Fashion Week or within warmly lit interiors.</p>
             <p>"Fashion collections have to be created at such a fast pace these days, so I was drawing a lot of my inspiration from the Internet, especially using personal style blogs as a barometer of trends," Framel says. "Finally I decided that it might actually be fun to get in on the conversation." The burgeoning popularity of street style bloggers helped, creating a digital reverence for individual style — but the journalistic nature of their work left an opening for stylish people who wanted to tell their own style stories.</p>
             <p class="pad-right">
