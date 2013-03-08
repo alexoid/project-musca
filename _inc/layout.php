@@ -31,7 +31,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.8.4/TweenMax.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <!-- <script src="_js/jquery.isotope.min.js"></script> -->
     <script src="./_js/jquery.superscrollorama.js"></script>
     <script src="./_js/jquery.videoBG.js"></script>
     <script src="./_js/scripts.js"></script>
