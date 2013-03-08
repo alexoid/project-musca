@@ -1091,8 +1091,9 @@ header#navigation .menu .nav a i {
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
 }
-header#navigation .menu .logo a {
+header#navigation .menu .right a {
   font-size: 14px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   display: block;
   line-height: 40px;
   padding: 0 16px;

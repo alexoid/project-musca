@@ -43,9 +43,10 @@
                     Sarah Teubner
                 </li>
                 <li>
-                    <h4>CONTRIBUTING DESIGNERS</h4>
+                    <h4>DESIGN AND ENGINEERING</h4>
                     Mira Kim<br/>
-                    Constantinos Demetriadis
+                    Constantinos Demetriadis<br/>
+                    Kyle Derkacz
                 </li>
                 <li>
                     <h4>PHOTO EDITOR</h4>
@@ -60,6 +61,10 @@
                 <li>
                     <h4>COPY EDITOR</h4>
                     Michelle D. Williams
+                </li>
+                <li>
+                    <h4>PRODUCT MANAGER</h4>
+                    Rachel Wolan
                 </li>
                 <li>
                     <h4>PROOFREADER</h4>
