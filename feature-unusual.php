@@ -135,16 +135,13 @@
         <div class="grid-14 pull-5 push-5 pad-mobile-20">
             <p>
                 <span class="sicha-balk large remove-mobile remove-768">
-                    <img src="_assets/unusual/sicha-balk.png" />
-                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                    <img src="_assets/unusual/sicha-balk.jpg" />
                 </span>
                 <span class="sicha-balk med remove-mobile remove-960 remove-1200">
-                    <img src="_assets/unusual/sicha-balk.png" />
-                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                    <img src="_assets/unusual/sicha-balk.jpg" />
                 </span>
                 <span class="sicha-balk small remove-768 remove-960 remove-1200">
-                    <img src="_assets/unusual/sicha-balk.png" />
-                    <img src="_assets/unusual/sicha-balk-tag.png" class="tag" />
+                    <img src="_assets/unusual/sicha-balk.jpg" />
                 </span>
                 "My job as an editorial person has changed a lot in the past two years," says Choire Sicha, editor of <a href="http://www.theawl.com/" title="The Awl" target="blank">The Awl</a>. "Two years ago, people didn’t know they wanted more satisfying stories online." In an experiment to offer an alternative to "drive-by-blogging," Sicha and Alex Balk, both <a href="http://gawker.com/" title="Gawker" target="blank">Gawker</a> and <a href="http://radaronline.com/" title="Radar" target="blank">Radar</a> alums, launched The Awl  (tagline: Be Less Stupid) in 2009. The site offers readers about 15 posts a day —  ranging from hand-drawn infographics to personal essays to poems — authored primarily by outside contributors. Few topics are typical, but the content is instead united by a sense of offbeat identity that appeals to vaguely hip 20- and 30-somethings with a taste for irony and pop culture. </p>
             <p>"We’ve always wanted to be the really attractive, shiny thing in the corner. None of us have ever been good at self-promotion, even in reasonable ways, but people love to discover on the Web," Sicha says. "I want people to find us organically. It makes for a coherent and unified readership."</p>
@@ -166,16 +163,13 @@
             <h3></h3>
             <p>
                 <span class="simmons large remove-mobile remove-768">
-                    <img src="_assets/unusual/simmons.png" />
-                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                    <img src="_assets/unusual/simmons.jpg" />
                 </span>
                 <span class="simmons med remove-mobile remove-960 remove-1200">
-                    <img src="_assets/unusual/simmons.png" />
-                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                    <img src="_assets/unusual/simmons.jpg" />
                 </span>
                 <span class="simmons small remove-768 remove-960 remove-1200">
-                    <img src="_assets/unusual/simmons.png" />
-                    <img src="_assets/unusual/simmons-tag.png" class="tag" />
+                    <img src="_assets/unusual/simmons.jpg" />
                 </span>
                 It’s a similar attitude that comes from many other digital platforms for creative prose and long-form journalism. <a href="http://therumpus.net/" title="The Rumpus" target="blank">The Rumpus</a>, <a href="http://thenewinquiry.com/" title="The New Inquiry" target="blank">The New Inquiry</a> and <a href="http://www.mcsweeneys.net/tendency" title="McSweeney’s Internet Tendency" target="blank">McSweeney’s Internet Tendency</a> have given creative writers and their fans new outlets. They mix smart commentary on pop culture, humor and essays to create a well-honed sense of editorial style. As well, ESPN’s Bill Simmons spin-off <a href="http://www.grantland.com/" title="Grantland" target="blank">Grantland</a> has created a new platform for top-notch sportswriting. </p>
             <p>Readership of The Awl swelled to about half a million visitors by the fall of 2010. Eventually, the site was making enough money to support its staff and spin-off sites devoted to women’s interests (<a href="http://thehairpin.com/" title="The Hairpin" target="blank">The Hairpin</a>), money (<a href="http://thebillfold.com/" title="The Billfold" target="blank">The Billfold</a>), comedy (<a href="http://splitsider.com/" title="Splitsider" target="blank">Splitsider</a>) and gadgets (<a href="http://thewirecutter.com/" title="The Wirecutter" target="blank">The Wirecutter</a>) have launched since. "We think whatever happens from here on out is gravy," Sicha says. "Largely, we’re surprised it’s been around this long already. We didn’t have a business strategy."</p>
@@ -192,7 +186,7 @@
             <p>Meanwhile, long-form writing is having a bit of resurgence online via smaller publishers. Many have used <a href="http://www.kickstarter.com/" title="Kickstarter" target="blank">Kickstarter</a> campaigns to raise initial funds and are staffed by seasoned journalists. <a href="https://www.readmatter.com/" title="MATTER" target="blank">MATTER</a> collected nearly three times its fundraising goal of $50,000 and published its first story (available for $.99) in November. <a href="http://narrative.ly/" title="Narratively" target="blank">Narratively</a>, funded by a $54,000 Kickstarter haul, publishes a new story about New York City every day. But the most heralded publication is probably <a href="http://www.tomorrowthemag.com/" title="Tomorrow" target="blank">Tomorrow</a>, a one-off magazine founded by the eight <a href="http://www.good.is/everyone" title="Good Magazine" target="blank">Good Magazine</a> staff members who were laid off in June. </p>
             <p>The former Good-ers were determined to turn the turn of fate into inspiration for something of creative substance. In less than three weeks, they hatched an idea for a new publication, raised enough money to finance it and were digging through hundreds of pitches from willing writers and offers to help them design the issue and fact-check the features.</p>
             <p>The process was apparently simple. After being unceremoniously canned, the staffers asked for $15,000 via a Kickstarter campaign. Less than five hours later, they met their fundraising goal. Of course, it helped that several of the staffers were relatively well-known, with large Twitter, Tumblr and industry followings thanks to their previous work. "I think people supported the project because they supported us. The content was an ancillary benefit," says editor Ann Friedman.  A total of 1,779 people contributed $45,452 during the month-long campaign.</p>
-            <p>The relative success of the project has been celebrated as a beacon and an example of the sort of future that's possible for storytellers in the digital age. But the reality is a little more complicated — Friedman says they ended up breaking even; to make a profit that would allow the project to be sustainable, they would have had to raise at least eight times their initial fundraising goal.</p>
+            <p>The relative success of the project has sbeen celebrated as a beacon and an example of the sort of future that's possible for storytellers in the digital age. But the reality is a little more complicated — Friedman says they ended up breaking even; to make a profit that would allow the project to be sustainable, they would have had to raise at least eight times their initial fundraising goal.</p>
             <p>There’s no guarantee that what works now will work in the future or that brilliant ideas can be sustainable. Internet video is rumored to be the next big thing, native advertising promises to revive a sagging digital economy, and storytellers will continue to be challenged with entrepreneurialism. "I don’t think there’s one solution. That’s precisely why it’s exciting," Friedman says. "What you’re seeing is a lot of possibilities."</p>
         </div>
     </div>
