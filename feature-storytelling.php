@@ -6,7 +6,7 @@
 <section class="hero">
     <div class="wrapper" id="hero-wrapper">
         <div class="lovely-grid">
-            <div class="grid-24">
+            <div class="grid-24 pad-mobile-20">
                 <h3>Perspectives</h3>
                 <h2 class="hide-mobile">The Art and Science of<br/> Great Brand Storytelling</h2>
                 <h2 class="small show-mobile">The Art and Science of<br/> Great Brand Storytelling</h2>
