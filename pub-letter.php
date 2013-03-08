@@ -7,11 +7,8 @@
             <div class="grid-24 pad-mobile-20">
                 <div class="wrapper">
                     <h3>Publisher's Letter</h3>
-
                     <h2 class="hide-mobile">The Power<br/> of Point of View</h2>
-
-                    <h2 class="small remove-768 remove-960 remove-1200">The Power<br/> of Point of View</h2>
-
+                    <h2 class="small show-mobile">The Power<br/> of Point of View</h2>
                     <h3>By Matt Sanchez</h3>
                 </div>
             </div>
@@ -109,8 +106,8 @@
                 takes for advertisers, content creators and all of us to be successful, relevant and competitive in this
                 brave new world of digital media.</p>
         </div>
-
-        <div class="grid-5 push-1 pad-mobile-20 masthead show-mobile">
+        <div class="show-mobile">
+        <div class="grid-5 push-1 pad-mobile-20 masthead">
             <ul class="centered">
                 <li>
                     <h4>PUBLISHER</h4>
@@ -162,16 +159,15 @@
                 </li>
             </ul>
         </div>
+        </div>
 </section>
 
 <section class="content bio">
     <div class="lovely-grid">
         <div class="grid-10 pull-6 push-8 pad-mobile-20">
             <img src="_assets/pub-letter/bio-matt.jpg" />
-            <p>
-                <strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
+            <p><strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
             <p><a href="https://twitter.com/msanchez" class="twitter-follow-button" data-show-count="false">Follow @msanchez</a></p>
-
         </div>
     </div>
 </section>
