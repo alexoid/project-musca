@@ -10,7 +10,7 @@
                 <h3>Perspectives</h3>
                 <h2 class="remove-mobile">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
                 <h2 class="small remove-768 remove-960 remove-1200">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
-                <h3>By Jasin Lydiate</h3>
+                <h3>By Jason Lydiate</h3>
             </div>
         </div>
     </div>
