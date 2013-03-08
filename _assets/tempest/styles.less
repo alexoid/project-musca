@@ -2,17 +2,14 @@
 
 @import "../../_css/utils";
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> cc921d6126caad212932021bb606a04dfb14e9ad
 // Hero
+
 section.hero {
   margin: 0 0 40px 0;
   overflow: hidden;
   position: relative;
-<<<<<<< HEAD
   width: 100%;
   height: 420px;
   background-color: @black;
@@ -37,13 +34,6 @@ section.hero {
     }
 
   }
-=======
-  background-color: @black;
-  background-image: url("Tempest_Mobile.png");
-  background-size: cover;
-  height: 500px;
-
->>>>>>> cc921d6126caad212932021bb606a04dfb14e9ad
 
   h2 {
     z-index: 1000;
@@ -74,30 +64,11 @@ section.hero {
     text-align: center;
   }
 
-<<<<<<< HEAD
-=======
-  .wrapper {
-    padding: 120px 0 0 0;
-    height: 540px;
-
-    .video {
-        background-color: @black;
-
-        video {
-            position: absolute;
-            top: 0;
-            min-height: 50%;
-            width: 100%;
-            height: auto;
-        }
-    }
-
-  }
->>>>>>> cc921d6126caad212932021bb606a04dfb14e9ad
 }
 
 // Content
 .article {
+  margin-top: 550px;
   background-color: @white;
   padding-top: 20px;
 }
@@ -150,26 +121,25 @@ section.fullwidth {
   margin: 0 0 25px 0;
 }
 
+.modules-floated {
+  position: fixed;
+  top: 100px;
+}
 
 .modules {
   position: relative;
+}
 
-  #modules {
-    top: 70px;
-  }
+.modules IMG {
+  position: absolute;
+}
 
-  .layer {
-    width: 317px;
-  }
+.modules .layer {
+  width: 317px;
+}
 
-  .block {
-    width: 161px;
-  }
-
-  IMG {
-    position: absolute;
-  }
-
+.modules .block {
+  width: 161px;
 }
 
 #experience {
@@ -179,7 +149,6 @@ section.fullwidth {
 
 #content {
   z-index: 13;
-  left: 50px;
   top: 60px;
 }
 
