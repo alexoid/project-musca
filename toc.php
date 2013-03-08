@@ -1,7 +1,7 @@
 <section class="toc">
         <div>
             <ul>
-                <li class="title">In this issue</li>
+                <li class="title">Issue VI</li>
                 
                 <li><a href="./pub-letter.php">Publisher's Letter</a></li>
 
