@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     // Fix the scroll position of the box when it reaches the top of the page
     $(document).ready(function(){
-        var topMargin = 70;
+        var topMargin = 90;
         var $modules = $("#modules");
         var modulesTop = $modules.offset().top;
 
