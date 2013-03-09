@@ -94,9 +94,9 @@
                 <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
             </div>
             <div class="show-mobile">
-            <div class=" pad-mobile-20">
-                <img src="_assets/tempest/layers/Mobile.png" class="layer" />
-            </div>
+                <div class=" pad-mobile-20">
+                    <img src="_assets/tempest/layers/Mobile.png" />
+                </div>
             </div>
 
         </div>
