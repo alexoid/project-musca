@@ -104,29 +104,29 @@
             </div>
             <div class="grid-4 push-2 nested-last remove-mobile">
                 <div id="oreo-container">
-                    <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank"></a>
-                    <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow">
+                    <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank">
+                    <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow"></a>
                     <img src="_assets/storytelling/palm-print.png" id="oreo">
                 </div>
             </div>
             <div class="show-mobile" id="oreo-container">
-                <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank"></a>
-                <img src="_assets/storytelling/palm-print.png">
+                <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank">
+                <img src="_assets/storytelling/palm-print.png"></a>
             </div>
             <div class="grid-11 nested-first">
                 <p>So you've bought into the idea of storytelling; but what exactly, you ask, is a brand story? Storytelling is the latest buzzword among ad agencies, but all too often, it's misused to describe stories about a brand. For example, stories about a brand winning awards, having 25 percent more [insert feature here] or a brand being worn by the hottest celebutante are not brand stories.</p>
                 <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand, the ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won't put it in the footer of your email address or on your website's homepage. Instead, it is the enduring idea that will serve as the consistent basis for the many stories that a successful brand must tell over time. It's the glue that holds all your brand's actions and words together. </p>
                 <p>Your audience may not see it, but without it, your brand is nothing. </p>
                 <div class="show-mobile" id="chipotle">
-                    <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank"></a>
-                    <img src="_assets/storytelling/chipotle.png" />
+                    <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank">
+                    <img src="_assets/storytelling/chipotle.png" /></a>
                 </div>
                 <p>Finding this story platform isn't accomplished in a 30-minute brainstorm, mind you. It is a process that takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide) spent years developing a process to help them unearth their brand stories.</p>
             </div>
             <div class="grid-4 push-2 nested-last remove-mobile">
                 <div id="chipotle">
-                    <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank"></a>
-                    <img src="_assets/storytelling/chipotle.png" id="pig">
+                    <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank">
+                    <img src="_assets/storytelling/chipotle.png" id="pig"></a>
                 </div>
             </div>
         </div>
@@ -136,16 +136,16 @@
 <section class="content page-break">
     <div class="lovely-grid">
         <div class="baumgartner-small-container remove-mobile">
-            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
-            <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner" />
+            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank">
+            <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner" /></a>
         </div>
         <div class="grid-8 push-14 pull-2 pad-mobile-20">
             <h4>Five steps to help you start unearthing your brand story</h4>
         </div>
         <div class="grid-20 push-2 pull-2 pad-mobile-20 siderail">
             <div class="show-mobile baumgartner-mobile">
-                <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
-                <img src="_assets/storytelling/baumgartner-small.png" />
+                <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank">
+                <img src="_assets/storytelling/baumgartner-small.png" /></a>
             </div>
             <div class="grid-3 push-1 nested-first">
                 <p><strong>Form your basis for insights</strong> Listen to your audience across all channels. Hold focus groups. Send out questionnaires. Talk to them face to face. Find out what they think. You may be surprised. </p>
@@ -183,16 +183,16 @@
     <div class="lovely-grid">
         <div class="grid-11 pull-7 pad-mobile-20">
             <div class="show-mobile" id="dominos">
-                <a class="more-content" href="http://pizzaturnaround.com/" target="_blank"></a>
-                <img src="_assets/storytelling/dominos.png" />
+                <a class="more-content" href="http://pizzaturnaround.com/" target="_blank">
+                <img src="_assets/storytelling/dominos.png" /></a>
             </div>
             <p>Now more than ever, brands have the ability to unearth and tell their stories in ways that captivate and engage audiences. Smaller brands aren't relegated to serving customers within a 50-mile radius. Brands of all sizes can commit to stories that befit their products, their employees and the essence of their brands, and they can tell them on channels with worldwide reach. </p>
             <p>If brands do this well, their content (and inherently their products) will be sought out by their audiences. The result will be a decline in advertising spending as they increasingly use owned and earned media to outsource marketing to their most loyal fans. </p>
             <p>The only question left is, what's your story?</p>
         </div>
         <div class="grid-4 push-2 pad-mobile-20 pizza remove-mobile">
-            <a class="more-content" href="http://pizzaturnaround.com/" target="_blank"></a>
-            <img src="_assets/storytelling/dominos.png">
+            <a class="more-content" href="http://pizzaturnaround.com/" target="_blank">
+            <img src="_assets/storytelling/dominos.png"></a>
         </div>
     </div>
 </section>
