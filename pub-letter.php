@@ -94,6 +94,10 @@
                     Matt Sanchez
                 </li>
                 <li>
+                    <h4>PRESIDENT</h4>
+                    Kim Kelleher
+                </li>
+                <li>
                     <h4>MANAGING EDITOR</h4>
                     Wendy Taylor
                 </li>
@@ -118,6 +122,10 @@
                 <li>
                     <h4>PRODUCT MANAGER</h4>
                     Rachel Wolan
+                </li>
+                <li>
+                    <h4>PHOTOGRAPHY</h4>
+                    Eliot Weisberg
                 </li>
                 <li>
                     <h4>PHOTO EDITOR</h4>
