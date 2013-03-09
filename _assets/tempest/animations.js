@@ -1,5 +1,19 @@
 $(document).ready(function () {
 
+    // video = {
+    //     mp4: "_assets/tempest/video.mp4",
+    //     ogv: "_assets/tempest/video.mp4",
+    //     webm: "_assets/tempest/video.mp4",
+    //     poster: "",
+    //     autoplay: true,
+    //     loop: true,
+    //     fullscreen: false
+    // };
+
+    // Hero background video
+    // var videoBG = $('#hero-wrapper').videoBG(video);
+
+
     var controller = $.superscrollorama();
 
     var animationOffset = 100;
@@ -33,21 +47,18 @@ $(document).ready(function () {
 
     // Fix the scroll position of the box when it reaches the top of the page
     $(document).ready(function(){
-        var topMargin = 70;
+        var topMargin = 150;
         var $modules = $("#modules");
         var modulesTop = $modules.offset().top;
 
         $(window).scroll(function () {
             var scrollTop = $(window).scrollTop();
             if((scrollTop + topMargin) > modulesTop) {
-                $modules.css('position', 'fixed');
-            }
-            else {
-                $modules.css('position', 'relative');
+                $modules.css('top', ((scrollTop + topMargin) - modulesTop));
             }
         });
     });
 
-    controller.triggerCheckAnim(true);
+    window.scrollBy(0,1);
 
 });
