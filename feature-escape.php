@@ -48,7 +48,7 @@
         <div class="lovely-grid">
 
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
-                <p>Say Media talks a lot about the virtues of "point-of-view publishing." The great news for ReadWrite is that this is not much of a stretch from what we've always done. The original idea behind ReadWriteWeb, which was the site's name when it was founded nearly a decade ago, was that the Web enabled a new kind of journalism, one in which everyone could read and write. We've dropped the "Web" part of the name simply because the world has moved beyond the Web, but the notion of creating a two-way flow of ideas remains a core principle for us.</p>
+                <p>Say Media talks a lot about the virtues of "point of view publishing." The great news for ReadWrite is that this is not much of a stretch from what we've always done. The original idea behind ReadWriteWeb, which was the site's name when it was founded nearly a decade ago, was that the Web enabled a new kind of journalism, one in which everyone could read and write. We've dropped the "Web" part of the name simply because the world has moved beyond the Web, but the notion of creating a two-way flow of ideas remains a core principle for us.</p>
             </div>
         </div>
     </section>
@@ -91,7 +91,7 @@
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
                 <img src="_assets/escape/bio-dan.jpg" />
                 <p>
-                    <strong>Dan Lyons</strong> is editor in chief of ReadWrite. Previously, he was technology editor at Newsweek and spent a decade at Forbes covering technology. He was also the creator of The Secret Diary of Steve Jobs, a satirical blog written in the persona of Fake Steve Jobs.</p>
+                    <strong>Dan Lyons</strong> is editor in chief of <a href="http://readwrite.com">ReadWrite</a>. Previously, he was technology editor at <em>Newsweek</em> and spent a decade at <em>Forbes</em> covering technology. He was also the creator of <a href="http://www.fakesteve.net/" title="The Secret Diary of Steve Jobs" target="blank">The Secret Diary of Steve Jobs</a>, a satirical blog written in the persona of Fake Steve Jobs.</p>
                    <p><a href="https://twitter.com/realdanlyons" class="twitter-follow-button" data-show-count="false">Follow @realdanlyons</a></p>
 
             </div>

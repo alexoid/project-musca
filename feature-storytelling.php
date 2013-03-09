@@ -201,7 +201,7 @@
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
                 <img src="_assets/storytelling/bio-jon.jpg" />
                 <p>
-                    <strong>Jon Thomas</strong> is the communications director at Story Worldwide and editor-in-chief of Post Advertising.</p>
+                    <strong>Jon Thomas</strong> is the communications director at <a href="http://www.storyworldwide.com/" title="Story Worldwide" target="blank">Story Worldwide</a>    and editor-in-chief of <a href="http://www.postadvertising.com/" title="Post Advertising" target="blank">Post Advertising</a>.</p>
                    <p><a href="https://twitter.com/Story_Jon" class="twitter-follow-button" data-show-count="false">Follow @Story_Jon</a></p>
 
             </div>

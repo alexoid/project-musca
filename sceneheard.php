@@ -25,7 +25,7 @@
             </div>
             <div class="grid-4">
                 <div class="photo">
-                    <div class="caption"><p>Liz Jewett (PHD), Jenny Stencel (Say Media</p></div>
+                    <div class="caption"><p>Liz Jewett (PHD), Jenny Stencel (Say Media)</p></div>
                     <img src="_assets/sceneheard/002.jpg" />
                 </div>
             </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="grid-8 pad-mobile-20">
             <div class="photo">
-                <div class="caption"><p>VARIOUS GUESTS ENJOYING DINNER IN MONTEREY BAY AQUARIUM</p></div>
+                <div class="caption"><p>GUESTS ENJOYING DINNER IN MONTEREY BAY AQUARIUM</p></div>
                 <img src="_assets/sceneheard/004.jpg" />
             </div>
         </div>
