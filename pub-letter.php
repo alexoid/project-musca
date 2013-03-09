@@ -83,23 +83,7 @@
             <p>Also in this first edition, Jon Thomas, editor in chief of Post Advertising takes point of view a step further in <a href="feature-storytelling.php" title="The Art and Science of Great Brand Storytelling">"The Art and Science of Great Brand Storytelling"</a> and shows you how to unearth your own brand story. Say Media's chief technology officer and co-founder David Lerman previews the next-generation media platform we're working on that will dramatically change the way media is created and consumed and that is part of our vision for the media company of the future (<a href="article-tempest.php" title="Meet Tempest">"Meet Tempest, Our Next-Generation Media Platform"</a>). And there's much, much more. Together, all these stories are a playbook for what we believe it takes for great content, from editors and advertisers alike, to be successful, relevant and competitive in this brave new world of digital media.</p>
             <p>We hope you find this issue of Say Quarterly enlightening, entertaining — and above all useful. We look forward to having a conversation with you about all of it.</p>
         </div>
-    </div>
-</section>
-
-
-<section class="content bio">
-    <div class="lovely-grid">
-        <div class="grid-10 pull-6 push-8 pad-mobile-20">
-            <img src="_assets/pub-letter/bio-matt.jpg" />
-            <p><strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
-            <p><a href="https://twitter.com/msanchez" class="twitter-follow-button" data-show-count="false">Follow @msanchez</a></p>
-        </div>
-    </div>
-</section>
-
-<div class="show-mobile">
-<section class="content">
-    <div class="lovely-grid">
+        <div class="show-mobile">
         <div class="grid-5 push-1 pad-mobile-20 masthead">
             <ul class="centered">
                 <li>
@@ -152,5 +136,15 @@
                 </li>
             </ul>
         </div>
+        </div>
 </section>
-</div>
+
+<section class="content bio">
+    <div class="lovely-grid">
+        <div class="grid-10 pull-6 push-8 pad-mobile-20">
+            <img src="_assets/pub-letter/bio-matt.jpg" />
+            <p><strong>Matt Sanchez</strong> is co-founder and CEO of Say Media.</p>
+            <p><a href="https://twitter.com/msanchez" class="twitter-follow-button" data-show-count="false">Follow @msanchez</a></p>
+        </div>
+    </div>
+</section>
