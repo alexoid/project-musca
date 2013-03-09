@@ -18,7 +18,7 @@
                 <li><a href="./article-london.php">Good Advertising, Strong Communities and Bob Dylan</a> <span>By Jason Lydiate</span></li>
                 <li><a href="./article-tempest.php">Meet Tempest, Our Next-Generation Media Platform</a> <span>By David Lerman</span></li>
                 <li><a href="./article-xovain.php">A New Kind of Beauty Site</a> <span>Introducing xoVain</span></li>
-
+                <li><a href="./sceneheard.php">Scene and Heard</a> <span>At Say Media</span></li>
             </ul>
         </div>
 </section>
