@@ -22,7 +22,7 @@
             &nbsp;
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
-            <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video campagin.</p>
+            <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video campaign.</p>
 
             <div class="social-share show-mobile">
                 <?php include "../_inc/social.php"; ?>
@@ -38,8 +38,8 @@
                 </div>
             </div>
 
-            <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the lowest common denominator, it takes courage for a company to trust that the people it truly wants to reach are intelligent, discerning and sophisticated, and to provide a marketing experience that's in line with those beliefs. However, that is exactly what Amstel Light did when it launched their new campaign entitled <a href="http://gearpatrol.com/tag/amstel-light/" title="Savor Complexity" target="blank">Savor Complexity</a>."</p>
-            <p>In an effort to encourage consumers to explore the complexities and appreciate the intricacies of their own lives, Amstel Light partnered with Say Media and Gear Patrol to create a video series profiling local entrepreneurs who are foraging new paths in their cities in order to show the value of complexity.</p>
+            <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the lowest common denominator, it takes courage for a company to trust that the people it truly wants to reach are intelligent, discerning and sophisticated, and to provide a marketing experience that's in line with those beliefs. However, that is exactly what Amstel Light did when it launched their new campaign entitled "<a href="http://gearpatrol.com/tag/amstel-light/" title="Savor Complexity" target="blank">Savor Complexity</a>."</p>
+            <p>In an effort to encourage consumers to explore the complexities and appreciate the intricacies of their own lives, Amstel Light partnered with Say Media and Gear Patrol to create a video series profiling local entrepreneurs who are forging new paths in their cities in order to show the value of complexity.</p>
         </div>
         <div class="social-share grid-2 push-2 pad-mobile-20 remove-mobile">
             <?php include "../_inc/social.php"; ?>
