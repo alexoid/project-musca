@@ -2,6 +2,20 @@
 
 @import "../../_css/utils";
 
+@media screen and (max-width: 800px) { // Mobile
+  section.content .quote {
+    margin: 5px 0 15px 0;
+  }
+}
+
+@media screen and (min-width: 801px) { // Tablets
+  section.content .quote {
+    margin: 5px -150px 0 0;
+    float: right;
+  }
+}
+
+
 // Hero
 section.hero {
   overflow: hidden;
@@ -82,11 +96,6 @@ section.content p strong {
   color: @black;
 }
 
-section.content .quote {
-  margin: 5px -150px 0 0;
-  float: right;
-}
-
 section.content .quote p {
   display: inline;
   font-size: 34px;
@@ -114,7 +123,7 @@ section.fullwidth {
   position: relative;
 
   #modules {
-    top: 70px;
+    top: 50px;
   }
 
   .layer {

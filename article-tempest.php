@@ -89,8 +89,8 @@
                     <img src="_assets/tempest/layers/Infrastructure.png" class="layer" id="infrastructure" />
                 </div>
             </div>
-            <div class="grid-5 pull-1 remove-1200 remove-768 remove-960">
-                <img src="_assets/tempest/layers/Mobile.png" class="layer" />
+            <div class="grid-5 pull-1 pad-mobile-20 remove-1200 remove-768 remove-960">
+                <img src="_assets/tempest/layers/Mobile.png" />
             </div>
 
         </div>
