@@ -21,7 +21,7 @@
         <div class="grid-5 pull-2 remove-mobile">
 
             <div class="photo">
-                <img src="_assets/canon/stats.png" />
+                <img src="_assets/canon/stats.jpg" />
             </div>
 
             <div class="photo">
@@ -76,7 +76,7 @@
             <div class="show-mobile">
                 <div class="grid-14 pad-mobile-20">
                     <div class="photo">
-                        <img src="_assets/canon/stats.png" />
+                        <img src="_assets/canon/stats.jpg" />
                     </div>
                 </div>
             </div>
