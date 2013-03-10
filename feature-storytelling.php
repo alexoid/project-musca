@@ -13,8 +13,11 @@
                 <h3>By Jon Thomas</h3>
             </div>
             <div class="grid-10 pull-7 push-7 pad-mobile-20">
-                <div class="baumgartner">
+                <div class="baumgartner remove-mobile">
                     <img src="_assets/storytelling/baumgartner.png" id="baumgartner">
+                </div>
+                <div class="baumgartner-mobile show-mobile">
+                    <img src="_assets/storytelling/baumgartner.png" />
                 </div>
             </div>
         </div>
