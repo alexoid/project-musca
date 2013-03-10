@@ -1,5 +1,20 @@
 <style type="text/css" media="screen">
     @import url("_assets/pub-letter/styles.css");
+    ul {
+        margin: 0 0 40px 0;
+    }
+
+    h3 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    li {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0 0 15px 0 !important;
+    }
 </style>
 
 <section class="hero">
@@ -19,59 +34,133 @@
         <div class="grid-5 push-1 pad-mobile-20 masthead remove-mobile">
             <ul>
                 <li>
-                    <h4>PUBLISHER</h4>
+                    <h3>Get in touch</h3><br/>
+                    Say Media<br/>
+                    245 5th Ave, 5th Floor<br/>
+                    New York, NY 10016<br/>
+                <li>
+                    <a href="mailto:magazine@saymedia.com">E-mail</a> ·
+                    <a href="http://saymedia.com">Website</a> ·
+                    <a href="http://facebook.com/saymediainc">Facebook</a>
+                </li>
+                <li>To inquire about becoming a publishing partner, contact Rachel Wolan on 415.738.6590</li>
+                <li>
+                    <a href="https://twitter.com/saymedia" class="twitter-follow-button" data-show-count="false">Follow @saymedia</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </li>
+            </ul>
+            <ul>
+                <li><h3>Advertising Sales</h3></li>
+                <li><h4>East Coast, New York</h4>
+
+                    Tim Koorbusch<br/>
+                    Vice President, U.S. Sales<br/>
+                    312.332.7500<br/><br/>
+
+                    Doug Barrett<br/>
+                    Vice President, Eastern Sales<br/>
+                    917.256.2760
+                </li>
+                <li>
+                    <h4>Midwest, Chicago</h4>
+                    Tim Koorbusch<br/>
+                    Vice President, U.S. Sales<br/>
+                    312.332.7500
+                </li>
+                <li>
+                    <h4>West Coast</h4>
+                    Leah Corselli<br/>
+                    West Coast Director<br/>
+                    310.709.8469
+                </li>
+                <li>
+                    <h4>Canada</h4>
+                    Paul Cassar<br/>
+                    Vice President, Canada<br/>
+                    514.370.2868
+                <li>
+                    <h4>United Kingdom</h4>
+                    Giles Ivey<br/>
+                    Managing Director<br/>
+                    +44 (0) 7930.393.485
+                </li>
+                <li>
+                    <h4>Australia</h4>
+                    Duncan Arthur<br/>
+                    Country Manager<br/>
+                    +61.433.394.892 Schleifer
+                </li>
+            </ul>
+            <ul>
+                <li><h3>Say Media</h3></li>
+                <li>Say Media is headquartered in New York with offices around
+                    the U.S. as well as Canada, the U.K. and Australia.</li>
+                <li>
+                    <h4>CEO and co-founder</h4>
                     Matt Sanchez
                 </li>
                 <li>
-                    <h4>PRESIDENT</h4>
+                    <h4>President</h4>
                     Kim Kelleher
                 </li>
                 <li>
-                    <h4>MANAGING EDITOR</h4>
+                    <h4>COO</h4>
+                    Sam Parker
+                </li>
+
+            </ul>
+            <ul>
+                <li><h3>Say Quarterly</h3></li>
+                <li>
+                    <h4>Publisher</h4>
+                    Matt Sanchez
+                </li>
+                <li>
+                    <h4>Managing Editor</h4>
                     Wendy Taylor
                 </li>
                 <li>
-                    <h4>CONTRIBUTING EDITOR</h4>
+                    <h4>Contributing Editor</h4>
                     Erin Olsson
                 </li>
                 <li>
-                    <h4>CREATIVE DIRECTOR</h4>
+                    <h4>Creative Director</h4>
                     Alex Schleifer
                 </li>
                 <li>
-                    <h4>SENIOR DESIGNER</h4>
+                    <h4>Senior Designer</h4>
                     Sarah Teubner
                 </li>
                 <li>
-                    <h4>DESIGN AND ENGINEERING</h4>
+                    <h4>Design and Engineering</h4>
                     Mira Kim<br/>
                     Constantinos Demetriadis<br/>
                     Kyle Derkacz
                 </li>
                 <li>
-                    <h4>PRODUCT MANAGER</h4>
+                    <h4>Product Manager</h4>
                     Rachel Wolan
                 </li>
                 <li>
-                    <h4>PHOTOGRAPHY</h4>
+                    <h4>Cover Photography</h4>
                     Eliot Weisberg
                 </li>
                 <li>
-                    <h4>PHOTO EDITOR</h4>
+                    <h4>Photo Editor</h4>
                     Madeleine Weiss
                 </li>
                 <li>
-                    <h4>CONTRIBUTING ILLUSTRATORS</h4>
+                    <h4>Contributing Illustrators</h4>
                     Jesse Hayes<br/>
                     Jenny San Martin<br/>
                     Evelina Sorokoviha
                 </li>
                 <li>
-                    <h4>COPY EDITOR</h4>
+                    <h4>Copy Editor</h4>
                     Michelle D. Williams
                 </li>
                 <li>
-                    <h4>PROOFREADER</h4>
+                    <h4>Proofreader</h4>
                     Katie Funk
                 </li>
             </ul>
