@@ -1,2 +1,17 @@
-@charset 'utf-8';section.hero{height:400px;margin:0 0 40px 0;background-repeat:no-repeat;background-position:center;background-image:url('hero-bg.png')}section.hero .wrapper{padding:60px 0 0 0;position:relative}section.hero h3{padding:4px 0 0 0;text-transform:uppercase;font-size:18px;letter-spacing:.25em;color:#ce950c;margin:20px auto 0 auto;width:250px;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center}section.hero h2{position:relative;margin:20px 0 0 0;font-size:68px;font-family:georgia,serif;text-align:center}section.hero h2.small{font-size:48px}section.content .inline{margin:6px 20px 0 0;float:left}section.content .inline img{margin:0 0 5px 0}section.content .photo{position:relative}section.content p a{border-color:#ce950c;color:#ce950c}section.content .photo p.caption{line-height:1em;background-color:#fff;font-size:15px;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif}section.content .photo p.caption span{display:block;color:#999}section.content .photo p.caption.block{width:150px;position:absolute;padding:15px 0 0 15px;bottom:-20px;right:0;font-size:22px}section.content .photo p.caption.block.right{text-align:right}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+@charset 'utf-8';
+section.hero{height:400px;margin:0 0 40px 0;background-repeat:no-repeat;background-position:center;background-image:url('hero-bg.png');}
+section.hero .wrapper{padding:60px 0 0 0;position:relative;}
+section.hero h3{padding:4px 0 0 0;text-transform:uppercase;font-size:18px;letter-spacing:0.25em;color:#ce950c;margin:20px auto 0 auto;width:250px;font-family:"alternate-gothic-no-1-d",sans-serif;text-align:center;}
+section.hero h2{position:relative;margin:20px 0 0 0;font-size:68px;font-family:georgia,serif;text-align:center;}
+section.hero h2.small{font-size:48px;}
+section.content .inline{margin:6px 20px 0 0;float:left;}
+section.content .inline img{margin:0 0 5px 0;}
+section.content .photo{position:relative;}
+section.content .photo .darken{display:inline-block;background:#000000;padding:0;}
+section.content .photo .darken img{display:block;margin:0;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-ms-transition:all 0.2s linear;-o-transition:all 0.2s linear;transition:all 0.2s linear;}
+section.content .photo .darken:hover img{opacity:0.5;}
+section.content p a{border-color:#ce950c;color:#ce950c;}
+section.content .photo p.caption{margin:5px 0 0 0;line-height:1em;background-color:#ffffff;font-size:15px;text-transform:uppercase;font-family:"alternate-gothic-no-1-d",sans-serif;}
+section.content .photo p.caption span{display:block;color:#999999;}
+section.content .photo p.caption.block{width:150px;position:absolute;padding:15px 0 0 15px;bottom:-20px;right:0;font-size:22px;}
+section.content .photo p.caption.block.right{text-align:right;}
