@@ -25,7 +25,7 @@
             </div>
 
             <div class="photo">
-                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco"><img src="_assets/canon/video.jpg" alt=""></a>
+                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img src="_assets/canon/video-sm.jpg" alt=""></a>
                 <p class="caption">
                     See it in action
                     <span>0:15 sec</span>
