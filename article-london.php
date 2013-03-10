@@ -23,12 +23,23 @@
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
             <p class="first">To paraphrase the great singer-songwriter, "Chaos is your friend." And ad units that don't fit the traditional models do really well.</p>
+        </div>
+        <div class="social-share grid-2 push-2 pad-mobile-20">
+            <?php include "../_inc/social.php"; ?>
+        </div>
+    </div>
+</section>
+
+
+<section class="content">
+    <div class="lovely-grid">
+        <div class="grid-5 pull-2 pad-mobile-20">
+            &nbsp;
+        </div>
+        <div class="grid-10 pull-1 push-6 pad-mobile-20">
             <p>Online publishing, for all the technology it relies on, has been unusually slow to innovate when it comes to advertising. But, like Dylan said, "The times they are a-changing." After years of being locked into publishing platforms that could only cope with Interactive Advertising Bureau (IAB) standards, new technology means publishers are starting to explore new formats. It's not been an easy ride. </p>
             <p>Developments such as click-word models were difficult to sell to publishers who faced vehement opposition from editorial staff. But if we go for another Dylan reference, you've "Gotta Serve Somebody" nicely encapsulates the feeling that advertising serves advertisers and viewers, not editors. </p>
             <p>Love it or loathe it, click-words are a good example of how (some) publishers are willing to take risks. Ad formats that are new to the user come with added curiosity value, and with curiosity comes investigation. Ironically, online advertising needs to work on its own advertising. When I speak to publishers, I don't talk about an expandable unit, I just show them Say Media's ad units and demonstrate how cool they actually are.</p>
-        </div>
-        <div class="social-share grid-2 push-2 pad-mobile-20 hide-mobile">
-            <?php include "../_inc/social.php"; ?>
         </div>
     </div>
 </section>
@@ -39,8 +50,10 @@
             <div class="grid-8 dylan remove-mobile">
                 <img src="_assets/london/dylan.png" />
             </div>
-            <div class="grid-10 push-6 dylan inline remove-768 remove-960 remove-1200">
+            <div class="show-mobile">
+            <div class="grid-10 push-6 dylan inline pad-mobile-20">
                 <img src="_assets/london/dylan.png" />
+            </div>
             </div>
             <div class="grid-10 push-6 nested-sole">
                 <p>Different forms of advertising that are more unusual are being embraced by publishers a lot more than they were in the past. Viewers like to see different, more visually exciting elements on a Web page, which is hardly surprising given that they've largely been clicking on 68 by 468 pixel banners for the past 20 years. Ad units that don't fit the traditional models do really well. </p>
