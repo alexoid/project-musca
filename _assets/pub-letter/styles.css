@@ -5,6 +5,7 @@ section.hero h2{position:relative;margin:20px 0 30px 0;font-size:68px;font-famil
 section.hero h2.small{font-size:48px;}
 section.hero .wrapper{padding:42px 0 0 0;position:relative;}
 section.hero .bug{position:absolute;top:45%;left:53%;height:174px;width:309px;background-image:url('bug.png');}
+section.content p.first strong{font-weight:700;}
 section.content .inline{margin:6px 20px 0 0;float:left;}
 section.content .inline img{margin:0 0 5px 0;}
 section.content .photo{position:relative;}
