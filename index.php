@@ -2,7 +2,9 @@
     @import url("_assets/cover/styles.css");
 </style>
 
-<div id="background"></div>
+<div id="background">
+    <a href="./feature-escape.php"></a>
+</div>
 
 <section id="cover">
 <?php include "../toc.php"; ?>
