@@ -19,7 +19,7 @@
     <div class="lovely-grid">
         <div class="grid-5 pull-2 pad-mobile-20">
             <div class="photo remove-mobile">
-                <img src="_assets/zoo-york/stats.png" />
+                <img src="_assets/zoo-york/stats.jpg" />
             </div>
         </div>
         <div class="grid-10 pull-1 push-2 pad-mobile-20">
@@ -77,7 +77,7 @@
         <div class="show-mobile">
             <div class="grid-10 pull-8 push-6 pad-mobile-20">
                 <div class="photo">
-                    <img src="_assets/zoo-york/stats.png" />
+                    <img src="_assets/zoo-york/stats.jpg" />
                 </div>
             </div>
         </div>
