@@ -1113,6 +1113,9 @@ section.content p.first {
 section.content p em {
   font-style: italic;
 }
+section.content p strong {
+  font-weight: bold;
+}
 section.content a {
   color: #cc0033;
 }
