@@ -30,7 +30,7 @@
             <p><a href="http://www.zooyork.com/" title="Zoo York" target="blank">Zoo York</a> apparel embodies the attitude and lifestyle of the Big Apple's skateboarding, graffiti and hip-hop community. To showcase its brand, the company put together an irreverent and engaging interactive experience, highlighting the clothing company's latest styles.</p>
             <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
                 <div class="photo">
-                    <a href="https://vimeo.com/61373117" title="See it in action" class="fresco"><img src="_assets/zoo-york/video-sm.jpg" alt=""></a>
+                    <a href="http://player.vimeo.com/video/61373117?autoplay=1" title="See it in action"><img src="_assets/zoo-york/video-sm.jpg" alt=""></a>
                     <p class="caption">
                         See it in action
                         <span>0:15 sec</span>
