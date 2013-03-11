@@ -43,7 +43,7 @@
                     <a href="http://saymedia.com">Website</a> ·
                     <a href="http://facebook.com/saymediainc">Facebook</a>
                 </li>
-                <li>To inquire about becoming a publishing partner, contact Sarah Stringfellow on 415.738.6590</li>
+                <li>To inquire about becoming a publishing partner, contact Sarah Stringfellow at 415.738.6590</li>
                 <li>
                     <a href="https://twitter.com/saymedia" class="twitter-follow-button" data-show-count="false">Follow @saymedia</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
