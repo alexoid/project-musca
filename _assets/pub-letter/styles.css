@@ -15,4 +15,5 @@ section.content .photo p.caption span{display:block;color:#999999;}
 section.content .photo p.caption.block{width:150px;position:absolute;padding:15px 0 0 15px;bottom:-20px;right:0;font-size:22px;}
 section.content .photo p.caption.block.right{text-align:right;}
 .masthead{margin:10px 0 0 0;}.masthead ul{font-size:15px;font-family:sans-serif;line-height:1.4em;}.masthead ul li{margin:0 0 20px 0;}.masthead ul li h4{font-size:11px;font-weight:bold;color:#cc0033;}
-.masthead ul.centered li{text-align:center;}
+.masthead ul.centered{clear:both;}.masthead ul.centered li{text-align:center;}
+.masthead ul.left{float:left;width:40%;margin:40px 30px 40px 0;}
