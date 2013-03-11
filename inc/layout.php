@@ -78,7 +78,7 @@
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
 </head>
 
-<body>
+<body id="<?php echo $_GET['include']; ?>">
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
