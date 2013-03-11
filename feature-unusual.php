@@ -157,7 +157,7 @@
     <div class="lovely-grid">
         <div class="grid-10 pull-5 push-9 pad-mobile-20">
             <img src="_assets/unusual/bio-lauren.jpg" />
-            <p><strong>Lauren Streib</strong> is a freelance journalist in Brooklyn. She has worked at <em>Newsweek</em>, <a href="http://www.thedailybeast.com/" title="The Daily Beast" target="blank">The Daily Beast</a>, <em>Forbes</em>, <em>WWD</em> and <em>Bloomberg Businessweek</em>.</p>
+            <p><strong>Lauren Streib</strong>  an editor at <em>Newsweek</em> and <a href="http://www.thedailybeast.com/" title="The Daily Beast" target="blank">The Daily Beast</a>. She has written for <em>Forbes</em>, <em>Marie Claire</em> and <em>Bloomberg Businessweek</em>.</p>
                <p><a href="https://twitter.com/lostreib" class="twitter-follow-button" data-show-count="false">Follow @lostreib</a></p>
         </div>
     </div>
