@@ -64,6 +64,11 @@ section.content .photo .darken img {
 section.content .photo .darken:hover img {
     opacity: 0.5; }
 
+section.content .photo.left {
+    margin: 0 20px 20px 0;
+    float: left;
+    width: 55%; }
+
 section.content p a {
     border-color: #ce950c;
     color: #ce950c; }
@@ -81,10 +86,20 @@ section.content .photo p.caption span {
     color: @light-gray; }
 
 section.content .photo p.caption.block {
-    width: 150px;
+    width: 20%;
     position: absolute;
     padding: 15px 0 0 15px;
     bottom: -20px;
+    right: 0;
+    font-size: 22px; }
+
+section.content .photo p.caption.mobile {
+    margin: 0 0 25px 0;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    bottom: 0;
     right: 0;
     font-size: 22px; }
 
