@@ -47,7 +47,7 @@
 
 </head>
 
-<body>
+<body id="<?php echo $_GET['include']; ?>">
 
 <?php include "../_inc/header.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
