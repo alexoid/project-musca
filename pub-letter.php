@@ -43,7 +43,7 @@
                     <a href="http://saymedia.com">Website</a> ·
                     <a href="http://facebook.com/saymediainc">Facebook</a>
                 </li>
-                <li>To inquire about becoming a publishing partner, contact Rachel Wolan on 415.738.6590</li>
+                <li>To inquire about becoming a publishing partner, contact Sarah Stringfellow on 415.738.6590</li>
                 <li>
                     <a href="https://twitter.com/saymedia" class="twitter-follow-button" data-show-count="false">Follow @saymedia</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -63,9 +63,10 @@
                 </li>
                 <li>
                     <h4>Midwest, Chicago</h4>
-                    Tim Koorbusch<br/>
-                    Vice President, U.S. Sales<br/>
-                    312.332.7500
+                    Tim Carroll<br/>
+                    Vice President<br/>
+                    312.543.9023
+
                 </li>
                 <li>
                     <h4>West Coast</h4>
@@ -93,7 +94,7 @@
             </ul>
             <ul>
                 <li><h3>Say Media</h3></li>
-                <li>Say Media is headquartered in New York with offices around
+                <li>Say Media is headquartered in New York and San Francisco with offices around
                     the U.S. as well as Canada, the U.K. and Australia.</li>
                 <li>
                     <h4>CEO and co-founder</h4>
