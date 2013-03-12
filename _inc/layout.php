@@ -11,20 +11,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-    <title>Say Quarterly</title>
+    <title>Say Quarterly &#8226; The Power of Point of View</title>
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="The power of Point of View" />
+    <meta name="keywords" content="Say media, Saymedia, Say, Say magazine, Magazine, media, POV, Point of view, Case studies, cases" />
 
     <meta property="og:type" content="article"/>
-    <meta property="og:image" content="/share.png"/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
+    <meta property="og:image" content="_img/share.jpg"/>
+    <meta property="og:site_name" content="Say Quarterly"/>
+    <meta property="og:url" content="http://sayquarterly.com"/>
+    <meta property="og:title" content="Say Quarterly"/>
+    <meta property="og:description" content="The Power of Point of View"/>
 
-    <link href="/favicon.png" rel="shortcut icon" type="image/png" />
-    <link href="/share.png" rel="image_src" type="image/png" />
+    <link rel="shortcut icon" href="_img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link href="_img/share.jpg" rel="image_src" type="image/png" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.4/modernizr.min.js"></script>
