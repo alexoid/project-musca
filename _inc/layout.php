@@ -17,14 +17,14 @@
     <meta name="keywords" content="Say media, Saymedia, Say, Say magazine, Magazine, media, POV, Point of view, Case studies, cases" />
 
     <meta property="og:type" content="article"/>
-    <meta property="og:image" content="_img/share.jpg"/>
+    <meta property="og:image" content="http://sayquarterly.com/_img/share.jpg"/>
     <meta property="og:site_name" content="Say Quarterly"/>
     <meta property="og:url" content="http://sayquarterly.com"/>
     <meta property="og:title" content="Say Quarterly"/>
     <meta property="og:description" content="The Power of Point of View"/>
 
     <link rel="shortcut icon" href="_img/favicon.ico" type="image/vnd.microsoft.icon" />
-    <link href="_img/share.jpg" rel="image_src" type="image/png" />
+    <link href="http://sayquarterly.com/_img/share.jpg" rel="image_src" type="image/png" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.4/modernizr.min.js"></script>
