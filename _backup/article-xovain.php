@@ -1,12 +1,12 @@
 <style type="text/css" media="screen">
-    @import url("css/article-xovain.css");
+    @import url("../css/article-xovain.css");
 </style>
 
 <section class="hero">
     <div class="wrapper">
         <div class="lovely-grid">
             <div class="grid-12 pull-6 push-6 pad-mobile-20">
-                <img src="_assets/xovain/logo.png">
+                <img src="../_assets/xovain/logo.png">
                 <h3>You've never seen beauty like this before.</h3>
             </div>
         </div>
@@ -21,7 +21,7 @@
             <p>At the same time, these readers had no problem clicking from an article like <a href="http://www.xojane.com/it-happened-to-me/ihtm-im-married-to-a-virgin" title="It Happened to Me: I'm Married to a Virgin" target="blank">It Happened to Me: I'm Married to a Virgin</a> to a beauty article telling them how one writer <a href="http://www.xojane.com/beauty/how-i-fixed-my-keratosis-pilaris-aka-chicken-skin-and-got-awesome-hair-boot" title="fixed her chicken skin and got awesome hair to boot" target="blank">fixed her chicken skin and got awesome hair to boot</a>.</p>
         </div>
         <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+            <img src="../_img/social.png" alt="">
         </div>
     </div>
 </section>
@@ -52,7 +52,7 @@
 <section class="content">
     <div class="lovely-grid">
         <div class="grid-12 pull-8 push-4 pad-mobile-20">
-            <img src="_assets/xovain/editors.png">
+            <img src="../_assets/xovain/editors.png">
         </div>
     </div>
 </section>

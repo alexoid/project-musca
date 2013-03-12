@@ -1,49 +1,75 @@
-<style type="text/css" media="screen">
-    @import url("css/article-canon.css");
-</style>
+<section class="canon_overide">
 
-<section class="hero"><div class="grads">
-    <div class="lovely-grid">
-        <div class="grid-24">
+
+    <!--hero begining    -->
+
+    <section id="hero">
+        <!-- hero subgrid -->
+        <section class="grid">
+
             <div class="wrapper">
                 <div class="bug hide-mobile"></div>
                 <h3>Brand Case Study</h3>
-                <h2 class="hide-mobile">Behind the Lens</h2>
-                <h2 class="small remove-768 remove-960 remove-1200">Behind the Lens</h2>
+
+                <h2>Behind the Lens</h2>
+
                 <h3>Gear Patrol X Canon</h3>
             </div>
-        </div>
-    </div>
-</div></section>
 
-<section class="content">
-    <div class="lovely-grid">
-        <div class="grid-5 pull-2 remove-mobile">
+        </section>
+        <!-- hero subgird end-->
+    </section>
 
-            <div class="photo">
-                <img src="_assets/canon/video.png" alt="">
-                <p class="caption hide-mobile">
-                    See it in action
-                    <span>0:15 sec</span>
-                </p>
-            </div>
+    <!--    end of hero    -->
 
-        </div>
-        <div class="grid-14 push-2 pull-1 pad-mobile-20">
 
-            <div class="grid-10 push-2 nested-first">
-                <p class="first">Canon and Say Media created an original content series around one editor's passion for photography.</p>
-            </div>
+    <!-- ---------------------------------------------------- -->
+    <!-- ---------------------------------------------------- -->
 
-            <div class="grid-2 pad-mobile-20 hide-mobile nested-last">
-                <img src="_img/social.png" alt="">
-            </div>
 
-            <div class="grid-7 nested-first">
+    <!-- article type-->
+    <section id="article">
 
-                <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
+        <!-- article type subgrid-->
+        <section class="grid">
+
+            <!--content section -->
+            <section class="content-rail content">
+
+
+                <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video campaign.</p>
+
+                <div class="photo">
+                    <img src="_assets/canon/stats.jpg"/>
+                </div>
+
+                <div class="photo">
+                    <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
+                            src="_assets/canon/video-sm.jpg" alt=""></a>
+
+                    <p class="caption">
+                        See it in action
+                        <span>0:15 sec</span>
+                    </p>
+                </div>
+
+
+                <p class="first">Canon and Say Media created an original content series around one editor's passion for
+                    photography.</p>
+
+
+                <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more
+                    accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and
+                    documenting the minute details of life became the status quo. But for many, the camera phone or the
+                    point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for
+                    convenience.</p>
+
+
+                <div class="grid-5 pull-2 inline">
                     <div class="photo">
-                        <img src="_assets/zoo-york/video.png" alt="">
+                        <a href="http://player.vimeo.com/video/61373162?autoplay=1" title="See it in action"><img
+                                src="_assets/canon/video-sm.jpg" alt=""></a>
+
                         <p class="caption">
                             See it in action
                             <span>0:15 sec</span>
@@ -51,22 +77,62 @@
                     </div>
                 </div>
 
-                <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and documenting the minute details of life became the status quo. But for many, the camera phone or the point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for convenience.</p>
-                <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever — while also teaching consumers how to shoot smarter and better.</p>
 
-                <div class="grid-7 remove-768 remove-960 remove-1200 inline-right">
-                    <img src="_assets/canon/eric.jpg">
-                </div>
+                <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a
+                        href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create
+                        a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice
+                    quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever —
+                    while also teaching consumers how to shoot smarter and better.</p>
 
-                <p>Gear Patrol was the perfect site to help Canon’s campaign come into focus. A significant portion of the site’s readers are both novice and experienced photographers who trust the Gear Patrol editors for tips and advice on what to buy and why. Gear Patrol captured readers’ attention by providing them with knowledge about DSLR cameras and lenses as well as a series on how to most effectively shoot using Canon DSLRs in different situations, including urban locations and at night.</p>
-                <p>The posts lived on Gear Patrol’s site alongside high-impact, interactive ad units targeted to Say Media’s extensive network. As a result, photographers of all types were able to learn more about Canon’s DSLR offerings while also learning more about how to be a better photographer. Ultimately, the entire experience felt less like an ad and more like valuable content. An engaging photo gallery created by the editors increased time spent on the site relative to the consumer electronics benchmark.</p>
-                <p>A successful ad that benefits both the client and the consumer? Now that’s a picture worth capturing.</p>
-            </div>
 
-            <div class="grid-7 nested-last remove-mobile">
                 <img src="_assets/canon/eric.jpg">
-            </div>
 
-        </div>
-    </div>
+
+                <p>Gear Patrol was the perfect site to help Canon’s campaign come into focus. A significant portion of
+                    the site’s readers are both novice and experienced photographers who trust the Gear Patrol editors
+                    for tips and advice on what to buy and why. Gear Patrol captured readers’ attention by providing
+                    them with knowledge about DSLR cameras and lenses as well as a series on how to most effectively
+                    shoot using Canon DSLRs in different situations, including urban locations and at night.</p>
+
+
+                <p>The posts lived on Gear Patrol’s site alongside high-impact, interactive ad units targeted to Say
+                    Media’s extensive network. As a result, photographers of all types were able to learn more about
+                    Canon’s DSLR offerings while also learning more about how to be a better photographer. Ultimately,
+                    the entire experience felt less like an ad and more like valuable content. An engaging photo gallery
+                    created by the editors increased time spent on the site relative to the consumer electronics
+                    benchmark.</p>
+
+                <p>A successful ad that benefits both the client and the consumer? Now that’s a picture worth
+                    capturing.</p>
+
+
+
+
+
+            </section>
+
+            <!-- place content subgrid elements here -->
+
+        </section>
+        <!-- content end-->
+
+
+    </section>
+    <!--article type subgrid end-->
+</section>
+<!-- article type end -->
+
+
+<!-- ---------------------------------------------------- -->
+<!-- ---------------------------------------------------- -->
+
+<!-- footer start-->
+<section id="footer">
+    <section class="grid">
+        <div>footer</div>
+    </section>
+</section>
+<!-- footer end -->
+
+
 </section>

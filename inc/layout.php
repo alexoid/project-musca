@@ -72,7 +72,11 @@
         });
     </script>
 
-    <link rel="stylesheet" href="css/app.css"/>
+
+
+   <link rel="stylesheet" href="css/app.css"/>
+
+
 
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script> <!-- TODO: form original site -->
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
@@ -90,7 +94,7 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<?php include "../inc/header.php"; ?>
+<?php include "../inc/header2.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
 
 

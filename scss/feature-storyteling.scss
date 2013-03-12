@@ -3,6 +3,9 @@
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
 
+
+
+
 // variables
 @import "utils";
 
@@ -10,14 +13,14 @@
 @import "fonts";
 @import "font-awesome";
 
+
+@import "grid-feature-storytelling";
+
+
 body {
-  background-image: url("body-bg.png");
+  background-image: url("../_assets/storytelling/body-bg.png");
   background-repeat: repeat-x;
   background-position: 0 1500px;
-}
-
-html {
-  overflow-x: hidden;
 }
 
 // Hero
@@ -77,13 +80,14 @@ section.hero {
     width: 140px;
     font-family: $alt-gothic;
     text-align: center;
+
   }
 
   .baumgartner {
     position: relative;
     z-index: 2000;
     top: 0;
-    margin: 0;
+    //margin: 0;
     animation: move 2s;
     -moz-animation: move 2s infinite;
     -webkit-animation: move 2s infinite;
@@ -106,7 +110,8 @@ section.content {
     border-bottom: 1px solid #96c2d6;
 
     h4 {
-      margin: 20px 0 20px 0;
+      margin-bottom: 20px;
+      margin-top: 20px;
     }
 
     img {
@@ -148,6 +153,8 @@ section.content {
     font-style: italic;
     letter-spacing: 2px;
     color: $blue;
+
+      margin: 0px;
   }
 
   h4 {
@@ -195,7 +202,7 @@ section.content {
   .more-content {
     display: none;
     position: absolute;
-    background-image: url("icon-link.png");
+    background-image: url("../_assets/storytelling/icon-link.png");
     width: 47px;
     height: 47px;
     z-index: 2;
@@ -215,6 +222,7 @@ section.content {
   #chipotle {
     position: relative;
     height: 200px;
+      margin-top: 80px;
 
     .more-content {
       top: 0px;
@@ -239,6 +247,7 @@ section.content {
 
   .pizza {
     position: relative;
+      margin-top: 80px;
 
     .more-content {
       top: 10px;

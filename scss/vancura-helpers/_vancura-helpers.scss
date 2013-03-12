@@ -46,3 +46,16 @@
         zoom: 0.5;
     }
 }
+
+@mixin paragraph($columns, $gap) {
+
+    -moz-column-count:$columns; /* Firefox */
+    -webkit-column-count:$columns; /* Safari and Chrome */
+    column-count:$columns;
+
+    -moz-column-gap:$gap; /* Firefox */
+    -webkit-column-gap:$gap; /* Safari and Chrome */
+    column-gap:$gap;
+
+}
+

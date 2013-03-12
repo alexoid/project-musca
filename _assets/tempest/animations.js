@@ -1,19 +1,5 @@
 $(document).ready(function () {
 
-    video = {
-        mp4: "_assets/tempest/video.mp4",
-        ogv: "_assets/tempest/video.mp4",
-        webm: "_assets/tempest/video.mp4",
-        poster: "",
-        autoplay: true,
-        loop: true,
-        fullscreen: false
-    };
-
-    // Hero background video
-    var videoBG = $('#hero-wrapper').videoBG(video);
-
-
     var controller = $.superscrollorama();
 
     var animationOffset = 100;
@@ -28,7 +14,7 @@ $(document).ready(function () {
         "#marketing":       [60, 1000],
         "#distribution":    [116, 1200],
         "#data":            [150, 1500],
-        "#infrastructure":  [183, 2000]
+        "#infrastructure":  [184, 2000]
     };
 
     $.each(layers, function (key, value) {
@@ -45,6 +31,23 @@ $(document).ready(function () {
         );
     });
 
-    window.scrollBy(0,1);
+    // Fix the scroll position of the box when it reaches the top of the page
+    $(document).ready(function(){
+        var topMargin = 90;
+        var $modules = $("#modules");
+        var modulesTop = $modules.offset().top;
+
+        $(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+            if((scrollTop + topMargin) > modulesTop) {
+                $modules.css('position', 'fixed');
+            }
+            else {
+                $modules.css('position', 'relative');
+            }
+        });
+    });
+
+    controller.triggerCheckAnim(true);
 
 });

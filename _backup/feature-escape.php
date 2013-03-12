@@ -1,5 +1,5 @@
 <style type="text/css" media="screen">
-    @import url("css/feature-escape.css");
+    @import url("../css/feature-escape.css");
 </style>
 
 
@@ -18,13 +18,13 @@
     <section class="grid content">
         <p class="first">At ReadWrite, we are breaking all the rules to cover tech stories that really
             matter. <span>Get ready.</span></p>
-        <?php include "../inc/social.php"; ?>
+        <?php include "inc/social.php"; ?>
     </section>
 
 
     <section class="grid content">
 
-        <div class="map-rail"><img src="_assets/escape/map.png"/></div>
+        <div class="map-rail"><img src="../_assets/escape/map.png"/></div>
 
         <div class="textrail">
             <p>People keep asking me about my vision for ReadWrite, and to be honest, it's pretty simple. I'm
@@ -65,7 +65,7 @@
 
         <div class="right-photo-rail">
             <a href="http://readwrite.com/author/vivek-wadhwa" title="Vivek Wadhwa" target="blank"><img
-                    src="_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture"/></a>
+                    src="../_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture"/></a>
             <a href="http://readwrite.com/author/david-sobotta" title="David Sobatta" target="blank"><img
                     src="_assets/escape/David-Sobotta.png" id="david-sobotta" class="profile-picture"/></a>
             <a href="http://readwrite.com/author/alan-s-cohen" title="Alan Cohen" target="blank"><img
@@ -128,4 +128,4 @@
 
 </section>
 
-<script src="_assets/escape/animations.js"></script>
+<script src="../_assets/escape/animations.js"></script>

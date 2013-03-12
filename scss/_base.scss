@@ -3,14 +3,11 @@
 @import "bourbon/bourbon";
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
-
 // variables
 @import "utils";
-
 // Design System
 @import "fonts";
 @import "font-awesome";
-
 
 // Main CSS
 body, html {
@@ -99,6 +96,17 @@ header#navigation {
                 float: right;
             }
         }
+
+        .url {
+
+            a {
+                border-left: 1px solid rgba(255, 255, 255, 0.3);
+                display: block;
+                line-height: 40px;
+                padding: 0 16px;
+                float: right;
+            }
+        }
     }
 }
 
@@ -149,6 +157,31 @@ section.content {
         &.share-fb {
             margin: 0 10px 8px 0;
         }
+    }
+}
+
+// Bio Style
+section.bio {
+
+    border-top: 1px solid $silver;
+    padding: 25px 0 0 0;
+
+    p {
+        font-size: 13px;
+        strong {
+            font-weight: bold;
+        }
+        .twitter-follow-button {
+            display: block;
+            margin: 0 0 0 0;
+        }
+    }
+
+    img {
+        @include border-radius(150px);
+        float: left;
+        margin: 3px 20px 10px 0;
+        width: 75px;
     }
 }
 

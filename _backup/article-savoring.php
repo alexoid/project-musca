@@ -1,5 +1,5 @@
 <style type="text/css" media="screen">
-    @import url("css/article-savoring-auth.css");
+    @import url("../css/article-savoring-auth.css");
 </style>
 
 <section class="hero"><div class="diags">
@@ -26,7 +26,7 @@
 
             <div class="grid-5 pull-2 inline remove-768 remove-960 remove-1200">
                 <div class="photo">
-                    <img src="_assets/zoo-york/video.png" alt="">
+                    <img src="../_assets/zoo-york/video.png" alt="">
                     <p class="caption">
                         See it in action
                         <span>0:15 sec</span>
@@ -38,7 +38,7 @@
             <p>In an effort to encourage consumers to explore the complexities and appreciate the intricacies of their own lives, Amstel Light partnered with Say Media and Gear Patrol to create a video series profiling local entrepreneurs who are foraging new paths in their cities in order to show the value of complexity.</p>
         </div>
         <div class="grid-2 push-2 pad-mobile-20 hide-mobile">
-            <img src="_img/social.png" alt="">
+            <img src="../_img/social.png" alt="">
         </div>
     </div>
 </section>
@@ -47,7 +47,7 @@
     <div class="lovely-grid">
         <div class="grid-5 pull-2 remove-mobile">
             <div class="photo">
-                <img src="_assets/savoring-auth/video.png" alt="">
+                <img src="../_assets/savoring-auth/video.png" alt="">
                 <p class="caption hide-mobile">
                     See it in action
                     <span>0:15 sec</span>
@@ -56,7 +56,7 @@
         </div>
         <div class="grid-14 pull-1 push-2 pad-mobile-20">
             <div class="photo">
-                <img src="_assets/savoring-auth/photo-01.png" alt="">
+                <img src="../_assets/savoring-auth/photo-01.png" alt="">
                 <p class="caption right block">The ad drove three and half times the average click-through rate</p>
             </div>
         </div>

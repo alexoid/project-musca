@@ -1,0 +1,350 @@
+@import "../bourbon/bourbon";
+@import "../profoundgrid/grid";
+@import "../vancura-helpers/vancura-helpers";
+
+// BASELINE
+// --------
+
+$media-size-b: 740px;
+$media-size-c: 1024px;
+$media-size-d: 1200px;
+
+// BASE GRID PARAMETERS
+$hero_height_a: 150px;
+$hero_height_b: 100px;
+$hero_height_c: 100px;
+$hero_height_d: 100px;
+
+// GRID LAYOUT A
+// -------------
+// 60px margin on either side of content
+
+$total_width: 100%;
+$total_columns: 12;
+$gutter_width: 3%;
+$container_margin: 3%;
+
+header {
+
+    width: 100%;
+    background-color: grey;
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+}
+
+#hero {
+
+    width: 100%;
+    height: $hero_height_b;
+    background-color: red;
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+}
+
+#article {
+
+    .grid {
+        // article grid
+        @include container();
+        @include clearfix();
+
+    }
+
+    .content {
+
+        background-color: #cccccc;
+
+        .text-rail {
+
+            background-color: #888;
+        }
+
+        .outbox-left {
+
+            background-color: #c00;
+        }
+
+        h1 {
+            background-color: #879995;
+        }
+
+        h2 {
+            background-color: #7890aa;
+        }
+
+    }
+}
+
+.bio {
+
+    width: 100%;
+    @include clearfix();
+
+}
+
+
+#footer {
+
+    width: 100%;
+    background-color: grey;
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+}
+
+// GRID LAYOUT B
+// -------------
+
+@media screen and (min-width: $media-size-b) {
+    $total_width: 740px;
+    $total_columns: 24;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    header {
+
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+    }
+
+    #hero {
+
+        width: 100%;
+        height: $hero_height_b;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+    #article {
+
+        .grid {
+            // article grid
+            @include container();
+            @include clearfix();
+
+        }
+
+        .content {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(17);
+            @include push(7);
+
+            .text-rail {
+            }
+
+            .outbox-left {
+                @include column(2);
+                //  @include pull(2);
+                height: 100px;
+            }
+
+            h1 {
+                @include width(9);
+                //  @include pull(1);
+
+            }
+
+            h2 {
+                @include width(9);
+                //@include pull(1);
+            }
+
+        }
+    }
+
+    #footer {
+
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+}
+
+// GRID LAYOUT C
+// -------------
+
+@media screen and (min-width: $media-size-c) {
+    $total_width: 1024px;
+    $total_columns: 24;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    header {
+
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+    }
+
+    #hero {
+
+        width: 100%;
+        height: $hero_height_c;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+    #article {
+
+        .grid {
+            // article grid
+            @include container();
+            @include clearfix();
+
+        }
+
+        .content {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(12);
+            @include push(8);
+
+            .text-rail {
+
+            }
+
+            .outbox-left {
+                @include column(2);
+                @include pull(2);
+                height: 100px;
+
+            }
+
+            h1 {
+                @include width(9);
+                @include pull(1);
+
+            }
+
+            h2 {
+                @include width(9);
+
+            }
+
+        }
+    }
+
+    #footer {
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+}
+
+// GRID LAYOUT D
+// -------------
+
+@media screen and (min-width: $media-size-d) {
+    $total_width: 1200px;
+    $total_columns: 24;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    header {
+
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+    }
+
+    #hero {
+
+        width: 100%;
+        height: $hero_height_d;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+    #article {
+
+        .grid {
+            // article grid
+            @include container();
+            @include clearfix();
+
+        }
+
+        .content-rail {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(10);
+            @include push(8);
+
+            .text-rail {
+            }
+
+            .outbox-left {
+                @include column(2);
+                @include pull(2);
+                height: 100px;
+            }
+
+            h1 {
+                @include width(9);
+                @include pull(1);
+            }
+
+            h2 {
+                @include width(9);
+            }
+
+        }
+    }
+
+    #footer {
+
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+}
+
+

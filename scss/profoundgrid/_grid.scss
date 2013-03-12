@@ -98,6 +98,18 @@ $class_push:		'push';		//				//
 }
 
 /**
+ * Align an element to the grid.
+ */
+@mixin width($_columns_width){
+
+    margin-right: -100%;
+    $_width_perc: element_width($_columns_width);
+    width: $_width_perc;
+
+}
+
+
+/**
  * Apply to any column to make it the last one of the current row.
  */
 @mixin column_omega(){
@@ -125,7 +137,19 @@ $class_push:		'push';		//				//
 	margin-left: $_width_perc;
 }
 
-@mixin pull(){}
+//@mixin pull(){}
+
+@mixin pull($_column_index){
+    $_width_perc: 0;
+    @if ($total_width == 100%){
+        $_width_perc: ($gutter_width - element_width($_column_index));
+    }@else{
+    //$_width_perc: (column_width() + $gutter_width)*$_column_index;
+        $_width_perc: ($gutter_width - element_width($_column_index));
+    }
+
+    margin-left: $_width_perc;
+}
 
 
 ////////////////////////////////////////////////////////////////////////////////
