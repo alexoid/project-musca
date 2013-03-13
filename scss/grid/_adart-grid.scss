@@ -2,6 +2,7 @@
 @import "../profoundgrid/grid";
 @import "../vancura-helpers/vancura-helpers";
 
+
 // BASELINE
 // --------
 
@@ -94,7 +95,24 @@ $container_margin: 3%;
         @include push(10);
     }
 
+    .strip22 {
+        @include column(22);
+        @include push(1);
+    }
+
+    .outbox-left {
+        @include column(3);
+        @include expand(1);
+        @include push(3);
+    }
+
+    .outbox-right {
+        @include column(3);
+        @include expand(1);
+        @include push(18);
+    }
+
 }
 
-@import "adart-grid";
+
 

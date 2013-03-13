@@ -125,6 +125,18 @@ $class_push:		'push';		//				//
 @mixin post(){}
 @mixin squish(){}
 
+@mixin expand($_columns_width) {
+
+
+    $_width_perc: column_width() * $_columns_width;
+
+
+    padding-left: $_width_perc;
+    padding-right: $_width_perc;
+}
+
+
+
 @mixin push($_column_index){
 	$_width_perc: 0;
 	@if ($total_width == 100%){

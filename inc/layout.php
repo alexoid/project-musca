@@ -76,15 +76,19 @@
 
    <link rel="stylesheet" href="css/app.css"/>
 
-
-
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script> <!-- TODO: form original site -->
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
 </head>
 
 <body>
-
 <div id="fb-root"></div>
+
+
+
+<?php include "../inc/header2.php"; ?>
+<?php include "../".$_GET['include'].".php"; ?>
+
+
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -92,12 +96,6 @@
         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-
-
-<?php include "../inc/header2.php"; ?>
-<?php include "../".$_GET['include'].".php"; ?>
-
-
 <script type="text/javascript">
     (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

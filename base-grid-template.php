@@ -21,38 +21,6 @@
     <!-- ---------------------------------------------------- -->
 
 
-    <!-- article type-->
-    <section id="article">
-
-        <!-- article type subgrid-->
-        <section class="grid">
-
-            <!--content section -->
-            <section class="content-rail content">
-
-                    <!-- place content here -->
-
-            </section>
-            <!-- content end-->
-
-
-
-        </section>
-        <!--article type subgrid end-->
-    </section>
-    <!-- article type end -->
-
-
-    <!-- ---------------------------------------------------- -->
-    <!-- ---------------------------------------------------- -->
-
-    <!-- footer start-->
-    <section id="footer">
-        <section class="grid">
-            <div>footer</div>
-        </section>
-    </section>
-    <!-- footer end -->
 
 
 </section>
