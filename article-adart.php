@@ -90,7 +90,7 @@
 
     <section class="content bio">
         <div class="grid">
-            <div class="grid-10">
+            <div class="content-rail">
                 <img src="_assets/adart/bio-joe.jpg" />
                 <p>
                     <strong>Joe Sabia</strong> gave a <a href="http://blog.ted.com/2011/11/23/the-technology-of-storytelling-joe-sabia-on-ted-com/" title="TED Talk" target="blank">TED Talk</a> in 2011 on the topic of storytelling and acts as the co-curator of Boing Boing TV on all Virgin America flights.</p>
