@@ -89,6 +89,24 @@ $container_margin: 3%;
 
     }
 
+    .content-rail-wide {
+        // content subgrid
+        @include container();
+        @include clearfix();
+
+        @include column(14);
+        @include push(8);
+
+    }
+
+    .content-rail-expanded {
+        @include container();
+        @include clearfix();
+
+        @include column(12);
+        @include push(7);
+    }
+
     .social-share {
         @include column(2);
         @include push(10);
@@ -116,4 +134,8 @@ $container_margin: 3%;
 
 @import "adart-grid";
 @import "canon-grid";
+@import "kate-grid";
+@import "london-grid";
+
+
 

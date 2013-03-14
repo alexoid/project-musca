@@ -5,7 +5,7 @@
 // BASELINE
 // --------
 
-.canon_overide {
+.kate_overide {
 
     $media-size-b: 740px;
     $media-size-c: 1024px;
@@ -60,10 +60,15 @@
         $container_margin: auto;
 
 
+
+
+
         .outbox-left {
             @include reset();
-            @include column(4);
-            @include push(3);
+            @include column(5);
+            @include push(2);
+
+
         }
 
         .outbox-right {
@@ -73,6 +78,9 @@
             @include push(18);
 
         }
+
+
+
 
     }
 

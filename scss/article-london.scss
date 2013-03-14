@@ -1,88 +1,78 @@
-
-@import "normalize/normalize";
-@import "bourbon/bourbon";
-@import "profoundgrid/grid";
-@import "vancura-helpers/vancura-helpers";
-
-// variables
 @import "utils";
 
-// Design System
-@import "fonts";
-@import "font-awesome";
+.london_overide {
+    // Hero
+
+    section#hero {
+
+        height: 515px;
+        margin: 0 0 40px 0;
+        background-color: $black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../_assets/london/hero-bg.jpg');
+
+        .wrapper {
+            padding: 100px 0 0 0;
+            position: relative;
+        }
+
+        h3 {
+            padding: 4px 0 0 0;
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 0.25em;
+            color: $black;
+            margin: 20px auto 0 auto;
+            width: 180px;
+            background-color: $white;
+            font-family: $alt-gothic;
+            text-align: center;
+        }
+
+        h2 {
+            line-height: 0.9em;
+            text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.8);
+            position: relative;
+            margin: 20px 0 0 0;
+            font-size: 70px;
+            font-family: $base-font;
+            color: $white;
+            text-align: center;
+        }
+
+        h2.small {
+            font-size: 48px;
+        }
+
+    }
+
+    // Content
 
 
-// Hero
-section.hero {
-    height: 515px;
-    margin: 0 0 40px 0;
-    background-color: $black;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../_assets/london/hero-bg.jpg'); }
+    section.content p {
+        font-family: $base-font;
+    }
 
-section.hero .wrapper {
-    padding: 100px 0 0 0;
-    position: relative; }
+    section.content h3 {
+        padding: 0px 0 10px 0;
+        line-height: 0.9em;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: $font-sans;
+    }
 
-section.hero h3 {
-    padding: 4px 0 0 0;
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 0.25em;
-    color: $black;
-    margin: 20px auto 0 auto;
-    width: 180px;
-    background-color: $white;
-    font-family: $alt-gothic;
-    text-align: center; }
+    section.content p a {
+        border-color: #6ca1bb;
+        color: #6ca1bb;
+    }
 
-section.hero h2 {
-    line-height: 0.9em;
-    text-shadow: 2px 3px 0 rgba(0,0,0,0.8);
-    position: relative;
-    margin: 20px 0 0 0;
-    font-size: 70px;
-    font-family: $base-font;
-    color: $white;
-    text-align: center; }
 
-section.hero h2.small {
-    font-size: 48px; }
+    .dylan {
+        padding-top: 80px;
+    }
 
 
 
-section.content p {
-    font-family: $base-font; }
 
-
-section.content h3 {
-    padding: 0px 0 10px 0;
-    line-height: 0.9em;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: $font-sans; }
-
-section.content p a {
-    border-color: #6ca1bb;
-    color: #6ca1bb; }
-
-section.content .lovely-grid {
-    position: relative; }
-
-section.content .dylan {
-    top: 80px;
-    right: 0;
-    position: absolute; }
-
-section.content .dylan.inline {
-    top: 0;
-    position: relative; }
-
-section.content .dylan.inline img {
-    margin: 0 20px 20px 0;
-    width: 200px;
-    float: right; }
-
-
-// EOF
+}
