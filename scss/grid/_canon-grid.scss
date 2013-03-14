@@ -59,12 +59,13 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-
         .outbox-left {
+
+            @include width(5);
             @include reset();
-            @include column(4);
-            @include push(3);
+            @include push(2);
         }
+
 
         .outbox-right {
 

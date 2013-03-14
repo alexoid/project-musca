@@ -94,12 +94,14 @@
 
 
         .outbox-left {
+            @include reset();
             @include column(3);
             @include expand(1);
             @include push(3);
         }
 
         .outbox-right {
+            @include reset();
             @include column(3);
             @include expand(1);
             @include push(18);

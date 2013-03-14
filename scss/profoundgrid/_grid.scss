@@ -114,7 +114,7 @@ $class_push:		'push';		//				//
  */
 @mixin width($_columns_width){
 
-    margin-right: -100%;
+    //margin-right: -100%;
     $_width_perc: element_width($_columns_width);
     width: $_width_perc;
 
