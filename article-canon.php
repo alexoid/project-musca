@@ -5,18 +5,16 @@
 
     <section id="hero">
         <!-- hero subgrid -->
-        <section class="grid">
+        <div class="grads">
+            <class class="grid">
+                <div class="wrapper">
+                    <h3>Brand Case Study</h3>
+                    <h2>Behind the Lens</h2>
+                    <h3>Gear Patrol X Canon</h3>
+                </div>
+            </class>
+        </div>
 
-            <div class="wrapper">
-                <div class="bug hide-mobile"></div>
-                <h3>Brand Case Study</h3>
-
-                <h2>Behind the Lens</h2>
-
-                <h3>Gear Patrol X Canon</h3>
-            </div>
-
-        </section>
         <!-- hero subgird end-->
     </section>
 
@@ -26,67 +24,53 @@
     <!-- ---------------------------------------------------- -->
     <!-- ---------------------------------------------------- -->
 
-
-    <!-- article type-->
-    <section id="article">
-
-        <!-- article type subgrid-->
-        <section class="grid">
-
-            <!--content section -->
-            <section class="content-rail content">
+    <section class="content">
+        <div class="grid">
 
 
-                <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video campaign.</p>
+            <div class="outbox-left">
+                <img src="_assets/canon/stats.jpg"/>
 
-                <div class="photo">
-                    <img src="_assets/canon/stats.jpg"/>
-                </div>
+                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
+                        src="_assets/canon/video-sm.jpg" alt=""></a>
 
-                <div class="photo">
-                    <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
-                            src="_assets/canon/video-sm.jpg" alt=""></a>
-
-                    <p class="caption">
-                        See it in action
-                        <span>0:15 sec</span>
-                    </p>
-                </div>
+                <p class="caption">
+                    See it in action
+                    <span>0:15 sec</span>
+                </p>
+            </div>
 
 
+            <div class="content-rail ">
                 <p class="first">Canon and Say Media created an original content series around one editor's passion for
                     photography.</p>
-
 
                 <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more
                     accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and
                     documenting the minute details of life became the status quo. But for many, the camera phone or the
                     point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for
                     convenience.</p>
+            </div>
 
+            <div class="social-share">
+                <?php include "../inc/social.php"; ?>
+            </div>
 
-                <div class="grid-5 pull-2 inline">
-                    <div class="photo">
-                        <a href="http://player.vimeo.com/video/61373162?autoplay=1" title="See it in action"><img
-                                src="_assets/canon/video-sm.jpg" alt=""></a>
+        </div>
+    </section>
 
-                        <p class="caption">
-                            See it in action
-                            <span>0:15 sec</span>
-                        </p>
-                    </div>
-                </div>
-
-
+    <section class="content">
+        <div class="grid">
+            <div class="content-rail">
                 <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a
                         href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create
                         a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice
                     quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever —
                     while also teaching consumers how to shoot smarter and better.</p>
 
-
-                <img src="_assets/canon/eric.jpg">
-
+                <div class="">
+                    <img src="_assets/canon/eric.jpg">
+                </div>
 
                 <p>Gear Patrol was the perfect site to help Canon’s campaign come into focus. A significant portion of
                     the site’s readers are both novice and experienced photographers who trust the Gear Patrol editors
@@ -106,33 +90,11 @@
                     capturing.</p>
 
 
+            </div>
 
 
-
-            </section>
-
-            <!-- place content subgrid elements here -->
-
-        </section>
-        <!-- content end-->
-
-
+        </div>
     </section>
-    <!--article type subgrid end-->
-</section>
-<!-- article type end -->
-
-
-<!-- ---------------------------------------------------- -->
-<!-- ---------------------------------------------------- -->
-
-<!-- footer start-->
-<section id="footer">
-    <section class="grid">
-        <div>footer</div>
-    </section>
-</section>
-<!-- footer end -->
 
 
 </section>

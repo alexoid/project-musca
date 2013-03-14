@@ -5,7 +5,7 @@
 // BASELINE
 // --------
 
-.adart_overide {
+.canon_overide {
 
     $media-size-b: 740px;
     $media-size-c: 1024px;
@@ -92,17 +92,21 @@
         }
 
         .social-share {
+            //@include reset();
             @include column(2);
             @include push(10);
         }
 
         .outbox-left {
-            @include column(3);
-            @include expand(1);
+            @include reset();
+            @include column(4);
             @include push(3);
+
+
         }
 
         .outbox-right {
+
             @include column(3);
             @include expand(1);
             @include push(18);
