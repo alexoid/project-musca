@@ -5,7 +5,7 @@
 // BASELINE
 // --------
 
-.tempest-overide {
+.xovain-overide {
 
     /*
 
@@ -56,16 +56,22 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-        .outbox-right {
-            @include column(4);
-            @include push(19);
-            //background-color: red;
+        #hero {
+
+            .xovain {
+                @include container();
+                @include clearfix();
+                @include width(12);
+                @include push(7);
+            }
         }
 
-        .pullbox-right {
-            @include column(5);
-            @include expand(1);
-            @include push(19);
+        .content-rail-wide {
+            @include reset();
+
+            @include width(17);
+            @include pull(4);
+            @include clearfix();
         }
 
     }

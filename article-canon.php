@@ -52,9 +52,9 @@
                     convenience.</p>
             </div>
 
-            <div class="social-share">
+
                 <?php include "../inc/social.php"; ?>
-            </div>
+
 
         </div>
     </section>

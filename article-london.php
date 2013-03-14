@@ -4,14 +4,11 @@
     <!--hero begining    -->
 
     <section id="hero">
-
         <div class="wrapper">
-            <div class="bug hide-mobile"></div>
-            <h3>Perspectives</h3>
 
-            <h2 class="remove-mobile">Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
-
-            <h3>By Jason Lydiate</h3>
+                <h3>Perspectives</h3>
+                <h2>Good Advertising,<br/> Strong Communities<br/> and Bob Dylan</h2>
+                <h3>By Jason Lydiate</h3>
         </div>
 
     </section>
@@ -29,9 +26,9 @@
                 <p class="first">To paraphrase the great singer-songwriter, "Chaos is your friend." And ad units that
                     don't fit the traditional models do really well.</p>
             </div>
-            <div class="social-share">
-                <?php include "../_inc/social.php"; ?>
-            </div>
+
+            <?php include "../inc/social.php"; ?>
+
         </div>
     </section>
 
@@ -73,7 +70,8 @@
                     <p>Innovative advertising is only as good as the viewers who can see it, and that's where audiences
                         are key. Local media publishers can really benefit from innovative advertising; they're the ones
                         with strong community audiences.</p>
-                        <p>Larger national newspaper titles have spent the past five years
+
+                    <p>Larger national newspaper titles have spent the past five years
                         struggling with pay walls — an issue that just doesn't exist in the local news landscape.</p>
                 </div>
 
@@ -81,7 +79,7 @@
 
             <div class="outbox-right dylan">
 
-                    <img src="_assets/london/dylan.png"/>
+                <img src="_assets/london/dylan.png"/>
 
             </div>
         </div>

@@ -91,10 +91,7 @@
 
         }
 
-        .social-share {
-            @include column(2);
-            @include push(10);
-        }
+
 
         .outbox-left {
             @include column(3);

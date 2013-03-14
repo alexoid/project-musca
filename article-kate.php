@@ -26,9 +26,7 @@
                 </div>
             </div>
 
-            <div class="social-share show-mobile">
                 <?php include "../inc/social.php"; ?>
-            </div>
 
 
             <div class="content-rail">

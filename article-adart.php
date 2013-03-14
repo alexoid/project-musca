@@ -31,9 +31,9 @@
                 <p>Fast forward to ad ads. You know, the ones from Ford, Gillette, McDonalds, etc. Advertising, as opposed to art, is all about the involuntary experience of companies disrupting our space and time. Ads disrupt entertainment (TV); ads disrupt local environments (billboards); ads even disrupt the dietary habits of <a href="http://www.youtube.com/watch?v=KjB6r-HDDI0&feature=fvwrel" title="fictional characters in movies" target="blank">fictional characters in movies</a> sometimes.</p>
 
             </div>
-            <div class="social-share hide-mobile">
+
                 <?php include "../inc/social.php"; ?>
-            </div>
+
         </div>
     </section>
 

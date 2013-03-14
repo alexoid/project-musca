@@ -50,22 +50,12 @@
     // Content
 
 
-    section.content p {
-        font-family: $base-font;
-    }
-
     section.content h3 {
         padding: 0px 0 10px 0;
         line-height: 0.9em;
         font-size: 16px;
         font-weight: bold;
-        font-family: $font-sans;
-    }
-
-    section.content p a {
-        border-color: #6ca1bb;
-        color: #6ca1bb;
-    }
+        font-family: $font-sans; }
 
 
     .dylan {

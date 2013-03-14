@@ -31,9 +31,9 @@
                 <p class="first">Beautiful, scalable online media experiences have been limited by existing,
                     cobbled-together systems. That's about to change.</p>
             </div>
-            <div class="content-rail">
+
                 <?php include "../inc/social.php"; ?>
-            </div>
+
         </div>
     </section>
 
