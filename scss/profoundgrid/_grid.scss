@@ -83,8 +83,12 @@ $class_push:		'push';		//				//
 	margin: 0 $container_margin;
 }
 
-@mixin reset(){
 
+
+/**
+ * Reset the grid-containing element for overiding.
+ */
+@mixin reset(){
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: container_width();
