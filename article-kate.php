@@ -1,4 +1,4 @@
-<section class="kate_overide">
+<section class="kate-overide">
 
 
     <!--hero begining    -->

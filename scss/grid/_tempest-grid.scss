@@ -5,7 +5,7 @@
 // BASELINE
 // --------
 
-.canon-overide {
+.tempest-overide {
 
     $media-size-b: 740px;
     $media-size-c: 1024px;
@@ -60,19 +60,32 @@
         $container_margin: auto;
 
 
+        .content-rail {
+            .narrow {
+                @include width(7);
+            }
+        }
+
+
         .outbox-left {
             @include reset();
-            @include column(4);
-            @include push(3);
+            @include column(5);
+            @include push(2);
+
+
+
         }
 
         .outbox-right {
 
-            @include column(3);
+            @include column(8);
             @include expand(1);
-            @include push(18);
+            @include push(14);
 
         }
+
+
+
 
     }
 

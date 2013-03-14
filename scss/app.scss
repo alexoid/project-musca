@@ -1,37 +1,37 @@
 $support-for-ie6-and-ie7: true;
 
-@mixin michal() { color:red; }
-.pepa {
-    @include michal;
-    background-color: green;
-}
-
-
-* {
-    font: inherit;
-}
-
+* { font: inherit; }
 body {line-height: 1;}
-
-#fb_root {
-    position: absolute;
-}
 
 @import "normalize/normalize";
 @import "bourbon/bourbon";
 @import "profoundgrid/grid";
 @import "vancura-helpers/vancura-helpers";
-@import "grid/base-grid";
 
 // variables
 @import "utils";
 
-// Design System
+// fonts
 @import "fonts";
 @import "font-awesome";
 
+
+// grids
+// base grid
+@import "grid/base-grid";
+
+// overrides
+@import "grid/adart-grid";
+@import "grid/canon-grid";
+@import "grid/kate-grid";
+@import "grid/london-grid";
+
+
+// styles
+// base style
 @import "base";
 
+// overrides
 @import "article-adart";
 @import "article-canon";
 @import "article-kate"; // zoo-york

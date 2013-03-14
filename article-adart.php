@@ -1,4 +1,4 @@
-<section class="adart_overide">
+<section class="adart-overide">
 
     <!--hero begining    -->
 
