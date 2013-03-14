@@ -83,6 +83,14 @@ $class_push:		'push';		//				//
 	margin: 0 $container_margin;
 }
 
+@mixin reset(){
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: container_width();
+}
+
+
 /**
  * Align an element to the grid.
  */
