@@ -190,7 +190,7 @@ $class_push:		'push';		//				//
 	/* Helper Class: Columns */
 	@for $i from 1 through $total_columns{
 		.#{$class_column}#{$i} {
-			@include column($i)
+			@include column($i);
 		}
 	}
 
