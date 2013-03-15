@@ -1,0 +1,109 @@
+@charset 'utf-8';
+
+@import "../../_css/utils";
+
+// Zoo York Article
+
+// Hero
+section.hero {
+    background-repeat: no-repeat;
+    background-position: center 246px;
+    margin: 60px 0;}
+
+section.hero h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.25em;
+    color: @red;
+    font-family: @alt-gothic; }
+
+section.hero h2 {
+    position: relative;
+    margin: 20px 0 30px 0;
+    font-size: 68px;
+    font-family: @base-font; }
+
+section.hero h2.small {
+    font-size: 48px; }
+
+
+section.hero .wrapper {
+    padding: 42px 0 0 0;
+    position: relative; }
+
+section.hero .bug {
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    height: 174px;
+    width: 309px;
+    background-image: url('bug.png'); }
+
+section.content p.first strong {
+    font-weight: 700; }
+
+section.content .inline {
+    margin: 6px 20px 0 0;
+    float: left; }
+section.content .inline img {
+    margin: 0 0 5px 0; }
+
+section.content .photo {
+    position: relative; }
+
+section.content p a {
+    border-color: @red;
+    color: @red; }
+
+section.content .photo p.caption {
+    line-height: 1em;
+    background-color: @white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: @alt-gothic; }
+
+section.content .photo p.caption span {
+    display: block;
+    color: @light-gray; }
+
+section.content .photo p.caption.block {
+    width: 150px;
+    position: absolute;
+    padding: 15px 0 0 15px;
+    bottom: -20px;
+    right: 0;
+    font-size: 22px; }
+
+section.content .photo p.caption.block.right {
+    text-align: right; }
+
+.masthead {
+  margin: 10px 0 0 0;
+  ul {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.4em;
+    li {
+      margin: 0 0 20px 0;
+      h4 {
+        font-size: 11px;
+        font-weight: bold;
+        color: @red;
+      }
+    }
+  }
+
+  ul.centered {
+    clear: both;
+    li {
+        text-align: center;
+    }
+  }
+  ul.left {
+    float: left;
+    width: 40%;
+    margin: 40px 30px 40px 0;
+  }
+}
+
+// EOF
