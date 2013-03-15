@@ -1,0 +1,170 @@
+@import "normalize/normalize";
+@import "bourbon/bourbon";
+@import "profoundgrid/grid";
+@import "vancura-helpers/vancura-helpers";
+// variables
+@import "utils";
+
+
+
+#feature-escape {
+
+    // Hero
+    section#hero {
+        top: 0px;
+        overflow: hidden;
+        margin: 0 0 40px 0;
+        padding-top: 100px;
+        position: fixed;
+        width: 100%;
+        z-index: -1;
+        height: 750px;
+        background: no-repeat url('../_assets/escape/hero-wall.jpg') #f2f2ef;
+        background-position: bottom center;
+        //padding-top: 100px;
+
+        .wrapper {
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            padding: 4px 0 0 0;
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 0.25em;
+            color: $black;
+            margin: 20px auto 0 auto;
+            width: 180px;
+            background-color: $white;
+            font-family: $alt-gothic;
+            text-align: center;
+        }
+
+        h2 {
+            line-height: 0.9em;
+            text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+            position: relative;
+            margin: 20px 0 0 0;
+            font-size: 180px;
+            color: $black;
+            text-transform: uppercase;
+            font-style: italic;
+            font-family: "league-gothic", sans-serif;
+            text-align: center;
+        }
+
+    }
+
+    #article {
+        margin-top: 800px;
+        background-color: white;
+        position: relative;
+        padding-top: 40px;
+    }
+
+    section.content p.first {
+        line-height: 0.9em;
+        font-size: 54px;
+        text-transform: uppercase;
+        font-family: "league-gothic", sans-serif;
+    }
+
+    section.content h3 {
+        padding: 0 0 20px 0;
+        line-height: 1em;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: "league-gothic", sans-serif;
+    }
+
+
+
+    section.content.black {
+        color: $white;
+        background-color: $black;
+    }
+
+    section.content.red {
+        color: $white;
+        background-color: #d80c1b;
+    }
+
+    section.content.black h3 {
+        color: $white;
+    }
+
+    section.content.black p {
+        color: $white;
+    }
+
+    section.content p.first span {
+        color: #f26612;
+    }
+
+    section.content p {
+        font-family: $base-font;
+    }
+
+    section.content p a {
+        border-color: #f26612;
+        color: #f26612;
+    }
+
+    /* Fixed Hero */
+
+
+
+    /* Profile pictures */
+
+    $profile-scale: 0.75;
+
+    #article {
+        overflow: hidden;
+    }
+
+    .profile-picture {
+        @include box-shadow(1px, 1px, 5px, #555);
+        position: relative;
+    }
+
+    .map-picture {
+        position: relative;
+    }
+
+    .profile-picture.mobile,
+    .map-picture.mobile {
+        width: 30%;
+        float: left;
+        clear: left;
+        margin: 0 20px 30px 0;
+    }
+
+    #sarah-rotman {
+        @include format-profile(2deg, $profile-scale);
+    }
+
+    #jp-rangaswami {
+        @include format-profile(-4deg, $profile-scale);
+        margin-top: 25px;
+    }
+
+    #vivek-wadhwa {
+        //@include format-profile();
+    }
+
+    #david-sobotta {
+        margin: -25px 0 0 50px;
+        z-index: 10;
+        @include format-profile(4deg, $profile-scale);
+    }
+
+    #alan-cohen {
+        @include format-profile(-1deg, $profile-scale);
+        margin-top: -100px;
+        z-index: 1;
+    }
+
+    // EOF
+
+}

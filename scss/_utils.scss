@@ -25,6 +25,14 @@
     -ms-transform: rotate($args);
     transform: rotate($args); }
 
+@mixin format-profile($rotation: 0deg, $profile-scale: auto)
+{
+    -webkit-transform: scale($profile-scale) rotate($rotation);
+    -moz-transform: scale($profile-scale) rotate($rotation);
+    -ms-transform: scale($profile-scale) rotate($rotation);
+    transform: scale($profile-scale) rotate($rotation);
+}
+
 // Variables: Colors
 $red: #c03;
 $black: #000;

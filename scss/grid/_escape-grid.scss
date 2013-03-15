@@ -1,0 +1,97 @@
+@import "../bourbon/bourbon";
+@import "../profoundgrid/grid";
+@import "../vancura-helpers/vancura-helpers";
+
+// BASELINE
+// --------
+
+#feature-escape {
+
+    $media-size-b: 740px;
+    $media-size-c: 1024px;
+    $media-size-d: 1200px;
+
+    /*
+
+    // GRID LAYOUT A
+    // -------------
+    // 60px margin on either side of content
+
+    $total_width: 100%;
+    $total_columns: 12;
+    $gutter_width: 3%;
+    $container_margin: 3%;
+
+
+
+    // GRID LAYOUT B
+    // -------------
+
+    @media screen and (min-width: $media-size-b) {
+        $total_width: 740px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+
+    }
+
+    // GRID LAYOUT C
+    // -------------
+
+    @media screen and (min-width: $media-size-c) {
+        $total_width: 1024px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+    }
+
+
+    */
+
+    // GRID LAYOUT D
+    // -------------
+
+    @media screen and (min-width: $media-size-d) {
+        $total_width: 1200px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+        .first {
+            @include column(14);
+            @include push(2);
+        }
+
+        .content-rail {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(10);
+            @include push(7);
+
+        }
+
+        .social-share {
+            @include column(2);
+            @include push(17);
+        }
+
+        .outbox-left {
+            @include column(4);
+            @include push(2);
+        }
+
+        .outbox-right {
+            @include column(3);
+            @include push(18);
+        }
+
+    }
+
+}
+
+
+
