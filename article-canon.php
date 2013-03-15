@@ -51,27 +51,30 @@
                     documenting the minute details of life became the status quo. But for many, the camera phone or the
                     point-and-shoot just weren’t enough. Not everyone was willing to sacrifice quality for
                     convenience.</p>
+
+                <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a
+                        href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create
+                        a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice
+                    quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever —
+                    while also teaching consumers how to shoot smarter and better.</p>
             </div>
 
 
                 <?php include "../inc/social.php"; ?>
-
 
         </div>
     </section>
 
     <section class="content">
         <div class="grid">
-            <div class="content-rail">
-                <p>To reach those discerning consumers, Canon partnered with Say Media and Gear Patrol to <a
-                        href="http://gearpatrol.com/tag/sharp-shooter/" title="create a campaign" target="blank">create
-                        a campaign</a> to show aspiring photographers that, in fact, there’s no need to sacrifice
-                    quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever —
-                    while also teaching consumers how to shoot smarter and better.</p>
 
-                <div class="">
-                    <img src="_assets/canon/eric.jpg">
-                </div>
+            <div class="outbox-right">
+                <img src="_assets/canon/eric.jpg">
+            </div>
+            <div class="content-rail-narrow">
+
+
+
 
                 <p>Gear Patrol was the perfect site to help Canon’s campaign come into focus. A significant portion of
                     the site’s readers are both novice and experienced photographers who trust the Gear Patrol editors

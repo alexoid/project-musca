@@ -5,7 +5,7 @@
 // BASELINE
 // --------
 
-.canon-overide {
+.unusual-overide {
 
     $media-size-b: 740px;
     $media-size-c: 1024px;
@@ -75,13 +75,31 @@
 
         }
 
+        .content-rail {
+            @include container();
+            @include clearfix();
+            @include column(14);
+            @include push(5);
+
+        }
+
         .content-rail-narrow {
             @include container();
             @include clearfix();
             @include column(7);
+            @include push(5);
 
-            @include push(8);
+        }
 
+        .content-rail-wide {
+            @include reset();
+            @include column(20);
+            @include push(2);
+        }
+
+        .content-rail-extrawide {
+            @include column(24);
+            //@include push(2);
         }
 
 
