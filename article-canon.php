@@ -1,4 +1,4 @@
-<section class="canon-overide">
+
 
 
     <!--hero begining    -->
@@ -101,4 +101,3 @@
     </section>
 
 
-</section>

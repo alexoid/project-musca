@@ -1,4 +1,4 @@
-<section class="unusual-overide">
+
 
 
 <!--hero begining    -->
@@ -414,7 +414,4 @@
                     @lostreib</a></p>
         </div>
     </div>
-</section>
-
-
 </section>

@@ -1,4 +1,4 @@
-<section class="kate-overide">
+
 
 
     <!--hero begining    -->
@@ -103,4 +103,3 @@
     </section>
 
 
-</section>

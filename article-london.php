@@ -1,4 +1,4 @@
-<section class="london-overide">
+
 
 
     <!--hero begining    -->
@@ -156,4 +156,3 @@
     </section>
 
 
-</section>

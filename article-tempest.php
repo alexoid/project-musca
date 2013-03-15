@@ -1,4 +1,4 @@
-<section class="tempest-overide">
+
 
     <!--hero begining    -->
 
@@ -188,5 +188,5 @@
     <script src="_assets/tempest/animations.js"></script>
 
 
-</section>
+
 

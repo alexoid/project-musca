@@ -1,0 +1,138 @@
+/**
+ * Profound Grid
+ *
+ * Built in Sass (SCSS) this responsive/adaptive grid supports both fixed and fluid layouts,
+ * relative and fixed gutters, as well as your choice of semantic markup or generic '.grid-x' classes.
+ *
+ * The biggest difference to other grid systems is the use of negative margins for column
+ * placements, avoiding the subpixel rounding issues that usually break/uglify fluid layouts
+ * in some browsers.
+ *
+ * Nested columns are supported too, without having to reset the grid on each level.
+ *
+ * Credits/Inspiration:
+ * -------------------
+ * Semantic Grid: http://www.semantic.gs
+ * Susy: http://susy.oddbird.net
+ * Negative Grid: http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/
+ *
+ * @author Profound Creative Studio
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com
+ */
+/**
+ * Establish the grid-containing element.
+ */
+/**
+ * Align an element to the grid.
+ */
+/**
+ * Align an element to the grid.
+ */
+/**
+ * Apply to any column to make it the last one of the current row.
+ */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+  .sprite {
+    zoom: 0.5; } }
+.adart_overide {
+    /*
+
+    // GRID LAYOUT A
+    // -------------
+    // 60px margin on either side of content
+
+    $total_width: 100%;
+    $total_columns: 12;
+    $gutter_width: 3%;
+    $container_margin: 3%;
+
+
+
+    // GRID LAYOUT B
+    // -------------
+
+    @media screen and (min-width: $media-size-b) {
+        $total_width: 740px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+
+    }
+
+    // GRID LAYOUT C
+    // -------------
+
+    @media screen and (min-width: $media-size-c) {
+        $total_width: 1024px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+    }
+
+
+    */ }
+  @media screen and (min-width: 1200px) {
+    .adart_overide .grid {
+      width: 1200px;
+      margin: 0 auto;
+      *zoom: 1; }
+      .adart_overide .grid:before, .adart_overide .grid:after {
+        content: " ";
+        display: table; }
+      .adart_overide .grid:after {
+        clear: both; }
+    .adart_overide header {
+      width: 100%; }
+    .adart_overide .full {
+      width: 100%; }
+    .adart_overide #hero {
+      width: 100%; }
+      .adart_overide #hero .grid {
+        width: 1200px;
+        margin: 0 auto;
+        *zoom: 1; }
+        .adart_overide #hero .grid:before, .adart_overide #hero .grid:after {
+          content: " ";
+          display: table; }
+        .adart_overide #hero .grid:after {
+          clear: both; }
+    .adart_overide .content-rail {
+      width: 1200px;
+      margin: 0 auto;
+      *zoom: 1;
+      float: left;
+      margin-right: -100%;
+      width: 500px;
+      margin-left: 400px; }
+      .adart_overide .content-rail:before, .adart_overide .content-rail:after {
+        content: " ";
+        display: table; }
+      .adart_overide .content-rail:after {
+        clear: both; }
+    .adart_overide .social-share {
+      float: left;
+      margin-right: -100%;
+      width: 100px;
+      margin-left: 500px; }
+    .adart_overide .outbox-left {
+      float: left;
+      margin-right: -100%;
+      width: 150px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 150px; }
+    .adart_overide .outbox-right {
+      float: left;
+      margin-right: -100%;
+      width: 150px;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-left: 900px; }
+    .adart_overide .strip22 {
+      float: left;
+      margin-right: -100%;
+      width: 1100px;
+      margin-left: 50px; } }

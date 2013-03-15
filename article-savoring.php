@@ -1,4 +1,4 @@
-<section class="savoring-overide">
+
 
 
     <!--hero begining    -->
@@ -103,14 +103,7 @@
                 <p>Unusual advertising that's authentic, subtle and complex? We'll definitely drink to that.</p>
             </div>
 
-            <!-- <div class="show-mobile">
-                <div class="grid-10 pull-8 push-6 pad-mobile-20">
-                    <div class="photo">
-                        <img src="_assets/savoring-auth/stats.jpg" />
-                    </div>
-                </div>
-            </div> -->
+
         </div>
     </section>
 
-</section>
