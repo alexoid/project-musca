@@ -72,22 +72,20 @@
         });
     </script>
 
-
-
-   <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
 
     <script type="text/javascript" src="//use.typekit.net/ynl1uag.js"></script> <!-- TODO: form original site -->
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
 </head>
 
-<body>
+<body id="<?php echo $_GET['include']; ?>">
+
 <div id="fb-root"></div>
 
 
 
 <?php include "../inc/header2.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
-
 
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
