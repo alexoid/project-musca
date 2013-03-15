@@ -84,7 +84,7 @@
 
 
 
-<?php include "../inc/header2.php"; ?>
+<?php include "../inc/header.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
 
 <script>(function(d, s, id) {
