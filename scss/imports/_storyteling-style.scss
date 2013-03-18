@@ -1,7 +1,7 @@
 
 
 body#feature-storytelling {
-    background-image: url("../_assets/storytelling/body-bg.png");
+    background-image: url("../../_assets/storytelling/body-bg.png");
     background-repeat: repeat-x ;
     background-position: 0 1500px;
 }
@@ -30,7 +30,7 @@ body#feature-storytelling {
         .wrapper {
             height: 540px;
             padding: 80px 0 0 0;
-            background-image: url("../_assets/storytelling/hero-clouds-bg.png");
+            background-image: url("../../_assets/storytelling/hero-clouds-bg.png");
             background-repeat: no-repeat;
             background-position: top right;
 
@@ -191,11 +191,11 @@ body#feature-storytelling {
             }
 
             &.img-1900 {
-                background-image: url("../_assets/storytelling/1900.png");
+                background-image: url("../../_assets/storytelling/1900.png");
             }
 
             &.img-1904 {
-                background-image: url("../_assets/storytelling/1904.png");
+                background-image: url("../../_assets/storytelling/1904.png");
             }
 
             &.img-1954 {
@@ -207,7 +207,7 @@ body#feature-storytelling {
         .more-content {
             display: none;
             position: absolute;
-            background-image: url("../_assets/storytelling/icon-link.png");
+            background-image: url("../../_assets/storytelling/icon-link.png");
             width: 47px;
             height: 47px;
             z-index: 2;

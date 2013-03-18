@@ -17,20 +17,20 @@ body {line-height: 1;}
 
 
 // grids
-// base grid
-@import "grid/base-grid";
+// base imports
+@import "imports/base-grid";
 
 // overrides
-@import "grid/adart-grid";
-@import "grid/canon-grid";
-@import "grid/kate-grid";
-@import "grid/london-grid";
-@import "grid/tempest-grid";
-@import "grid/xovain-grid";
-@import "grid/savoring-grid";
-@import "grid/unusual-grid";
-@import "grid/storytelling-grid";
-@import "grid/escape-grid";
+@import "imports/adart-grid";
+@import "imports/canon-grid";
+@import "imports/kate-grid";
+@import "imports/london-grid";
+@import "imports/tempest-grid";
+@import "imports/xovain-grid";
+@import "imports/savoring-grid";
+@import "imports/unusual-grid";
+@import "imports/storytelling-grid";
+@import "imports/escape-grid";
 
 
 // styles
@@ -38,16 +38,17 @@ body {line-height: 1;}
 @import "base";
 
 // overrides
-@import "article-adart";
-@import "article-canon";
-@import "article-kate"; // zoo-york
-@import "article-london";
-@import "article-tempest";
-@import "article-xovain";
-@import "article-savoring";
-@import "feature-unusual";
-@import "feature-storyteling";
-@import "feature-escape";
+@import "imports/adart-style";
+@import "imports/canon-style";
+@import "imports/kate-style"; // zoo-york
+@import "imports/london-style";
+@import "imports/tempest-style";
+@import "imports/xovain-style";
+@import "imports/savoring-style";
+@import "imports/unusual-style";
+@import "imports/storyteling-style";
+@import "imports/escape-style";
+@import "imports/cover-style";
 
 
 //@import "article-sceneheard";

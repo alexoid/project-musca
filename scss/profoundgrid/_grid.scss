@@ -76,7 +76,7 @@ $class_push:		'push';		//				//
 ////////////////////////////////////////////////////////////////////////////////
 
 /**
- * Establish the grid-containing element.
+ * Establish the imports-containing element.
  */
 @mixin container(){
 	width: container_width();
@@ -86,7 +86,7 @@ $class_push:		'push';		//				//
 
 
 /**
- * Reset the grid-containing element for overiding.
+ * Reset the imports-containing element for overiding.
  */
 @mixin reset(){
     margin: 0 0 0 0;
@@ -96,7 +96,7 @@ $class_push:		'push';		//				//
 
 
 /**
- * Align an element to the grid.
+ * Align an element to the imports.
  */
 @mixin column($_columns_width, $_padding_columns:null){
 	float: left;
@@ -110,7 +110,7 @@ $class_push:		'push';		//				//
 }
 
 /**
- * Align an element to the grid.
+ * Align an element to the imports.
  */
 @mixin width($_columns_width){
 

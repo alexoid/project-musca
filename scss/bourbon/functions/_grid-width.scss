@@ -2,12 +2,12 @@
   @return $n * $gw-column + ($n - 1) * $gw-gutter;
 }
 
-// The $gw-column and $gw-gutter variables must be defined in your base stylesheet to properly use the grid-width function.
+// The $gw-column and $gw-gutter variables must be defined in your base stylesheet to properly use the imports-width function.
 //
 //  $gw-column: 100px;         // Column Width
 //  $gw-gutter: 40px;          // Gutter Width
 //
 //  div {
-//    width: grid-width(4);    // returns 520px;
+//    width: imports-width(4);    // returns 520px;
 //    margin-left: $gw-gutter; // returns 40px;
 //  }

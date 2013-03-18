@@ -1,39 +1,42 @@
 
-#article-kate {
 
-    font-size: inherit;
-    line-height: inherit;
+#article-canon {
 
     // Hero
     section#hero {
 
-        height: 483px;
-        background-repeat: no-repeat;
-        background-position: center 246px;
-        margin-top: 60px;
-        background-image: url('../_assets/zoo-york/logo-bg.png');
-        background-color: transparent;
+        height: 400px;
+        margin: 0 0 40px 0;
+        background-repeat: repeat-x;
+        background-image: url('../../_assets/canon/hero-grads-bg.png');
 
-        .diags {
+        .grads {
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../../_assets/canon/hero-bg.png');
+        }
+
+        .wrapper {
+            padding: 123px 0 0 0;
             position: relative;
-            height: 484px;
-            background-repeat: repeat-x;
-            background-image: url('../_assets/zoo-york/hero-bg.png');
-            background-position: 0 274px;
         }
 
         h3 {
+            padding: 4px 0 0 0;
             text-transform: uppercase;
             font-size: 18px;
             letter-spacing: 0.25em;
-            color: #72abb3;
+            color: #ce950c;
+            margin: 15px auto 0 auto;
+            width: 250px;
             font-family: $alt-gothic;
             text-align: center;
         }
 
         h2 {
             position: relative;
-            margin: 20px 0 0 0;
+            margin: 14px 0 0 0;
             font-size: 68px;
             font-family: $base-font;
             text-align: center;
@@ -42,21 +45,8 @@
         h2.small {
             font-size: 48px;
         }
-
-        .wrapper {
-            padding: 24px 0 0 0;
-            position: relative;
-        }
-
-        .bug {
-            position: absolute;
-            top: 45%;
-            left: 53%;
-            height: 174px;
-            width: 309px;
-            background-image: url('../_assets/zoo-york/bug.png');
-        }
     }
+
 
 
     // Content
@@ -74,9 +64,18 @@
         position: relative;
     }
 
+    section.content .inline-right {
+        float: right;
+    }
+
+    section.content .inline-right img {
+        margin: 0 0 0 20px;
+        width: 120px;
+    }
+
     section.content p a {
-        border-color: $red;
-        color: $red;
+        border-color: #bc0000;
+        color: #bc0000;
     }
 
     section.content .photo p.caption {
@@ -93,7 +92,7 @@
     }
 
     section.content .photo p.caption.block {
-        width: 150px;
+        width: 120px;
         position: absolute;
         padding: 15px 0 0 15px;
         bottom: -20px;
