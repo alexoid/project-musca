@@ -1,0 +1,144 @@
+#pub-letter {
+    // Zoo York Article
+
+    // Hero
+    section#hero {
+        
+        background-repeat: no-repeat;
+        background-position: center 246px;
+        margin: 60px 0;
+
+         h3 {
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 0.25em;
+            color: $red;
+            font-family: $alt-gothic;
+        }
+
+         h2 {
+            position: relative;
+            margin: 20px 0 30px 0;
+            font-size: 68px;
+            font-family: $base-font;
+        }
+
+         h2.small {
+            font-size: 48px;
+        }
+
+         .wrapper {
+            padding: 42px 0 0 0;
+            position: relative;
+        }
+
+         .bug {
+            position: absolute;
+            top: 45%;
+            left: 53%;
+            height: 174px;
+            width: 309px;
+            background-image: url('bug.png');
+        }
+    }
+
+    section.content p.first strong {
+        font-weight: 700;
+    }
+
+    section.content .inline {
+        margin: 6px 20px 0 0;
+        float: left;
+    }
+    section.content .inline img {
+        margin: 0 0 5px 0;
+    }
+
+    section.content .photo {
+        position: relative;
+    }
+
+    section.content p a {
+        border-color: $red;
+        color: $red;
+    }
+
+    section.content .photo p.caption {
+        line-height: 1em;
+        background-color: $white;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: $alt-gothic;
+    }
+
+    section.content .photo p.caption span {
+        display: block;
+        color: $light-gray;
+    }
+
+    section.content .photo p.caption.block {
+        width: 150px;
+        position: absolute;
+        padding: 15px 0 0 15px;
+        bottom: -20px;
+        right: 0;
+        font-size: 22px;
+    }
+
+    section.content .photo p.caption.block.right {
+        text-align: right;
+    }
+
+    .masthead {
+
+        ul {
+            font-size: 15px;
+            font-family: sans-serif;
+            line-height: 1.4em;
+            list-style: none;
+            padding: 0 0 0 0;
+           // margin: 0 0 40px 0;
+
+            li {
+                margin: 0 0 20px 0;
+                font-size: 12px;
+                line-height: 17px;
+                margin: 0 0 15px 0 !important;
+
+                h3 {
+                    margin: 0;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                }
+
+                h4 {
+                    margin: 0;
+                    font-size: 11px;
+                    font-weight: bold;
+                    color: $red;
+                }
+            }
+        }
+
+        ul.centered {
+            clear: both;
+            li {
+                text-align: center;
+            }
+        }
+
+        ul.left {
+            float: left;
+            width: 40%;
+            margin: 40px 30px 40px 0;
+        }
+
+    }
+
+
+
+
+
+
+}
