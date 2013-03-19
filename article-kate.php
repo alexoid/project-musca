@@ -20,19 +20,12 @@
 
     <section class="content">
         <div class="grid">
-            <div class="outbox-left">
-                <div class="photo remove-mobile">
-                    <img src="_assets/zoo-york/stats.jpg"/>
-                </div>
-            </div>
-
-                <?php include "../inc/social.php"; ?>
-
 
             <div class="content-rail">
                 <p class="first">A supermodel, plucky roaches and an award-winning campaign take an apparel line to the
                     digital advertising hall of fame.</p>
 
+                <?php include "../inc/social.php"; ?>
 
                 <p><a href="http://www.zooyork.com/" title="Zoo York" target="blank">Zoo York</a> apparel embodies the
                     attitude and lifestyle of the Big Apple's skateboarding, graffiti and hip-hop community. To showcase
@@ -47,6 +40,12 @@
                                              target="blank">ad unit</a> featured a series of "choose your own ending"
                     videos starring Upton as well as an embedded "smash-a-roach" challenge and a "lookbook" of the
                     company's current line.</p>
+            </div>
+
+            <div class="outbox-left">
+                <div class="photo remove-mobile">
+                    <img src="_assets/zoo-york/stats.jpg"/>
+                </div>
             </div>
 
         </div>

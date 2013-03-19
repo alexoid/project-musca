@@ -28,24 +28,14 @@
         <div class="grid">
 
 
-            <div class="outbox-left">
-                <img src="_assets/canon/stats.jpg"/>
 
-                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
-                        src="_assets/canon/video-sm.jpg" alt=""></a>
 
-                <p class="caption">
-                    See it in action
-                    <span>0:15 sec</span>
-                </p>
-
-            </div>
 
 
             <div class="content-rail ">
                 <p class="first">Canon and Say Media created an original content series around one editor's passion for
                     photography.</p>
-
+                <?php include "../inc/social.php"; ?>
                 <p>With the advent of smartphones and apps such as Instagram, photography instantly became much more
                     accessible than ever before. Suddenly everyone had a camera in hand (or pocket) at all times and
                     documenting the minute details of life became the status quo. But for many, the camera phone or the
@@ -59,8 +49,19 @@
                     while also teaching consumers how to shoot smarter and better.</p>
             </div>
 
+            <div class="outbox-left">
+                <img src="_assets/canon/stats.jpg"/>
 
-                <?php include "../inc/social.php"; ?>
+                <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
+                        src="_assets/canon/video-sm.jpg" alt=""></a>
+
+                <p class="caption">
+                    See it in action
+                    <span>0:15 sec</span>
+                </p>
+
+            </div>
+
 
         </div>
     </section>

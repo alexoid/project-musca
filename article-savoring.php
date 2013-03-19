@@ -24,20 +24,13 @@
 
     <section class="content">
         <div class="grid">
-            <div class="outbox-left">
-                <div class="photo remove-mobile">
-                    <img src="_assets/savoring-auth/stats.jpg"/>
-                </div>
 
 
-            </div>
-
-            <?php include "../inc/social.php"; ?>
 
             <div class="content-rail">
                 <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video
                     campaign.</p>
-
+                <?php include "../inc/social.php"; ?>
                 <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the
                     lowest common denominator, it takes courage for a company to trust that the people it truly wants to
                     reach are intelligent, discerning and sophisticated, and to provide a marketing experience that's in
@@ -50,6 +43,18 @@
                     profiling local entrepreneurs who are forging new paths in their cities in order to show the value
                     of complexity.</p>
             </div>
+
+            <div class="outbox-left">
+                <div class="photo remove-mobile">
+                    <img src="_assets/savoring-auth/stats.jpg"/>
+                </div>
+
+
+            </div>
+
+
+
+
 
         </div>
     </section>

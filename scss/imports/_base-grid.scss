@@ -9,7 +9,7 @@ $media-size-b: 740px;
 $media-size-c: 1024px;
 $media-size-d: 1200px;
 
-/*
+
 
 // GRID LAYOUT A
 // -------------
@@ -20,6 +20,29 @@ $total_columns: 12;
 $gutter_width: 3%;
 $container_margin: 3%;
 
+body {
+    border: 5px solid red;
+}
+
+.remove-mobile {
+    //display: none;
+}
+
+.grid {
+    @include container();
+    @include clearfix();
+}
+
+.outbox-left {
+    @include width(5);
+}
+.outbox-right {
+    @include width(5);
+}
+
+.quote {
+    margin: 0 0 0 0;
+}
 
 
 // GRID LAYOUT B
@@ -31,8 +54,114 @@ $container_margin: 3%;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    body {
+        border: 5px solid green;
+    }
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .full {
+        width: 100%;
+    }
+
+    #hero {
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+    .first {
+        //@include reset();
+
+        //@include column(12);
+        //@include push(4);
+    }
+
+    .content-rail {
+        // content subgrid
+        @include container();
+        @include clearfix();
+
+        @include column(16);
+        @include push(6);
+
+    }
+
+
+    .content-rail-narrow {
+        @include container();
+        @include clearfix();
+        @include column(12);
+
+        @include push(6);
+
+    }
+
+    .content-rail-wide {
+        // content subgrid
+        @include container();
+        @include clearfix();
+
+        @include column(20);
+        @include push(6);
+
+    }
+
+    .content-rail-expanded {
+        @include container();
+        @include clearfix();
+
+        @include column(12);
+        @include push(7);
+    }
+
+    .social-share {
+        //@include container();
+        //@include clearfix();
+        //@include column(2);
+        //@include push(2);
+        //display: none;
+
+    }
+
+    .outbox-left {
+        @include column(4);
+        @include push(1);
+    }
+
+    .outbox-right {
+        @include column(4);
+        @include push(19);
+    }
+
 
 }
+
+
+
+@media screen and (min-width: $media-size-c) {
+    $total_width: 1024px;
+    $total_columns: 24;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    body {
+        border: 5px solid blue;
+    }
+}
+
+
+
 
 // GRID LAYOUT C
 // -------------
@@ -43,10 +172,96 @@ $container_margin: 3%;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    body {
+    border: 5px solid pink;
+    }
+
+      .grid {
+        @include container();
+        @include clearfix();
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .full {
+        width: 100%;
+    }
+
+    #hero {
+        width: 100%;
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+    }
+
+    .first {
+        @include reset();
+
+        @include column(12);
+        @include push(4);
+    }
+
+    .content-rail {
+        // content subgrid
+        @include container();
+        @include clearfix();
+
+        @include column(12);
+        @include push(8);
+
+    }
+
+    .content-rail-narrow {
+        @include container();
+        @include clearfix();
+        @include column(10);
+
+        @include push(8);
+
+    }
+
+    .content-rail-wide {
+        // content subgrid
+        @include container();
+        @include clearfix();
+
+        @include column(15);
+        @include push(8);
+
+    }
+
+    .content-rail-expanded {
+        @include container();
+        @include clearfix();
+
+        @include column(12);
+        @include push(7);
+    }
+
+    .social-share {
+        //@include column(2);
+        //@include push(12);
+    }
+
+    .outbox-left {
+        @include column(5);
+        @include push(1);
+    }
+
+    .outbox-right {
+        @include column(4);
+        @include push(19);
+    }
+
+
 }
 
 
-*/
+
 
 // GRID LAYOUT D
 // -------------
@@ -56,6 +271,10 @@ $container_margin: 3%;
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
+
+    body {
+        border: 5px solid orange;
+    }
 
     .grid {
         @include container();
@@ -108,8 +327,8 @@ $container_margin: 3%;
     }
 
     .social-share {
-        @include column(2);
-        @include push(19);
+        //@include column(2);
+        //@include push(19);
     }
 
     .outbox-left {
@@ -122,10 +341,7 @@ $container_margin: 3%;
         @include push(18);
     }
 
-    .strip22 {
-        @include column(22);
-        @include push(1);
-    }
+
 
 }
 

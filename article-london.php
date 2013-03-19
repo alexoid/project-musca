@@ -22,12 +22,13 @@
 
     <section class="content">
         <div class="grid">
+            <?php include "../inc/social.php"; ?>
             <div class="content-rail">
                 <p class="first">To paraphrase the great singer-songwriter, "Chaos is your friend." And ad units that
                     don't fit the traditional models do really well.</p>
             </div>
 
-            <?php include "../inc/social.php"; ?>
+
 
         </div>
     </section>

@@ -1,7 +1,4 @@
-
-
-#article-tempest{
-
+#article-tempest {
 
     section#hero {
         margin: 0 0 40px 0;
@@ -37,12 +34,16 @@
             color: $white;
             position: relative;
             margin: 20px 0 0 0;
-            font-size: 56px;
+            font-size: 42px;
             font-family: $base-font;
             text-align: center;
 
-            &.small {
-                font-size: 48px;
+
+        }
+
+        @media screen and (min-width: $media-size-b) {
+            h2 {
+                font-size: 56px;
             }
         }
 
@@ -63,7 +64,6 @@
 
     }
 
-
     // Content
     #article {
 
@@ -71,33 +71,30 @@
         padding-top: 20px;
     }
 
-
-
-
-
-
-
     section.content p strong {
         color: $black;
     }
 
-    section.content .quote {
-        margin: 5px -150px 20px 0;
-        float: right;
-    }
+    section.content {
 
-    section.content .quote p {
-        display: inline;
-        font-size: 34px;
-        line-height: 1em;
-        color: $black;
-        text-transform: uppercase;
-        font-family: $alt-gothic;
-    }
+        .quote {
+            //margin: 5px -150px 20px 0;
+            float: right;
+        }
 
-    section.content .show-mobile .quote {
-        margin: 40px;
-        float: none;
+        .quote p {
+            display: inline;
+            font-size: 34px;
+            line-height: 1em;
+            color: $black;
+            text-transform: uppercase;
+            font-family: $alt-gothic;
+        }
+
+        .show-mobile .quote {
+            margin: 40px;
+            float: none;
+        }
     }
 
     section.content p a {

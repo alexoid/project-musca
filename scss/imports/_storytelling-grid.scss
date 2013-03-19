@@ -11,8 +11,6 @@
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
-
     // GRID LAYOUT A
     // -------------
     // 60px margin on either side of content
@@ -21,8 +19,6 @@
     $total_columns: 12;
     $gutter_width: 3%;
     $container_margin: 3%;
-
-
 
     // GRID LAYOUT B
     // -------------
@@ -33,6 +29,44 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .baumgartner {
+            @include column(14);
+            @include push(5);
+        }
+
+        .page-break {
+            .baumgartner-small-container {
+                //@include column(3);
+                margin-top: 74px;
+            }
+        }
+
+        .box1, .box2, .box3, .box4, .box5 {
+            // @include column(3);
+        }
+
+        .full {
+            @include width(16);
+            @include push(6);
+
+        }
+
+        .box1 {
+            //@include push(2);
+            //clear: both;
+        }
+        .box2 {
+            //@include push(6);
+        }
+        .box3 {
+            //@include push(10);
+        }
+        .box4 {
+            // @include push(14);
+        }
+        .box5 {
+            // @include push(18);
+        }
 
     }
 
@@ -45,67 +79,6 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-    }
-
-
-    */
-
-    // GRID LAYOUT D
-    // -------------
-
-    @media screen and (min-width: $media-size-d) {
-        $total_width: 1200px;
-        $total_columns: 24;
-        $gutter_width: 0px;
-        $container_margin: auto;
-
-        .first {
-            @include column(14);
-            @include push(2);
-        }
-
-        .outbox-right {
-
-            @include reset();
-            @include width(4);
-            float: right;
-            margin-right: -200px;
-
-        }
-
-        .content-rail {
-
-            @include container();
-            @include clearfix();
-
-            @include column(10);
-            @include push(8);
-
-        }
-
-        .content-rail-wide {
-
-            @include column(14);
-            @include push(8);
-
-            .content-rail {
-                @include reset();
-
-                @include container();
-
-                @include width(10);
-
-            }
-        }
-
-        .content-rail-expanded {
-            @include container();
-            @include clearfix();
-
-            @include column(12);
-            @include push(7);
-        }
-
         .baumgartner {
             @include column(10);
             @include push(7);
@@ -115,43 +88,174 @@
 
             width: 100%;
 
-            .grid {
-
-                @include container();
-                @include clearfix();
-
-                .box1, .box2, .box3, .box4, .box5 {
-                    @include column(3);
-                }
-
-                .full {
-                    @include column(16);
-                    @include push(2);
-                    clear: both;
-                }
-
-                .box1 {
-                    @include push(2);
-                    clear: both;
-                }
-                .box2 {
-                    @include push(6);
-                }
-                .box3 {
-                    @include push(10);
-                }
-                .box4 {
-                    @include push(14);
-                }
-                .box5 {
-                    @include push(18);
-                }
-
+            .content-rail {
+                @include reset();
+                @include column(24);
+                @include push(0);
             }
+
+            .baumgartner-small-container {
+                margin-top: -87px;
+            }
+        }
+
+        .box1, .box2, .box3, .box4, .box5 {
+            @include column(3);
+        }
+
+        .full {
+            @include width(16);
+            @include push(6);
+
+        }
+
+        .box1 {
+            @include push(2);
+            //clear: both;
+        }
+        .box2 {
+            @include push(6);
+        }
+        .box3 {
+            @include push(10);
+        }
+        .box4 {
+            @include push(14);
+        }
+        .box5 {
+            @include push(18);
+        }
+
+        .content-rail {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(11);
+            @include push(7);
 
         }
 
     }
+
+
+
+
+          // GRID LAYOUT D
+          // -------------
+
+          @media screen and (min-width: $media-size-d) {
+              $total_width: 1200px;
+              $total_columns: 24;
+              $gutter_width: 0px;
+              $container_margin: auto;
+
+              .first {
+                  @include column(14);
+                  @include push(2);
+              }
+
+              .outbox-right {
+
+                  @include reset();
+                  @include width(4);
+                  float: right;
+                  margin-right: -200px;
+
+              }
+
+              .content-rail {
+
+                  @include container();
+                  @include clearfix();
+
+                  @include column(11);
+                  @include push(7);
+
+              }
+
+              .content-rail-wide {
+
+                  @include column(14);
+                  @include push(8);
+
+                  .content-rail {
+                      @include reset();
+
+                      @include container();
+
+                      @include width(10);
+
+                  }
+              }
+
+              .content-rail-expanded {
+                  @include container();
+                  @include clearfix();
+
+                  @include column(12);
+                  @include push(7);
+              }
+
+              .baumgartner {
+                  @include column(10);
+                  @include push(7);
+              }
+
+
+
+              .page-break {
+
+                  width: 100%;
+
+                  .content-rail {
+                      @include reset();
+                      @include column(24);
+                      @include push(0);
+                  }
+
+                  .baumgartner-small-container {
+                      margin-top: -127px;
+                  }
+              }
+
+                  .grid {
+
+                      @include container();
+                      @include clearfix();
+
+                      .box1, .box2, .box3, .box4, .box5 {
+                          @include column(3);
+                      }
+
+                      .full {
+                          @include width(16);
+                          @include push(2);
+
+                      }
+
+                      .box1 {
+                          @include push(2);
+                          clear: both;
+                      }
+                      .box2 {
+                          @include push(6);
+                      }
+                      .box3 {
+                          @include push(10);
+                      }
+                      .box4 {
+                          @include push(14);
+                      }
+                      .box5 {
+                          @include push(18);
+                      }
+
+                  }
+
+
+
+          }
 
 }
 

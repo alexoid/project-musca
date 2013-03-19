@@ -94,6 +94,14 @@
                 <a href="http://readwrite.com/author/jp-rangaswami" title="JP Rangaswami" target="blank"><img
                         src="_assets/escape/JP-rangaswami.png" id="jp-rangaswami" class="profile-picture"/></a>
             </div>
+            <div class="outbox-right">
+                <a href="http://readwrite.com/author/vivek-wadhwa" title="Vivek Wadhwa" target="blank"><img
+                        src="_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture"/></a>
+                <a href="http://readwrite.com/author/david-sobotta" title="David Sobatta" target="blank"><img
+                        src="_assets/escape/David-Sobotta.png" id="david-sobotta" class="profile-picture"/></a>
+                <a href="http://readwrite.com/author/alan-s-cohen" title="Alan Cohen" target="blank"><img
+                        src="_assets/escape/Alan-Cohen.png" id="alan-cohen" class="profile-picture"/></a>
+            </div>
             <div class="content-rail ">
                 <h3>So whose point of view are we publishing?</h3>
 
@@ -157,14 +165,7 @@
                     moving at a breakneck pace, and I'm thrilled and excited to be part of this change.</p>
             </div>
 
-            <div class="outbox-right">
-                <a href="http://readwrite.com/author/vivek-wadhwa" title="Vivek Wadhwa" target="blank"><img
-                        src="_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture"/></a>
-                <a href="http://readwrite.com/author/david-sobotta" title="David Sobatta" target="blank"><img
-                        src="_assets/escape/David-Sobotta.png" id="david-sobotta" class="profile-picture"/></a>
-                <a href="http://readwrite.com/author/alan-s-cohen" title="Alan Cohen" target="blank"><img
-                        src="_assets/escape/Alan-Cohen.png" id="alan-cohen" class="profile-picture"/></a>
-            </div>
+
         </div>
     </section>
 

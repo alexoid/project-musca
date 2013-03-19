@@ -40,16 +40,53 @@
         <p class="first">People don't have 30 seconds to be interrupted — but they always have 30 minutes to hear a
             great story.</p>
 
-
-        <?php include "../inc/social.php"; ?>
-
     </div>
 </section>
 
 <section class="content">
+
+    <!--
+            <div class="outbox-left siderail remove-mobile">
+
+                <h4>Great moments in brand storytelling</h4>
+
+                <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a
+                    number of brands were embracing brand storytelling well before TVs were in every home and computers were
+                    ubiquitous.</p>
+
+                <img src="_assets/storytelling/1895.png"/>
+                <h4>1895</h4>
+
+                <p><strong>John Deere Customer Magazine: The Furrow</strong> John Deere wanted to help farmers change the
+                    face of agriculture.</p>
+
+                <img src="_assets/storytelling/1900.png"/>
+                <h4>1900</h4>
+
+                <p><strong>The Michelin Guides</strong> / In 1900, brothers Edouard and André Michelin decided to encourage
+                    tourists to travel to Paris by creating the Michelin Red Guide.</p>
+
+                <img src="_assets/storytelling/1904.png"/>
+                <h4>1904</h4>
+
+                <p><strong>Jell-O's Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a
+                    last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to
+                    customers. </p>
+
+                <img src="_assets/storytelling/1954.png"/>
+                <h4>1954</h4>
+
+                <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called
+                    The Guinness Book of Records became Britain's number one best-seller, and the brewery's name has been
+                    synonymous with notable feats. ever since.</p>
+            </div>
+    -->
+
     <div class="grid">
 
-        <div class="content-rail-wide">
+        <?php include "../inc/social.php"; ?>
+
+        <div class="content-rail">
 
             <p>Johannes Gutenberg invented mechanical movable-type printing around 1440. The first radio transmissions
                 were in the early 1900s. The television became commercially available less than a century ago. The
@@ -67,162 +104,121 @@
                 story (the one you already knew by heart) just one more time. For me it was Where the Wild Things Are.
                 Why was it so important to hear that story? Why did those characters mean so much? Maybe you don't know
                 the answers to those questions, but you do know how influential those stories were in your life. </p>
-
-            <div class="content-rail">
-            <div class="outbox-right">
-
-
-
-                <div id="oreo-container">
-                    <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank"></a>
-                    <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow">
-                    <img src="_assets/storytelling/palm-print.png" id="oreo">
-                </div>
-
-
-
-            </div>
-
-                <h3>The Storytelling Age</h3>
-
-                <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60
-                    years. The big winners in the ad race were the brands with the deepest pockets. They could buy the
-                    billboard in Times Square, create the Super Bowl ad spot and advertise in their customers' favorite
-                    magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up,
-                    uninvited, interrupt and badger the audience, and that was okay, because that's what advertising
-                    was. </p>
-
-                <p>But this brute-force method of advertising is rapidly losing effectiveness. The persistent
-                    interruption has caused audiences to put their blinders up and become defensive. Audiences simply
-                    have no patience for branded messages that feel like advertising. </p>
-
-                <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and
-                    simply enjoyable — even if it's branded — they miraculously have as much as 30 minutes to watch.
-                    Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often
-                    helping spread the message to their own audiences without prompting. </p>
-
-                <p>This is the dawn of the post-advertising age, in which the only messages people see and hear are the
-                    ones they choose to see and hear. Audiences don't want to hear an advertisement. They want to be
-                    gripped by a compelling story. </p>
-
-                <h3>Unearthing your brand story</h3>
-
-
-                <div class="outbox-right">
-
-
-
-
-
-
-                    <div id="chipotle">
-                        <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank"></a>
-                        <img src="_assets/storytelling/chipotle.png" id="pig">
-                    </div>
-
-                </div>
-
-                <p>So you've bought into the idea of storytelling; but what exactly, you ask, is a brand story?
-                    Storytelling
-                    is the latest buzzword among ad agencies, but all too often, it's misused to describe stories about
-                    a
-                    brand. For example, stories about a brand winning awards, having 25 percent more [insert feature
-                    here]
-                    or a brand being worn by the hottest celebutante are not brand stories.</p>
-
-                <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand,
-                    the
-                    ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won't
-                    put
-                    it in the footer of your email address or on your website's homepage. Instead, it is the enduring
-                    idea
-                    that will serve as the consistent basis for the many stories that a successful brand must tell over
-                    time. It's the glue that holds all your brand's actions and words together. </p>
-
-                <p>Your audience may not see it, but without it, your brand is nothing. </p>
-
-                <p>Finding this story platform isn't accomplished in a 30-minute brainstorm, mind you. It is a process
-                    that
-                    takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide)
-                    spent
-                    years developing a process to help them unearth their brand stories.</p>
-
-            </div>
-
-
         </div>
-
-
-        <div class="outbox-left siderail remove-mobile">
-
-            <h4>Great moments in brand storytelling</h4>
-
-            <p>Emerging technologies have empowered brands to tell their stories in weird and wonderful ways, but a
-                number of brands were embracing brand storytelling well before TVs were in every home and computers were
-                ubiquitous.</p>
-
-            <img src="_assets/storytelling/1895.png"/>
-            <h4>1895</h4>
-
-            <p><strong>John Deere Customer Magazine: The Furrow</strong> John Deere wanted to help farmers change the
-                face of agriculture.</p>
-
-            <img src="_assets/storytelling/1900.png"/>
-            <h4>1900</h4>
-
-            <p><strong>The Michelin Guides</strong> / In 1900, brothers Edouard and André Michelin decided to encourage
-                tourists to travel to Paris by creating the Michelin Red Guide.</p>
-
-            <img src="_assets/storytelling/1904.png"/>
-            <h4>1904</h4>
-
-            <p><strong>Jell-O's Recipe Books</strong> / Before selling his troubled Jell-O brand, Frank Woodward made a
-                last-ditch effort to resurrect it by arming his salesmen with Jell-O recipe books to distribute free to
-                customers. </p>
-
-            <img src="_assets/storytelling/1954.png"/>
-            <h4>1954</h4>
-
-            <p><strong>Guinness Book of World Records</strong> / The first edition of his record book, then called
-                The Guinness Book of Records became Britain's number one best-seller, and the brewery's name has been
-                synonymous with notable feats. ever since.</p>
-        </div>
-
     </div>
+
+
+    <div class="grid">
+
+        <div class="outbox-right">
+            <div id="chipotle">
+                <a class="more-content" href="http://www.youtube.com/watch?v=aMfSGt6rHos" target="_blank"></a>
+                <img src="_assets/storytelling/chipotle.png" id="pig">
+            </div>
+        </div>
+
+        <div class="content-rail">
+
+            <h3>The Storytelling Age</h3>
+
+            <p>To understand the importance of brand storytelling, just take a look at advertising over the past 60
+                years. The big winners in the ad race were the brands with the deepest pockets. They could buy the
+                billboard in Times Square, create the Super Bowl ad spot and advertise in their customers' favorite
+                magazines. Their ads were nearly unavoidable. The brands and their ads would simply turn up,
+                uninvited, interrupt and badger the audience, and that was okay, because that's what advertising
+                was. </p>
+
+            <p>But this brute-force method of advertising is rapidly losing effectiveness. The persistent
+                interruption has caused audiences to put their blinders up and become defensive. Audiences simply
+                have no patience for branded messages that feel like advertising. </p>
+
+            <p>Somehow, though, when audiences are exposed to content that is valuable, entertaining, emotive and
+                simply enjoyable — even if it's branded — they miraculously have as much as 30 minutes to watch.
+                Instead of folding their arms and sitting back, audiences lean forward, open up and listen, often
+                helping spread the message to their own audiences without prompting. </p>
+
+            <p>This is the dawn of the post-advertising age, in which the only messages people see and hear are the
+                ones they choose to see and hear. Audiences don't want to hear an advertisement. They want to be
+                gripped by a compelling story. </p>
+
+            <h3>Unearthing your brand story</h3>
+        </div>
+    </div>
+
+
+    <div class="grid">
+      <div class="content-rail">
+
+            <p>So you've bought into the idea of storytelling; but what exactly, you ask, is a brand story?
+                Storytelling
+                is the latest buzzword among ad agencies, but all too often, it's misused to describe stories about
+                a
+                brand. For example, stories about a brand winning awards, having 25 percent more [insert feature
+                here]
+                or a brand being worn by the hottest celebutante are not brand stories.</p>
+
+            <p>Instead, a true brand story originates from its story platform — the emotional heart of the brand,
+                the
+                ephemeral something that customers can connect with. It is not a tagline or a descriptor. You won't
+                put
+                it in the footer of your email address or on your website's homepage. Instead, it is the enduring
+                idea
+                that will serve as the consistent basis for the many stories that a successful brand must tell over
+                time. It's the glue that holds all your brand's actions and words together. </p>
+
+            <p>Your audience may not see it, but without it, your brand is nothing. </p>
+
+            <p>Finding this story platform isn't accomplished in a 30-minute brainstorm, mind you. It is a process
+                that
+                takes weeks, if not months. To help a number of our big-brand clients, my agency (Story Worldwide)
+                spent
+                years developing a process to help them unearth their brand stories.</p>
+
+        </div>
+
+        <div class="outbox-right">
+            <div id="oreo-container">
+                <a class="more-content" href="http://brands.nabisco.com/Oreo/dailytwist/" target="_blank"></a>
+                <img src="_assets/storytelling/oreo-shadow.png" id="oreo-shadow">
+                <img src="_assets/storytelling/palm-print.png" id="oreo">
+            </div>
+        </div>
+    </div>
+
+
+
 </section>
 
 
 <section class="page-break content">
     <div class="grid">
 
-        <div class="baumgartner-small-container remove-mobile">
-            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
-            <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner"/>
-        </div>
+
 
         <div class="full">
             <h4>Five steps to help you start unearthing your brand story</h4>
         </div>
 
-        <div class="siderail">
+        <div class="content-rail ">
+            <div class="siderail">
 
-            <div class="box1 push-1 nested-first">
+            <div class="box1">
                 <p><strong>Form your basis for insights</strong> Listen to your audience across all channels. Hold focus
                     groups. Send out questionnaires. Talk to them face to face. Find out what they think. You may be
                     surprised. </p>
             </div>
-            <div class="box2 push-1">
+            <div class="box2">
                 <p><strong>Map your competitive ecosystem</strong> Take a look at your brand in comparison with your
                     competition, and see if the similarities and differences expose new opportunities. Are you the
                     biggest? Smallest? How does your tone of voice differ from theirs? Which among you is the most
                     active in social media?</p>
             </div>
-            <div class="box3 push-1">
+            <div class="box3">
                 <p><strong>Understand your audience</strong> Explore who your audience is and how those individuals
                     interact with your brand. Are they innovating your brand (for example, using your product in a new
                     way)? What are they saying about you? How does your brand affect their lives?</p>
             </div>
-            <div class="box4 push-1">
+            <div class="box4">
                 <p><strong>Understand your brand</strong> It seems obvious, but few brands are introspective. What is
                     the clear, consistent direction for your brand? Where are you going, and where do you want to be?
                 </p>
@@ -231,12 +227,17 @@
                 <p><strong>Understand your category</strong> How can you differentiate your brand from key competitors?
                     Where can you stand out? What stories does your brand possess that no other brand can use? </p>
             </div>
-
+            </div>
+        </div>
+        <div class="baumgartner-small-container">
+            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
+            <img src="_assets/storytelling/baumgartner-small.png" class="remove-mobile" id="falling-baumgartner"/>
         </div>
     </div>
 </section>
 
 <section class="content">
+
     <div class="grid">
         <div class="content-rail">
             <p>These steps are just part of the process of unearthing your story. If you've never taken the time to
@@ -283,6 +284,9 @@
         </div>
     </div>
 </section>
+
+
+
 <section class="content bio">
     <div class="grid">
         <div class="content-rail pull-7 push-7 pad-mobile-20">

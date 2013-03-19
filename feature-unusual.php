@@ -23,7 +23,9 @@
 
 <section class="content">
     <div class="grid">
+
         <div class="content-rail title">
+            <?php include "../inc/social.php"; ?>
             <p class="first">The Web's best storytellers are finding eager audiences.</p>
         </div>
 
@@ -32,9 +34,10 @@
 
 <section class="content">
     <div class="grid">
+
+
+
         <div class="content-rail">
-
-
             <p>
                 <img src="_assets/unusual/kelly-framel.jpg" class="kelly-framel"/>
 

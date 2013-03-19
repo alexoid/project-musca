@@ -41,9 +41,16 @@
     <script src="js/jquery.superscrollorama.js"></script>
     <script src="js/jquery.videoBG.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="./_js/fresco.js"></script>
 
     <link href="/favicon.png" rel="shortcut icon" type="image/png"/>
     <link href="/share.png" rel="image_src" type="image/png"/>
+
+    <style type="text/css" media="screen">
+            /*@import url("//grid.ohmylovely.com/1/24/0/768/960/1200/");*/
+        @import url("../css/fresco.css");
+
+    </style>
 
     <style type="text/css" media="screen">
             /* @import url("//grid.ohmylovely.com/1/24/0/768/960/1200/"); */
@@ -86,7 +93,7 @@
 
 <?php include "../inc/header.php"; ?>
 <?php include "../".$_GET['include'].".php"; ?>
-
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -94,11 +101,34 @@
         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
 <script type="text/javascript">
     (function() {
         var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
         po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+
+<script>!function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");</script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1778701-12']);
+    _gaq.push(['_setDomainName', 'sayquarterly.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
 

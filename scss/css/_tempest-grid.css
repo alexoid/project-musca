@@ -1,0 +1,80 @@
+/**
+ * Profound Grid
+ *
+ * Built in Sass (SCSS) this responsive/adaptive grid supports both fixed and fluid layouts,
+ * relative and fixed gutters, as well as your choice of semantic markup or generic '.grid-x' classes.
+ *
+ * The biggest difference to other grid systems is the use of negative margins for column
+ * placements, avoiding the subpixel rounding issues that usually break/uglify fluid layouts
+ * in some browsers.
+ *
+ * Nested columns are supported too, without having to reset the grid on each level.
+ *
+ * Credits/Inspiration:
+ * -------------------
+ * Semantic Grid: http://www.semantic.gs
+ * Susy: http://susy.oddbird.net
+ * Negative Grid: http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/
+ *
+ * @author Profound Creative Studio
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com
+ */
+/**
+ * Establish the imports-containing element.
+ */
+/**
+ * Reset the imports-containing element for overiding.
+ */
+/**
+ * Align an element to the imports.
+ */
+/**
+ * Align an element to the imports.
+ */
+/**
+ * Apply to any column to make it the last one of the current row.
+ */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
+  .sprite {
+    zoom: 0.5; } }
+@media screen and (min-width: 740px) {
+  #article-tempest .outbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 123.33333px;
+    margin-left: 30.83333px;
+    border: 3px red; }
+  #article-tempest .pullbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 154.16667px;
+    padding-left: 30.83333px;
+    padding-right: 30.83333px;
+    margin-left: 585.83333px; } }
+@media screen and (min-width: 1024px) {
+  #article-tempest .outbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 170.66667px;
+    margin-left: 42.66667px; }
+  #article-tempest .pullbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 213.33333px;
+    padding-left: 42.66667px;
+    padding-right: 42.66667px;
+    margin-left: 810.66667px; } }
+@media screen and (min-width: 1200px) {
+  #article-tempest .outbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 200px;
+    margin-left: 950px; }
+  #article-tempest .pullbox-right {
+    float: left;
+    margin-right: -100%;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 950px; } }
