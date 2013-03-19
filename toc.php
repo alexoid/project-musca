@@ -6,9 +6,9 @@
                 <li><a href="./pub-letter.php">Publisher's Letter</a></li>
 
                 <li class="header">Point of View</li>
-                <li><a href="./feature-escape.php">The Great Escape</a> <span>By Dan Lyons</span></li>
                 <li><a href="./feature-storytelling.php">The Art and Science of Great Brand Storytelling</a> <span>By Jon Thomas</span></li>
                 <li><a href="./feature-unusual.php">Unusual Suspects</a> <span>By Lauren Streib</span></li>
+                <li><a href="./feature-escape.php">The Great Escape</a> <span>By Dan Lyons</span></li>
 
                 <li class="header">Perspectives</li>
                 <li><a href="./article-adart.php">Great Advertising Is Art</a> <span>By Joe Sabia</span></li>

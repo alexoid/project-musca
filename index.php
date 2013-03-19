@@ -3,7 +3,7 @@
 </style>
 
 <div id="background">
-    <a href="./feature-escape.php"></a>
+    <a href="./feature-storytelling.php"></a>
 </div>
 
 <section id="cover">
