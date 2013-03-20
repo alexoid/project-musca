@@ -38,10 +38,24 @@
         .outbox-left {
             @include reset();
             @include column(4);
-            //@include expand(1);
             @include push(1);
         }
 
+        .outbox-right {
+
+            @include reset();
+            @include column(4);
+            //@include push(0);
+            @include expand(1);
+
+            .bmw {
+                overflow:visible;
+                margin-top: 200px;
+                background-size: contain;
+                //margin: -40px;
+            }
+
+        }
 
 
         .strip22 {
@@ -70,22 +84,31 @@
 
         }
 
-
-
         .outbox-left {
             @include reset();
-            @include column(3);
-            @include expand(1);
-            @include push(1);
+            @include column(4);
+            @include push(2);
         }
 
         .outbox-right {
+
             @include reset();
-            @include column(3);
-            @include expand(1);
-            @include push(17);
+            @include column(5);
+            //@include push(0);
+            @include expand(2);
+
+            .bmw {
+                overflow:visible;
+                margin-top: 200px;
+                background-size: contain;
+                //margin: -40px;
+            }
 
         }
+
+
+
+
 
         .strip22 {
             @include column(22);
@@ -129,9 +152,14 @@
 
         .outbox-right {
             @include reset();
-            @include column(3);
-            @include expand(1);
+            @include column(4);
             @include push(18);
+
+            //padding: 100px;
+
+            .bmw {
+                margin-top: 0px;
+            }
 
         }
 

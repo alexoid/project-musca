@@ -91,8 +91,35 @@
 
 
 
-<?php include "../inc/header.php"; ?>
-<?php include "../".$_GET['include'].".php"; ?>
+<?php
+
+require_once '../libs/Mobile_Detect.php';
+
+$detect = new Mobile_Detect;
+
+$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+
+    $ismobile = false;
+    if($detect->isMobile() || $detect->isTablet() ) {
+        $ismobile = true;
+    }
+
+
+
+
+include "../inc/header.php";
+include "../".$_GET['include'].".php";
+
+?>
+
+<pre>
+
+    <?php echo "device:". $deviceType . " > is mobile: ". $mobile;   ?>
+
+</pre>
+
+
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

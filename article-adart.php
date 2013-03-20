@@ -75,15 +75,19 @@
                     <a href="http://thewildernessdowntown.com/" title="Arcade Fire">Arcade Fire</a>.</p>
             </div>
 
-            <div class="bmw" id="bmw_from">
-                <p class="caption"><i class="icon-sort-up"></i> It’s BMW driving cars through a <a
-                        href="http://www.youtube.com/watch?v=ZDuxWGHA-Z4&feature=player_embedded"
-                        title="giant glass apple">giant glass apple</a>.</p>
-            </div>
-
         </div>
 
-        <div id="bmw_to" class="outbox-right"></div>
+
+
+            <div class="outbox-right">
+                <div class="bmw" id="bmw_from">
+                    <p class="caption"><i class="icon-sort-up"></i> It’s BMW driving cars through a <a
+                            href="http://www.youtube.com/watch?v=ZDuxWGHA-Z4&feature=player_embedded"
+                            title="giant glass apple">giant glass apple</a>.</p>
+                </div>
+            </div>
+
+
 
         <div class="content-rail">
             <p>Renaissance art is precious for awakening mankind’s creative soul, but who in their right mind defines
@@ -152,16 +156,3 @@
 
 </section>
 
-
-<script type="text/javascript">
-    // desktop replacements
-
-    $(window).resize(function() {
-        if(  $(document).width() > 1024 )  {
-            $("#bmw_to").append($('#bmw_from'));
-        };
-    });
-
-
-
-</script>
