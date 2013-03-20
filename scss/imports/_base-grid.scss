@@ -112,7 +112,7 @@ body {
         @include container();
         @include clearfix();
 
-        @include column(20);
+        @include column(17);
         @include push(6);
 
     }
@@ -173,7 +173,8 @@ body {
     $container_margin: auto;
 
     body {
-    border: 5px solid pink;
+        border: 5px solid pink;
+        //border: none;
     }
 
       .grid {

@@ -11,7 +11,7 @@
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
+
 
     // GRID LAYOUT A
     // -------------
@@ -33,6 +33,45 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .outbox-left {
+
+            @include column(5);
+            @include push(2);
+        }
+
+
+        .outbox-right {
+            @include reset();
+            @include column(6);
+
+            @include push(16);
+
+        }
+
+        .content-rail {
+
+            @include column(18);
+            @include push(3);
+
+        }
+
+        .content-rail-narrow {
+
+            @include column(7);
+            @include push(5);
+
+        }
+
+        .content-rail-wide {
+            @include reset();
+            @include column(20);
+            @include push(2);
+        }
+
+        .content-rail-extrawide {
+            @include column(24);
+            //@include push(2);
+        }
 
     }
 
@@ -45,10 +84,57 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+
+
+
+
+
+        .outbox-left {
+
+            @include column(5);
+            @include push(2);
+        }
+
+
+        .outbox-right {
+            @include reset();
+            @include column(6);
+
+            @include push(16);
+
+        }
+
+        .content-rail {
+
+            @include column(13);
+            @include push(6);
+
+        }
+
+        .content-rail-narrow {
+
+            @include column(7);
+            @include push(5);
+
+        }
+
+        .content-rail-wide {
+            @include reset();
+            @include column(20);
+            @include push(2);
+        }
+
+        .content-rail-extrawide {
+            @include column(22);
+            @include push(1);
+        }
+
+
+
     }
 
 
-    */
+
 
     // GRID LAYOUT D
     // -------------
@@ -60,9 +146,8 @@
         $container_margin: auto;
 
         .outbox-left {
-            @include reset();
-            @include column(5);
 
+            @include column(5);
             @include push(2);
         }
 
@@ -70,22 +155,20 @@
         .outbox-right {
             @include reset();
             @include column(6);
-            //@include expand(1);
+
             @include push(16);
 
         }
 
         .content-rail {
-            @include container();
-            @include clearfix();
+
             @include column(14);
             @include push(5);
 
         }
 
         .content-rail-narrow {
-            @include container();
-            @include clearfix();
+
             @include column(7);
             @include push(5);
 

@@ -11,7 +11,7 @@
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
+
 
     // GRID LAYOUT A
     // -------------
@@ -48,7 +48,7 @@
     }
 
 
-    */
+
 
     // GRID LAYOUT D
     // -------------
@@ -58,28 +58,6 @@
         $total_columns: 24;
         $gutter_width: 0px;
         $container_margin: auto;
-
-
-
-
-
-        .outbox-left {
-            @include reset();
-            @include column(5);
-            @include push(2);
-
-
-        }
-
-        .outbox-right {
-
-            @include column(3);
-            @include expand(1);
-            @include push(18);
-
-        }
-
-
 
 
     }

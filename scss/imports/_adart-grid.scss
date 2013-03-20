@@ -11,7 +11,7 @@
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
+
 
     // GRID LAYOUT A
     // -------------
@@ -34,6 +34,21 @@
         $container_margin: auto;
 
 
+
+        .outbox-left {
+            @include reset();
+            @include column(4);
+            //@include expand(1);
+            @include push(1);
+        }
+
+
+
+        .strip22 {
+            @include column(24);
+            @include pull(2);
+        }
+
     }
 
     // GRID LAYOUT C
@@ -45,10 +60,42 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .content-rail {
+            // content subgrid
+            @include container();
+            @include clearfix();
+
+            @include column(10);
+            @include push(7);
+
+        }
+
+
+
+        .outbox-left {
+            @include reset();
+            @include column(3);
+            @include expand(1);
+            @include push(1);
+        }
+
+        .outbox-right {
+            @include reset();
+            @include column(3);
+            @include expand(1);
+            @include push(17);
+
+        }
+
+        .strip22 {
+            @include column(22);
+            @include push(0);
+        }
+
     }
 
 
-    */
+
 
     // GRID LAYOUT D
     // -------------
@@ -59,27 +106,7 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-        .grid {
-            @include container();
-            @include clearfix();
-        }
 
-        header {
-            width: 100%;
-        }
-
-        .full {
-            width: 100%;
-        }
-
-        #hero {
-            width: 100%;
-
-            .grid {
-                @include container();
-                @include clearfix();
-            }
-        }
 
         .content-rail {
             // content subgrid
@@ -110,7 +137,7 @@
 
         .strip22 {
             @include column(22);
-            @include push(1);
+            @include push(0);
         }
 
     }
