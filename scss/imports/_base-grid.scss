@@ -10,6 +10,9 @@ $media-size-c: 1024px;
 $media-size-d: 1200px;
 
 
+// remove this element on mobile devices
+
+
 
 // GRID LAYOUT A
 // -------------
@@ -20,13 +23,16 @@ $total_columns: 12;
 $gutter_width: 3%;
 $container_margin: 3%;
 
-body {
-    border: 5px solid red;
+.remove-mobile {
+    display: none;
 }
 
-.remove-mobile {
-    //display: none;
+body {
+    border: 5px solid red;
+    overflow-x: hidden;
 }
+
+
 
 .grid {
     @include container();
@@ -49,10 +55,16 @@ body {
 // -------------
 
 @media screen and (min-width: $media-size-b) {
+
+
+
     $total_width: 740px;
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
+
+
+
 
     body {
         border: 5px solid green;
@@ -150,14 +162,26 @@ body {
 
 
 @media screen and (min-width: $media-size-c) {
+
     $total_width: 1024px;
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    .remove-mobile {
+        display: block;
+    }
+
+    span.remove-mobile {
+        display: inline;
+    }
+
+
     body {
         border: 5px solid blue;
     }
+
+
 }
 
 
@@ -171,6 +195,7 @@ body {
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
+
 
     body {
         border: 5px solid pink;
@@ -272,6 +297,8 @@ body {
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
+
+
 
     body {
         border: 5px solid orange;

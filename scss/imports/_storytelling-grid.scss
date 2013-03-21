@@ -51,21 +51,9 @@
 
         }
 
-        .box1 {
-            //@include push(2);
-            //clear: both;
-        }
-        .box2 {
-            //@include push(6);
-        }
-        .box3 {
-            //@include push(10);
-        }
-        .box4 {
-            // @include push(14);
-        }
-        .box5 {
-            // @include push(18);
+        .content-rail .content-rail {
+            @include column(16);
+            @include push(0);
         }
 
     }
@@ -134,6 +122,12 @@
             @include column(11);
             @include push(7);
 
+            .content-rail {
+                @include column(11);
+                @include push(0);
+            }
+
+
         }
 
     }
@@ -164,6 +158,14 @@
 
               }
 
+              .outbox-left {
+
+                  @include reset();
+                  @include width(4);
+                  @include push(2);
+
+              }
+
               .content-rail {
 
                   @include container();
@@ -172,6 +174,11 @@
                   @include column(11);
                   @include push(7);
 
+                  .content-rail {
+                      @include column(11);
+                      @include push(0);
+                  }
+
               }
 
               .content-rail-wide {
@@ -179,14 +186,7 @@
                   @include column(14);
                   @include push(8);
 
-                  .content-rail {
-                      @include reset();
 
-                      @include container();
-
-                      @include width(10);
-
-                  }
               }
 
               .content-rail-expanded {
