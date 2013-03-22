@@ -75,7 +75,7 @@
             </div>
 
 
-            <div class="remove-mobile">
+
                 <div class="content-rail-wide">
                     <div class="photo">
                         <img src="_assets/savoring-auth/photo-01.png" alt="">
@@ -84,7 +84,7 @@
                             rate</p>
                     </div>
                 </div>
-            </div>
+
 
 
 

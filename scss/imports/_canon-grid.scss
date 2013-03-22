@@ -24,6 +24,7 @@
 
 
 
+
     // GRID LAYOUT B
     // -------------
 
@@ -32,6 +33,7 @@
         $total_columns: 24;
         $gutter_width: 0px;
         $container_margin: auto;
+
 
 
 
@@ -47,6 +49,7 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+
     }
 
 
@@ -61,30 +64,7 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-        .outbox-left {
-            @include reset();
-            @include column(5);
 
-            @include push(2);
-        }
-
-
-        .outbox-right {
-            @include reset();
-            @include column(6);
-            //@include expand(1);
-            @include push(16);
-
-        }
-
-        .content-rail-narrow {
-            @include container();
-            @include clearfix();
-            @include column(7);
-
-            @include push(8);
-
-        }
 
 
     }

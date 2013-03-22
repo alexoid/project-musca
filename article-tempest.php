@@ -47,7 +47,7 @@
                 about looking at where media is headed and building a whole new kind of technology solution that
                 dramatically changes the way media is created and consumed.</p>
 
-            <div class="quote pullbox-right remove-mobile">
+            <div class="quote pullbox-right">
                 <p>"A Tempest publication seamlessly integrates content, community, commerce and advertising —
                     across all devices."</p>
             </div>

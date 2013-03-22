@@ -5,13 +5,19 @@
 // BASELINE
 // --------
 
+
+
 #article-savoring {
 
     $media-size-b: 740px;
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
 
     // GRID LAYOUT A
     // -------------
@@ -21,6 +27,12 @@
     $total_columns: 12;
     $gutter_width: 3%;
     $container_margin: 3%;
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
 
 
 
@@ -33,6 +45,15 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+        .content-rail-wide {
+            @include column(18);
+            @include push(8);
+        }
 
     }
 
@@ -45,10 +66,29 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+        .outbox-left {
+            @include column(5);
+            @include push(2);
+        }
+
+        .content-rail {
+            @include column(10);
+            @include push(8);
+        }
+
+        .content-rail-wide {
+            @include column(14);
+            @include push(8);
+        }
     }
 
 
-    */
+
 
     // GRID LAYOUT D
     // -------------
@@ -59,6 +99,25 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+        .outbox-left {
+            @include column(5);
+            @include push(2);
+        }
+
+        .content-rail {
+            @include column(10);
+            @include push(8);
+        }
+
+        .content-rail-wide {
+            @include column(14);
+            @include push(8);
+        }
 
 
 

@@ -11,8 +11,6 @@
     $media-size-c: 1024px;
     $media-size-d: 1200px;
 
-    /*
-
     // GRID LAYOUT A
     // -------------
     // 60px margin on either side of content
@@ -21,8 +19,6 @@
     $total_columns: 12;
     $gutter_width: 3%;
     $container_margin: 3%;
-
-
 
     // GRID LAYOUT B
     // -------------
@@ -33,6 +29,24 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .content-rail {
+            .narrow {
+                @include width(10);
+            }
+        }
+
+        .content-rail-expanded {
+            @include column(18);
+            @include push(4);
+        }
+
+        .outbox-right {
+            @include column(8);
+            @include push(16);
+            &.dylan {
+                margin-top: 130px;
+            }
+        }
 
     }
 
@@ -45,10 +59,26 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .content-rail {
+            .narrow {
+                @include width(9);
+            }
+        }
+
+        .content-rail-expanded {
+            @include column(13);
+            @include push(7);
+        }
+
+        .outbox-right {
+            @include column(6);
+            @include push(18);
+            &.dylan {
+                margin-top: 110px;
+            }
+        }
+
     }
-
-
-    */
 
     // GRID LAYOUT D
     // -------------
@@ -59,7 +89,6 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-
         .content-rail {
             .narrow {
                 @include width(7);
@@ -67,25 +96,26 @@
         }
 
 
+
         .outbox-left {
             @include reset();
             @include column(5);
             @include push(2);
-
-
-
         }
 
         .outbox-right {
-
             @include column(8);
             @include expand(1);
             @include push(14);
+            &.dylan {
+                margin-top: 110px;
+            }
 
         }
-
-
-
+        .content-rail-expanded {
+            @include column(13);
+            @include push(7);
+        }
 
     }
 

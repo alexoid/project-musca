@@ -38,166 +38,190 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5 / 1), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
   .sprite {
     zoom: 0.5; } }
-#feature-storytelling {
+@media screen and (min-width: 740px) {
+  #feature-storytelling {
     /*
-        // GRID LAYOUT B
-        // -------------
-
-        @media screen and (min-width: $media-size-b) {
-            $total_width: 740px;
-            $total_columns: 24;
-            $gutter_width: 0px;
-            $container_margin: auto;
-
-
-        }
-
-        // GRID LAYOUT C
-        // -------------
-
-        @media screen and (min-width: $media-size-c) {
-            $total_width: 1024px;
-            $total_columns: 24;
-            $gutter_width: 0px;
-            $container_margin: auto;
-
-        }
-
-
-
-
-    // GRID LAYOUT D
-    // -------------
-
-    @media screen and (min-width: $media-size-d) {
-        $total_width: 1200px;
-        $total_columns: 24;
-        $gutter_width: 0px;
-        $container_margin: auto;
-
-        .first {
-            @include column(14);
-            @include push(2);
-        }
-
-        .outbox-right {
-
-            @include reset();
-            @include width(4);
-            float: right;
-            margin-right: -200px;
-
-        }
-
-        .content-rail {
-
-            @include container();
-            @include clearfix();
-
-            @include column(10);
-            @include push(8);
-
-        }
-
-        .content-rail-wide {
-
-            @include column(14);
-            @include push(8);
-
-            .content-rail {
-                @include reset();
-
-                @include container();
-
-                @include width(10);
-
+    
+            .baumgartner {
+                @include column(14);
+                @include push(5);
             }
-        }
-
-        .content-rail-expanded {
-            @include container();
-            @include clearfix();
-
-            @include column(12);
-            @include push(7);
-        }
-
-        .baumgartner {
-            @include column(10);
-            @include push(7);
-        }
-
-        .page-break {
-
-            width: 100%;
-
-            .grid {
-
-                @include container();
-                @include clearfix();
-
-                .box1, .box2, .box3, .box4, .box5 {
-                    @include column(3);
+    
+            .page-break {
+                .baumgartner-small-container {
+                    //@include column(3);
+                    margin-top: 74px;
                 }
-
-                .full {
-                    @include column(16);
-                    @include push(2);
-                    clear: both;
-                }
-
-                .box1 {
-                    @include push(2);
-                    clear: both;
-                }
-                .box2 {
-                    @include push(6);
-                }
-                .box3 {
-                    @include push(10);
-                }
-                .box4 {
-                    @include push(14);
-                }
-                .box5 {
-                    @include push(18);
-                }
-
             }
-
-        }
-
-    }
-*/ }
-  #feature-storytelling .page-break {
-    width: 100%; }
-    #feature-storytelling .page-break .grid {
-      width: 94%;
-      margin: 0 3%;
-      *zoom: 1; }
-      #feature-storytelling .page-break .grid:before, #feature-storytelling .page-break .grid:after {
-        content: " ";
-        display: table; }
-      #feature-storytelling .page-break .grid:after {
-        clear: both; }
-      #feature-storytelling .page-break .grid .box1, #feature-storytelling .page-break .grid .box2, #feature-storytelling .page-break .grid .box3, #feature-storytelling .page-break .grid .box4, #feature-storytelling .page-break .grid .box5 {
-        float: left;
-        margin-right: -100%;
-        width: 22.75%; }
-      #feature-storytelling .page-break .grid .full {
-        float: left;
-        margin-right: -100%;
-        width: 134.33%;
-        margin-left: 17.17%;
-        clear: both; }
-      #feature-storytelling .page-break .grid .box1 {
-        margin-left: 17.17%;
-        clear: both; }
-      #feature-storytelling .page-break .grid .box2 {
-        margin-left: 51.5%; }
-      #feature-storytelling .page-break .grid .box3 {
-        margin-left: 85.83%; }
-      #feature-storytelling .page-break .grid .box4 {
-        margin-left: 120.17%; }
-      #feature-storytelling .page-break .grid .box5 {
-        margin-left: 154.5%; }
+    
+            .box1, .box2, .box3, .box4, .box5 {
+                // @include column(3);
+            }
+    
+            .full {
+                @include width(16);
+                @include push(6);
+    
+            }
+    */
+    /*        .content-rail .content-rail {
+                @include column(16);
+                @include push(0);
+            }*/ } }
+@media screen and (min-width: 1024px) {
+  #feature-storytelling {
+    /*
+            .baumgartner {
+                @include column(10);
+                @include push(7);
+            }
+    
+            .page-break {
+    
+                width: 100%;
+    
+                .content-rail {
+                    @include reset();
+                    @include column(24);
+                    @include push(0);
+                }
+    
+                .baumgartner-small-container {
+                    margin-top: -87px;
+                }
+            }
+    
+            .box1, .box2, .box3, .box4, .box5 {
+                @include column(3);
+            }
+    
+            .full {
+                @include width(16);
+                @include push(6);
+    
+            }
+    
+            .box1 {
+                @include push(2);
+                //clear: both;
+            }
+            .box2 {
+                @include push(6);
+            }
+            .box3 {
+                @include push(10);
+            }
+            .box4 {
+                @include push(14);
+            }
+            .box5 {
+                @include push(18);
+            }
+    */ } }
+@media screen and (min-width: 1200px) {
+  #feature-storytelling {
+    /*              .first {
+                      @include column(14);
+                      @include push(2);
+                  }
+    
+                  .outbox-right {
+    
+                      @include reset();
+                      @include width(4);
+                      float: right;
+                      margin-right: -200px;
+    
+                  }
+    
+                  .outbox-left {
+    
+                      @include reset();
+                      @include width(4);
+                      @include push(2);
+    
+                  }
+    
+                  .content-wrap{
+    
+                      border: 1px solid red;
+                      background-color: #ffff00;
+                  }
+    
+                  .content-rail {
+                      @include reset();
+    
+                      //@include column(11);
+                      //@include push(7);
+    
+    
+    
+                  }
+    
+                  .content-rail-wide {
+    
+                      @include column(14);
+                      @include push(8);
+    
+    
+                  }
+    
+                  .content-rail-expanded {
+    
+    
+                      @include column(12);
+                      @include push(7);
+                  }
+    
+                  .baumgartner {
+                      @include column(10);
+                      @include push(7);
+                  }
+    
+    
+    
+                  .page-break {
+    
+                      width: 100%;
+    
+                      .content-rail {
+                          @include reset();
+                          @include column(24);
+                          @include push(0);
+                      }
+    
+                      .baumgartner-small-container {
+                          margin-top: -127px;
+                      }
+                  }
+    
+                      .grid {
+    
+                          .box1, .box2, .box3, .box4, .box5 {
+                              @include column(3);
+                          }
+    
+                          .full {
+                              @include width(16);
+                              @include push(2);
+    
+                          }
+    
+                          .box1 {
+                              @include push(2);
+                              clear: both;
+                          }
+                          .box2 {
+                              @include push(6);
+                          }
+                          .box3 {
+                              @include push(10);
+                          }
+                          .box4 {
+                              @include push(14);
+                          }
+                          .box5 {
+                              @include push(18);
+                          }
+    
+                      }*/ } }

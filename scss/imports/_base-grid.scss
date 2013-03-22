@@ -9,11 +9,6 @@ $media-size-b: 740px;
 $media-size-c: 1024px;
 $media-size-d: 1200px;
 
-
-// remove this element on mobile devices
-
-
-
 // GRID LAYOUT A
 // -------------
 // 60px margin on either side of content
@@ -23,126 +18,81 @@ $total_columns: 12;
 $gutter_width: 3%;
 $container_margin: 3%;
 
-.remove-mobile {
-    display: none;
-}
-
 body {
     border: 5px solid red;
     overflow-x: hidden;
 }
 
-
+@include generate_helper_classes();
 
 .grid {
     @include container();
     @include clearfix();
 }
 
-.outbox-left {
-    @include width(5);
+.remove-mobile {
+    display: none;
 }
+
+.outbox-left {
+    @include column(5);
+}
+
 .outbox-right {
-    @include width(5);
+    @include column(5);
 }
 
 .quote {
     margin: 0 0 0 0;
 }
 
+header {
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+}
+
+#hero {
+    width: 100%;
+
+}
 
 // GRID LAYOUT B
 // -------------
 
 @media screen and (min-width: $media-size-b) {
 
-
-
     $total_width: 740px;
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
 
-
-
-
     body {
         border: 5px solid green;
     }
+
+    @include generate_helper_classes();
 
     .grid {
         @include container();
         @include clearfix();
     }
 
-    header {
-        width: 100%;
-    }
-
-    .full {
-        width: 100%;
-    }
-
-    #hero {
-        width: 100%;
-
-        .grid {
-            @include container();
-            @include clearfix();
-        }
-    }
-
     .first {
-        //@include reset();
-
-        //@include column(12);
-        //@include push(4);
+        @include column(16);
+        @include push(6);
     }
 
     .content-rail {
-        // content subgrid
-        @include container();
-        @include clearfix();
-
         @include column(16);
         @include push(6);
-
-    }
-
-
-    .content-rail-narrow {
-        @include container();
-        @include clearfix();
-        @include column(12);
-
-        @include push(6);
-
-    }
-
-    .content-rail-wide {
-        // content subgrid
-        @include container();
-        @include clearfix();
-
-        @include column(17);
-        @include push(6);
-
-    }
-
-    .content-rail-expanded {
-        @include container();
-        @include clearfix();
-
-        @include column(12);
-        @include push(7);
     }
 
     .social-share {
-        //@include container();
-        //@include clearfix();
-        //@include column(2);
-        //@include push(2);
-        //display: none;
+       // @include column(2);
+        //@include push(18);
 
     }
 
@@ -156,10 +106,7 @@ body {
         @include push(19);
     }
 
-
 }
-
-
 
 @media screen and (min-width: $media-size-c) {
 
@@ -167,6 +114,18 @@ body {
     $total_columns: 24;
     $gutter_width: 0px;
     $container_margin: auto;
+
+    @include generate_helper_classes();
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+    .first {
+        @include column(13);
+        @include push(4);
+    }
 
     .remove-mobile {
         display: block;
@@ -176,16 +135,11 @@ body {
         display: inline;
     }
 
-
     body {
         border: 5px solid blue;
     }
 
-
 }
-
-
-
 
 // GRID LAYOUT C
 // -------------
@@ -196,76 +150,31 @@ body {
     $gutter_width: 0px;
     $container_margin: auto;
 
-
     body {
         border: 5px solid pink;
         //border: none;
     }
 
-      .grid {
+    @include generate_helper_classes();
+
+    .grid {
         @include container();
         @include clearfix();
     }
 
-    header {
-        width: 100%;
-    }
-
-    .full {
-        width: 100%;
-    }
-
-    #hero {
-        width: 100%;
-
-        .grid {
-            @include container();
-            @include clearfix();
-        }
-    }
-
     .first {
         @include reset();
-
-        @include column(12);
+        @include column(13);
         @include push(4);
     }
 
     .content-rail {
         // content subgrid
-        @include container();
-        @include clearfix();
+
 
         @include column(12);
         @include push(8);
 
-    }
-
-    .content-rail-narrow {
-        @include container();
-        @include clearfix();
-        @include column(10);
-
-        @include push(8);
-
-    }
-
-    .content-rail-wide {
-        // content subgrid
-        @include container();
-        @include clearfix();
-
-        @include column(15);
-        @include push(8);
-
-    }
-
-    .content-rail-expanded {
-        @include container();
-        @include clearfix();
-
-        @include column(12);
-        @include push(7);
     }
 
     .social-share {
@@ -283,11 +192,7 @@ body {
         @include push(19);
     }
 
-
 }
-
-
-
 
 // GRID LAYOUT D
 // -------------
@@ -298,65 +203,30 @@ body {
     $gutter_width: 0px;
     $container_margin: auto;
 
-
-
     body {
         border: 5px solid orange;
     }
+
+    @include generate_helper_classes();
 
     .grid {
         @include container();
         @include clearfix();
     }
 
-    header {
-        width: 100%;
-    }
-
-    .full {
-        width: 100%;
-    }
-
-    #hero {
-        width: 100%;
-
-        .grid {
-            @include container();
-            @include clearfix();
-        }
-    }
-
     .content-rail {
-        // content subgrid
-        @include container();
-        @include clearfix();
-
         @include column(10);
         @include push(8);
+    }
 
+    .content-rail-narrow {
+        @include column(7);
+        @include push(8);
     }
 
     .content-rail-wide {
-        // content subgrid
-        @include container();
-        @include clearfix();
-
         @include column(14);
         @include push(8);
-
-    }
-
-    .content-rail-expanded {
-        @include container();
-        @include clearfix();
-
-        @include column(12);
-        @include push(7);
-    }
-
-    .social-share {
-        //@include column(2);
-        //@include push(19);
     }
 
     .outbox-left {
@@ -372,6 +242,10 @@ body {
 
 
 }
+
+
+
+
 
 
 
