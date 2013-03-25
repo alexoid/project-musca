@@ -36,6 +36,9 @@ $media-size-d: 1200px;
         margin: 20px;
     }
 
+
+    .content-rail {
+    }
     .text-rail-full {
         @include column(12);
     }

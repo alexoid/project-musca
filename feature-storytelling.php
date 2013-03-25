@@ -302,19 +302,18 @@
 
 
 <section class="page-break content full">
-
+    <div class="remove-mobile">
+        <div class="baumgartner-small-container ">
+            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
+            <img src="_assets/storytelling/baumgartner-small.png" id="falling-baumgartner"/>
+        </div>
+    </div>
 
     <div class="grid">
         <div class="label">
             <h4>Five steps to help you start unearthing your brand story</h4></div>
     </div>
-
-    <div class="show-mobile baumgartner-mobile">
-        <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
-        <img src="_assets/storytelling/baumgartner-small.png"/>
-    </div>
-
-    <div class="siderail grid">
+    <div class="siderail grid remove-mobile">
 
         <div class="box1">
             <p><strong>Form your basis for insights</strong> Listen to your audience across all channels. Hold
@@ -349,18 +348,66 @@
     </div>
 
 
-    <div class="remove-mobile">
-        <div class="baumgartner-small-container ">
-            <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
-            <img src="_assets/storytelling/baumgartner-small.png" id="falling-baumgartner"/>
+    <div class="siderail grid show-mobile">
+        <div class="content-rail">
+
+
+
+
+        <div class="grid">
+            <div class="text-rail-col1">
+                <div class="show-mobile baumgartner-mobile">
+                    <a class="more-content" href="http://www.youtube.com/watch?v=FHtvDA0W34I" target="_blank"></a>
+                    <img src="_assets/storytelling/baumgartner-small.png"/>
+                </div>
+                <p><strong>Form your basis for insights</strong> Listen to your audience across all channels. Hold
+                    focus
+                    groups. Send out questionnaires. Talk to them face to face. Find out what they think. You may be
+                    surprised. </p>
+                <p><strong>Map your competitive ecosystem</strong> Take a look at your brand in comparison with your
+                    competition, and see if the similarities and differences expose new opportunities. Are you the
+                    biggest? Smallest? How does your tone of voice differ from theirs? Which among you is the most
+                    active in social media?</p>
+
+            </div>
+
+            <div class="text-rail-col2">
+
+                <p><strong>Understand your audience</strong> Explore who your audience is and how those individuals
+                    interact with your brand. Are they innovating your brand (for example, using your product in a
+                    new
+                    way)? What are they saying about you? How does your brand affect their lives?</p>
+
+
+                <p><strong>Understand your brand</strong> It seems obvious, but few brands are introspective. What
+                    is
+                    the clear, consistent direction for your brand? Where are you going, and where do you want to
+                    be?
+                </p>
+
+
+                <p><strong>Understand your category</strong> How can you differentiate your brand from key
+                    competitors?
+                    Where can you stand out? What stories does your brand possess that no other brand can use? </p>
+
+            </div>
+
         </div>
+        </div>
+
     </div>
+
+
+
+
 </section>
 
 <section class="content">
 
     <div class="grid">
         <div class="content-rail">
+
+
 
 
             <p>These steps are just part of the process of unearthing your story. If you've never taken the time to
