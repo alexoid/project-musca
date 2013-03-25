@@ -26,9 +26,10 @@ body {line-height: 1;}
 @import "imports/sceneheard-grid";
 */
 
-@import "imports/escape-grid";
 
 // clean
+@import "imports/sceneheard-grid";
+@import "imports/escape-grid";
 @import "imports/publetter-grid";
 @import "imports/xovain-grid";
 @import "imports/tempest-grid";
@@ -47,13 +48,13 @@ body {line-height: 1;}
 
 // overrides
 /*
-@import "imports/sceneheard-style";
 @import "imports/cover-style";
 */
 
-@import "imports/escape-style";
+@import "imports/sceneheard-style";
 
 // clean
+@import "imports/escape-style";
 @import "imports/publetter-style";
 @import "imports/xovain-style";
 @import "imports/tempest-style";

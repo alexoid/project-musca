@@ -11,7 +11,7 @@ $media-size-d: 1200px;
 
 #sceneheard {
 
-/*
+
 
 // GRID LAYOUT A
 // -------------
@@ -19,20 +19,64 @@ $media-size-d: 1200px;
 
 $total_width: 100%;
 $total_columns: 12;
-$gutter_width: 3%;
+$gutter_width: 0;
 $container_margin: 3%;
 
+    .grid {
+        @include container();
+        @include clearfix();
+    }
 
+    .box12 {
+
+
+        @include column(12);
+
+        &.left {
+        }
+
+        &.right {
+
+        }
+    }
+
+    .hero-label {
+        @include column(12);
+        @include push(0);
+    }
+
+    @include generate_helper_classes();
 
 // GRID LAYOUT B
 // -------------
 
 @media screen and (min-width: $media-size-b) {
     $total_width: 740px;
-    $total_columns: 24;
+    $total_columns: 12;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+
+
+    .box12 {
+
+
+        @include column(12);
+
+        &.left {
+        }
+
+        &.right {
+
+        }
+    }
+
+    @include generate_helper_classes();
 
 }
 
@@ -41,14 +85,41 @@ $container_margin: 3%;
 
 @media screen and (min-width: $media-size-c) {
     $total_width: 1024px;
-    $total_columns: 24;
+    $total_columns: 12;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    .show-mobile {
+        display: block;
+    }
+
+    .remove-mobile {
+        display: none;
+    }
+
+    .grid {
+        @include container();
+        @include clearfix();
+    }
+
+    .box12 {
+
+
+        @include column(12);
+
+        &.left {
+        }
+
+        &.right {
+
+        }
+    }
+
+    @include generate_helper_classes();
 }
 
 
-*/
+
 
 // GRID LAYOUT D
 // -------------
@@ -64,11 +135,31 @@ $container_margin: 3%;
     $gutter_width: 0px;
     $container_margin: auto;
 
+    .show-mobile {
+        display: none;
+    }
+
+    .remove-mobile {
+        display: block;
+    }
+
     .grid {
         @include container();
         @include clearfix();
-
     }
+
+    .box12 {
+        @include column(12);
+
+        &.left {@include push(0);}
+        &.right { @include push(12);}
+    }
+
+    .hero-label {
+        @include column(12);
+        @include push(6);
+    }
+
 
     @include generate_helper_classes();
 

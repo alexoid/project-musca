@@ -5,20 +5,238 @@
             <h2>Scene &amp; Heard</h2></div>
     </div>
     <div class="grid">
-        <div class="col12 push6">
+        <div class="hero-label">
             <h3>At Say Media, we love to work hard — and play hard too. This season, we did lots of both and hosted some
                 great parties and events around the globe to celebrate.</h3></div>
     </div>
 
 </section>
 
-<section class="content">
+
+<section class="content show-mobile">
+    <div class="grid">
+        <div class="box12 left">
+            <div class="grid">
+                <div class="col12">
+                    <div class="photo">
+                        <div class="caption"><p>Volvo + Havas Worldwide Team</p></div>
+                        <img src="_assets/sceneheard/001.jpg"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="col4 push0">
+                    <div class="photo">
+                        <div class="caption"><p>Liz Jewett (PHD), Jenny Stencel (Say Media)</p></div>
+                        <img src="_assets/sceneheard/002.jpg"/>
+                    </div>
+                </div>
+                <div class="col4 push4">
+                    <div class="photo">
+                        <div class="caption"><p>Matthew Cooke (Filmmaker), Adrian Grenier (Actor)</p></div>
+                        <img src="_assets/sceneheard/003.jpg"/>
+                    </div>
+                </div>
+                <div class="col4 push8">
+                    <div class="event yellow">
+                        <div class="desc">
+                            <h2>Toronto International Film Festival</h2>
+
+                            <h3>Toronto, Canada</h3>
+
+                            <p class="remove-960 remove-768">Say Media hosted a VIP client dinner at Sen5es followed by
+                                a
+                                co-hosted film premiere event with Volvo at the Cheval Nightclub where attendess
+                                received
+                                the red carpet treatment.</p>
+                        </div>
+                        <img src="_assets/sceneheard/yellow-bg.png"/>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="box12 right">
+            <div class="col8">
+                <div class="photo">
+                    <div class="caption"><p>GUESTS ENJOYING DINNER IN MONTEREY BAY AQUARIUM</p></div>
+                    <img src="_assets/sceneheard/004.jpg"/>
+                </div>
+            </div>
+            <div class="col4 push8">
+
+                <div class="event blue">
+                    <div class="desc">
+                        <h2>Say Create</h2>
+
+                        <h3>Carmel Valley, California</h3>
+
+                        <p class="remove-960 remove-768">Select clients and 16 speakers joined us in Carmel, California,
+                            for three days of great speakers, great food and great new friends, plus performances by
+                            comedian Hannibal Buress and indie rock phenomenom Kopecky Family Band.</p>
+                    </div>
+                    <img src="_assets/sceneheard/blue-bg.png"/>
+                </div>
+
+                <div class="photo">
+                    <div class="caption"><p>HANNIBAL BURESS (COMEDIAN)</p></div>
+                    <img src="_assets/sceneheard/005.jpg"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  second line-->
+
+    <div class="grid">
+
+        <div class="box12 left">
+            <div class="grid">
+                <div class="col4">
+                    <div class="photo">
+                        <img src="_assets/sceneheard/006.jpg"/>
+                    </div>
+
+                    <div class="event red">
+                        <div class="desc">
+                            <h2>NoMad Cocktail Party</h2>
+
+                            <h3>New York, New York</h3>
+
+                            <p class="remove-960 remove-768">Kim Kelleher and Matt Sanchez hosted New York’s media
+                                industry elite at the chic NoMad Hotel Library Bar to welcome Kelleher to the
+                                company.</p>
+                        </div>
+                        <img src="_assets/sceneheard/red-bg.png"/>
+                    </div>
+
+                </div>
+                <div class="col8 push4">
+                    <div class="photo">
+                        <div class="caption"><p>Carolyn Kremins (Condé Nast Traveller), Kim Kelleher (Say Media), Walter
+                                Coyle (Pedone)</p></div>
+                        <img src="_assets/sceneheard/007.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--  second line-->
+
+    <div class="grid">
+
+
+
+        <div class="box12 right">
+            <div class="grid">
+                <div class="col4">
+                    <div class="photo">
+                        <div class="caption"><p>Kopecky Family Band</p></div>
+                        <img src="_assets/sceneheard/008.jpg"/>
+                    </div>
+                </div>
+                <div class="col8 push4">
+                    <div class="photo">
+                        <div class="caption"><p>Candy Chang (Artist, Designer and Urban Planner)</p></div>
+                        <img src="_assets/sceneheard/009.jpg"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="col8">
+                    <div class="photo">
+                        <div class="caption"><p>Mark Earls (Herdmeister), Stuart Miles (Pocket-lint), Doug Grinspan (Say
+                                Media)</p></div>
+                        <img src="_assets/sceneheard/010.jpg"/>
+                    </div>
+                </div>
+                <div class="col4 push8">
+                    <div class="event blue">
+                        <div class="desc">
+                            <h2>Europe Internet Week</h2>
+
+                            <h3>LONDON, UK</h3>
+
+                            <p class="remove-960 remove-768">Say Media UK hosted an exclusive event with mobile industry
+                                visionaries and leaders who shared their insights on consumers’ mobile addiction — and
+                                what it means for marketers.</p>
+                        </div>
+                        <img src="_assets/sceneheard/blue-bg.png"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- third line  -->
+
+    <div class="grid">
+        <div class="box12 left">
+            <div class="photo">
+                <div class="caption"><p>Matt Sanchez (Say Media), Erica Barrett (Mediavest World Wide), Robin Steinberg
+                        (Mediavest World Wide), Kim Kelleher (Say Media), Laura Sequenzia (Golf World), Vic Ruvolo (Say
+                        Media)</p></div>
+                <img src="_assets/sceneheard/011.jpg">
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!-- third line  -->
+
+    <div class="grid">
+
+
+        <div class="box12 right">
+            <div class="grid">
+                <div class="col8">
+                    <div class="photo">
+                        <div class="caption"><p>Kris Bitti (OMD), Martin Shaw (Initiative), Amanda Sumargo (OMD), Vinh Mai (OMD)</p>
+                        </div>
+                        <img src="_assets/sceneheard/012.jpg">
+                    </div>
+                </div>
+
+                <div class="col4 push8">
+                    <div class="photo">
+                        <div class="caption"><p></p></div>
+                        <img src="_assets/sceneheard/013.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+
+
+
+<section class="content remove-mobile">
 
 <!-- first line-->
 
 <div class="grid">
-
-    <div class="col12">
+    <div class="box12 left">
         <div class="grid">
             <div class="col12">
                 <div class="photo">
@@ -62,7 +280,7 @@
 
     </div>
 
-    <div class="col12 push12">
+    <div class="box12 right">
         <div class="col8">
             <div class="photo">
                 <div class="caption"><p>GUESTS ENJOYING DINNER IN MONTEREY BAY AQUARIUM</p></div>
@@ -98,7 +316,7 @@
 
 <div class="grid">
 
-    <div class="col12">
+    <div class="box12 left">
         <div class="grid">
             <div class="col4">
                 <div class="photo">
@@ -129,7 +347,7 @@
         </div>
     </div>
 
-    <div class="col12 push12">
+    <div class="box12 right">
         <div class="grid">
             <div class="col4">
                 <div class="photo">
@@ -176,7 +394,7 @@
 <!-- third line  -->
 
 <div class="grid">
-    <div class="col12">
+    <div class="box12 left">
         <div class="photo">
             <div class="caption"><p>Matt Sanchez (Say Media), Erica Barrett (Mediavest World Wide), Robin Steinberg
                     (Mediavest World Wide), Kim Kelleher (Say Media), Laura Sequenzia (Golf World), Vic Ruvolo (Say
@@ -185,20 +403,26 @@
         </div>
     </div>
 
-    <div class="col8 push12">
-        <div class="photo">
-            <div class="caption"><p>Kris Bitti (OMD), Martin Shaw (Initiative), Amanda Sumargo (OMD), Vinh Mai (OMD)</p>
+    <div class="box12 right">
+        <div class="grid">
+            <div class="col8">
+                <div class="photo">
+                    <div class="caption"><p>Kris Bitti (OMD), Martin Shaw (Initiative), Amanda Sumargo (OMD), Vinh Mai (OMD)</p>
+                    </div>
+                    <img src="_assets/sceneheard/012.jpg">
+                </div>
             </div>
-            <img src="_assets/sceneheard/012.jpg">
+
+            <div class="col4 push8">
+                <div class="photo">
+                    <div class="caption"><p></p></div>
+                    <img src="_assets/sceneheard/013.jpg">
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="col4 push20">
-        <div class="photo">
-            <div class="caption"><p></p></div>
-            <img src="_assets/sceneheard/013.jpg">
-        </div>
-    </div>
+
 
 </div>
 
