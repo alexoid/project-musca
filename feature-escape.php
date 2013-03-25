@@ -6,7 +6,7 @@
 
             <h3>The Power of POV</h3>
 
-            <h2 >The great escape</h2>
+            <h2>The great escape</h2>
 
             <h3>By Dan Lyons</h3>
 
@@ -23,12 +23,10 @@
 
 <section class="content">
     <div class="grid">
-
             <p class="first">At ReadWrite, we are breaking all the rules to cover tech stories that really matter.
                 <span>Get ready.</span></p>
 
-
-        <?php include "../inc/social.php"; ?>
+            <?php include "../inc/social.php"; ?>
 
     </div>
 </section>
@@ -37,12 +35,12 @@
 
     <section class="content">
         <div class="grid">
-            <div class="outbox-left">
+            <div class="outbox-left remove-mobile">
                 <img src="_assets/escape/map.png"/>
             </div>
             <div class="content-rail">
 
-                <p>People keep asking me about my vision for ReadWrite, and to be honest, it's pretty simple. I'm trying
+                <p><img src="_assets/escape/map.png" id="map" class="show-mobile" />People keep asking me about my vision for ReadWrite, and to be honest, it's pretty simple. I'm trying
                     to
                     make the kind of tech news site that I've always wanted to read but couldn't find. I want to create
                     a
@@ -50,6 +48,8 @@
                     provocative articles about what's happening in the world of tech. I call it "tech news for people
                     who
                     think."</p>
+
+
 
                 <p>ReadWrite needs to be timely and topical and on top of the news, but our role is not to report
                     everything
@@ -88,13 +88,13 @@
 
     <section class="content">
         <div class="grid">
-            <div class="outbox-left">
+            <div class="outbox-left remove-mobile">
                 <a href="http://readwrite.com/author/sarah-rotman-epps" title="Sarah Rotman Epps" target="blank"><img
                         src="_assets/escape/Sarah-Rotman-Epps-PR.png" id="sarah-rotman" class="profile-picture"/></a>
                 <a href="http://readwrite.com/author/jp-rangaswami" title="JP Rangaswami" target="blank"><img
                         src="_assets/escape/JP-rangaswami.png" id="jp-rangaswami" class="profile-picture"/></a>
             </div>
-            <div class="outbox-right">
+            <div class="outbox-right remove-mobile">
                 <a href="http://readwrite.com/author/vivek-wadhwa" title="Vivek Wadhwa" target="blank"><img
                         src="_assets/escape/vivek-wadhwa.png" id="vivek-wadhwa" class="profile-picture"/></a>
                 <a href="http://readwrite.com/author/david-sobotta" title="David Sobatta" target="blank"><img
@@ -102,7 +102,23 @@
                 <a href="http://readwrite.com/author/alan-s-cohen" title="Alan Cohen" target="blank"><img
                         src="_assets/escape/Alan-Cohen.png" id="alan-cohen" class="profile-picture"/></a>
             </div>
-            <div class="content-rail ">
+            <div class="content-rail">
+                <div class="grid">
+                <div class="photos-rail-left show-mobile">
+                    <a href="http://readwrite.com/author/sarah-rotman-epps" title="Sarah Rotman Epps" target="blank"><img
+                            src="_assets/escape/Sarah-Rotman-Epps-PR.png" class="profile-picture"/></a>
+                    <a href="http://readwrite.com/author/jp-rangaswami" title="JP Rangaswami" target="blank"><img
+                            src="_assets/escape/JP-rangaswami.png"  class="profile-picture"/></a>
+                </div>
+                <div class="photos-rail-right show-mobile">
+                    <a href="http://readwrite.com/author/vivek-wadhwa" title="Vivek Wadhwa" target="blank"><img
+                            src="_assets/escape/vivek-wadhwa.png"  class="profile-picture"/></a>
+                    <a href="http://readwrite.com/author/david-sobotta" title="David Sobatta" target="blank"><img
+                            src="_assets/escape/David-Sobotta.png"  class="profile-picture"/></a>
+                    <a href="http://readwrite.com/author/alan-s-cohen" title="Alan Cohen" target="blank"><img
+                            src="_assets/escape/Alan-Cohen.png"  class="profile-picture"/></a>
+                </div>
+                </div>
                 <h3>So whose point of view are we publishing?</h3>
 
 

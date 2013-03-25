@@ -126,6 +126,10 @@ header {
         @include push(4);
     }
 
+    .show-mobile {
+        display: none;
+    }
+
     .remove-mobile {
         display: block;
     }

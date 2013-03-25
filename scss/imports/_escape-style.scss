@@ -1,4 +1,6 @@
-
+$media-size-b: 740px;
+$media-size-c: 1024px;
+$media-size-d: 1200px;
 
 
 #feature-escape {
@@ -40,13 +42,27 @@
             text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
             position: relative;
             margin: 20px 0 0 0;
-            font-size: 180px;
+            font-size: 110px;
             color: $black;
             text-transform: uppercase;
             font-style: italic;
             font-family: "league-gothic", sans-serif;
             text-align: center;
         }
+        @media screen and (min-width: $media-size-c) {
+            h3 {
+
+            }
+            h2 {
+
+                font-size: 180px;
+
+            }
+        }
+
+
+
+
 
     }
 
@@ -148,14 +164,14 @@
     }
 
     #david-sobotta {
-        margin: -25px 0 0 50px;
+        margin: -25px 0 0 30px;
         z-index: 10;
         @include format-profile(4deg, $profile-scale);
     }
 
     #alan-cohen {
         @include format-profile(-1deg, $profile-scale);
-        margin-top: -100px;
+        margin-top: -60px;
         z-index: 1;
     }
 

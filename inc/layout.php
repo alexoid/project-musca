@@ -104,19 +104,11 @@ $deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') 
         $ismobile = true;
     }
 
-
-
-
 include "../inc/header.php";
 include "../".$_GET['include'].".php";
 
 ?>
 
-<pre>
-
-    <?php echo "device:". $deviceType . " > is mobile: ". $mobile;   ?>
-
-</pre>
 
 
 
