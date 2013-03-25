@@ -323,17 +323,18 @@ body#feature-storytelling {
             position: relative;
         }
 
-        &.page-break .baumgartner-mobile {
+        .baumgartner-mobile {
             width: 50%;
             float: left;
             margin: 0 20px 20px 0;
+            img {
+                margin: 0;
+                bottom: 0;
+                position: relative;
+                width: 100%;
+            }
         }
-        &.page-break .baumgartner-mobile img {
-            margin: 0;
-            bottom: 0;
-            position: relative;
-            width: 100%;
-        }
+
 
     }
 

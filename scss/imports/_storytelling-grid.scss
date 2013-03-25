@@ -30,7 +30,25 @@ $media-size-d: 1200px;
 
         margin-top: -60px;
     }
+    #chipotle {
+        //margin-top: 70px;
+        float: right;
+        margin: 20px;
+    }
 
+    .text-rail-full {
+        @include column(12);
+    }
+
+    .text-rail-col1 {
+        @include column(5);
+    }
+
+    .text-rail-col2 {
+        @include column(5);
+        @include push(6);
+
+    }
 
     // GRID LAYOUT B
     // -------------
@@ -47,17 +65,17 @@ $media-size-d: 1200px;
         }
 
         .first {
-            @include column(14);
-            @include push(2);
+            @include column(19);
+            @include push(1);
         }
 
         .content-rail {
-            @include column(11);
+            @include column(16);
             @include push(7);
         }
 
         .content-rail-inside {
-            @include column(11);
+            @include column(15);
             @include push(0);
         }
         .content-rail-inside-wide {
@@ -65,14 +83,28 @@ $media-size-d: 1200px;
             @include push(0);
         }
 
+        .text-rail-full {
+            @include column(16);
+        }
+
+        .text-rail-col1 {
+            @include column(8);
+        }
+
+        .text-rail-col2 {
+            @include column(8);
+            @include push(9);
+
+        }
+
         .outbox-left {
             @include column(4);
-            @include push(2);
+            @include push(1);
         }
 
         .outbox-right {
             @include column(5);
-            @include push(11);
+            @include push(12);
         }
 
         .baumgartner {
@@ -126,7 +158,7 @@ $media-size-d: 1200px;
         }
 
         .first {
-            @include column(14);
+            @include column(18);
             @include push(2);
         }
 
@@ -152,6 +184,10 @@ $media-size-d: 1200px;
         .outbox-right {
             @include column(5);
             @include push(11);
+        }
+
+        .social-share {
+           // @include push(18);
         }
 
         .baumgartner {
@@ -185,6 +221,9 @@ $media-size-d: 1200px;
         }
         .baumgartner-small-container {
             @include column(5);
+        }
+        #chipotle {
+            margin-top: 70px;
         }
     }
 
