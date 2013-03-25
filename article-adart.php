@@ -24,10 +24,10 @@
 
 <section class="content">
     <div class="grid">
-
+        <?php include "../inc/social.php"; ?>
         <div class="content-rail">
             <p class="first">Great art inspires people.<br/>Great ads should too.
-            </p> <?php include "../inc/social.php"; ?>
+            </p>
             <p>The next time you’re at a traditional Western art museum looking at sculptures, paintings and thousands
                 of depictions of the birth of Jesus, consider that you’re looking at the most famous and oldest form of
                 advertising: advertising for the Christian Church. For each gem of an ad (artwork), a company (the

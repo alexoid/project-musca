@@ -24,12 +24,12 @@
 
     <section class="content">
         <div class="grid">
-
+            <?php include "../inc/social.php"; ?>
 
             <div class="content-rail">
 
                 <p class="first">A behind-the-scenes look at Jane Pratt's newest media adventure.</p>
-                <?php include "../inc/social.php"; ?>
+
 
                 <p>When <a href="http://www.xojane.com" title="XO Jane" target="blank">xoJane</a> launched almost two
                     years ago, it was truly one of the first websites where independent, passionate and opinionated

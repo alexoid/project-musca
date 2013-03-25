@@ -29,7 +29,7 @@
 <section class="content">
     <div class="grid">
 
-
+        <?php include "../inc/social.php"; ?>
 
         <div class="content-rail">
 
@@ -48,7 +48,7 @@
                 quality or convenience. Canon wanted to demonstrate that DSLR cameras are easier to use than ever —
                 while also teaching consumers how to shoot smarter and better.</p>
         </div>
-        <?php include "../inc/social.php"; ?>
+
 
         <div class="outbox-left">
             <img src="_assets/canon/stats.jpg"/>

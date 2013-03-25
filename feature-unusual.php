@@ -23,9 +23,9 @@
 
 <section class="content">
     <div class="grid">
-
+        <?php include "../inc/social.php"; ?>
         <div class="content-rail title">
-            <?php include "../inc/social.php"; ?>
+
             <p class="first">The Web's best storytellers are finding eager audiences.</p>
         </div>
 

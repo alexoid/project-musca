@@ -28,8 +28,6 @@
                     don't fit the traditional models do really well.</p>
             </div>
 
-
-
         </div>
     </section>
 

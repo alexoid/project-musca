@@ -91,9 +91,8 @@ header {
     }
 
     .social-share {
-       // @include column(2);
-        //@include push(18);
-
+       @include column(2);
+       @include push(22);
     }
 
     .outbox-left {
@@ -129,6 +128,11 @@ header {
 
     .remove-mobile {
         display: block;
+    }
+
+    .social-share {
+        @include column(2);
+        @include push(20);
     }
 
     span.remove-mobile {
@@ -169,17 +173,13 @@ header {
     }
 
     .content-rail {
-        // content subgrid
-
-
         @include column(12);
         @include push(8);
-
     }
 
     .social-share {
-        //@include column(2);
-        //@include push(12);
+       @include column(2);
+       @include push(22);
     }
 
     .outbox-left {
@@ -214,6 +214,10 @@ header {
         @include clearfix();
     }
 
+    .social-share {
+        @include column(2);
+        @include push(20);
+    }
     .content-rail {
         @include column(10);
         @include push(8);

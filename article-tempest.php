@@ -24,11 +24,11 @@
 
 <section class="content">
     <div class="grid">
-
+        <?php include "../inc/social.php"; ?>
         <div class="content-rail">
             <p class="first">Beautiful, scalable online media experiences have been limited by existing,
                 cobbled-together systems. That's about to change.</p>
-            <?php include "../inc/social.php"; ?>
+
         </div>
 
 

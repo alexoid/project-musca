@@ -25,12 +25,12 @@
     <section class="content">
         <div class="grid">
 
-
+            <?php include "../inc/social.php"; ?>
 
             <div class="content-rail">
                 <p class="first">Amstel Light celebrates American entrepreneurs in a captivating custom video
                     campaign.</p>
-                <?php include "../inc/social.php"; ?>
+
                 <p>In a time when most beer advertisers inundate their audience with big, bold ads that cater to the
                     lowest common denominator, it takes courage for a company to trust that the people it truly wants to
                     reach are intelligent, discerning and sophisticated, and to provide a marketing experience that's in
