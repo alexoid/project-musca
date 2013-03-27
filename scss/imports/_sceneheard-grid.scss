@@ -11,28 +11,27 @@ $media-size-d: 1200px;
 
 #sceneheard {
 
+    // GRID LAYOUT A
+    // -------------
+    // 60px margin on either side of content
 
-
-// GRID LAYOUT A
-// -------------
-// 60px margin on either side of content
-
-$total_width: 100%;
-$total_columns: 12;
-$gutter_width: 0;
-$container_margin: 3%;
+    $total_width: 100%;
+    $total_columns: 12;
+    $gutter_width: 0;
+    $container_margin: 3%;
 
     .grid {
         @include container();
         @include clearfix();
+        overflow: hidden;
     }
 
     .box12 {
 
-
         @include column(12);
 
         &.left {
+
         }
 
         &.right {
@@ -47,123 +46,128 @@ $container_margin: 3%;
 
     @include generate_helper_classes();
 
-// GRID LAYOUT B
-// -------------
+    // GRID LAYOUT B
+    // -------------
 
-@media screen and (min-width: $media-size-b) {
-    $total_width: 740px;
-    $total_columns: 12;
-    $gutter_width: 0px;
-    $container_margin: auto;
+    @media screen and (min-width: $media-size-b) {
+        $total_width: 740px;
+        $total_columns: 12;
+        $gutter_width: 0px;
+        $container_margin: auto;
 
-    .grid {
-        @include container();
-        @include clearfix();
-    }
-
-
-
-    .box12 {
-
-
-        @include column(12);
-
-        &.left {
+        .grid {
+            @include container();
+            @include clearfix();
         }
 
-        &.right {
+        .box12 {
 
-        }
-    }
+            @include column(12);
 
-    @include generate_helper_classes();
+            &.left {
+            }
 
-}
+            &.right {
 
-// GRID LAYOUT C
-// -------------
-
-@media screen and (min-width: $media-size-c) {
-    $total_width: 1024px;
-    $total_columns: 12;
-    $gutter_width: 0px;
-    $container_margin: auto;
-
-    .show-mobile {
-        display: block;
-    }
-
-    .remove-mobile {
-        display: none;
-    }
-
-    .grid {
-        @include container();
-        @include clearfix();
-    }
-
-    .box12 {
-
-
-        @include column(12);
-
-        &.left {
+            }
         }
 
-        &.right {
+        @include generate_helper_classes();
 
+    }
+
+    // GRID LAYOUT C
+    // -------------
+
+    @media screen and (min-width: $media-size-c) {
+        $total_width: 740px; //1024px;
+
+        $total_columns: 12;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+        .hero-label {
+            @include column(12);
+            @include push(0);
         }
+
+        .show-mobile {
+            display: block;
+        }
+
+        .remove-mobile {
+            display: none;
+        }
+
+        .grid {
+            @include container();
+            @include clearfix();
+        }
+
+        .box12 {
+
+            @include column(12);
+
+            &.left {
+            }
+
+            &.right {
+
+            }
+        }
+
+        @include generate_helper_classes();
     }
 
-    @include generate_helper_classes();
-}
+    // GRID LAYOUT D
+    // -------------
+
+    @media screen and (min-width: $media-size-d) {
+        $total_width: 1200px;
+        $total_columns: 24;
+        $gutter_width: 0px;
+        $container_margin: auto;
+
+        .show-mobile {
+            display: none;
+        }
+
+        span.remove-mobile { display: inline;}
+        .remove-mobile {
+            display: block;
+        }
 
 
+        .grid {
+            @include container();
+            @include clearfix();
+        }
 
+        .box12 {
+            @include column(12);
 
-// GRID LAYOUT D
-// -------------
+            &.left {
+                @include push(0);
+            }
+            &.right {
+                @include push(12);
+            }
+        }
 
+        .hero-label {
+            @include column(12);
+            @include push(6);
+        }
 
+        @include generate_helper_classes();
 
-
-
-
-@media screen and (min-width: $media-size-d) {
-    $total_width: 1200px;
-    $total_columns: 24;
-    $gutter_width: 0px;
-    $container_margin: auto;
-
-    .show-mobile {
-        display: none;
     }
 
-    .remove-mobile {
-        display: block;
+    .grid .grid {
+       padding: 0;
+        margin: 0;
+        width: 100%;
     }
-
-    .grid {
-        @include container();
-        @include clearfix();
-    }
-
-    .box12 {
-        @include column(12);
-
-        &.left {@include push(0);}
-        &.right { @include push(12);}
-    }
-
-    .hero-label {
-        @include column(12);
-        @include push(6);
-    }
-
-
-    @include generate_helper_classes();
-
-}
 
 }
 
