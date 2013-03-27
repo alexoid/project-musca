@@ -45,7 +45,7 @@
 
                         <h3>Toronto, Canada</h3>
 
-                        <p class="remove-960 remove-768">Say Media hosted a VIP client dinner at Sen5es followed by
+                        <p class="remove-stretch ">Say Media hosted a VIP client dinner at Sen5es followed by
                             a
                             co-hosted film premiere event with Volvo at the Cheval Nightclub where attendess
                             received
@@ -76,7 +76,7 @@
 
                     <h3>Carmel Valley, California</h3>
 
-                    <p class="remove-960 remove-768">Select clients and 16 speakers joined us in Carmel, California,
+                    <p class="remove-stretch ">Select clients and 16 speakers joined us in Carmel, California,
                         for three days of great speakers, great food and great new friends, plus performances by
                         comedian Hannibal Buress and indie rock phenomenom Kopecky Family Band.</p>
                 </div>
@@ -107,7 +107,7 @@
 
                         <h3>New York, New York</h3>
 
-                        <p class="remove-960 remove-768">Kim Kelleher and Matt Sanchez hosted New York’s media
+                        <p class="remove-stretch ">Kim Kelleher and Matt Sanchez hosted New York’s media
                             industry elite at the chic NoMad Hotel Library Bar to welcome Kelleher to the
                             company.</p>
                     </div>
@@ -162,7 +162,7 @@
 
                         <h3>LONDON, UK</h3>
 
-                        <p class="remove-960 remove-768">Say Media UK hosted an exclusive event with mobile industry
+                        <p class="remove-stretch ">Say Media UK hosted an exclusive event with mobile industry
                             visionaries and leaders who shared their insights on consumers’ mobile addiction — and
                             what it means for marketers.</p>
                     </div>
@@ -231,7 +231,7 @@
 
                 <h3>San Fransisco, CA</h3>
 
-                <p class="remove-960 remove-768">Artisan designers from around California came together for
+                <p class="remove-stretch ">Artisan designers from around California came together for
                     Remodelista’s third and largest annual holiday market at Heath Ceramics’ new location. Over
                     2,000 shoppers turned out for the beautiful one-of-a-kind design finds. </p>
             </div>
@@ -245,7 +245,7 @@
 
                 <h3>Sydney, Australia</h3>
 
-                <p class="remove-960 remove-768">Our Australia office celebrated its 2nd anniversary at Sydney’s
+                <p class="remove-stretch ">Our Australia office celebrated its 2nd anniversary at Sydney’s
                     hotspot, the ivy Penthouse, with more than 100 clients dancing to the music of DJ I Am
                     Sam.</p>
             </div>
@@ -328,7 +328,7 @@
 
                         <h3>Toronto, Canada</h3>
 
-                        <p class="remove-960 remove-768">Say Media hosted a VIP client dinner at Sen5es followed by
+                        <p class="remove-stretch ">Say Media hosted a VIP client dinner at Sen5es followed by
                             a
                             co-hosted film premiere event with Volvo at the Cheval Nightclub where attendess
                             received
@@ -357,7 +357,7 @@
 
                     <h3>Carmel Valley, California</h3>
 
-                    <p class="remove-960 remove-768">Select clients and 16 speakers joined us in Carmel, California,
+                    <p class="remove-stretch ">Select clients and 16 speakers joined us in Carmel, California,
                         for three days of great speakers, great food and great new friends, plus performances by
                         comedian Hannibal Buress and indie rock phenomenom Kopecky Family Band.</p>
                 </div>
@@ -391,7 +391,7 @@
 
                         <h3>New York, New York</h3>
 
-                        <p class="remove-960 remove-768">Kim Kelleher and Matt Sanchez hosted New York’s media
+                        <p class="remove-stretch ">Kim Kelleher and Matt Sanchez hosted New York’s media
                             industry elite at the chic NoMad Hotel Library Bar to welcome Kelleher to the
                             company.</p>
                     </div>
@@ -440,7 +440,7 @@
 
                         <h3>LONDON, UK</h3>
 
-                        <p class="remove-960 remove-768">Say Media UK hosted an exclusive event with mobile industry
+                        <p class="remove-stretch ">Say Media UK hosted an exclusive event with mobile industry
                             visionaries and leaders who shared their insights on consumers’ mobile addiction — and
                             what it means for marketers.</p>
                     </div>
@@ -508,7 +508,7 @@
 
                         <h3>San Fransisco, CA</h3>
 
-                        <p class="remove-960 remove-768">Artisan designers from around California came together for
+                        <p class="remove-stretch ">Artisan designers from around California came together for
                             Remodelista’s third and largest annual holiday market at Heath Ceramics’ new location. Over
                             2,000 shoppers turned out for the beautiful one-of-a-kind design finds. </p>
                     </div>
@@ -529,7 +529,7 @@
 
                         <h3>Sydney, Australia</h3>
 
-                        <p class="remove-960 remove-768">Our Australia office celebrated its 2nd anniversary at Sydney’s
+                        <p class="remove-stretch ">Our Australia office celebrated its 2nd anniversary at Sydney’s
                             hotspot, the ivy Penthouse, with more than 100 clients dancing to the music of DJ I Am
                             Sam.</p>
                     </div>

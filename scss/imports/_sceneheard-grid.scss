@@ -26,6 +26,11 @@ $media-size-d: 1200px;
         overflow: hidden;
     }
 
+    p.remove-stretch {
+        display: none;
+    }
+
+
     .box12 {
 
         @include column(12);
@@ -58,6 +63,10 @@ $media-size-d: 1200px;
         .grid {
             @include container();
             @include clearfix();
+        }
+
+        p.remove-stretch {
+            display: inline;
         }
 
         .box12 {
