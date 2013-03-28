@@ -24,6 +24,15 @@ $media-size-d: 1200px;
         @include container();
         @include clearfix();
         overflow: hidden;
+
+        .full {
+            @include column(12);
+        }
+
+    }
+
+    .remove-mobile {
+        display: none;
     }
 
     p.remove-stretch {
@@ -63,10 +72,18 @@ $media-size-d: 1200px;
         .grid {
             @include container();
             @include clearfix();
+
+            .full {
+                @include column(12);
+            }
         }
 
         p.remove-stretch {
             display: inline;
+        }
+
+        .remove-mobile {
+            display: none;
         }
 
         .box12 {
@@ -111,6 +128,10 @@ $media-size-d: 1200px;
         .grid {
             @include container();
             @include clearfix();
+
+            .full {
+                @include column(12);
+            }
         }
 
         .box12 {
@@ -141,7 +162,9 @@ $media-size-d: 1200px;
             display: none;
         }
 
-        span.remove-mobile { display: inline;}
+
+        span.remove-mobile, i.remove-mobile { display: inline; }
+
         .remove-mobile {
             display: block;
         }
@@ -150,6 +173,10 @@ $media-size-d: 1200px;
         .grid {
             @include container();
             @include clearfix();
+
+            .full {
+                @include column(24);
+            }
         }
 
         .box12 {
@@ -166,6 +193,8 @@ $media-size-d: 1200px;
         .hero-label {
             @include column(12);
             @include push(6);
+
+
         }
 
         @include generate_helper_classes();

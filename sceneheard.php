@@ -1,13 +1,14 @@
 <section id="hero">
     <div class="grid">
-        <div class="col24">
-
-            <h2>Scene &amp; Heard</h2></div>
+        <div class="full">
+            <h2>Scene &amp; Heard</h2>
+        </div>
     </div>
     <div class="grid">
         <div class="hero-label">
             <h3>At Say Media, we love to work hard — and play hard too. This season, we did lots of both and hosted some
-                great parties and events around the globe to celebrate.</h3></div>
+                great parties and events around the globe to celebrate.</h3>
+        </div>
     </div>
 
 </section>
@@ -286,11 +287,6 @@
 </div>
 
 </section>
-
-
-
-
-
 
 
 <section class="content remove-mobile">
