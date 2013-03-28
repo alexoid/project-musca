@@ -23,7 +23,7 @@ body {line-height: 1;}
 // overrides
 
 /*
-@import "imports/sceneheard-grid";
+@import "imports/sceneheard-grid"; not used becouse formating is in markup
 */
 
 
@@ -47,13 +47,11 @@ body {line-height: 1;}
 @import "base";
 
 // overrides
-/*
-@import "imports/cover-style";
-*/
 
-@import "imports/sceneheard-style";
+@import "imports/cover-style";
 
 // clean
+@import "imports/sceneheard-style";
 @import "imports/escape-style";
 @import "imports/publetter-style";
 @import "imports/xovain-style";
