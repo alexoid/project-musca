@@ -22,8 +22,13 @@
     $gutter_width: 3%;
     $container_margin: 3%;
 
+    .outbox-left {
+        @include push(1);
+    }
 
-
+    .outbox-right {
+        @include push(7);
+    }
 
     // GRID LAYOUT B
     // -------------
@@ -34,6 +39,15 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .outbox-left {
+            @include column(4);
+            @include push(1);
+        }
+
+        .outbox-right {
+            @include column(5);
+            @include push(19);
+        }
 
 
 
@@ -48,6 +62,18 @@
         $total_columns: 24;
         $gutter_width: 0px;
         $container_margin: auto;
+
+        .outbox-right {
+            @include column(6);
+            @include push(16);
+        }
+        .outbox-left {
+            @include column(5);
+            @include push(2);
+        }
+
+
+
 
 
     }
@@ -64,8 +90,15 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
+        .outbox-right {
+            @include column(5);
+            @include push(16);
+        }
 
-
+        .outbox-left {
+            @include column(5);
+            @include push(2);
+        }
 
     }
 

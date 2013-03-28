@@ -24,12 +24,25 @@
 <!-- ---------------------------------------------------- -->
 
 
-
-
 <section class="content">
     <div class="grid">
 
         <?php include "../inc/social.php"; ?>
+
+
+
+        <div class="outbox-left remove-mobile">
+            <img src="_assets/canon/stats.jpg"/>
+
+            <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
+                    src="_assets/canon/video-sm.jpg" alt=""></a>
+
+            <p class="caption">
+                See it in action
+                <span>0:15 sec</span>
+            </p>
+
+        </div>
 
         <div class="content-rail">
 
@@ -50,31 +63,18 @@
         </div>
 
 
-        <div class="outbox-left">
-            <img src="_assets/canon/stats.jpg"/>
-
-            <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
-                    src="_assets/canon/video-sm.jpg" alt=""></a>
-
-            <p class="caption">
-                See it in action
-                <span>0:15 sec</span>
-            </p>
-
-        </div>
-
-
     </div>
 </section>
+
 
 <section class="content">
     <div class="grid">
 
-        <div class="outbox-right">
+        <div class="outbox-right remove-mobile">
             <img src="_assets/canon/eric.jpg">
         </div>
 
-        <div class="_content-rail-narrow col7 push8">
+        <div class="content-rail-narrow">
 
 
             <p>Gear Patrol was the perfect site to help Canon’s campaign come into focus. A significant portion of
@@ -96,9 +96,26 @@
 
 
         </div>
-
-
     </div>
 </section>
 
+<section class="content show-mobile">
+    <div class="grid">
+        <div class="outbox-left">
+            <img src="_assets/canon/stats.jpg"/>
+
+            <a href="https://vimeo.com/61373162" title="See it in action" class="fresco darken"><img
+                    src="_assets/canon/video-sm.jpg" alt=""></a>
+
+            <p class="caption">
+                See it in action
+                <span>0:15 sec</span>
+            </p>
+        </div>
+
+        <div class="outbox-right">
+            <img src="_assets/canon/eric.jpg">
+        </div>
+    </div>
+</section>
 

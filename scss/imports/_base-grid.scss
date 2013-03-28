@@ -104,7 +104,22 @@ header {
         @include column(4);
         @include push(19);
     }
+    .content-rail-narrow {
+        @include column(12);
+        @include push(6);
+    }
 
+    .show-mobile {
+        display: none;
+    }
+
+    .remove-mobile {
+        display: block;
+    }
+
+    span.remove-mobile {
+        display: inline;
+    }
 }
 
 @media screen and (min-width: $media-size-c) {
@@ -126,25 +141,21 @@ header {
         @include push(4);
     }
 
-    .show-mobile {
-        display: none;
-    }
-
-    .remove-mobile {
-        display: block;
-    }
 
     .social-share {
         @include column(2);
         @include push(20);
     }
 
-    span.remove-mobile {
-        display: inline;
-    }
+
 
     body {
         border: 5px solid blue;
+    }
+
+    .content-rail-narrow {
+        @include column(8);
+        @include push(8);
     }
 
 }
@@ -194,6 +205,11 @@ header {
     .outbox-right {
         @include column(4);
         @include push(19);
+    }
+
+    .content-rail-narrow {
+        @include column(7);
+        @include push(8);
     }
 
 }
