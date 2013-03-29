@@ -1,6 +1,6 @@
 @import "../bourbon/bourbon";
 @import "../profoundgrid/grid";
-@import "../vancura-helpers/vancura-helpers";
+@import "../helpers/vancura-helpers";
 
 // BASELINE
 // --------
@@ -84,6 +84,9 @@ $media-size-d: 1200px;
 
         .remove-mobile {
             display: none;
+        }
+        .show-mobile {
+            display: block;
         }
 
         .box12 {

@@ -1,0 +1,94 @@
+
+// BASELINE
+// --------
+
+$media-size-b: 740px;
+$media-size-c: 1024px;
+$media-size-d: 1200px;
+
+// GRID LAYOUT A
+// -------------
+// 60px margin on either side of content
+
+$total_width: 100%;
+$total_columns: 12;
+$gutter_width: 0;
+$container_margin: 3%;
+
+.show-mobile {
+    display: block;
+}
+
+.remove-mobile {
+    display: none;
+}
+
+// GRID LAYOUT B
+// -------------
+
+@media screen and (min-width: $media-size-b) {
+    $total_width: 740px;
+    $total_columns: 12;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    .show-mobile {
+        display: block;
+    }
+
+    .remove-mobile {
+        display: none;
+    }
+
+}
+
+// GRID LAYOUT C
+// -------------
+
+@media screen and (min-width: $media-size-c) {
+    $total_width: 1024px;
+    $total_columns: 12;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    .show-mobile {
+        display: none;
+    }
+
+    .remove-mobile {
+        display: block;
+    }
+
+
+
+}
+
+// GRID LAYOUT D
+// -------------
+
+@media screen and (min-width: $media-size-d) {
+    $total_width: 1200px;
+    $total_columns: 24;
+    $gutter_width: 0px;
+    $container_margin: auto;
+
+    .show-mobile {
+        display: none;
+    }
+
+    .remove-mobile {
+        display: block;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
