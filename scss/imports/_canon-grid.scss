@@ -2,16 +2,12 @@
 @import "../profoundgrid/grid";
 @import "../helpers/vancura-helpers";
 
+@import 'config';
+
 // BASELINE
 // --------
 
 #article-canon {
-
-    $media-size-b: 740px;
-    $media-size-c: 1024px;
-    $media-size-d: 1200px;
-
-
 
     // GRID LAYOUT A
     // -------------

@@ -470,7 +470,7 @@ window.Modernizr = (function( window, document, undefined ) {
     //   1. Leaks memory in IE9: github.com/Modernizr/Modernizr/issues/513
     //   2. Disables page caching in WebKit: webk.it/43956
     //
-    // Meanwhile, in Firefox < 8, an about:config setting could expose
+    // Meanwhile, in Firefox < 8, an about:_config.scss setting could expose
     // a false positive that would throw an exception: bugzil.la/688158
 
     tests['geolocation'] = function() {

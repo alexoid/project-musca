@@ -15,19 +15,12 @@ body {line-height: 1;}
 @import "fonts";
 @import "font-awesome";
 
-
 // grids
-// base imports
+
+// base grid
 @import "imports/base-grid";
 
 // overrides
-
-/*
-@import "imports/sceneheard-grid"; not used becouse formating is in markup
-*/
-
-
-// clean
 @import "imports/sceneheard-grid";
 @import "imports/escape-grid";
 @import "imports/publetter-grid";
@@ -41,16 +34,16 @@ body {line-height: 1;}
 @import "imports/unusual-grid";
 @import "imports/storytelling-grid";
 
+//@import "imports/sceneheard-grid"; not used becouse formating is in markup
+
 
 // styles
+
 // base style
-@import "base";
+@import "imports/base-style";
 
-// overrides
-
+// style overides
 @import "imports/cover-style";
-
-// clean
 @import "imports/sceneheard-style";
 @import "imports/escape-style";
 @import "imports/publetter-style";
