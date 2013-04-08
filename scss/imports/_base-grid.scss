@@ -17,7 +17,7 @@ $gutter_width: 3%;
 $container_margin: 3%;
 
 body {
-    border: 5px solid red;
+   // border: 5px solid red;
     overflow-x: hidden;
 }
 
@@ -68,7 +68,7 @@ header {
     $container_margin: auto;
 
     body {
-        border: 5px solid green;
+    //    border: 5px solid green;
     }
 
     @include generate_helper_classes();
@@ -148,7 +148,7 @@ header {
 
 
     body {
-        border: 5px solid blue;
+       // border: 5px solid blue;
     }
 
     .content-rail-narrow {
@@ -168,7 +168,7 @@ header {
     $container_margin: auto;
 
     body {
-        border: 5px solid pink;
+       // border: 5px solid pink;
         //border: none;
     }
 
@@ -222,7 +222,7 @@ header {
     $container_margin: auto;
 
     body {
-        border: 5px solid orange;
+       // border: 5px solid orange;
     }
 
     @include generate_helper_classes();
