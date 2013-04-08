@@ -29,21 +29,15 @@
         $gutter_width: 0px;
         $container_margin: auto;
 
-
-
         .content-rail {
-
             @include column(15);
             @include push(7);
         }
 
         .outbox-left {
-
             @include column(6);
             @include push(0);
-
         }
-
 
     }
 
@@ -57,22 +51,15 @@
         $container_margin: auto;
 
         .content-rail {
-
             @include column(10);
             @include push(6);
-
         }
 
         .outbox-left {
-
             @include column(5);
             @include push(0);
-
         }
-
     }
-
-
 
 
     // GRID LAYOUT D
@@ -92,7 +79,6 @@
         .outbox-left {
             @include column(5);
             @include push(0);
-
         }
 
     }

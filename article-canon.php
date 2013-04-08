@@ -6,14 +6,11 @@
         <class class="grid">
             <div class="wrapper">
                 <h3>Brand Case Study</h3>
-
                 <h2>Behind the Lens</h2>
-
                 <h3>Gear Patrol X Canon</h3>
             </div>
         </class>
     </div>
-
     <!-- hero subgird end-->
 </section>
 
@@ -28,8 +25,6 @@
     <div class="grid">
 
         <?php include "../inc/social.php"; ?>
-
-
 
         <div class="outbox-left remove-mobile">
             <img src="_assets/canon/stats.jpg"/>

@@ -41,7 +41,7 @@
     <script src="js/jquery.superscrollorama.js"></script>
     <script src="js/jquery.videoBG.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="./_js/fresco.js"></script>
+    <script src="js/fresco.js"></script>
 
     <link href="/favicon.png" rel="shortcut icon" type="image/png"/>
     <link href="/share.png" rel="image_src" type="image/png"/>
@@ -85,7 +85,12 @@
     <script type="text/javascript">try {Typekit.load();} catch (e) {}</script>
 </head>
 
+
+
 <body id="<?php echo $_GET['include']; ?>">
+
+<div class="fr-window fr-window-fresco" style="display: none;"><div class="fr-bubble" style="display: none;"><div class="fr-frames"></div><div class="fr-thumbnails" style="display: none;"><div class="fr-thumbnails-wrapper" style="width: 1126px; margin-left: -563px;"><div class="fr-thumbnails-slider"><div class="fr-thumbnails-side fr-thumbnails-side-previous" style="display: none; height: 99px;"><div class="fr-thumbnails-side-button"><div class="fr-thumbnails-side-button-background"></div><div class="fr-thumbnails-side-button-icon"></div></div></div><div class="fr-thumbnails-thumbs" style="width: 1125px;"><div class="fr-thumbnails-slide" style="width: 1px;"></div></div><div class="fr-thumbnails-side fr-thumbnails-side-next" style="display: none; height: 99px;"><div class="fr-thumbnails-side-button"><div class="fr-thumbnails-side-button-background"></div><div class="fr-thumbnails-side-button-icon"></div></div></div></div></div></div></div></div>
+<div class="fr-overlay fr-overlay-fresco" style="display: none;"><div class="fr-overlay-background"></div></div>
 
 <div id="fb-root"></div>
 
@@ -150,7 +155,7 @@ include "../".$_GET['include'].".php";
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
-
+<div class="fr-loading" style="opacity: 1; display: none;"><div class="fr-loading-offset" style="margin-top: 0px;"><div class="fr-loading-background"></div><div class="fr-loading-icon"></div></div></div>
 </body>
 
 </html>

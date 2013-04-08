@@ -56,7 +56,7 @@
 
             <div class="outbox-left">
                 <div class="photo">
-                    <a href="http://player.vimeo.com/video/61373117?autoplay=1" title="See it in action"><img
+                    <a href="http://player.vimeo.com/video/61373117?autoplay=1" title="See it in action" class="fresco dark"><img
                             src="_assets/zoo-york/video-sm.jpg" alt=""></a>
 
                     <p class="caption">
