@@ -69,10 +69,16 @@
 
                 </li>
                 <li>
-                    <h4>West Coast</h4>
-                    Leah Corselli<br/>
-                    West Coast Director<br/>
-                    310.709.8469
+                    <h4>West Coast, SF</h4>
+                   Alex Burton<br/>
+                    Sales Director<br/>
+                    415.738.5100
+                </li>
+                <li>
+                    <h4>West Coast, LA</h4>
+                    Stephen Moore<br/>
+                    Sales Director<br/>
+                    310.937.0645
                 </li>
                 <li>
                     <h4>Canada</h4>
@@ -81,16 +87,11 @@
                     514.370.2868
                 <li>
                     <h4>United Kingdom</h4>
-                    Giles Ivey<br/>
-                    Managing Director<br/>
-                    +44 (0) 7930.393.485
+                    Paps Shaikh<br/>
+                    EU Manager<br/>
+                    +44 (0)20 7874 5100
                 </li>
-                <li>
-                    <h4>Australia</h4>
-                    Duncan Arthur<br/>
-                    Country Manager<br/>
-                    +61.433.394.892 Schleifer
-                </li>
+                
             </ul>
             <ul>
                 <li><h3>Say Media</h3></li>
